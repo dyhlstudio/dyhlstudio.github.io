@@ -10,11 +10,11 @@ function renderTime(){
 	var month = mydate.getMonth();
 	var daym = mydate.getDate();
 	var dayarray = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
-	var montharray = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+	var montharray = new Array("01","02","03","04","05","06","07","08","09","10","11","12");
 
-	var myClock = document.getElementbyId("clockDisplay");
-	myClock.textContent = "" + dayarray[day] + " " + daym + " " +montharray[month]+ " " + year;
-	myClock.innerText = "" + dayarray[day] + " " + daym + " " +montharray[month]+ " " + year;
+	var myClock = document.getElementById("clockDisplay");
+	myClock.textContent = ""+dayarray[day]+" "+daym+"/"+montharray[month]+"/"+ year;
+	myClock.innerText = ""+dayarray[day]+" "+daym+" "+montharray[month]+" "+year;
 
 	setTimeout("renderTime()", 1000);
 
