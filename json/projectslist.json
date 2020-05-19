@@ -1,0 +1,128 @@
+{
+	"projects": [
+		{
+			"experiment": "001",
+			"year": 2020,
+			"title": "Wild Dogs International",
+			"tags": [
+				"Website Design"
+			]
+		},
+		{
+			"experiment": "002",
+			"year": 2020,
+			"title": "Waffle Parking",
+			"tags": [
+				"Branding",
+				"Website Design"
+			]
+		},
+		{
+			"experiment": "003",
+			"year": 2019,
+			"title": "OPUS Merriweather",
+			"tags": [
+				"Website Design"
+			]
+		},
+		{
+			"experiment": "004",
+			"year": 2019,
+			"title": "Psychogeocairn",
+			"tags": [
+				"Architecture",
+				"Interactive Media",
+				"Research"
+			]
+		},
+		{
+			"experiment": "005",
+			"year": 2018,
+			"title": "Play Grounds",
+			"tags": [
+				"Architecture",
+				"Landscape Architecture"
+			]
+		},
+		{
+			"experiment": "006",
+			"year": 2019,
+			"title": "State of Tyranny",
+			"tags": [
+				"Environmental Graphics",
+				"Curatorial Research"
+			]
+		},
+		{
+			"experiment": "007",
+			"year": 2019,
+			"title": "Aquí vive gente",
+			"tags": [
+				"Environmental Graphics",
+				"Curatorial Research"
+			]
+		},
+		{
+			"experiment": "008",
+			"year": 2019,
+			"title": "Sun Pleats",
+			"tags": [
+				"Bookmaking",
+				"Print Design",
+				"Photography"
+			]
+		},
+		{
+			"experiment": "009",
+			"year": 2018,
+			"title": "Project Memo",
+			"tags": [
+				"Architecture",
+				"Mixed Reality Development"
+			]
+		},
+		{
+			"experiment": "010",
+			"year": 2017,
+			"title": "Draft",
+			"tags": [
+				"Branding",
+				"Prototyping"
+			]
+		},
+		{
+			"experiment": "011",
+			"year": 2018,
+			"title": "The Architecture House",
+			"tags": [
+				"Branding",
+				"Print Design"
+			]
+		},
+		{
+			"experiment": "012",
+			"year": 2017,
+			"title": "Undergrowth",
+			"tags": [
+				"Short Film"
+			]
+		},
+		{
+			"experiment": "013",
+			"year": 2014,
+			"title": "By Omission",
+			"tags": [
+				"Short Film"
+			]
+		},
+		{
+			"experiment": "014",
+			"year": 2015,
+			"title": "Against the Grain",
+			"tags": [
+				"Guitarmaking",
+				"Prototyping"
+			]
+		},
+	]
+}

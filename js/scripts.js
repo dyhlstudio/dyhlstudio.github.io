@@ -13,8 +13,8 @@ function renderTime(){
 	var montharray = new Array("01","02","03","04","05","06","07","08","09","10","11","12");
 
 	var myClock = document.getElementById("clockDisplay");
-	myClock.textContent = ""+dayarray[day]+" "+daym+"/"+montharray[month]+"/"+ year;
-	myClock.innerText = ""+dayarray[day]+" "+daym+" "+montharray[month]+" "+year;
+	myClock.textContent = "Today is "+dayarray[day]+", "+montharray[month]+"\/"+daym+"\/"+year;
+	myClock.innerText = "Today is "+dayarray[day]+", "+montharray[month]+"\/"+daym+"\/"+year;
 
 	setTimeout("renderTime()", 1000);
 
