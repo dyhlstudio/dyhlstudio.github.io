@@ -4,27 +4,53 @@
 		<title>jsontest</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script type ="text/javascript" language="javascript">
-			$(document).ready(function() {
-		            $("#fetch").click(function(event){ 
-		                $.getJSON('https://dyhlstudio.github.io/json/projectslist.json', function(projectsList) { 
-		                    $('#display').html('<p> Experiment: ' + projectsList[0].experiment + '</p>'); 
-		                    $('#display').append('<p> Year: ' + projectsList[0].year+ '</p>'); 
-		                    $('#display').append('<p> Title: ' + projectsList[0].title+ '</p>'); 
-		                    $('#display').append('<p> Tags: ' + projectsList[0].tags+ '</p>'); 
-		                });
-		            });
-		        });
+			let requestURL = 'https://dyhlstudio.github.io/json/projectslist.json';
+			let request = new XMLHttpRequest();
+			request.open('GET', requestURL);
+			request.responseType = 'json';
+			request.send();
+			request.onload = function() {
+				const projectsList = request.response;
+				showProjects(projectsList);
+			}
+			function showProjects(jsonObj) {
+				const projects = jsonObj;
+
+				for(let i=0; i<projects.length; i++) {
+					const projEntry = document.createElement('article');
+					const expList = document.createElement('h3');
+					const yearList = document.createElement('h3');
+					const titleList = document.createElement('h3');
+					const tagsList = document.createElement('ul');
+
+					expList.textContent = projects[i].experiment;
+					expList.textContent = projects[i].year;
+					expList.textContent = projects[i].title;
+
+					const tagging = projects[i].tags;
+					for(let j=0; j<tagging.length; j++) {
+						const listItem = document.createElement('li');
+						listItem.textContent = tagging[j];
+						tagsList.appendChild(listItem);
+					}
+
+					projEntry.appendChild(expList);
+					projEntry.appendChild(yearList);
+					projEntry.appendChild(titleList);
+					projEntry.appendChild(tagsList);
+
+					section.appendChild(projEntry);
+
+				}
+			}
 		</script>
 	</head>
        
-   <body> 
-      <p> 
-          Click on the button to fetch employee data 
-      </p> 
-           
-      <div id = "display" style = "background-color:#39B54A;"></div> 
-           
-      <input type = "button" id = "fetch" value = "Fetch Employee Data" /> 
-        
+   <body>
+   	<header></header>
+   	<section></section>
+   	<script>
+   		const section = document.querySelector('section');
+    </script>
    </body> 
 </html>
