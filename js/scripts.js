@@ -1,4 +1,4 @@
-function renderTime(){
+$(document).ready(function renderTime(){
 
 	// date
 	var mydate = new Date();
@@ -17,6 +17,6 @@ function renderTime(){
 	myClock.innerText = "Today is "+dayarray[day]+", "+montharray[month]+"\/"+daym+"\/"+year;
 
 	setTimeout("renderTime()", 1000);
+	renderTime();
 
-}
-renderTime();
+});
