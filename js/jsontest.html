@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script>
-			var projects = $.getJSON("file:///Users/danielli/Documents/work/dyhlstudio.github.io/js/jsontest.js", function(json) {
-				console.log(json);
-			});
+		<title>jsontest</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type ="text/javascript" language="javascript">
+			$(document).ready(function() {
+		            $("#fetch").click(function(event){ 
+		                $.getJSON('https://dyhlstudio.github.io/json/projectslist.json', function(projectsList) { 
+		                    $('#display').html('<p> Experiment: ' + projectsList[0].experiment + '</p>'); 
+		                    $('#display').append('<p> Year: ' + projectsList[0].year+ '</p>'); 
+		                    $('#display').append('<p> Title: ' + projectsList[0].title+ '</p>'); 
+		                    $('#display').append('<p> Tags: ' + projectsList[0]tags+ '</p>'); 
+		                });
+		            });
+		        });
 		</script>
 	</head>
+       
+   <body> 
+      <p> 
+          Click on the button to fetch employee data 
+      </p> 
+           
+      <div id = "display" style = "background-color:#39B54A;"></div> 
+           
+      <input type = "button" id = "fetch" value = "Fetch Employee Data" /> 
+        
+   </body> 
 </html>
