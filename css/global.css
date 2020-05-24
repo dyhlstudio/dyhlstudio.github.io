@@ -2,8 +2,105 @@ body {
 	font-family: stratos, sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	margin: 0 16px;
+	position: relative;
+	height: 100vh;
 }
 
 h1 {
 	font-weight: 400;
+	margin: 0;
+	line-height: 1.55em;
+}
+
+a {
+	color: #000;
+}
+
+a:hover {
+	color: #000;
+	background-color: #ffff00;
+}
+
+/* general layout */
+.container-fluid {
+	padding: 0;
+}
+
+.row {
+	margin-left: -6px;
+	margin-right: -6px;
+}
+
+
+.col-2, .col-4, .col-8, .col-12 {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+/* main CSS */
+#content {
+	height: calc(100vh - 82px);
+	left: 16px;
+	right: 16px;
+	bottom: 16px;
+}
+#middle {
+	bottom: 40vh;
+}
+
+/*#big-text, #big-img {
+	bottom: 0;
+	left: 0;
+}*/
+
+#big-img img {
+	width: 100%;
+}
+
+.text-links {
+	text-decoration: underline;
+}
+
+.text-links:hover {
+	text-decoration: underline;
+}
+/* archive/list fixes */
+
+#archive-categories {
+	border-bottom: 2px solid black;
+	margin-top: 12px;
+	margin-bottom: 12px;
+
+}
+
+#categories-labels {
+	padding-top: 12px;
+	padding-bottom: 12px;
+/*	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 12px;*/
+}
+#archive {
+	overflow: hidden;
+}
+#archive-list {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	height: calc(var(--vh, 1vh) * 20);
+	overflow: scroll;
+	overflow-x: hidden;
+	column-gap: 12px;
+}
+
+#numbers {
+	grid-column: 1 / 2;
+}
+
+#years {
+	grid-column: 2 / 3;
+}
+
+#titles {
+	grid-column: 3 / 5;
 }
