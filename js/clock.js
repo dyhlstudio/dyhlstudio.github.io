@@ -76,9 +76,6 @@ function renderTime() {
     } else if (tick == duration - 1) {
     	$(elem).fadeOut(500);
     }
-    console.log(tick);	
-    console.log(stage);
-    console.log(text[stage]);
 
 
 }
