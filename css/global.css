@@ -87,7 +87,7 @@ a:hover {
 #archive-list {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
-	height: calc(var(--vh, 1vh) * 20);
+	height: calc(var(--vh, 1vh) * 40);
 	overflow: scroll;
 	overflow-x: hidden;
 	column-gap: 12px;
