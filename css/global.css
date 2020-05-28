@@ -138,7 +138,8 @@ a:hover {
 /*// Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {
 	h1 {
-		font-size:2em;
+		font-size:1.5em;
+		font-weight: 400;
 	}
 }
 
