@@ -2,6 +2,7 @@ body {
 	font-family: stratos, sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	font-size: 12px;
 	margin: 0 16px;
 	position: relative;
 	height: 100vh;
@@ -33,9 +34,14 @@ a:hover {
 }
 
 
-.col-2, .col-4, .col-8, .col-12 {
+.col-md-2, .col-md-4, .col-md-8, .col-md-12 {
 	padding-left: 6px;
 	padding-right: 6px;
+}
+
+.responsive-img {
+	width: 100%;
+	height: auto;
 }
 
 /* main CSS */
@@ -49,14 +55,14 @@ a:hover {
 	bottom: 40vh;
 }
 
+#middle > .row > .col-md-8 {
+	max-height: 40vh;
+}
+
 /*#big-text, #big-img {
 	bottom: 0;
 	left: 0;
 }*/
-
-#big-img img {
-	width: 100%;
-}
 
 .text-links {
 	text-decoration: underline;
@@ -68,7 +74,7 @@ a:hover {
 /* archive/list fixes */
 
 #archive-categories {
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 	margin-top: 12px;
 	margin-bottom: 12px;
 
@@ -83,12 +89,14 @@ a:hover {
 }
 #archive {
 	overflow: hidden;
+	height: var(--height, 45vh - 43px);
+/*	min-height: 108px;*/
 }
 #archive-list {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
-	height: calc(var(--vh, 1vh) * 40);
-	overflow: scroll;
+	height: var(--height, 45vh - 43px);
+	overflow: auto;
 	overflow-x: hidden;
 	column-gap: 12px;
 }
@@ -103,4 +111,8 @@ a:hover {
 
 #titles {
 	grid-column: 3 / 5;
+}
+
+#tags {
+	grid-column: 5 / 7;
 }

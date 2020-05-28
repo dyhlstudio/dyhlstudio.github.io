@@ -10,8 +10,8 @@
 <head>
     <!-- Styles -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://dyhlstudio.github.io/css/global.css">
-    <link rel="stylesheet" type="text/css" href="https://dyhlstudio.github.io/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" href="https://use.typekit.net/meo0smi.css">
     <!-- Scripts -->
     <meta charset="utf-8">
@@ -44,107 +44,124 @@
     <header>
         <nav id="nav-container" class="container-fluid">
             <ul class="row">
-                <li id="nav-1" class="col-4"><a href="" id="nameclocktime">Daniel Yunhua Li</a></li>
-                <li id="nav-2" class="col-4"><a href="">Experiments in Architecture, Design, and Media</a></li>
-                <li id="nav-3" class="col-2"><a href="mailto:">hey@dyhl.studio</a></li>
-                <li id="nav-4" class="col-2"><a href="">0.000.000.000</a></li>
+                <li id="nav-1" class="col-md-4"><a href="" id="nameclocktime">Daniel Yunhua Li</a></li>
+                <li id="nav-2" class="col-md-4"><a href="">Experiments in Architecture, Design, and Media</a></li>
+                <li id="nav-3" class="col-md-2"><a href="mailto:">hey@dyhl.studio</a></li>
+                <li id="nav-4" class="col-md-2"><a href="">0.000.000.000</a></li>
             </ul>
         </nav>
     </header>
     <main id="content" class="d-flex flex-column justify-content-end fixed-bottom">
         <section id="middle" class="container-fluid">
             <div class="row align-items-end">
-                <div class="col-8">
-                    <h1 id="big-text">Daniel Yunhua Li is a New York-based designer and technologist creating experiments in <a class="text-links" href="">Architecture</a>, <a class="text-links" href="">Graphic & Web Design</a>, and <a class="text-links" href="">Interactive Media</a>.</h1>
+                <div id="big-thumb" class="col-md-4 order-md-2">
+                    <img src="assets/wdistudio-06.jpg" class="responsive-img">
                 </div>
-                <div id="big-img" class="col-4">
-                    <img src="assets/wdistudio-06.jpg">
+                <div class="col-md-8 order-md-1">
+                    <h1 id="big-text">Daniel Yunhua Li is a New York-based designer and technologist creating experiments in <a class="text-links" href="">Architecture</a>, <a class="text-links" href="">Graphic & Web Design</a>, and <a class="text-links" href="">Interactive Media</a>.</h1>
                 </div>
             </div>
         </section>
         <section id="archive-categories" class="container-fluid">
             <ul id="categories-labels" class="row">
-                <li class="col-2">no.</li>
-                <li class="col-2">year</li>
-                <li class="col-4">title</li>
-                <li class="col-4">type</li>
+                <li class="col-md-2">no.</li>
+                <li class="col-md-2">year</li>
+                <li class="col-md-4">title</li>
+                <li class="col-md-4">type</li>
             </ul>
         </section>
-        <section id="archive" class="container-fluid">
-            <div class="row">
-                <div id="archive-list" class="col-12">
-                    <ul id="numbers">
-                        <li>001</li>
-                        <li>002</li>
-                        <li>003</li>
-                        <li>004</li>
-                        <li>005</li>
-                        <li>006</li>
-                        <li>007</li>
-                        <li>008</li>
-                        <li>009</li>
-                        <li>010</li>
-                        <li>011</li>
-                        <li>012</li>
-                        <li>013</li>
-                        <li>014</li>
-                    </ul>
-                    <ul id="years">
-                        <li>2020</li>
-                        <li>2020</li>
-                        <li>2020</li>
-                        <li>2020</li>
-                        <li>2020</li>
-                        <li>2020</li>
-                        <li>2020</li>
-                        <li>2020</li>
-                        <li>2020</li>
-                        <li>2020</li>
-                        <li>2020</li>
-                        <li>2020</li>
-                        <li>2020</li>
-                        <li>2020</li>
-                    </ul>
-                    <ul id="titles">
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                    </ul>
-                    <ul id="tags">
-                        <li>bleh, bleh, bleh, bleh, bleh, bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                        <li>bleh</li>
-                    </ul>
-                </div>
-            </div>
+        <section id="archive" class="container-fluid" onload="setListHeight();">
+            <ul class="row">
+                <li class="d-sm-none d-md-block col-md-2">001</li>
+                <li class="col-md-2">2020</li>
+                <li class="col-md-4">Wild Dogs International</li>
+                <li class="d-sm-none d-md-block col-md-4">Website Design, Architecture, The Works</li>
+            </ul>
+            <ul class="row">
+                <li class="d-sm-none d-md-block col-md-2">002</li>
+                <li class="col-md-2">2020</li>
+                <li class="col-md-4">Wild Dogs International</li>
+                <li class="d-sm-none d-md-block col-md-4">Website Design, Architecture, The Works</li>
+            </ul>
+            <ul class="row">
+                <li class="d-sm-none d-md-block col-md-2">003</li>
+                <li class="col-md-2">2020</li>
+                <li class="col-md-4">Wild Dogs International</li>
+                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
+            </ul>
+            <ul class="row">
+                <li class="d-sm-none d-md-block col-md-2">004</li>
+                <li class="col-md-2">2020</li>
+                <li class="col-md-4">Wild Dogs International</li>
+                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
+            </ul>
+            <ul class="row">
+                <li class="d-sm-none d-md-block col-md-2">005</li>
+                <li class="col-md-2">2020</li>
+                <li class="col-md-4">Wild Dogs International</li>
+                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
+            </ul>
+            <ul class="row">
+                <li class="d-sm-none d-md-block col-md-2">006</li>
+                <li class="col-md-2">2020</li>
+                <li class="col-md-4">Wild Dogs International</li>
+                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
+            </ul>
+            <ul class="row">
+                <li class="d-sm-none d-md-block col-md-2">007</li>
+                <li class="col-md-2">2020</li>
+                <li class="col-md-4">Wild Dogs International</li>
+                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
+            </ul>
+            <ul class="row">
+                <li class="d-md-none d-lg-block col-md-2">008</li>
+                <li class="col-md-2">2020</li>
+                <li class="col-md-4">Wild Dogs International</li>
+                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
+            </ul>
+            <ul class="row">
+                <li class="d-md-none d-lg-block col-md-2">009</li>
+                <li class="col-md-2">2020</li>
+                <li class="col-md-4">Wild Dogs International</li>
+                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
+            </ul>
+            <ul class="row">
+                <li class="d-md-none d-lg-block col-md-2">010</li>
+                <li class="col-md-2">2020</li>
+                <li class="col-md-4">Wild Dogs International</li>
+                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
+            </ul>
+            <ul class="row">
+                <li class="d-md-none d-lg-block col-md-2">011</li>
+                <li class="col-md-2">2020</li>
+                <li class="col-md-4">Wild Dogs International</li>
+                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
+            </ul>
+            <ul class="row">
+                <li class="d-md-none d-lg-block col-md-2">012</li>
+                <li class="col-md-2">2020</li>
+                <li class="col-md-4">Wild Dogs International</li>
+                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
+            </ul>
+            <ul class="row">
+                <li class="d-md-none d-lg-block col-md-2">013</li>
+                <li class="col-md-2">2020</li>
+                <li class="col-md-4">Wild Dogs International</li>
+                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
+            </ul>
+            <ul class="row">
+                <li class="d-md-none d-lg-block col-md-2">014</li>
+                <li class="col-md-2">2020</li>
+                <li class="col-md-4">Wild Dogs International</li>
+                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
+            </ul>
         </section>
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://dyhlstudio.github.io/js/clock.js"></script>
-    <script type="text/javascript" src="https://dyhlstudio.github.io/js/viewport.js"></script>
+    <script type="text/javascript" src="js/viewport.js"></script>
 </body>
 
 </html>
