@@ -59,11 +59,6 @@ a:hover {
 	max-height: 40vh;
 }
 
-/*#big-text, #big-img {
-	bottom: 0;
-	left: 0;
-}*/
-
 .text-links {
 	text-decoration: underline;
 }
@@ -88,7 +83,7 @@ a:hover {
 	margin-bottom: 12px;*/
 }
 #archive {
-	overflow: hidden;
+	overflow: auto;
 	height: var(--height, 45vh - 43px);
 /*	min-height: 108px;*/
 }
@@ -116,3 +111,42 @@ a:hover {
 #tags {
 	grid-column: 5 / 7;
 }
+
+/* MOBILE BREAKPOINTS MIN-WIDTH AND LARGER */
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+	
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
+
+/* MOBILE BREAKPOINTS MAX-WIDTH AND SMALLER */
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+	h1 {
+		font-size:2em;
+	}
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { ... }
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
+
+/*// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width*/
