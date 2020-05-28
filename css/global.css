@@ -44,6 +44,26 @@ a:hover {
 	height: auto;
 }
 
+/* nav */
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+nav a {
+	text-decoration: none;
+}
+
+#nav-container {
+	padding: 12px 0;
+	border-bottom: 1px solid black;
+	margin-bottom: 12px;
+}
+
+#nav-3, #nav-4 {
+	text-align: right;
+}
 /* main CSS */
 #content {
 	height: calc(100vh - 82px);
@@ -84,16 +104,9 @@ a:hover {
 }
 #archive {
 	overflow: auto;
+	overflow-x: hidden;
 	height: var(--height, 45vh - 43px);
 /*	min-height: 108px;*/
-}
-#archive-list {
-	display: grid;
-	grid-template-columns: repeat(6, 1fr);
-	height: var(--height, 45vh - 43px);
-	overflow: auto;
-	overflow-x: hidden;
-	column-gap: 12px;
 }
 
 #numbers {
@@ -142,7 +155,7 @@ a:hover {
 /*// Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
 		h1 {
-		font-size:1.5em;
+		font-size:2em;
 		font-weight: 400;
 	}
 }
