@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('https://dyhlstudio.github.io/fonts/icomoon.eot?ryl67p');
-  src:  url('https://dyhlstudio.github.io/fonts/icomoon.eot?ryl67p#iefix') format('embedded-opentype'),
-    url('https://dyhlstudio.github.io/fonts/icomoon.ttf?ryl67p') format('truetype'),
-    url('https://dyhlstudio.github.io/fonts/icomoon.woff?ryl67p') format('woff'),
-    url('https://dyhlstudio.github.io/fonts/icomoon.svg?ryl67p#icomoon') format('svg');
+  src:  url('https://dyhlstudio.github.io/fonts/icomoon/icomoon.eot?ryl67p');
+  src:  url('https://dyhlstudio.github.io/fonts/icomoon/icomoon.eot?ryl67p#iefix') format('embedded-opentype'),
+    url('https://dyhlstudio.github.io/fonts/icomoon/icomoon.ttf?ryl67p') format('truetype'),
+    url('https://dyhlstudio.github.io/fonts/icomoon/icomoon.woff?ryl67p') format('woff'),
+    url('https://dyhlstudio.github.io/fonts/icomoon/icomoon.svg?ryl67p#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -16,7 +16,7 @@
   speak: none;
   font-style: normal;
   font-weight: normal;
-  font-variant: normal;
+  font-variant: small-caps;
   text-transform: none;
   line-height: 1;
 

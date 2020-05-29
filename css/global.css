@@ -2,12 +2,13 @@ html {
 	font-size: 12px;
 }
 body {
-	font-family: stratos, sans-serif;
+	font-family: 'stratos', sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	margin: 1em;
+	margin: 1.25em 1.5em;
+	margin-bottom: 1.5em;
 	position: relative;
-	height: calc(100vh - 2em);
+	height: calc(100vh - 2.5em);
 }
 
 h1 {
@@ -26,7 +27,12 @@ a:hover {
 	background-color: #ffff00;
 }
 
-/* general layout */
+
+
+/* general css */
+
+
+
 .container-fluid {
 	padding: 0;
 }
@@ -43,23 +49,40 @@ a:hover {
 }
 
 .responsive-img {
-	height: auto;
+	max-height: 100%;
 	max-width: 100%;
 	object-fit: contain;
 }
 
+.link-arrow:before {
+	font-family: merriweather;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	content:"\2197";
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 /* nav */
+
+
+
 ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
 nav a {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 #nav-container {
-	padding-bottom: 0.5em;
+	padding-bottom: 0.75em;
 	border-bottom: 1px solid black;
 	margin-bottom: 1em;
 }
@@ -67,13 +90,19 @@ nav a {
 #nav-3, #nav-4 {
 	text-align: right;
 }
+
+
+
 /* main CSS */
+
+
+
 #content {
 	padding-top: 1em;
 	left: 1.5em;
 	right: 1.5em;
 	bottom: 1.5em;
-	height: calc(calc(calc(calc(100vh - 1.5em) - 2em) - 1.5em) - 1px);
+	height: calc(calc(calc(calc(100vh - 1.5em) - 2.5em) - 1.5em) - 1px);
 }
 
 .icon-Asset-3:before {
@@ -83,13 +112,15 @@ nav a {
 .icon-Asset-4:before {
   content: "\e901";
 }
-/* middle css */
-#middle {
-	height: 55%;
-}
+
+
+
+/* middle CSS */
+
+
 
 #middle .row, #middle .col{
-	height: 100%;
+	max-height: 100%;
 }
 
 #big-text-wrapper {
@@ -105,10 +136,13 @@ nav a {
 	text-decoration: underline;
 }
 
+
+
 /* bottom css */
 
+
+
 #bottom {
-	height: 45%;
 	overflow: hidden;
 }
 
@@ -120,17 +154,12 @@ nav a {
 
 #categories-labels {
 	padding-top: 1em;
-	padding-bottom: 0.5em;
-/*	margin-left: 6px;
-	margin-right: 6px;
-	margin-bottom: 12px;*/
+	padding-bottom: 0.75em;
 }
 #archive {
 	overflow: auto;
 	overflow-x: hidden;
-	height: calc(calc(100% - 4em) - 1px);
-/*	height: var(--height, calc(45vh - 43px));*/
-/*	min-height: 108px; */
+	height: calc(calc(100% - 4.25em) - 1px);
 }
 
 /* MOBILE BREAKPOINTS MIN-WIDTH AND LARGER */
@@ -156,26 +185,30 @@ nav a {
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 	h1 {
-		font-size: 1em;
+		font-size: 2em;
+	}
+
+	#bottom {
+		height: 50%;
 	}
 }
 
 /*// Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {
+@media (max-width: 767.98px) and (min-width: 576px) {
 	h1 {
 		font-size: 2em;
 	}
 }
 
 /*// Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) {
+@media (max-width: 991.98px) and (min-width: 768px) {
 	h1 {
 		font-size: 2.5em;
 	}
 }
 
 /*// Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) { ... }
+@media (max-width: 1199.98px) and (min-width: 992px) { ... }
 
 /*// Extra large devices (large desktops)
 // No media query since the extra-large breakpoint has no upper bound on its width*/
