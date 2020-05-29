@@ -55,15 +55,14 @@ a:hover {
 }
 
 .link-arrow:before {
-	font-family: merriweather;
+	font-family: 'merriweather';
+	text-decoration: none;
 	speak: none;
 	font-style: normal;
 	font-weight: 400;
 	font-variant: normal;
 	text-transform: none;
 	content:"\2197";
-
-	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
