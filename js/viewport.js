@@ -8,12 +8,12 @@ window.addEventListener('resize', () => {
     var listHeight = listCount * countHeight;
 
     var headerHeight = $("#archive-categories").height();
-    var bot = vh * 45;
+    var botHeight = $("content").height()/2;
 
-    if (bot - headerHeight >= listHeight) {
+    if (botHeight - headerHeight >= listHeight) {
     	document.documentElement.style.setProperty('--height', `${listHeight}px`);
     } else {
-        document.documentElement.style.setProperty('--height', `${bot-headerHeight}px`);
+        document.documentElement.style.setProperty('--height', `${botHeight-headerHeight}px`);
     }
 });
 

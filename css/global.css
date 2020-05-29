@@ -1,15 +1,18 @@
+html {
+	font-size: 12px;
+}
 body {
 	font-family: stratos, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 12px;
-	margin: 0 16px;
+	margin: 1em;
 	position: relative;
-	height: 100vh;
+	height: calc(100vh - 2em);
 }
 
 h1 {
 	font-weight: 400;
+	font-size: 3em;
 	margin: 0;
 	line-height: 1.55em;
 }
@@ -29,23 +32,23 @@ a:hover {
 }
 
 .row {
-	margin-left: -6px;
-	margin-right: -6px;
+	margin-left: -0.5em;
+	margin-right: -0.5em;
 }
 
 
-.col-md-2, .col-md-4, .col-md-8, .col-md-12 {
-	padding-left: 6px;
-	padding-right: 6px;
+.col {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }
 
 .responsive-img {
-	width: 100%;
 	height: auto;
+	max-width: 100%;
+	object-fit: contain;
 }
 
 /* nav */
-
 ul {
 	list-style-type: none;
 	padding: 0;
@@ -56,9 +59,9 @@ nav a {
 }
 
 #nav-container {
-	padding: 12px 0;
+	padding-bottom: 0.5em;
 	border-bottom: 1px solid black;
-	margin-bottom: 12px;
+	margin-bottom: 1em;
 }
 
 #nav-3, #nav-4 {
@@ -66,17 +69,25 @@ nav a {
 }
 /* main CSS */
 #content {
-	height: calc(100vh - 82px);
-	left: 16px;
-	right: 16px;
-	bottom: 16px;
-}
-#middle {
-	bottom: 40vh;
+	padding-top: 1em;
+	left: 1.5em;
+	right: 1.5em;
+	bottom: 1.5em;
+	height: calc(calc(calc(calc(100vh - 1.5em) - 2em) - 1.5em) - 1px);
 }
 
-#middle > .row > .col-md-8 {
-	max-height: 40vh;
+/* middle css */
+#middle {
+	height: 55%;
+}
+
+#middle .row, #middle .col{
+	height: 100%;
+}
+
+#big-text-wrapper {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }
 
 .text-links {
@@ -86,18 +97,23 @@ nav a {
 .text-links:hover {
 	text-decoration: underline;
 }
-/* archive/list fixes */
+
+/* bottom css */
+
+#bottom {
+	height: 45%;
+	overflow: hidden;
+}
 
 #archive-categories {
 	border-bottom: 1px solid black;
-	margin-top: 12px;
-	margin-bottom: 12px;
+	margin-bottom: 1em;
 
 }
 
 #categories-labels {
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
 /*	margin-left: 6px;
 	margin-right: 6px;
 	margin-bottom: 12px;*/
@@ -105,24 +121,9 @@ nav a {
 #archive {
 	overflow: auto;
 	overflow-x: hidden;
-	height: var(--height, 45vh - 43px);
-/*	min-height: 108px;*/
-}
-
-#numbers {
-	grid-column: 1 / 2;
-}
-
-#years {
-	grid-column: 2 / 3;
-}
-
-#titles {
-	grid-column: 3 / 5;
-}
-
-#tags {
-	grid-column: 5 / 7;
+	height: calc(calc(100% - 4em) - 1px);
+/*	height: var(--height, calc(45vh - 43px));*/
+/*	min-height: 108px; */
 }
 
 /* MOBILE BREAKPOINTS MIN-WIDTH AND LARGER */
@@ -146,17 +147,23 @@ nav a {
 
 /* MOBILE BREAKPOINTS MAX-WIDTH AND SMALLER */
 /*// Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) {
+	h1 {
+		font-size: 1em;
+	}
+}
 
 /*// Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {
+	h1 {
+		font-size: 2em;
+	}
 }
 
 /*// Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
-		h1 {
-		font-size:2em;
-		font-weight: 400;
+	h1 {
+		font-size: 2.5em;
 	}
 }
 

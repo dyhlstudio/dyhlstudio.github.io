@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!--
 
-	Web design and development by Daniel Li
-	https://dyhl.studio
+    Web design and development by Daniel Li
+    https://dyhl.studio
 
 -->
 <html>
@@ -39,121 +39,123 @@
     <!-- <meta property="twitter:image" content=""> -->
 </head>
 
-<body onload="renderTime();">
+<body class="d-flex flex-column" onload="renderTime();">
     <header>
         <nav id="nav-container" class="container-fluid">
             <ul class="row">
-                <li id="nav-1" class="col-md-4"><a href="" id="nameclocktime">Daniel Yunhua Li</a></li>
-                <li id="nav-2" class="col-md-4"><a href="">Experiments in Architecture, Design, and Media</a></li>
-                <li id="nav-3" class="col-md-2"><a href="mailto:">hey@dyhl.studio</a></li>
-                <li id="nav-4" class="col-md-2"><a href="">0.000.000.000</a></li>
+                <li id="nav-1" class="col col-sm-4"><a href="" id="nameclocktime">Daniel Yunhua Li</a></li>
+                <li id="nav-2" class="col col-sm-4"><a href="">Experiments in Architecture, Design, and Media</a></li>
+                <li id="nav-3" class="col col-sm-2"><a href="mailto:">hey@dyhl.studio</a></li>
+                <li id="nav-4" class="col col-sm-2"><a href="">0.000.000.000</a></li>
             </ul>
         </nav>
     </header>
     <main id="content" class="d-flex flex-column justify-content-end">
-        <section id="middle" class="container-fluid">
+        <section id="middle" class="container-fluid justify-content-end">
             <div class="row align-items-end">
-                <div id="big-thumb" class="col-md-4 order-md-2">
+                <div id="big-thumb" class=" col col-sm-4 order-sm-2 d-flex justify-content-center align-items-end">
                     <img src="assets/wdistudio-06.jpg" class="responsive-img">
                 </div>
-                <div class="col-md-8 order-md-1">
+                <div id="big-text-wrapper" class="col-sm-8 order-sm-1">
                     <h1 id="big-text">Daniel Yunhua Li is a New York-based designer and technologist creating experiments in <a class="text-links" href="">Architecture</a>, <a class="text-links" href="">Graphic & Web Design</a>, and <a class="text-links" href="">Interactive Media</a>.</h1>
                 </div>
             </div>
         </section>
-        <section id="archive-categories" class="container-fluid">
-            <ul id="categories-labels" class="row">
-                <li class="col-md-2">no.</li>
-                <li class="col-md-2">year</li>
-                <li class="col-md-4">title</li>
-                <li class="col-md-4">type</li>
-            </ul>
-        </section>
-        <section id="archive" class="container-fluid" onload="setListHeight();">
-            <ul class="row">
-                <li class="d-sm-none d-md-block col-md-2">001</li>
-                <li class="col-md-2">2020</li>
-                <li class="col-md-4">Wild Dogs International</li>
-                <li class="d-sm-none d-md-block col-md-4">Website Design, Architecture, The Works</li>
-            </ul>
-            <ul class="row">
-                <li class="d-sm-none d-md-block col-md-2">002</li>
-                <li class="col-md-2">2020</li>
-                <li class="col-md-4">Wild Dogs International</li>
-                <li class="d-sm-none d-md-block col-md-4">Website Design, Architecture, The Works</li>
-            </ul>
-            <ul class="row">
-                <li class="d-sm-none d-md-block col-md-2">003</li>
-                <li class="col-md-2">2020</li>
-                <li class="col-md-4">Wild Dogs International</li>
-                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
-            </ul>
-            <ul class="row">
-                <li class="d-sm-none d-md-block col-md-2">004</li>
-                <li class="col-md-2">2020</li>
-                <li class="col-md-4">Wild Dogs International</li>
-                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
-            </ul>
-            <ul class="row">
-                <li class="d-sm-none d-md-block col-md-2">005</li>
-                <li class="col-md-2">2020</li>
-                <li class="col-md-4">Wild Dogs International</li>
-                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
-            </ul>
-            <ul class="row">
-                <li class="d-sm-none d-md-block col-md-2">006</li>
-                <li class="col-md-2">2020</li>
-                <li class="col-md-4">Wild Dogs International</li>
-                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
-            </ul>
-            <ul class="row">
-                <li class="d-sm-none d-md-block col-md-2">007</li>
-                <li class="col-md-2">2020</li>
-                <li class="col-md-4">Wild Dogs International</li>
-                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
-            </ul>
-            <ul class="row">
-                <li class="d-md-none d-lg-block col-md-2">008</li>
-                <li class="col-md-2">2020</li>
-                <li class="col-md-4">Wild Dogs International</li>
-                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
-            </ul>
-            <ul class="row">
-                <li class="d-md-none d-lg-block col-md-2">009</li>
-                <li class="col-md-2">2020</li>
-                <li class="col-md-4">Wild Dogs International</li>
-                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
-            </ul>
-            <ul class="row">
-                <li class="d-md-none d-lg-block col-md-2">010</li>
-                <li class="col-md-2">2020</li>
-                <li class="col-md-4">Wild Dogs International</li>
-                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
-            </ul>
-            <ul class="row">
-                <li class="d-md-none d-lg-block col-md-2">011</li>
-                <li class="col-md-2">2020</li>
-                <li class="col-md-4">Wild Dogs International</li>
-                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
-            </ul>
-            <ul class="row">
-                <li class="d-md-none d-lg-block col-md-2">012</li>
-                <li class="col-md-2">2020</li>
-                <li class="col-md-4">Wild Dogs International</li>
-                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
-            </ul>
-            <ul class="row">
-                <li class="d-md-none d-lg-block col-md-2">013</li>
-                <li class="col-md-2">2020</li>
-                <li class="col-md-4">Wild Dogs International</li>
-                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
-            </ul>
-            <ul class="row">
-                <li class="d-md-none d-lg-block col-md-2">014</li>
-                <li class="col-md-2">2020</li>
-                <li class="col-md-4">Wild Dogs International</li>
-                <li class="d-md-none d-lg-block col-md-4">Website Design, Architecture, The Works</li>
-            </ul>
+        <section id="bottom">
+            <div id="archive-categories" class="container-fluid">
+                <ul id="categories-labels" class="row">
+                    <li class="col col-sm-2">no.</li>
+                    <li class="col col-sm-2">year</li>
+                    <li class="col col-sm-4">title</li>
+                    <li class="col col-sm-4">type</li>
+                </ul>
+            </div>
+            <div id="archive" class="container-fluid" onload="setListHeight();">
+                <ul class="row">
+                    <li class="d-none d-md-block col col-sm-2">001</li>
+                    <li class="col col-sm-2">2020</li>
+                    <li class="col col-sm-4">Wild Dogs International</li>
+                    <li class="d-none d-md-block col col-sm-4">Website Design, Architecture, The Works</li>
+                </ul>
+                <ul class="row">
+                    <li class="d-none d-md-block col col-sm-2">002</li>
+                    <li class="col col-sm-2">2020</li>
+                    <li class="col col-sm-4">Wild Dogs International</li>
+                    <li class="d-none d-md-block col col-sm-4">Website Design, Architecture, The Works</li>
+                </ul>
+                <ul class="row">
+                    <li class="d-none d-md-block col col-sm-2">003</li>
+                    <li class="col col-sm-2">2020</li>
+                    <li class="col col-sm-4">Wild Dogs International</li>
+                    <li class="d-none d-md-block col col-sm-4">Website Design, Architecture, The Works</li>
+                </ul>
+                <ul class="row">
+                    <li class="d-none d-md-block col col-sm-2">004</li>
+                    <li class="col col-sm-2">2020</li>
+                    <li class="col col-sm-4">Wild Dogs International</li>
+                    <li class="d-none d-md-block col col-sm-4">Website Design, Architecture, The Works</li>
+                </ul>
+                <ul class="row">
+                    <li class="d-none d-md-block col col-sm-2">005</li>
+                    <li class="col col-sm-2">2020</li>
+                    <li class="col col-sm-4">Wild Dogs International</li>
+                    <li class="d-none d-md-block col col-sm-4">Website Design, Architecture, The Works</li>
+                </ul>
+                <ul class="row">
+                    <li class="d-none d-md-block col col-sm-2">006</li>
+                    <li class="col col-sm-2">2020</li>
+                    <li class="col col-sm-4">Wild Dogs International</li>
+                    <li class="d-none d-md-block col col-sm-4">Website Design, Architecture, The Works</li>
+                </ul>
+                <ul class="row">
+                    <li class="d-none d-md-block col col-sm-2">007</li>
+                    <li class="col col-sm-2">2020</li>
+                    <li class="col col-sm-4">Wild Dogs International</li>
+                    <li class="d-none d-md-block col col-sm-4">Website Design, Architecture, The Works</li>
+                </ul>
+                <ul class="row">
+                    <li class="d-none d-md-block col col-sm-2">008</li>
+                    <li class="col col-sm-2">2020</li>
+                    <li class="col col-sm-4">Wild Dogs International</li>
+                    <li class="d-none d-md-block col col-sm-4">Website Design, Architecture, The Works</li>
+                </ul>
+                <ul class="row">
+                    <li class="d-none d-md-block col col-sm-2">009</li>
+                    <li class="col col-sm-2">2020</li>
+                    <li class="col col-sm-4">Wild Dogs International</li>
+                    <li class="d-none d-md-block col col-sm-4">Website Design, Architecture, The Works</li>
+                </ul>
+                <ul class="row">
+                    <li class="d-none d-md-block col col-sm-2">010</li>
+                    <li class="col col-sm-2">2020</li>
+                    <li class="col col-sm-4">Wild Dogs International</li>
+                    <li class="d-none d-md-block col col-sm-4">Website Design, Architecture, The Works</li>
+                </ul>
+                <ul class="row">
+                    <li class="d-none d-md-block col col-sm-2">011</li>
+                    <li class="col col-sm-2">2020</li>
+                    <li class="col col-sm-4">Wild Dogs International</li>
+                    <li class="d-none d-md-block col col-sm-4">Website Design, Architecture, The Works</li>
+                </ul>
+                <ul class="row">
+                    <li class="d-none d-md-block col col-sm-2">012</li>
+                    <li class="col col-sm-2">2020</li>
+                    <li class="col col-sm-4">Wild Dogs International</li>
+                    <li class="d-none d-md-block col col-sm-4">Website Design, Architecture, The Works</li>
+                </ul>
+                <ul class="row">
+                    <li class="d-none d-md-block col col-sm-2">013</li>
+                    <li class="col col-sm-2">2020</li>
+                    <li class="col col-sm-4">Wild Dogs International</li>
+                    <li class="d-none d-md-block col col-sm-4">Website Design, Architecture, The Works</li>
+                </ul>
+                <ul class="row">
+                    <li class="d-none d-md-block col col-sm-2">014</li>
+                    <li class="col col-sm-2">2020</li>
+                    <li class="col col-sm-4">Wild Dogs International</li>
+                    <li class="d-none d-md-block col col-sm-4">Website Design, Architecture, The Works</li>
+                </ul>
+            </div>
         </section>
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
