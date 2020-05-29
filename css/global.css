@@ -55,7 +55,7 @@ a:hover {
 }
 
 .link-arrow:before {
-	font-family: 'merriweather';
+	font-family: 'merriweather' !important;
 	text-decoration: none;
 	speak: none;
 	font-style: normal;
