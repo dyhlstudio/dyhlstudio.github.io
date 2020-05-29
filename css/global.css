@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'iA Writer Mono';
+  src:  url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.eot');
+  src:  url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.eot?#iefix') format('embedded-opentype'),
+    url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.woff2') format('woff2'),
+    url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.woff') format('woff'),
+    url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+
 html {
 	font-size: 12px;
 }
@@ -55,7 +68,7 @@ a:hover {
 }
 
 .link-arrow:before {
-	font-family: merriweather !important;
+	font-family: iA Writer Mono !important;
 	text-decoration: none;
 	speak: none;
 	font-style: normal;
