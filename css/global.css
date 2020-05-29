@@ -68,11 +68,7 @@ a:hover {
 }
 
 .link-arrow:before {
-	font-family: iA Writer Mono !important;
-	text-decoration: none;
-	speak: none;
-	font-style: normal;
-	font-weight: 700;
+	font-family: iA Writer Mono, merriweather, stratos, sans-serif;
 	content:"\2197";
 }
 
