@@ -76,6 +76,13 @@ nav a {
 	height: calc(calc(calc(calc(100vh - 1.5em) - 2em) - 1.5em) - 1px);
 }
 
+.icon-Asset-3:before {
+  content: "\e900";
+}
+
+.icon-Asset-4:before {
+  content: "\e901";
+}
 /* middle css */
 #middle {
 	height: 55%;
