@@ -1,43 +1,50 @@
+/* universal styling */
+
+
+
 @font-face {
-  font-family: 'iA Writer Mono';
-  src:  url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.eot');
-  src:  url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.eot?#iefix') format('embedded-opentype'),
-    url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.woff2') format('woff2'),
-    url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.woff') format('woff'),
-    url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: 'iA Writer Mono';
+    src: url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.eot');
+    src: url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.woff2') format('woff2'),
+        url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.woff') format('woff'),
+        url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
 
 
 html {
-	font-size: 12px;
+    font-size: 12px;
 }
+
 body {
-	font-family: stratos, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	margin: 1.25em 1.5em;
-	margin-bottom: 1.5em;
-	position: relative;
-	height: calc(100vh - 2.5em);
+    font-family: stratos, iA Writer Mono, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1.25em 1.5em;
+    position: relative;
+    height: calc(100vh - 2.5em);
+    font-kerning: normal;
 }
 
 h1 {
-	font-weight: 400;
-	font-size: 3em;
-	margin: 0;
-	line-height: 1.55em;
+    font-weight: 400;
+    font-size: 3em;
+    margin: 0;
+    line-height: 1.33em;
+    letter-spacing: 0.2px;
 }
 
 a {
-	color: #000;
+    color: #000;
 }
 
 a:hover {
-	color: #000;
-	background-color: #ffff00;
+	text-decoration: none;
+    color: #000;
+    background: #ffff00;
 }
 
 
@@ -47,52 +54,56 @@ a:hover {
 
 
 .container-fluid {
-	padding: 0;
+    padding: 0;
 }
 
 .row {
-	margin-left: -0.5em;
-	margin-right: -0.5em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
 }
 
 
 .col {
-	padding-left: 0.5em;
-	padding-right: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 .responsive-img {
-	max-height: 100%;
-	max-width: 100%;
-	object-fit: contain;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 .link-arrow:before {
-	font-family: iA Writer Mono, merriweather, stratos, sans-serif;
-	content:"\2197";
+    font-family: iA Writer Mono, merriweather, stratos, sans-serif;
+    content: "\2197";
 }
+
+
 
 /* nav */
 
 
 
 ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
+
 nav a {
-	text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 #nav-container {
-	padding-bottom: 0.75em;
-	border-bottom: 1px solid black;
-	margin-bottom: 1em;
+    padding-bottom: 0.75em;
+    border-bottom: 1px solid black;
+    margin-bottom: 1em;
 }
 
-#nav-3, #nav-4 {
-	text-align: right;
+#nav-3,
+#nav-4 {
+    text-align: right;
 }
 
 
@@ -102,42 +113,43 @@ nav a {
 
 
 #content {
-	padding-top: 1em;
-	left: 1.5em;
-	right: 1.5em;
-	bottom: 1.5em;
-	height: calc(calc(calc(calc(100vh - 1.5em) - 2.5em) - 1.5em) - 1px);
+    padding-top: 1em;
+    left: 1.5em;
+    right: 1.5em;
+    bottom: 1.5em;
+    height: calc(calc(calc(calc(100vh - 1.5em) - 2.5em) - 1.5em) - 1px);
 }
 
 .icon-Asset-3:before {
-  content: "\e900";
+    content: "\e900";
 }
 
 .icon-Asset-4:before {
-  content: "\e901";
+    content: "\e901";
 }
 
 
 
 /* middle CSS */
-
-
-
-#middle .row, #middle .col{
-	max-height: 100%;
+#middle {
+	height: 47.5%;
+}
+#middle .row {
+	height: 100%;
 }
 
+#middle .col {
+    height: 100%;
+}
+
+
 #big-text-wrapper {
-	padding-left: 0.5em;
-	padding-right: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 .text-links {
-	text-decoration: underline;
-}
-
-.text-links:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 
@@ -147,72 +159,87 @@ nav a {
 
 
 #bottom {
-	overflow: hidden;
+	height: 52.5%;
+    overflow: hidden;
 }
 
 #archive-categories {
-	border-bottom: 1px solid black;
-	margin-bottom: 1em;
+    border-bottom: 1px solid black;
+    margin-bottom: 1em;
 
 }
 
 #categories-labels {
-	padding-top: 1em;
-	padding-bottom: 0.75em;
-}
-#archive {
-	overflow: auto;
-	overflow-x: hidden;
-	height: calc(calc(100% - 4.25em) - 1px);
+    padding-top: 1em;
+    padding-bottom: 0.75em;
 }
 
+#archive {
+    overflow: auto;
+    overflow-x: hidden;
+    height: calc(calc(100% - 4.25em) - 1px);
+}
+
+.project-entry:hover {
+	background: #ffff00;
+}
 /* MOBILE BREAKPOINTS MIN-WIDTH AND LARGER */
 /*// Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { ... }
-	
+@media (min-width: 576px) {
+    ...
+}
+
 
 /*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+    ...
+}
 
 /*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+    ...
+}
 
 /*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+    ...
+}
 
 
 
 /* MOBILE BREAKPOINTS MAX-WIDTH AND SMALLER */
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-	h1 {
-		font-size: 2em;
-	}
+    h1 {
+        font-size: 2em;
+    }
 
-	#bottom {
-		height: 50%;
-	}
+    #bottom {
+        height: 50%;
+    }
 }
 
 /*// Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) and (min-width: 576px) {
-	h1 {
-		font-size: 2em;
-	}
+    h1 {
+        font-size: 2em;
+    }
 }
 
 /*// Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) and (min-width: 768px) {
-	h1 {
-		font-size: 2.5em;
-	}
+    h1 {
+        font-size: 3em;
+    }
 }
 
 /*// Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) and (min-width: 992px) { ... }
+@media (max-width: 1199.98px) and (min-width: 992px) {
+    ...
+}
 
 /*// Extra large devices (large desktops)
 // No media query since the extra-large breakpoint has no upper bound on its width*/
