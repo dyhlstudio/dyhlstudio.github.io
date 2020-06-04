@@ -1,5 +1,6 @@
 var projectsList = [
 {
+    "key": 1,
     "no": "001",
     "year": "2020",
     "title": "Wild Dogs International",
@@ -9,6 +10,7 @@ var projectsList = [
     ]
 },
 {
+    "key": 2,
     "no": "002",
     "year": "2020",
     "title": "Waffle Parking",
@@ -19,6 +21,7 @@ var projectsList = [
     ]
 },
 {
+    "key": 3,
     "no": "003",
     "year": "2019",
     "title": "OPUS Merriweather",
@@ -28,6 +31,7 @@ var projectsList = [
     ]
 },
 {
+    "key": 4,
     "no": "004",
     "year": "2019",
     "title": "Psychogeocairn",
@@ -39,6 +43,7 @@ var projectsList = [
     ]
 },
 {
+    "key": 5,
     "no": "005",
     "year": "2018",
     "title": "Play Grounds",
@@ -49,6 +54,7 @@ var projectsList = [
     ]
 },
 {
+    "key": 6,
     "no": "006",
     "year": "2019",
     "title": "State of Tyranny",
@@ -59,6 +65,7 @@ var projectsList = [
     ]
 },
 {
+    "key": 7,
     "no": "007",
     "year": "2019",
     "title": "Aquí vive gente",
@@ -69,6 +76,7 @@ var projectsList = [
     ]
 },
 {
+    "key": 8,
     "no": "008",
     "year": "2019",
     "title": "Sun Pleats",
@@ -80,6 +88,7 @@ var projectsList = [
     ]
 },
 {
+    "key": 9,
     "no": "009",
     "year": "2018",
     "title": "Project Memo",
@@ -91,6 +100,7 @@ var projectsList = [
     ]
 },
 {
+    "key": 10,
     "no": "010",
     "year": "2017",
     "title": "Draft",
@@ -101,6 +111,7 @@ var projectsList = [
     ]
 },
 {
+    "key": 11,
     "no": "011",
     "year": "2018",
     "title": "The Architecture House",
@@ -111,6 +122,7 @@ var projectsList = [
     ]
 },
 {
+    "key": 12,
     "no": "012",
     "year": "2017",
     "title": "Undergrowth",
@@ -120,6 +132,7 @@ var projectsList = [
     ]
 },
 {
+    "key": 13,
     "no": "013",
     "year": "2014",
     "title": "By Omission",
@@ -129,6 +142,7 @@ var projectsList = [
     ]
 },
 {
+    "key": 14,
     "no": "014",
     "year": "2015",
     "title": "Against the Grain",
