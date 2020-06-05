@@ -30,11 +30,11 @@ ReactDOM.render(
 );
 
 //Selecting Project Event Handlers
-var selection = 0;
+var selectionNo = 0;
 
 $('project-wrapper').on("click", function() {
-	var selection = $('project-wrapper').attr('id').parseInt();
-	alert(selection);
+	var selectionNo = $('project-wrapper').attr('id').parseInt();
+	alert(selectionNo);
 	// open project
 	$('content').addClass('hidden');
 });
@@ -44,25 +44,26 @@ $('project-close').on("click", function() {
 	$('active-project').addClass('hidden');
 });
 
-
-
 // Active project slideshow
 
-$(document).ready(function() {
-	var urls = [];
-	var count = 1;
-	$('active-project').css('background-image', 'url("' + urls[0] + '")');
-	setInterval(function(), {
-		$('activeproject').css('background-image', 'url("' + urls[count] + '")');
-		count == urls.length-1 ? count = 0 : count++;
-	}, 5000);
-});
+// $(document).ready(function() {
+// 	var urls = [];
+// 	var count = 1;
+// 	$('active-project').css('background-image', 'url("' + urls[0] + '")');
+// 	setInterval(function(), {
+// 		$('activeproject').css('background-image', 'url("' + urls[count] + '")');
+// 		count == urls.length-1 ? count = 0 : count++;
+// 	}, 5000);
+// });
 
 var createReactClass = require('create-react-class');
 
 var Images = createReactClass({
+	getDefaultProps: function() {
+		return {projectsList[selectionNo].assets};
+	}
 	getInitialState: function() {
-		return {}
+		return {link: projectsList[selectionNo].assets[0]};
 	}
 	render: function() {
 		return e()
