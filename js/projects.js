@@ -34,4 +34,11 @@ ReactDOM.render(
 $('project-wrapper').on("click", function() {
 	var selection = $('project-wrapper').attr('id').parseInt();
 	alert(selection);
-})
+	// open project
+	$('content').addClass('hidden');
+});
+
+$('project-close').on("click", function() {
+	// close project
+	$('active-project').addClass('hidden');
+});
