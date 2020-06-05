@@ -30,6 +30,7 @@ ReactDOM.render(
 );
 
 //Selecting Project Event Handlers
+var selection = 0;
 
 $('project-wrapper').on("click", function() {
 	var selection = $('project-wrapper').attr('id').parseInt();
@@ -42,6 +43,8 @@ $('project-close').on("click", function() {
 	// close project
 	$('active-project').addClass('hidden');
 });
+
+
 
 // Active project slideshow
 
@@ -58,6 +61,9 @@ $(document).ready(function() {
 var createReactClass = require('create-react-class');
 
 var Images = createReactClass({
+	getInitialState: function() {
+		return {}
+	}
 	render: function() {
 		return e()
 	}
