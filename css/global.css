@@ -14,7 +14,8 @@
     font-display: block;
 }
 
-html, body {
+html,
+body {
     overscroll-behavior: none;
 }
 
@@ -45,7 +46,7 @@ a {
 }
 
 a:hover {
-	text-decoration: none;
+    text-decoration: none;
     color: #000;
     background: #ffff00;
 }
@@ -139,10 +140,11 @@ nav a {
 
 /* middle CSS */
 #middle {
-	height: 47.5%;
+    height: 47.5%;
 }
+
 #middle .row {
-	height: 100%;
+    height: 100%;
 }
 
 #middle .col {
@@ -166,7 +168,7 @@ nav a {
 
 
 #bottom {
-	height: 52.5%;
+    height: 52.5%;
     overflow: hidden;
 }
 
@@ -188,10 +190,14 @@ nav a {
 }
 
 .project-entry:hover {
-	background: #ffff00;
+    background: #ffff00;
 }
 
+
+
 /* active project css */
+
+
 
 #active-project {
     position: absolute;
@@ -205,7 +211,9 @@ nav a {
     z-index: 100;
     text-align: center;
     overflow: hidden;
+}
 
+.fs-image {
     background-image: url('https://dyhlstudio.github.io/assets/wdistudio-06.jpg');
     background-attachment: fixed;
     background-position: center center;
@@ -213,9 +221,17 @@ nav a {
     background-size: cover;
 }
 
-.dt-fs-image {
 
+
+/* footer */
+
+
+
+#footer-container {
+    position: absolute;
+    bottom: 0;
 }
+
 /* MOBILE BREAKPOINTS MIN-WIDTH AND LARGER */
 /*// Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
