@@ -14,7 +14,7 @@ function tagMaker(projectEntry) {
 }
 
 var bottomList = projectsList.map(function(project) {
-    return e('button', { key: parseInt(project.no, 10), id: project.no, className: 'project-wrapper', type: 'button' },
+    return e('a', { key: parseInt(project.no, 10), id: project.no, className: 'project-wrapper', role: 'button' },
         e('ul', { className: 'project-entry row' },
             e('li', { className: 'entry-no d-none d-sm-block col col-sm-2' }, project.no),
             e('li', { className: 'entry-year col col-sm-2' }, project.year),
