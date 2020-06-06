@@ -51,7 +51,7 @@ $('project-wrapper').on("click", function() {
 
 });
 
-var createReactClass = require('create-react-class');
+// var createReactClass = require('create-react-class');
 
 var ProjectSlides = createReactClass({
 	getInitialState: function() {
