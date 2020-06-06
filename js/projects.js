@@ -14,7 +14,7 @@ function tagMaker(projectEntry) {
 }
 
 var bottomList = projectsList.map(function(project) {
-    return e('div', { key: parseInt(project.no, 10), id: project.no, className: 'project-wrapper' },
+    return e('a', { key: parseInt(project.no, 10), id: project.no, className: 'project-wrapper' },
         e('ul', { className: 'project-entry row' },
             e('li', { className: 'entry-no d-none d-sm-block col col-sm-2' }, project.no),
             e('li', { className: 'entry-year col col-sm-2' }, project.year),
@@ -29,12 +29,15 @@ ReactDOM.render(
     document.getElementById('react-archive')
 );
 
+
+
+
 //Selecting Project Event Handlers
 var selectionNo = 0;
 var slideNo = 0;
 
 $('project-wrapper').on("click", function() {
-    var selectionNo = $('project-wrapper').attr('id').parseInt();
+    selectionNo = $('project-wrapper').attr('id').parseInt();
     alert(selectionNo);
     // create project
     $('content').addClass('hidden');
