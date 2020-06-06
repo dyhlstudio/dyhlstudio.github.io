@@ -31,6 +31,7 @@ ReactDOM.render(
 
 //Selecting Project Event Handlers
 var selectionNo = 0;
+var slideNo = 0;
 
 $('project-wrapper').on("click", function() {
     var selectionNo = $('project-wrapper').attr('id').parseInt();
@@ -42,15 +43,28 @@ $('project-wrapper').on("click", function() {
 
     ReactDOM.render(
         activeProject,
-        document.getElementByTagName('body')
+        document.getElementByTagName('active-project')
     );
 
 });
 
+var createReactClass = require('create-react-class');
 
-function createProject(project) {
-    return e('article', { id: 'active-project', className: "container-fluid fs-image" });
-};
+var ProjectSlides = createReactClass({
+	getInitialState: function() {
+		slideNo = 0;
+		return { backgroundImage: 'url("'+projectsList[selectionNo].assets[slideNo]+'")' };
+	},
+
+	handleClick: function() {
+		slideNo++;
+		this.setState({ backgroundImage: 'url("'+projectsList[selectionNo].assets[slideNo]+'")' });
+	},
+
+    render: function() {
+
+    	return e('article', { id: 'active-project', className: "container-fluid fs-image", style: this.state.backgroundImage});
+}});
 
 function captions() {
     return e('footer', null,
