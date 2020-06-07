@@ -197,7 +197,10 @@ nav a {
 
 /* active project css */
 
-
+#project-wrapper {
+    position: relative;
+    z-index: 1990;
+}
 
 #active-project {
     position: absolute;
