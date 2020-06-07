@@ -38,15 +38,33 @@ var slideNo = 0;
 
 $(document).ready(function() {
     $('.link-wrapper').click(function() {
-        // selectionNo = parseInt($('.link-wrapper').attr("id"), 10);
-        
-        alert($('.link-wrapper').attr("id"));
-        // create project
-        $('content').addClass('hidden');
-        $('project-wrapper').removeClass('hidden');
+        selectionNo = parseInt($(this).attr("id"), 10);
+        // jquery setup project
+        $('#content').addClass('hidden');
+        $('#project-wrapper').removeClass('hidden'); 
+        // react create project
+        // var createReactClass = require('create-react-class');
+        var ProjectSlides = createReactClass({
+            getInitialState: function() {
+                slideNo = 0;
+                return { style: { backgroundImage: 'url("' + projectsList[selectionNo].assets[slideNo] + '")' } };
+            },
 
-        var projectCaptions = captions(projectsList[selectionNo], slideNo);
+            handleClick: function() {
+                slideNo++;
+                this.setState({ style: { backgroundImage: 'url("' + projectsList[selectionNo].assets[slideNo] + '")' } });
+            },
 
+            render: function() {
+                return e('div', { id: 'active-project', className: "container-fluid fs-image", style: this.state.style });
+            }
+        });
+
+        ReactDOM.render(
+            e(ProjectSlides),
+            document.getElementById('project-wrapper'));
+
+         var projectCaptions = captions(projectsList[selectionNo], slideNo);
         // ReactDOM.render(
         //     e(ProjectSlides),
         //     document.getElementById('body')
@@ -57,25 +75,7 @@ $(document).ready(function() {
 
 // var createReactClass = require('create-react-class');
 
-var ProjectSlides = createReactClass({
-    getInitialState: function() {
-        slideNo = 0;
-        return { style: 'backgroundImage: url("' + projectsList[selectionNo].assets[slideNo] + '")' };
-    },
 
-    handleClick: function() {
-        slideNo++;
-        this.setState({ style: 'backgroundImage: url("' + projectsList[selectionNo].assets[slideNo] + '")' });
-    },
-
-    render: function() {
-        return e('article', { id: 'active-project', className: "container-fluid fs-image", style: this.state.backgroundImage });
-    }
-});
-
-ReactDOM.render(
-    e(ProjectSlides),
-    document.getElementById('project-wrapper'));
 
 function captions(project, slideNum) {
     return e('footer', null,

@@ -198,11 +198,6 @@ nav a {
 /* active project css */
 
 #project-wrapper {
-    position: relative;
-    z-index: 1990;
-}
-
-#active-project {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -211,7 +206,17 @@ nav a {
     margin: -1.25em -1.5em;
     width: 100vw;
     height: 100vh;
-    z-index: 100;
+}
+
+#active-project {
+/*    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: -1.25em -1.5em;
+    width: 100vw;
+    height: 100vh;*/
     text-align: center;
     overflow: hidden;
 }
