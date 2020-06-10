@@ -23,8 +23,7 @@ var projectsList = [
         "title": "Waffle Parking",
         "logline": "Branding and website design for a Los Angeles-based technology startup",
         "tags": [
-            "Branding",
-            "Website Design"
+            "Logo & Identity"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [

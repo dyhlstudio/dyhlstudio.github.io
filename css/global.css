@@ -46,7 +46,9 @@ h2 {
     margin-bottom: 1rem;
 }
 
-a, p, li {
+a,
+p,
+li {
     color: #000;
 }
 
@@ -253,6 +255,12 @@ nav a {
     overflow: hidden;
 }
 
+.thumb-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+
 .fs-image img {
     position: absolute;
     top: 0;
@@ -340,15 +348,35 @@ nav a {
         font-size: 2em;
     }
 
+    #middle {
+        height: 70%;
+    }
+
+    #middle #big-thumb {
+        height: calc(70% - 1rem);
+        margin-bottom: 1rem;
+    }
+
+    #middle #big-text-wrapper {
+        height: calc(30% - 1rem);
+        margin-bottom: 1rem;
+    }
+
+    .overflow {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
     #bottom {
-        height: 50%;
+        height: 30%;
     }
 }
 
 /*// Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) and (min-width: 576px) {
     h1 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 }
 

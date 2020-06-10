@@ -16,10 +16,10 @@ function tagMaker(projectEntry) {
 var bottomList = projectsList.map(function(project) {
     return e('div', { key: parseInt(project.no, 10), id: project.no, className: 'link-wrapper', role: 'button' },
         e('ul', { className: 'project-entry row' },
-            e('li', { className: 'entry-no d-none d-sm-block col col-sm-2 project-link' }, project.no),
-            e('li', { className: 'entry-year col col-sm-2 project-link' }, project.year),
-            e('li', { className: 'entry-title col col-sm-4 project-link' }, project.title),
-            e('li', { className: 'entry-tags d-none d-md-block col col-sm-4 project-link' }, tagMaker(project.tags))
+            e('li', { className: 'entry-no col col-2 project-link' }, project.no),
+            e('li', { className: 'entry-year col col-2 project-link' }, project.year),
+            e('li', { className: 'entry-title col col-4 project-link' }, project.title),
+            e('li', { className: 'entry-tags col col-4 project-link' }, tagMaker(project.tags))
         )
     );
 });
@@ -37,7 +37,7 @@ var selectionNo = 0;
 
 $(document).ready(function() {
     $('.link-wrapper').click(function() {
-        selectionNo = parseInt($(this).attr("id"), 10);
+        selectionNo = parseInt($(this).attr("id"), 10) - 1;
         compileProject();
         captions(projectsList[selectionNo], ($('active-slideshow').attr('dataactive') + 1));
 
@@ -89,9 +89,6 @@ function compileProject() {
         e('h2', { key: "title", id: "title" }, projectsList[selectionNo].title),
         e('p', { key: "year", id: "year" }, projectsList[selectionNo].year),
         e('p', { key: "tags", id: "tags" }, tagMaker(projectsList[selectionNo].tags)),
-        e('br', { key: "break1" }, ),
-        e('br', { key: "break2" }, ),
-        e('br', { key: "break3" }, ),
         e('p', { key: "desc", id: "desc" }, projectsList[selectionNo].description)
     ];
 
@@ -176,8 +173,8 @@ function compileProject() {
                 e('div', { key: "slideshow", id: 'active-slideshow', className: "container-fluid fs-image", tabIndex: 0, onClick: this.handleClick, dataactive: this.state.dataactive, onKeyDown: this.handleKeyDown }, slides),
                 e('div', { key: "info", id: 'active-info', className: "container-fluid d-none" },
                     e('div', { className: "row" },
-                        e('div', { key: "info-text", id: "info-text", className: "col col-md-4" }, infoText),
-                        e('div', { key: "info-imgs", id: "info-imgs", className: "col col-md-8" }, infoImgs)
+                        e('div', { key: "info-text", id: "info-text", className: "col col-12 col-md-4" }, infoText),
+                        e('div', { key: "info-imgs", id: "info-imgs", className: "col col-12 col-md-8" }, infoImgs)
                     )
                 )
             ];
