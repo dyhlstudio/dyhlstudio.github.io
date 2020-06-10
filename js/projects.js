@@ -34,76 +34,182 @@ ReactDOM.render(
 
 //Selecting Project Event Handlers
 var selectionNo = 0;
-var slideNo = 0;
 
 $(document).ready(function() {
     $('.link-wrapper').click(function() {
         selectionNo = parseInt($(this).attr("id"), 10);
-        // jquery setup project
-        $('#content').addClass('hidden');
-        $('#project-wrapper').removeClass('hidden'); 
-        // react create project
-        // var createReactClass = require('create-react-class');
-        var ProjectSlides = createReactClass({
-            getInitialState: function() {
-                slideNo = 0;
-                return { style: { backgroundImage: 'url("' + projectsList[selectionNo].assets[slideNo] + '")' } };
-            },
+        compileProject();
+        captions(projectsList[selectionNo], ($('active-slideshow').attr('dataactive') + 1));
 
-            handleClick: function() {
-                slideNo++;
-                this.setState({ style: { backgroundImage: 'url("' + projectsList[selectionNo].assets[slideNo] + '")' } });
-            },
+        // info button
+        $('#info-link').click(function() {
+            $('#active-info').removeClass('d-none');
+            $('#home').removeClass('d-flex').addClass('d-none');
+            $('#react-footer, #active-slideshow').addClass('d-none');
+            $('#project-wrapper').removeClass('slideshow');
+            $('a, p, li').removeClass('white');
+            $('#nav-container').removeClass('white-line');
 
-            render: function() {
-                return e('div', { id: 'active-project', className: "container-fluid fs-image", style: this.state.style });
-            }
+            // overview images, aspect ratio fix upon load
+            document.documentElement.style.setProperty('--threetwo', $('.img-wrapper').width() * 2 / 3 + 'px');
         });
 
-        ReactDOM.render(
-            e(ProjectSlides),
-            document.getElementById('project-wrapper'));
 
-         var projectCaptions = captions(projectsList[selectionNo], slideNo);
-        // ReactDOM.render(
-        //     e(ProjectSlides),
-        //     document.getElementById('body')
-        // );
+        // rendered project slide-in
+        $('.return').css("transform", "translate(0)");
 
+        // rendered project slide-in
+        $('a, p, li').addClass('white');
+        $('#nav-container').addClass('white-line');
+        setTimeout(function() {
+            $('#active-slideshow').focus()
+        }, 1000);
     });
 });
 
-// var createReactClass = require('create-react-class');
+//resize dynamically
+$(window).resize(function() {
+    document.documentElement.style.setProperty('--threetwo', $('.img-wrapper').width() * 2 / 3 + 'px');
+});
 
 
+function compileProject() {
+    // slideshow assets
+    var slides = [];
+    for (i = 0; i < projectsList[selectionNo].assets.length; i++) {
+        if (i == 0) {
+            slides.push(e('img', { key: i, src: projectsList[selectionNo].assets[i], className: 'inactive active' }));
+        } else {
+            slides.push(e('img', { key: i, src: projectsList[selectionNo].assets[i], className: 'inactive' }));
+        };
+    }
 
+    // info overview text
+    var infoText = [
+        e('h2', { key: "title", id: "title" }, projectsList[selectionNo].title),
+        e('p', { key: "year", id: "year" }, projectsList[selectionNo].year),
+        e('p', { key: "tags", id: "tags" }, tagMaker(projectsList[selectionNo].tags)),
+        e('br', { key: "break1" }, ),
+        e('br', { key: "break2" }, ),
+        e('br', { key: "break3" }, ),
+        e('p', { key: "desc", id: "desc" }, projectsList[selectionNo].description)
+    ];
+
+    // info overview imgs
+    var infoImgs = [];
+    for (i = 0; i < projectsList[selectionNo].assets.length; i++) {
+        if (i == projectsList[selectionNo].assets.length - 1) {
+            infoImgs.push(e('div', { key: i, className: "img-wrapper-end" },
+                e('img', { className: "list-img responsive-img", src: projectsList[selectionNo].assets[i] })
+            ));
+        } else {
+            infoImgs.push(e('div', { key: i, className: "img-wrapper" },
+                e('img', { key: i, className: "list-img responsive-img", src: projectsList[selectionNo].assets[i] })
+            ));
+        }
+    };
+
+    // react project class
+    var Project = createReactClass({
+        getInitialState: function() {
+            return { dataactive: 0 };
+        },
+
+        handleClick: function() {
+            let slideNo = this.state.dataactive;
+            if (this.state.dataactive + 1 < slides.length) {
+                this.setState({ dataactive: this.state.dataactive + 1 });
+                $('#active-slideshow').children().eq(slideNo + 1).addClass('active');
+                setTimeout(function() {
+                    $('#active-slideshow').children().eq(slideNo).removeClass('active');
+                }, 500);
+            } else {
+                this.setState({ dataactive: 0 });
+                $('#active-slideshow').children().eq(0).css("z-index", "201").addClass('active');
+                setTimeout(function() {
+                    $('#active-slideshow').children().eq(slides.length - 1).removeClass('active');
+                    $('#active-slideshow').children().eq(0).css("z-index", "200").addClass('active');
+                }, 500);
+            }
+        },
+
+        handleKeyDown: function(evt) {
+            if (evt.keyCode === 39) {
+                let slideNo = this.state.dataactive;
+                if (this.state.dataactive + 1 < slides.length) {
+                    this.setState({ dataactive: this.state.dataactive + 1 });
+                    $('#active-slideshow').children().eq(slideNo + 1).addClass('active');
+                    setTimeout(function() {
+                        $('#active-slideshow').children().eq(slideNo).removeClass('active');
+                    }, 500);
+                } else {
+                    this.setState({ dataactive: 0 });
+                    $('#active-slideshow').children().eq(0).css("z-index", "201").addClass('active');
+                    setTimeout(function() {
+                        $('#active-slideshow').children().eq(slides.length - 1).removeClass('active');
+                        $('#active-slideshow').children().eq(0).css("z-index", "200");
+                    }, 500);
+                }
+            }
+
+            if (evt.keyCode === 37) {
+                let slideNo = this.state.dataactive;
+                if (this.state.dataactive - 1 >= 0) {
+                    this.setState({ dataactive: this.state.dataactive - 1 });
+                    $('#active-slideshow').children().eq(slideNo - 1).css("z-index", "201").addClass('active');
+                    setTimeout(function() {
+                        $('#active-slideshow').children().eq(slideNo).removeClass('active');
+                        $('#active-slideshow').children().eq(slideNo - 1).removeAttr("style");
+                    }, 500);
+                } else {
+                    this.setState({ dataactive: slides.length - 1 });
+                    $('#active-slideshow').children().eq(slides.length - 1).addClass('active');
+                    setTimeout(function() {
+                        $('#active-slideshow').children().eq(0).removeClass('active');
+                    }, 500);
+                }
+            }
+        },
+
+        render: function() {
+            return [
+                e('div', { key: "slideshow", id: 'active-slideshow', className: "container-fluid fs-image", tabIndex: 0, onClick: this.handleClick, dataactive: this.state.dataactive, onKeyDown: this.handleKeyDown }, slides),
+                e('div', { key: "info", id: 'active-info', className: "container-fluid d-none" },
+                    e('div', { className: "row" },
+                        e('div', { key: "info-text", id: "info-text", className: "col col-md-4" }, infoText),
+                        e('div', { key: "info-imgs", id: "info-imgs", className: "col col-md-8" }, infoImgs)
+                    )
+                )
+            ];
+
+        }
+    });
+
+    ReactDOM.render(
+        e(Project),
+        document.getElementById('project-wrapper')
+    );
+
+    // rendered project slide-in
+    $('.return').css("transform", "translate(0)");
+    $('.hide').css('transform', "translate(-100vw)");
+
+    // nav color change
+};
+
+// create slideshow footer
 function captions(project, slideNum) {
-    return e('footer', null,
+    ReactDOM.render(
         e('div', { id: 'footer-container', className: "container-fluid" },
             e('ul', { className: "row" },
                 e('li', { key: 'fd-title', className: "d-none d-md-block col col-sm-10" }, project.title + ": " + project.logline),
                 e('li', { key: 'fm-title', className: "d-md-none col col-sm-10" }, ),
                 e('li', { key: 'f-link', id: 'f-link', className: "text-right col col-sm-2" },
-                    e('a', { className: 'project-wrapper', role: 'button' }, "Info")
+                    e('a', { id: "info-link", className: 'text-links', role: 'button' }, "Info"),
+                    e('span', { className: "link-arrow" }, )
                 )
             )
-        )
-    )
+        ),
+        document.getElementById('react-footer')
+    );
 };
-// $('project-close').on("click", function() {
-// 	// close project
-// 	$('active-project').addClass('hidden');
-// });
-
-// Active project slideshow
-
-
-// $(document).ready(function() {
-// 	var urls = projectsList[selectionNo].assets;
-// 	var count = 1;
-// 	$('active-project').css('background-image', 'url("' + urls[0] + '")');
-// 	setInterval(function(), {
-// 		$('activeproject').css('background-image', 'url("' + urls[count] + '")');
-// 		count == urls.length-1 ? count = 0 : count++;
-// 	}, 5000);
-// });
