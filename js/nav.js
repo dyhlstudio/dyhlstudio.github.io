@@ -1,4 +1,5 @@
-var stage = 0;
+var stageD = 0;
+var stageM = 0;
 var tick = 0;
 var navdesktop = document.getElementById("desktop-nav");
 var navmobile = document.getElementById("mobile-nav");
@@ -61,22 +62,27 @@ function renderTime() {
     if (tick < duration) { // time to switch
         tick++;
     } else {
-    	stage++;
-    	if (stage >= text.length) {
-    		stage = 0;
+    	stageD++;
+        stageM++;
+    	if (stageD >= text.length) {
+    		stageD = 0;
     	}
-    	navdesktop.innerHTML = text[stage];
-        navmobile.innerHTML = mobileflavors[stage];
+        if(stageM >= mobileflavors.length) {
+            stageM = 0;
+        }
+
+    	navdesktop.innerHTML = text[stageD];
+        navmobile.innerHTML = mobileflavors[stageM];
         tick = 0;
     }
 
     //refresh time per second
-    if(stage == 2) {
-    	navdesktop.innerHTML = text[stage];
+    if(stageD == 2) {
+    	navdesktop.innerHTML = text[stageD];
     }
 
-    if(stage == 3) {
-        navmobile.innerHTML = mobileflavors[stage];
+    if(stageM == 3) {
+        navmobile.innerHTML = mobileflavors[stageMa];
     }
 
     if(tick == 0) {
