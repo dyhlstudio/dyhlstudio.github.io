@@ -54,7 +54,6 @@ $(document).ready(function() {
             document.documentElement.style.setProperty('--threetwo', $('.img-wrapper').width() * 2 / 3 + 'px');
         });
 
-
         // rendered project slide-in
         $('.return').css("transform", "translate(0)");
 
