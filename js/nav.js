@@ -82,7 +82,7 @@ function renderTime() {
     }
 
     if(stageM == 3) {
-        navmobile.innerHTML = mobileflavors[stageMa];
+        navmobile.innerHTML = mobileflavors[stageM];
     }
 
     if(tick == 0) {
