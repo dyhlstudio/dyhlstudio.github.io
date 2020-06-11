@@ -55,7 +55,7 @@ function renderTime() {
     // change per 5 seconds -- not sure why tick < 10 works but tick < 5 is too fast
     var text = ["Daniel Yunhua Li", currentdate, currenttime];
     var mobiletext = ["Daniel Yunhua Li", "Experiments in Architecture, Design, & Media", currentdate, currenttime];
-    var mobileflavors = mobiletext + flavors;
+    var mobileflavors = mobiletext.concat(flavors);
     var duration = 12; // timer value should be a multiplier of 500ms
     // 5s rotation
     if (tick < duration) { // time to switch
