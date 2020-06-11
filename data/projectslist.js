@@ -57,7 +57,7 @@ var projectsList = [
         "no": "004",
         "year": "2019",
         "title": "Psychogeocairn",
-        "logline": "Thesis project and interactive installation exploring the shapes and forms of living in spaces.",
+        "logline": "Thesis project and interactive installation exploring the depiction of living within spaces.",
         "tags": [
             "Architecture",
             "Interactive Media",
@@ -77,10 +77,9 @@ var projectsList = [
         "no": "005",
         "year": "2018",
         "title": "Play Grounds",
-        "logline": "Architectural designs for public spaces and playscapes derived from found geography.",
+        "logline": "Architectural catalog for public playscapes derived from geographic forms.",
         "tags": [
             "Architecture",
-            "Landscape Architecture"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [

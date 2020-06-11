@@ -1,6 +1,6 @@
 var stage = 0;
 var tick = 0;
-var navdesktop = document.getnavdesktopentById("nameclocktime");
+var navdesktop = document.getnavdesktopentById("desktop-nav");
 var navmobile = document.getnavdesktopentById("mobile-nav");
 
 function renderTime() {
