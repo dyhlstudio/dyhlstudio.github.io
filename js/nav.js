@@ -1,7 +1,7 @@
 var stage = 0;
 var tick = 0;
-var navdesktop = document.getnavdesktopentById("desktop-nav");
-var navmobile = document.getnavdesktopentById("mobile-nav");
+var navdesktop = document.getElementById("desktop-nav");
+var navmobile = document.getElementById("mobile-nav");
 
 function renderTime() {
 
