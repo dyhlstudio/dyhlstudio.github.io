@@ -31,38 +31,60 @@ ReactDOM.render(
 
 
 
-
 //Selecting Project Event Handlers
 var selectionNo = 0;
+var briefed = false;
+var selected = 999;
 
 $(document).ready(function() {
     $('.link-wrapper').click(function() {
         selectionNo = parseInt($(this).attr("id"), 10) - 1;
-        compileProject();
-        captions(projectsList[selectionNo], ($('active-slideshow').attr('dataactive') + 1));
+        // toggle project brief
+        if (!briefed && selected != selectionNo) { // no project --> selected project
+            selected = selectionNo;
+            this.addClass('selected');
+            projectBrief();
+            briefed = true;
+        } else if (briefed && selected == selectionNo) { // unselecting selected project
+            selected = 999;
+            this.removeClass('selected');
+            projectUnbrief();
+            briefed = false;
+        } else { // selected project a --> selected project b
+            selected = selectionNo;
+            $('.link-wrapper.selected').removeClass('selected');            
+            this.addClass('selected');
+            projectBrief();
+            briefed = true;
+        }
 
-        // info button
-        $('#info-link').click(function() {
-            $('#active-info').removeClass('d-none');
-            $('#home').removeClass('d-flex').addClass('d-none');
-            $('#react-footer, #active-slideshow').addClass('d-none');
-            $('#project-wrapper').removeClass('slideshow');
-            $('a, p, li').removeClass('white');
-            $('#nav-container').removeClass('white-line');
 
-            // overview images, aspect ratio fix upon load
-            document.documentElement.style.setProperty('--threetwo', $('.img-wrapper').width() * 2 / 3 + 'px');
+        $('.view-links').click(function() {
+            compileProject();
+            captions(projectsList[selectionNo], ($('active-slideshow').attr('dataactive') + 1));
+            // info button
+            $('#info-link').click(function() {
+                $('#active-info').removeClass('d-none');
+                $('#home').removeClass('d-flex').addClass('d-none');
+                $('#react-footer, #active-slideshow').addClass('d-none');
+                $('#project-wrapper').removeClass('slideshow');
+                $('a, p, li').removeClass('white');
+                $('#nav-container').removeClass('white-line');
+
+                // overview images, aspect ratio fix upon load
+                document.documentElement.style.setProperty('--threetwo', $('.img-wrapper').width() * 2 / 3 + 'px');
+            });
+
+            // rendered project slide-in
+            $('.return').css("transform", "translate(0)");
+
+            // rendered project slide-in
+            $('a, p, li').addClass('white');
+            $('#nav-container').addClass('white-line');
+            setTimeout(function() {
+                $('#active-slideshow').focus()
+            }, 1000);
         });
-
-        // rendered project slide-in
-        $('.return').css("transform", "translate(0)");
-
-        // rendered project slide-in
-        $('a, p, li').addClass('white');
-        $('#nav-container').addClass('white-line');
-        setTimeout(function() {
-            $('#active-slideshow').focus()
-        }, 1000);
     });
 });
 
@@ -71,6 +93,20 @@ $(window).resize(function() {
     document.documentElement.style.setProperty('--threetwo', $('.img-wrapper').width() * 2 / 3 + 'px');
 });
 
+function projectBrief() {
+    $('#thumb').attr('src', projectsList[selectionNo].thumb);
+    var excerpt = projectsList[selectionNo].title + ": " + projectsList[selectionNo].logline + ".";
+    $('#big-text')
+        .text(excerpt)
+        .append('<br><a class="view-links" href="">View Project</a><span class="link-arrow"></span>');
+};
+
+function projectUnbrief() {
+    $('#thumb').attr('src', 'data:,');
+    $('#big-text')
+        .text('Daniel Yunhua Li is a New York-based designer and technologist creating experiments in ')
+        .append('<a class="text-links" href="" role="button">Architecture</a>, <a class="text-links" href="" role="button">Graphic & Web Design</a>, and <a class="text-links" href="" role="button">Interactive Media</a>.');
+};
 
 function compileProject() {
     // slideshow assets

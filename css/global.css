@@ -190,7 +190,7 @@ nav a {
     padding-right: 0.5em;
 }
 
-.text-links {
+.text-links, .view-links {
     text-decoration: underline !important;
 }
 
@@ -226,6 +226,9 @@ nav a {
     background: #ffff00;
 }
 
+.selected {
+    background-color: #ffff00;
+}
 
 /* active project css */
 #project-wrapper {
@@ -359,7 +362,7 @@ nav a {
         height: 70%;
     }
 
-    #middle #big-thumb {
+    #middle #thumb-col {
         height: calc(70% - 1rem);
         margin-bottom: 1rem;
     }

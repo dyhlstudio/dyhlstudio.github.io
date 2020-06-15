@@ -1,5 +1,8 @@
+var bio = {
+    "oneline": "Daniel Yunhua Li is a New York-based designer and technologist creating experiments in Architecture, Graphic & Web Design, and Interactive Media."
+}
 var projectsList = [
-{
+    {
         "no": "001",
         "year": "2020",
         "title": "Wild Dogs International",
@@ -14,6 +17,9 @@ var projectsList = [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
+            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+        ],
+        "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
     },
@@ -33,6 +39,9 @@ var projectsList = [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+        ],
+        "thumb": [
+            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
     },
     {
@@ -51,13 +60,16 @@ var projectsList = [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+        ],
+        "thumb": [
+            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
     },
     {
         "no": "004",
         "year": "2019",
         "title": "Psychogeocairn",
-        "logline": "Thesis project and interactive installation exploring the depiction of living within spaces.",
+        "logline": "Thesis project and interactive installation exploring the depiction of living within spaces",
         "tags": [
             "Architecture",
             "Interactive Media",
@@ -71,13 +83,16 @@ var projectsList = [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+        ],
+        "thumb": [
+            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
     },
     {
         "no": "005",
         "year": "2018",
         "title": "Play Grounds",
-        "logline": "Architectural catalog for public playscapes derived from geographic forms.",
+        "logline": "Architectural catalog for public playscapes derived from geographic forms",
         "tags": [
             "Architecture",
         ],
@@ -89,13 +104,16 @@ var projectsList = [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+        ],
+        "thumb": [
+            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
     },
     {
         "no": "006",
         "year": "2019",
         "title": "State of Tyranny",
-        "logline": "Exhibition exploring the architecture of control and power at Storefront for Art and Architecture in New York.",
+        "logline": "Exhibition exploring the architecture of control and power at Storefront for Art and Architecture in New York",
         "tags": [
             "Environmental Graphics",
             "Curatorial Research"
@@ -107,6 +125,9 @@ var projectsList = [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
+            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+        ],
+        "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
     },
@@ -127,13 +148,16 @@ var projectsList = [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+        ],
+        "thumb": [
+            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
     },
     {
         "no": "008",
         "year": "2019",
         "title": "Sun Pleats",
-        "logline": "Art book showcasing photographs and reflections of a trip I took in Japan.",
+        "logline": "Art book showcasing photographs and reflections of a trip I took in Japan",
         "tags": [
             "Bookmaking",
             "Print Design",
@@ -146,6 +170,9 @@ var projectsList = [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
+            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+        ],
+        "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
     },
@@ -167,13 +194,16 @@ var projectsList = [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+        ],
+        "thumb": [
+            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
     },
     {
         "no": "010",
         "year": "2017",
         "title": "Draft",
-        "logline": "Branding for a fictional, experimental cocktail bar concept.",
+        "logline": "Branding for a fictional, experimental cocktail bar concept",
         "tags": [
             "Branding",
             "Prototyping"
@@ -185,6 +215,9 @@ var projectsList = [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
+            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+        ],
+        "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
     },
@@ -205,13 +238,16 @@ var projectsList = [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+        ],
+        "thumb": [
+            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
     },
     {
         "no": "012",
         "year": "2017",
         "title": "Undergrowth",
-        "logline": "Short film about dream spaces and the feeling of dreaming.",
+        "logline": "Short film about dream spaces and the feeling of dreaming",
         "tags": [
             "Short Film"
         ],
@@ -222,6 +258,9 @@ var projectsList = [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
+            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+        ],
+        "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
     },
@@ -229,7 +268,7 @@ var projectsList = [
         "no": "013",
         "year": "2014",
         "title": "By Omission",
-        "logline": "Frag movie showcasing competitive gaming highlights for GuilteTV.",
+        "logline": "Frag movie showcasing competitive gaming highlights for GuilteTV",
         "tags": [
             "Short Film"
         ],
@@ -241,13 +280,16 @@ var projectsList = [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+        ],
+        "thumb": [
+            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
     },
     {
         "no": "014",
         "year": "2015",
         "title": "Against the Grain",
-        "logline": "Custom guitarmaking project from start to finish.",
+        "logline": "Custom guitarmaking project from start to finish",
         "tags": [
             "Guitarmaking",
             "Prototyping"
@@ -259,6 +301,9 @@ var projectsList = [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
+            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+        ],
+        "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
     }
