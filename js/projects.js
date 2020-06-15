@@ -39,21 +39,22 @@ var selected = 999;
 $(document).ready(function() {
     $('.link-wrapper').click(function() {
         selectionNo = parseInt($(this).attr("id"), 10) - 1;
+
         // toggle project brief
         if (!briefed && selected != selectionNo) { // no project --> selected project
             selected = selectionNo;
-            this.addClass('selected');
+            $(this).addClass('selected');
             projectBrief();
             briefed = true;
         } else if (briefed && selected == selectionNo) { // unselecting selected project
             selected = 999;
-            this.removeClass('selected');
+            $(this).removeClass('selected');
             projectUnbrief();
             briefed = false;
         } else { // selected project a --> selected project b
             selected = selectionNo;
             $('.link-wrapper.selected').removeClass('selected');            
-            this.addClass('selected');
+            $(this).addClass('selected');
             projectBrief();
             briefed = true;
         }
@@ -98,14 +99,14 @@ function projectBrief() {
     var excerpt = projectsList[selectionNo].title + ": " + projectsList[selectionNo].logline + ".";
     $('#big-text')
         .text(excerpt)
-        .append('<br><a class="view-links" href="">View Project</a><span class="link-arrow"></span>');
+        .append('<br><a class="view-links">View Project</a><span class="link-arrow"></span>');
 };
 
 function projectUnbrief() {
     $('#thumb').attr('src', 'data:,');
     $('#big-text')
         .text('Daniel Yunhua Li is a New York-based designer and technologist creating experiments in ')
-        .append('<a class="text-links" href="" role="button">Architecture</a>, <a class="text-links" href="" role="button">Graphic & Web Design</a>, and <a class="text-links" href="" role="button">Interactive Media</a>.');
+        .append('<a class="text-links" role="button">Architecture</a>, <a class="text-links" role="button">Graphic & Web Design</a>, and <a class="text-links" role="button">Interactive Media</a>.');
 };
 
 function compileProject() {
