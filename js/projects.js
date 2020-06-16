@@ -13,13 +13,25 @@ function tagMaker(projectEntry) {
     return tagsText;
 }
 
+function typeClass(projectEntry) {
+    var typeText = '';
+    for (i = 0; i < projectEntry.length; i++) {
+        if (i < projectEntry.length - 1) {
+            typeText += projectEntry[i] + ' ';
+        } else {
+            typeText += projectEntry[i];
+        }
+    }
+    return typeText;
+}
+
 var bottomList = projectsList.map(function(project) {
-    return e('div', { key: parseInt(project.no, 10), id: project.no, className: 'link-wrapper', role: 'button' },
-        e('ul', { className: 'project-entry row' },
-            e('li', { className: 'entry-no col col-2 project-link' }, project.no),
-            e('li', { className: 'entry-year col col-2 project-link' }, project.year),
-            e('li', { className: 'entry-title col col-4 project-link' }, project.title),
-            e('li', { className: 'entry-tags col col-4 project-link' }, tagMaker(project.tags))
+    return e('a', { key: parseInt(project.no, 10), id: project.no, className: 'link-wrapper'},
+        e('ul', { className: 'project-entry row ' + typeClass(project.type) },
+            e('li', { className: 'entry-no d-none d-md-block col col-2 project-link' }, project.no),
+            e('li', { className: 'entry-year col col-4 col-sm-2 project-link' }, project.year),
+            e('li', { className: 'entry-title col col-8 col-sm-4 project-link' }, project.title),
+            e('li', { className: 'entry-tags d-none d-sm-block col col-4 col-sm-6 col-md-4 project-link' }, tagMaker(project.tags))
         )
     );
 });
@@ -37,6 +49,11 @@ var briefed = false;
 var selected = 999;
 
 $(document).ready(function() {
+    $('#architecture').click(function() {
+        if(('.project-entry').hasClass('architecture')) {
+
+        }
+    });
     $('.link-wrapper').click(function() {
         selectionNo = parseInt($(this).attr("id"), 10) - 1;
 

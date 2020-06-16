@@ -7,6 +7,9 @@ var projectsList = [
         "year": "2020",
         "title": "Wild Dogs International",
         "logline": "Website for a creative studio in Brooklyn creating site-specific experiences and events",
+        "type": [
+            "design"
+        ],
         "tags": [
             "Website Design"
         ],
@@ -28,6 +31,9 @@ var projectsList = [
         "year": "2020",
         "title": "Waffle Parking",
         "logline": "Branding and website design for a Los Angeles-based technology startup",
+        "type": [
+            "design"
+        ],
         "tags": [
             "Logo & Identity"
         ],
@@ -49,6 +55,9 @@ var projectsList = [
         "year": "2019",
         "title": "OPUS Merriweather",
         "logline": "Website concepts for a pioneering arts and music biennial hosted at the Merriweather Post Pavilion in Columbia, MD",
+        "type": [
+            "design"
+        ],
         "tags": [
             "Website Design"
         ],
@@ -70,6 +79,10 @@ var projectsList = [
         "year": "2019",
         "title": "Psychogeocairn",
         "logline": "Interactive installation and thesis project exploring the visual depiction of architectural and urban spaces",
+        "type": [
+            "architecture",
+            "media"
+        ],
         "tags": [
             "Installation"
         ],
@@ -91,6 +104,9 @@ var projectsList = [
         "year": "2018",
         "title": "Play Grounds",
         "logline": "Architectural catalog for public playscapes derived from geographic forms",
+        "type": [
+            "architecture"
+        ],
         "tags": [
             "Architecture"
         ],
@@ -112,6 +128,9 @@ var projectsList = [
         "year": "2019",
         "title": "State of Tyranny",
         "logline": "Exhibition exploring the architecture of control and power at Storefront for Art and Architecture in New York",
+        "type": [
+            "design"
+        ],
         "tags": [
             "Exhibition Design"
         ],
@@ -133,6 +152,9 @@ var projectsList = [
         "year": "2019",
         "title": "Aquí vive gente",
         "logline": "Inaugural presentation and exhibition of the Museum of History and Community of Puerta de Tierra",
+        "type": [
+            "design"
+        ],
         "tags": [
             "Exhibition Design"
         ],
@@ -154,6 +176,9 @@ var projectsList = [
         "year": "2019",
         "title": "Sun Pleats",
         "logline": "Art book showcasing photographs and reflections of a trip I took in Japan",
+        "type": [
+            "design"
+        ],
         "tags": [
             "Book"
         ],
@@ -175,6 +200,10 @@ var projectsList = [
         "year": "2018",
         "title": "Project Memo",
         "logline": "",
+        "type": [
+            "architecture",
+            "media"
+        ],
         "tags": [
             "XR Prototype"
         ],
@@ -196,6 +225,9 @@ var projectsList = [
         "year": "2017",
         "title": "Draft",
         "logline": "Branding for a fictional, experimental cocktail bar concept",
+        "type": [
+            "design"
+        ],
         "tags": [
             "Logo & Identity"
         ],
@@ -217,6 +249,9 @@ var projectsList = [
         "year": "2018",
         "title": "The Architecture House",
         "logline": "Branding for a fictional museum dedicated to architectural study and history",
+        "type": [
+            "design"
+        ],
         "tags": [
             "Logo & Identity"
         ],
@@ -238,6 +273,9 @@ var projectsList = [
         "year": "2017",
         "title": "Undergrowth",
         "logline": "Short film about dream spaces and the feeling of dreaming",
+        "type": [
+            "media"
+        ],
         "tags": [
             "Short Film"
         ],
@@ -259,6 +297,9 @@ var projectsList = [
         "year": "2014",
         "title": "By Omission",
         "logline": "Frag movie showcasing competitive gaming highlights for GuilteTV",
+        "type": [
+            "media"
+        ],
         "tags": [
             "Short Film"
         ],
@@ -280,6 +321,9 @@ var projectsList = [
         "year": "2015",
         "title": "Against the Grain",
         "logline": "Custom guitarmaking project from start to finish",
+        "type": [
+            "architecture"
+        ],
         "tags": [
             "Guitarmaking"
         ],
