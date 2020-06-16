@@ -71,7 +71,6 @@ var projectsList = [
         "title": "Psychogeocairn",
         "logline": "Interactive installation and thesis project exploring the visual depiction of architectural and urban spaces",
         "tags": [
-            "Architecture",
             "Installation"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
@@ -93,8 +92,7 @@ var projectsList = [
         "title": "Play Grounds",
         "logline": "Architectural catalog for public playscapes derived from geographic forms",
         "tags": [
-            "Architecture",
-            "Landscape Architecture"
+            "Architecture"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -157,8 +155,7 @@ var projectsList = [
         "title": "Sun Pleats",
         "logline": "Art book showcasing photographs and reflections of a trip I took in Japan",
         "tags": [
-            "Bookmaking",
-            "Photography"
+            "Book"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -179,9 +176,7 @@ var projectsList = [
         "title": "Project Memo",
         "logline": "",
         "tags": [
-            "Architecture",
-            "Mixed Reality",
-            "Prototyping"
+            "XR Prototype"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -202,8 +197,7 @@ var projectsList = [
         "title": "Draft",
         "logline": "Branding for a fictional, experimental cocktail bar concept",
         "tags": [
-            "Logo & Identity",
-            "Prototyping"
+            "Logo & Identity"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -287,8 +281,7 @@ var projectsList = [
         "title": "Against the Grain",
         "logline": "Custom guitarmaking project from start to finish",
         "tags": [
-            "Guitarmaking",
-            "Prototyping"
+            "Guitarmaking"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
