@@ -2,15 +2,19 @@ const e = React.createElement;
 
 //Propagate list of projects
 function tagMaker(projectEntry) {
+
+    // get main tag
+    var oneTag = projectEntry[0];
+    // get list of tags as string
     var tagsText = '';
     for (i = 0; i < projectEntry.length; i++) {
         if (i < projectEntry.length - 1) {
             tagsText += projectEntry[i] + ', ';
         } else {
             tagsText += projectEntry[i];
-        };
+        }
     }
-    return tagsText;
+    return [oneTag, tagsText];
 }
 
 function typeClass(projectEntry) {
@@ -26,12 +30,13 @@ function typeClass(projectEntry) {
 }
 
 var bottomList = projectsList.map(function(project) {
-    return e('a', { key: parseInt(project.no, 10), id: project.no, className: 'link-wrapper'},
+    return e('div', { key: parseInt(project.no, 10), id: project.no, className: 'link-wrapper', role: 'button' },
         e('ul', { className: 'project-entry row ' + typeClass(project.type) },
-            e('li', { className: 'entry-no d-none d-md-block col col-2 project-link' }, project.no),
-            e('li', { className: 'entry-year col col-4 col-sm-2 project-link' }, project.year),
-            e('li', { className: 'entry-title col col-8 col-sm-4 project-link' }, project.title),
-            e('li', { className: 'entry-tags d-none d-sm-block col col-4 col-sm-6 col-md-4 project-link' }, tagMaker(project.tags))
+            e('li', { className: 'entry-no col col-2 project-link' }, project.no),
+            e('li', { className: 'entry-year col col-2 project-link' }, project.year),
+            e('li', { className: 'entry-title col col-4 project-link' }, project.title),
+            e('li', { className: 'entry-tags d-none d-md-block col col-4 project-link' }, tagMaker(project.tags)[1]),
+            e('li', { className: 'entry-tags d-md-none col col-4 project-link' }, tagMaker(project.tags)[0])
         )
     );
 });
@@ -49,11 +54,6 @@ var briefed = false;
 var selected = 999;
 
 $(document).ready(function() {
-    $('#architecture').click(function() {
-        if(('.project-entry').hasClass('architecture')) {
-
-        }
-    });
     $('.link-wrapper').click(function() {
         selectionNo = parseInt($(this).attr("id"), 10) - 1;
 
@@ -70,7 +70,7 @@ $(document).ready(function() {
             briefed = false;
         } else { // selected project a --> selected project b
             selected = selectionNo;
-            $('.link-wrapper.selected').removeClass('selected');            
+            $('.link-wrapper.selected').removeClass('selected');
             $(this).addClass('selected');
             projectBrief();
             briefed = true;
@@ -104,6 +104,38 @@ $(document).ready(function() {
             }, 1000);
         });
     });
+    
+    // filtering projects list
+
+    $('#big-text').on('click', '.text-links', function() {
+
+        if ($(this).hasClass('filtered')) {
+
+            // unapplying filter
+            $(this).removeClass('filtered');
+            let filter = '.' + $(this).attr('id');
+            $('.project-entry.filtered').removeClass('filtered');
+        } else {
+
+            // clear filters
+            $('.text-links').not($(this)).removeClass('filtered');
+            $('.project-entry.filtered').removeClass('filtered');
+
+            // apply new filter
+            $(this).addClass('filtered');
+            let filter = '.' + $(this).attr('id');
+            $('.project-entry' + filter).addClass('filtered');
+        }
+    });
+
+
+    //clear filter on user selecting non-filtered entry
+
+    $('.project-entry').on('click', function() {
+        if ( !($(this).hasClass('filtered')) ) {
+            $('.project-entry.filtered').removeClass('filtered');
+        }
+    });
 });
 
 //resize dynamically
@@ -123,7 +155,7 @@ function projectUnbrief() {
     $('#thumb').attr('src', 'data:,');
     $('#big-text')
         .text('Daniel Yunhua Li is a New York-based designer and technologist creating experiments in ')
-        .append('<a class="text-links" role="button">Architecture</a>, <a class="text-links" role="button">Graphic & Web Design</a>, and <a class="text-links" role="button">Interactive Media</a>.');
+        .append('<a id="architecture" class="text-links" role="button">Architecture</a>, <a id="design" class="text-links" role="button">Graphic & Web Design</a>, and <a id="media" class="text-links" role="button">Interactive Media</a>.');
 };
 
 function compileProject() {

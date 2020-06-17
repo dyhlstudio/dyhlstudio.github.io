@@ -1,8 +1,7 @@
 var bio = {
     "oneline": "Daniel Yunhua Li is a New York-based designer and technologist creating experiments in Architecture, Graphic & Web Design, and Interactive Media."
 }
-var projectsList = [
-    {
+var projectsList = [{
         "no": "001",
         "year": "2020",
         "title": "Wild Dogs International",
@@ -11,7 +10,7 @@ var projectsList = [
             "design"
         ],
         "tags": [
-            "Website Design"
+            "Website"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -35,7 +34,7 @@ var projectsList = [
             "design"
         ],
         "tags": [
-            "Logo & Identity"
+            "Brand Identity"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -59,7 +58,7 @@ var projectsList = [
             "design"
         ],
         "tags": [
-            "Website Design"
+            "Website"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -84,7 +83,9 @@ var projectsList = [
             "media"
         ],
         "tags": [
-            "Installation"
+            "Installation",
+            "Architecture",
+            "Research"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -108,7 +109,8 @@ var projectsList = [
             "architecture"
         ],
         "tags": [
-            "Architecture"
+            "Architectural Design",
+            "Landscape Architecture"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -132,7 +134,8 @@ var projectsList = [
             "design"
         ],
         "tags": [
-            "Exhibition Design"
+            "Exhibition",
+            "Research"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -156,7 +159,8 @@ var projectsList = [
             "design"
         ],
         "tags": [
-            "Exhibition Design"
+            "Exhibition",
+            "Research"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -180,7 +184,8 @@ var projectsList = [
             "design"
         ],
         "tags": [
-            "Book"
+            "Book",
+            "Photography"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -205,7 +210,8 @@ var projectsList = [
             "media"
         ],
         "tags": [
-            "XR Prototype"
+            "XR Prototype",
+            "Architectural Design"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -229,7 +235,8 @@ var projectsList = [
             "design"
         ],
         "tags": [
-            "Logo & Identity"
+            "Brand Identity",
+            "Prototyping"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -253,7 +260,7 @@ var projectsList = [
             "design"
         ],
         "tags": [
-            "Logo & Identity"
+            "Brand Identity"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -301,7 +308,8 @@ var projectsList = [
             "media"
         ],
         "tags": [
-            "Short Film"
+            "Short Film",
+            "Motion Graphics"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [
@@ -325,7 +333,8 @@ var projectsList = [
             "architecture"
         ],
         "tags": [
-            "Guitarmaking"
+            "Guitarmaking",
+            "Prototyping"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
         "assets": [

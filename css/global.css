@@ -21,6 +21,7 @@ body {
 
 html {
     font-size: 12px;
+    overflow: hidden;
 }
 
 body {
@@ -68,7 +69,7 @@ a:hover {
 
 .return {
     transition: transform 1s ease;
-    transform: translate(calc(var(--vh, 1vh) * 100));
+    transform: translate(calc(var(--vw, 1vw) * 100));
 }
 
 .container-fluid {
@@ -194,6 +195,10 @@ nav a {
     text-decoration: underline !important;
 }
 
+.filtered {
+/*    transition: background-color 500ms ease;
+*/    background-color: #ff0;
+}
 
 
 /* bottom css */
@@ -223,7 +228,7 @@ nav a {
 }
 
 .link-wrapper {
-    width: 100%;
+
 }
 .project-entry:hover {
     background: #ffff00;
