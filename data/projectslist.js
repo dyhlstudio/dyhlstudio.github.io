@@ -21,6 +21,14 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
+        "alt": [
+            "Homepage",
+            "About",
+            "Recent Projects",
+            "Project Highlights",
+            "Project Highlights",
+            "Project Highlights"
+        ]
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -45,6 +53,14 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
+        "alt": [
+            "Homepage",
+            "About",
+            "Recent Projects",
+            "Project Highlights",
+            "Project Highlights",
+            "Project Highlights"
+        ]
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -69,6 +85,14 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
+        "alt": [
+            "Homepage",
+            "About",
+            "Recent Projects",
+            "Project Highlights",
+            "Project Highlights",
+            "Project Highlights"
+        ]
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -96,6 +120,14 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
+        "alt": [
+            "Homepage",
+            "About",
+            "Recent Projects",
+            "Project Highlights",
+            "Project Highlights",
+            "Project Highlights"
+        ]
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -121,6 +153,14 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
+        "alt": [
+            "Homepage",
+            "About",
+            "Recent Projects",
+            "Project Highlights",
+            "Project Highlights",
+            "Project Highlights"
+        ]
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -146,6 +186,14 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
+        "alt": [
+            "Homepage",
+            "About",
+            "Recent Projects",
+            "Project Highlights",
+            "Project Highlights",
+            "Project Highlights"
+        ]
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -171,6 +219,14 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
+        "alt": [
+            "Homepage",
+            "About",
+            "Recent Projects",
+            "Project Highlights",
+            "Project Highlights",
+            "Project Highlights"
+        ]
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -196,6 +252,14 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
+        "alt": [
+            "Homepage",
+            "About",
+            "Recent Projects",
+            "Project Highlights",
+            "Project Highlights",
+            "Project Highlights"
+        ]
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -222,6 +286,14 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
+        "alt": [
+            "Homepage",
+            "About",
+            "Recent Projects",
+            "Project Highlights",
+            "Project Highlights",
+            "Project Highlights"
+        ]
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -247,6 +319,14 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
+        "alt": [
+            "Homepage",
+            "About",
+            "Recent Projects",
+            "Project Highlights",
+            "Project Highlights",
+            "Project Highlights"
+        ]
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -271,6 +351,14 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
+        "alt": [
+            "Homepage",
+            "About",
+            "Recent Projects",
+            "Project Highlights",
+            "Project Highlights",
+            "Project Highlights"
+        ]
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -295,6 +383,14 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
+        "alt": [
+            "Homepage",
+            "About",
+            "Recent Projects",
+            "Project Highlights",
+            "Project Highlights",
+            "Project Highlights"
+        ]
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -320,6 +416,14 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
+        "alt": [
+            "Homepage",
+            "About",
+            "Recent Projects",
+            "Project Highlights",
+            "Project Highlights",
+            "Project Highlights"
+        ]
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -345,6 +449,14 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
+        "alt": [
+            "Homepage",
+            "About",
+            "Recent Projects",
+            "Project Highlights",
+            "Project Highlights",
+            "Project Highlights"
+        ]
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]

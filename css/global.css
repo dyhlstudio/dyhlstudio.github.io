@@ -191,13 +191,15 @@ nav a {
     padding-right: 0.5em;
 }
 
-.text-links, .view-links {
+.text-links,
+.view-links {
     text-decoration: underline !important;
 }
 
 .filtered {
-/*    transition: background-color 500ms ease;
-*/    background-color: #ff0;
+    /*    transition: background-color 500ms ease;
+*/
+    background-color: #ff0;
 }
 
 
@@ -227,9 +229,8 @@ nav a {
     height: calc(calc(100% - 4.25em) - 1px);
 }
 
-.link-wrapper {
+.link-wrapper {}
 
-}
 .project-entry:hover {
     background: #ffff00;
 }
@@ -362,6 +363,7 @@ nav a {
     body {
         overflow: hidden;
     }
+
     h1 {
         font-size: 2em;
     }
@@ -394,6 +396,27 @@ nav a {
         height: auto;
         overflow: unset;
     }
+
+    .fs-image img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        z-index: 200;
+    }
+
+    .white {
+        color: #000 !important;
+    }
+
+    .white-line {
+        border-bottom: 1px solid black !important;
+    }
+
 }
 
 /*// Small devices (landscape phones, less than 768px)*/
