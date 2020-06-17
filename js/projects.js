@@ -145,10 +145,10 @@ $(window).resize(function() {
 
 function projectBrief() {
     $('#thumb').attr('src', projectsList[selectionNo].thumb);
-    var excerpt = projectsList[selectionNo].title + ": " + projectsList[selectionNo].logline + ".";
+    var excerpt = projectsList[selectionNo].title + ": " + projectsList[selectionNo].logline + ". ";
     $('#big-text')
         .text(excerpt)
-        .append('<br><a class="view-links">View Project</a><span class="link-arrow"></span>');
+        .append('<a class="view-links">View&nbsp;Project</a><span class="link-arrow"></span>');
 };
 
 function projectUnbrief() {

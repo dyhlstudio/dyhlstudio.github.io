@@ -179,7 +179,7 @@ var projectsList = [{
         "no": "008",
         "year": "2019",
         "title": "Sun Pleats",
-        "logline": "Art book showcasing photographs and reflections of a trip I took in Japan",
+        "logline": "Cut-out art book presenting photographs and windows of reflections into a trip in Japan",
         "type": [
             "design"
         ],
@@ -204,13 +204,13 @@ var projectsList = [{
         "no": "009",
         "year": "2018",
         "title": "Project Memo",
-        "logline": "",
+        "logline": "Mixed-reality application for deploying holographic sticky-notes prototyped in collaboration with NASA Jet Propulsion Laboratory",
         "type": [
             "architecture",
             "media"
         ],
         "tags": [
-            "XR Prototype",
+            "Mixed-reality Prototype",
             "Architectural Design"
         ],
         "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
@@ -230,7 +230,7 @@ var projectsList = [{
         "no": "010",
         "year": "2017",
         "title": "Draft",
-        "logline": "Branding for a fictional, experimental cocktail bar concept",
+        "logline": "Branding for a fictional, experimental cocktail bar concept fusing together coffee, tea, cocktails, and more",
         "type": [
             "design"
         ],
