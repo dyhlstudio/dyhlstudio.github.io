@@ -285,7 +285,7 @@ function captions(project, slideNum) {
         e('div', { id: 'footer-container', className: "container-fluid" },
             e('ul', { className: "row" },
                 e('li', { key: 'fd-title', className: "d-none d-md-block col col-sm-10" }, project.title + ": " + project.logline),
-                e('li', { key: 'fm-title', className: "d-md-none col col-sm-10" }, ),
+                e('li', { key: 'fm-title', className: "d-md-none col col-sm-10" }, slideNum + "/" + project.assets.length + " — " + project.alt[slideNum-1]),
                 e('li', { key: 'f-link', id: 'f-link', className: "text-right col col-sm-2" },
                     e('a', { id: "info-link", className: 'text-links', role: 'button' }, "Info"),
                     e('span', { className: "link-arrow" }, )
