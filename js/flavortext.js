@@ -1,5 +1,5 @@
 var flavors = [
 	"Pralines, you say!?",
-	"Please enjoy your stay here",
-	"This site was partly made with React"
+	"Please enjoy your stay here.",
+	"This site was made partly in React!"
 ];
