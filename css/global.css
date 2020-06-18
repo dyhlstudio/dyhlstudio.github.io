@@ -93,6 +93,12 @@ a:hover {
     object-fit: contain;
 }
 
+.threetwo {
+    height: var(--threetwo);
+    width: 100%;
+    overflow: hidden;
+}
+
 .img-wrapper {
     height: var(--threetwo);
     width: 100%;
