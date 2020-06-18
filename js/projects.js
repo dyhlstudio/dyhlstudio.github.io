@@ -52,8 +52,13 @@ ReactDOM.render(
 var selectionNo = 0;
 var briefed = false;
 var selected = 999;
+var clicked = false;
+var pressed = false;
 
 $(document).ready(function() {
+
+    // Prepare project
+
     $('.link-wrapper').click(function() {
         selectionNo = parseInt($(this).attr("id"), 10) - 1;
 
@@ -76,10 +81,13 @@ $(document).ready(function() {
             briefed = true;
         }
 
+        compileProject();
+
+
+        // Open project
 
         $('.view-links').click(function() {
-            compileProject();
-            captions(projectsList[selectionNo], ($('active-slideshow').attr('dataactive') + 1));
+            captions(projectsList[selectionNo], (parseInt($('#active-slideshow').attr('dataactive'), 10) + 1));
             // info button
             $('#info-link').click(function() {
                 $('#active-info').removeClass('d-none');
@@ -95,8 +103,7 @@ $(document).ready(function() {
 
             // rendered project slide-in
             $('.return').css("transform", "translate(0)");
-
-            // rendered project slide-in
+            $('.hide').css('transform', "translate(-100vw)");
             $('a, p, li').addClass('white');
             $('#nav-container').addClass('white-line');
             setTimeout(function() {
@@ -104,7 +111,7 @@ $(document).ready(function() {
             }, 1000);
         });
     });
-    
+
     // filtering projects list
 
     $('#big-text').on('click', '.text-links', function() {
@@ -132,7 +139,7 @@ $(document).ready(function() {
     //clear filter on user selecting non-filtered entry
 
     $('.project-entry').on('click', function() {
-        if ( !($(this).hasClass('filtered')) ) {
+        if (!($(this).hasClass('filtered'))) {
             $('.project-entry.filtered').removeClass('filtered');
         }
     });
@@ -173,7 +180,9 @@ function compileProject() {
     var infoText = [
         e('h2', { key: "title", id: "title" }, projectsList[selectionNo].title),
         e('p', { key: "year", id: "year" }, projectsList[selectionNo].year),
-        e('p', { key: "tags", id: "tags" }, tagMaker(projectsList[selectionNo].tags)),
+        e('p', { key: "tags", id: "tags" }, tagMaker(projectsList[selectionNo].tags)[1]),
+        e('br', { key: "br1" },),
+        e('br', { key: "br2" },),
         e('p', { key: "desc", id: "desc" }, projectsList[selectionNo].description)
     ];
 
@@ -198,6 +207,16 @@ function compileProject() {
         },
 
         handleClick: function() {
+            // clicks limited to 1 per 500ms
+            if (clicked === true) {
+                return false; // failed click
+            }
+
+            // successful keypress
+            clicked = true;
+            setTimeout(function() {
+                clicked = false;
+            }, 500);
             let slideNo = this.state.dataactive;
             if (this.state.dataactive + 1 < slides.length) {
                 this.setState({ dataactive: this.state.dataactive + 1 });
@@ -216,6 +235,17 @@ function compileProject() {
         },
 
         handleKeyDown: function(evt) {
+            // keypresses limited to 1 per 500ms
+            // failed keypress
+            if (pressed === true) {
+                return false;
+            }
+
+            // successful keypress
+            pressed = true;
+            setTimeout(function() {
+                pressed = false;
+            }, 500);
             if (evt.keyCode === 39) {
                 let slideNo = this.state.dataactive;
                 if (this.state.dataactive + 1 < slides.length) {
@@ -251,6 +281,7 @@ function compileProject() {
                     }, 500);
                 }
             }
+
         },
 
         render: function() {
@@ -271,12 +302,6 @@ function compileProject() {
         e(Project),
         document.getElementById('project-wrapper')
     );
-
-    // rendered project slide-in
-    $('.return').css("transform", "translate(0)");
-    $('.hide').css('transform', "translate(-100vw)");
-
-    // nav color change
 };
 
 // create slideshow footer
@@ -285,7 +310,7 @@ function captions(project, slideNum) {
         e('div', { id: 'footer-container', className: "container-fluid" },
             e('ul', { className: "row" },
                 e('li', { key: 'fd-title', className: "d-none d-md-block col col-sm-10" }, project.title + ": " + project.logline),
-                e('li', { key: 'fm-title', className: "d-md-none col col-sm-10" }, slideNum + "/" + project.assets.length + " — " + project.alt[slideNum-1]),
+                e('li', { key: 'fm-title', className: "d-md-none col col-sm-10" }, slideNum + "/" + project.alt.length + " — " + project.alt[slideNum - 1]),
                 e('li', { key: 'f-link', id: 'f-link', className: "text-right col col-sm-2" },
                     e('a', { id: "info-link", className: 'text-links', role: 'button' }, "Info"),
                     e('span', { className: "link-arrow" }, )

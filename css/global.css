@@ -30,7 +30,7 @@ body {
     font-style: normal;
     margin: 1.25em 1.5em;
     position: relative;
-    height: calc(calc(var(--vh, 1vh) * 100) - 2.5em);
+    height: calc(calc(var(--vh) * 100) - 2.5em);
     font-kerning: normal;
 }
 
@@ -69,7 +69,7 @@ a:hover {
 
 .return {
     transition: transform 1s ease;
-    transform: translate(calc(var(--vw, 1vw) * 100));
+    transform: translate(calc(var(--vw) * 100));
 }
 
 .container-fluid {
@@ -159,7 +159,7 @@ nav a {
     left: 1.5em;
     right: 1.5em;
     bottom: 1.5em;
-    height: calc(calc(calc(calc(calc(calc(var(--vh, 1vh) * 100) - 2.5em) - 1.5em) - 0.75em) - 1em) - 1px);
+    height: calc(calc(calc(calc(calc(calc(var(--vh) * 100) - 2.5em) - 1.5em) - 0.75em) - 1em) - 1px);
 }
 
 .icon-Asset-3:before {
@@ -250,8 +250,8 @@ nav a {
     bottom: 0;
     left: 0;
     right: 0;
-    width: calc(var(--vw, 1vw) * 100);
-    height: calc(var(--vh, 1vh) * 100);
+    width: calc(var(--vw) * 100);
+    height: calc(var(--vh) * 100);
     margin: -1.25em -1.5em;
 }
 
@@ -261,8 +261,8 @@ nav a {
     bottom: 0;
     left: 0;
     right: 0;
-    width: calc(var(--vw, 1vw) * 100);
-    height: calc(var(--vh, 1vh) * 100);
+    width: calc(var(--vw) * 100);
+    height: calc(var(--vh) * 100);
     text-align: center;
     overflow: hidden;
 }
@@ -286,12 +286,12 @@ nav a {
 }
 
 .inactive {
-    visibility: hidden;
+/*    visibility: hidden;*/
     opacity: 0;
 }
 
 .active {
-    visibility: visible;
+/*    visibility: visible;*/
     opacity: 1;
     -webkit-transition: opacity 500ms ease;
     -moz-transition: opacity 500ms ease;
@@ -305,7 +305,7 @@ nav a {
 
 #info-imgs {
     overflow: auto;
-    height: calc(calc(calc(calc(calc(calc(var(--vh, 1vh) * 100) - 1.5em) - 1.25em) - 1em) - 0.75em) - 1px);
+    height: calc(calc(calc(calc(calc(calc(var(--vh) * 100) - 1.5em) - 1.25em) - 1em) - 0.75em) - 1px);
 
 }
 
