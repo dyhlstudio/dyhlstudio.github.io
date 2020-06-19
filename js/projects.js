@@ -32,11 +32,11 @@ function typeClass(projectEntry) {
 var bottomList = projectsList.map(function(project) {
     return e('div', { key: parseInt(project.no, 10), id: project.no, className: 'link-wrapper', role: 'button' },
         e('ul', { className: 'project-entry row ' + typeClass(project.type) },
-            e('li', { className: 'entry-no col col-2 project-link' }, project.no),
+            e('li', { className: 'entry-no d-none d-sm-block col col-2 project-link' }, project.no),
             e('li', { className: 'entry-year col col-2 project-link' }, project.year),
-            e('li', { className: 'entry-title col col-4 project-link' }, project.title),
-            e('li', { className: 'entry-tags d-none d-md-block col col-4 project-link' }, tagMaker(project.tags)[1]),
-            e('li', { className: 'entry-tags d-md-none col col-4 project-link' }, tagMaker(project.tags)[0])
+            e('li', { className: 'entry-title col col-6 col-sm-4 project-link' }, project.title),
+            e('li', { className: 'entry-tags d-none d-lg-block col col-4 project-link' }, tagMaker(project.tags)[1]),
+            e('li', { className: 'entry-tags d-lg-none col col-4 project-link' }, tagMaker(project.tags)[0])
         )
     );
 });
@@ -86,7 +86,8 @@ $(document).ready(function() {
             $('#nav-4').css('transform', 'rotate(0deg)');
             $('#nav-1, #nav-2').addClass('d-md-block');
             $('#nav-0').removeClass('d-none');
-            $('#nav-info, #nav-blank').addClass('d-none');
+            $('#nav-info').addClass('d-none');
+            $('#nav-blank').removeClass('d-md-block');
             if(onInfo === false) {
                 
                 $('#home').addClass('d-flex').removeClass('d-none');
@@ -102,7 +103,8 @@ $(document).ready(function() {
             $('#nav-1, #nav-2').removeClass('d-md-block');
             $('#nav-0, #home').addClass('d-none');
             $('#home').removeClass('d-flex');
-            $('#nav-info, #nav-blank').removeClass('d-none');
+            $('#nav-info').removeClass('d-none');
+            $('#nav-blank').addClass('d-md-block');
             $('#nav-4').addClass('on');
             $('#nav-4 a').addClass('links');
             $('#project-wrapper').addClass('d-none');
@@ -112,7 +114,7 @@ $(document).ready(function() {
                 $('footer').addClass('d-none');
             }
 
-            // $('#nav-4').css('transform', 'rotate(20deg)');
+            $('#nav-4').css('transform', 'rotate(20deg)');
         }
     });
     // Prepare project
