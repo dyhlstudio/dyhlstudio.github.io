@@ -38,13 +38,16 @@ h1 {
     font-weight: 400;
     font-size: 3em;
     margin: 0;
-    line-height: 1.33em;
+    line-height: 1.333333em;
     letter-spacing: 0.2px;
 }
 
 h2 {
+    font-size: 2.5em;
     font-weight: 400;
     margin-bottom: 1rem;
+    line-height: 1.333333em;
+    letter-spacing: 0.2px;
 }
 
 a,
@@ -124,8 +127,6 @@ a:hover {
     content: "\2197";
 }
 
-
-
 /* nav */
 
 header {
@@ -153,7 +154,11 @@ nav a {
     text-align: right;
 }
 
-
+.rotate {
+    transform: rotate(0deg);
+    transform-origin: left top;
+    transition: transform 250ms linear;
+}
 
 /* main CSS */
 
@@ -361,7 +366,7 @@ nav a {
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
     .unframe {
-        overflow: unset !important;
+        overflow: auto !important;
     }
 
     body {
@@ -370,6 +375,11 @@ nav a {
 
     h1 {
         font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        line-height: 1.5em;
     }
 
     #middle {
@@ -406,7 +416,7 @@ nav a {
 
     #info-imgs {
         height: 100%;
-/*        overflow: auto;*/
+        /*        overflow: auto;*/
     }
 
     .fs-image img {
@@ -434,11 +444,16 @@ nav a {
 /*// Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) and (min-width: 576px) {
     .unframe {
-        overflow: unset;
+        overflow: auto;
     }
 
     h1 {
         font-size: 2.5em;
+    }
+
+    h2 {
+        line-height: 1.5em;
+        font-size: 1.5em;
     }
 
     #middle #big-text-wrapper {
