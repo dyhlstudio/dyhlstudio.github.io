@@ -1,0 +1,5 @@
+website to-dos
+
+1. implement mobile swiping
+2. fix footer updating
+3. fix framing for slideshow imgs

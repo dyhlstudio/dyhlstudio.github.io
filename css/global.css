@@ -196,6 +196,7 @@ nav a {
     padding-right: 0.5em;
 }
 
+.links,
 .text-links,
 .view-links {
     text-decoration: underline !important;
@@ -431,6 +432,19 @@ nav a {
         z-index: 200;
     }
 
+    .f-lg-image img {
+        object-fit: contain;
+        width: 80%;
+        height: 80%;
+        z-index: 200;
+    }
+
+    .f-sm-image img {
+        object-fit: contain;
+        width: 50%;
+        height: 50%;
+        z-index: 200;
+    }
     .white {
         color: #000 !important;
     }
@@ -460,18 +474,12 @@ nav a {
         height: var(--bigtextH);
     }
 
-    .fs-image img {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
+    #active-slideshow img {
         object-fit: contain;
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
         z-index: 200;
     }
-
     .white {
         color: #000 !important;
     }
