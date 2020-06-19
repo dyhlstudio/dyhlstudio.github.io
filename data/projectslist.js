@@ -312,7 +312,7 @@ var projectsList = [{
         "assets": [
             "https://dyhlstudio.github.io/assets/draft/draft-01.jpg",
             "https://dyhlstudio.github.io/assets/draft/draft-02.jpg",
-            "https://dyhlstudio.github.io/assets/draft/draft-03.jpg",
+            "https://dyhlstudio.github.io/assets/draft/draft-03.png",
             "https://dyhlstudio.github.io/assets/draft/draft-04.jpg",
             "https://dyhlstudio.github.io/assets/draft/draft-05.jpg",
             "https://dyhlstudio.github.io/assets/draft/draft-06.jpg",
