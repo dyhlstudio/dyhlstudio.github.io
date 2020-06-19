@@ -22,12 +22,12 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
         "alt": [
-            "Homepage",
-            "About",
-            "Recent Projects",
-            "Project Highlights",
-            "Project Highlights",
-            "Project Highlights"
+            "Website",
+            "Website",
+            "Website",
+            "Website",
+            "Website",
+            "Website"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
@@ -56,10 +56,10 @@ var projectsList = [{
         "alt": [
             "Logotype",
             "Website",
-            "A Community",
-            "A Vision",
-            "A Parking App",
-            "Contact"
+            "Website",
+            "Website",
+            "Website",
+            "Website"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/waffle/waffle-01.jpg"
@@ -82,19 +82,17 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/opus/opus-02.jpg",
             "https://dyhlstudio.github.io/assets/opus/opus-03.jpg",
             "https://dyhlstudio.github.io/assets/opus/opus-04.jpg",
-            "https://dyhlstudio.github.io/assets/opus/opus-05.jpg",
-            "https://dyhlstudio.github.io/assets/opus/opus-06.jpg"
+            "https://dyhlstudio.github.io/assets/opus/opus-05.jpg"
         ],
         "alt": [
-            "Homepage",
-            "About",
-            "Recent Projects",
-            "Project Highlights",
-            "Project Highlights",
-            "Project Highlights"
+            "Website",
+            "Website",
+            "Website",
+            "Website",
+            "Website"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/opus/opus-01.jpg"
         ]
     },
     {
@@ -310,7 +308,7 @@ var projectsList = [{
             "Brand Identity",
             "Prototyping"
         ],
-        "description": "Draft is a brand concept for an experimental drinks bar focused on redefining what we consider drinks and how we consume them. Operating somewhere between a café, teahouse and bar, Draft's mixologies seek to bridge these spaces that are often separate together by creating "drafts" that do not belong solely to a café, juice bar, tavern, etc. In doing so, Draft also operates as a unique environment for social and cultural traffic.\n\nFor the Draft brand, an omnipresent blue-and-white theme and graphic linework draws from blueprints, schematics, and the creative energies associated with their use. The concoctions made at Draft reflect this spirit of playful, but also intentional experimentation. Several menus offer a variety of drinks crafted for a time of day and through common bases such as milk, tea, wine, juice, etc., while the signature Draft mixing glass offers a visual guide to common volumes.",
+        "description": "Draft is a brand concept for an experimental drinks bar focused on redefining what we consider drinks and how we consume them. Operating somewhere between a café, teahouse and bar, Draft's mixologies seek to bridge these spaces that are often separate together by creating \"drafts\" that do not belong solely to a café, juice bar, tavern, etc. In doing so, Draft also operates as a unique environment for social and cultural traffic.\n\nFor the Draft brand, an omnipresent blue-and-white theme and graphic linework draws from blueprints, schematics, and the creative energies associated with their use. The concoctions made at Draft reflect this spirit of playful, but also intentional experimentation. Several menus offer a variety of drinks crafted for a time of day and through common bases such as milk, tea, wine, juice, etc., while the signature Draft mixing glass offers a visual guide to common volumes.",
         "assets": [
             "https://dyhlstudio.github.io/assets/draft/draft-01.jpg",
             "https://dyhlstudio.github.io/assets/draft/draft-02.jpg",
