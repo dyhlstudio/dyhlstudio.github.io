@@ -12,7 +12,9 @@ var projectsList = [{
         "tags": [
             "Website"
         ],
-        "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
+        "description": [
+            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+        ],
         "assets": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
@@ -44,7 +46,9 @@ var projectsList = [{
         "tags": [
             "Brand Identity"
         ],
-        "description": "Waffle is a community-based mobile parking app that helps urban drivers find parking in dense city areas. The technology company based in Los Angeles focuses on streamlining time and energy costs spent in parking, while fostering a more convenient automobile experience, community, and awareness for the natural environment. A new graphic identity and website in response amplifies and channels the visions of the startup into a cutting-edge, yet approachable look.",
+        "description": [
+            "Waffle is a community-based mobile parking app that helps urban drivers find parking in dense city areas. The technology company based in Los Angeles focuses on streamlining time and energy costs spent in parking, while fostering a more convenient automobile experience, community, and awareness for the natural environment. A new graphic identity and website in response amplifies and channels the visions of the startup into a cutting-edge, yet approachable look."
+        ],
         "assets": [
             "https://dyhlstudio.github.io/assets/waffle/waffle-01.jpg",
             "https://dyhlstudio.github.io/assets/waffle/waffle-02.jpg",
@@ -76,7 +80,10 @@ var projectsList = [{
         "tags": [
             "Website"
         ],
-        "description": "OPUS Merriweather is an arts and music biennial hosted in Columbia, MD. The festival brings together artists, musicians, and technologists from around the world to the Merriweather Post Pavilion venue for a gathering of pioneering and groundbreaking art and sound in the forests of Symphony Woods. Throughout the night, visitors experience artworks and performances about new realities, perspectives, and wonder.\n\nIn 2019, OPUS shifted from an annual festival to non-profit biennial. This concept proposed for the website design facilitates this transition in a lightweight and reflective site, with a simple structure focusing on reflection of past events and anticipation for the future.",
+        "description": [
+            "OPUS Merriweather is an arts and music biennial hosted in Columbia, MD. The festival brings together artists, musicians, and technologists from around the world to the Merriweather Post Pavilion venue for a gathering of pioneering and groundbreaking art and sound in the forests of Symphony Woods. Throughout the night, visitors experience artworks and performances about new realities, perspectives, and wonder.",
+            "In 2019, OPUS shifted from an annual festival to non-profit biennial. This concept proposed for the website design facilitates this transition in a lightweight and reflective site, with a simple structure focusing on reflection of past events and anticipation for the future."
+        ],
         "assets": [
             "https://dyhlstudio.github.io/assets/opus/opus-01.jpg",
             "https://dyhlstudio.github.io/assets/opus/opus-02.jpg",
@@ -109,7 +116,9 @@ var projectsList = [{
             "Architecture",
             "Research"
         ],
-        "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
+        "description": [
+            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+        ],
         "assets": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
@@ -142,7 +151,9 @@ var projectsList = [{
             "Architectural Design",
             "Landscape Architecture"
         ],
-        "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
+        "description": [
+            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+        ],
         "assets": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
@@ -175,7 +186,9 @@ var projectsList = [{
             "Exhibition",
             "Research"
         ],
-        "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
+        "description": [
+            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+        ],
         "assets": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
@@ -208,7 +221,9 @@ var projectsList = [{
             "Exhibition",
             "Research"
         ],
-        "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
+        "description": [
+            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+        ],
         "assets": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
@@ -241,7 +256,9 @@ var projectsList = [{
             "Book",
             "Photography"
         ],
-        "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
+        "description": [
+            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+        ],
         "assets": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
@@ -275,7 +292,9 @@ var projectsList = [{
             "MR Prototype",
             "Architectural Design"
         ],
-        "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
+        "description": [
+            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+        ],
         "assets": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
@@ -308,7 +327,10 @@ var projectsList = [{
             "Brand Identity",
             "Prototyping"
         ],
-        "description": "Draft is a brand concept for an experimental drinks bar focused on redefining what we consider drinks and how we consume them. Operating somewhere between a café, teahouse and bar, Draft's mixologies seek to bridge these spaces that are often separate together by creating \"drafts\" that do not belong solely to a café, juice bar, tavern, etc. In doing so, Draft also operates as a unique environment for social and cultural traffic.\n\nFor the Draft brand, an omnipresent blue-and-white theme and graphic linework draws from blueprints, schematics, and the creative energies associated with their use. The concoctions made at Draft reflect this spirit of playful, but also intentional experimentation. Several menus offer a variety of drinks crafted for a time of day and through common bases such as milk, tea, wine, juice, etc., while the signature Draft mixing glass offers a visual guide to common volumes.",
+        "description": [
+            "Draft is a brand concept for an experimental drinks bar focused on redefining what we consider drinks and how we consume them. Operating somewhere between a café, teahouse and bar, Draft's mixologies seek to bridge these spaces that are often separate together by creating \"drafts\" that do not belong solely to a café, juice bar, tavern, etc. In doing so, Draft also operates as a unique environment for social and cultural traffic.",
+            "For the Draft brand, an omnipresent blue-and-white theme and graphic linework draws from blueprints, schematics, and the creative energies associated with their use. The concoctions made at Draft reflect this spirit of playful, but also intentional experimentation. Several menus offer a variety of drinks crafted for a time of day and through common bases such as milk, tea, wine, juice, etc., while the signature Draft mixing glass offers a visual guide to common volumes."
+        ],
         "assets": [
             "https://dyhlstudio.github.io/assets/draft/draft-01.jpg",
             "https://dyhlstudio.github.io/assets/draft/draft-02.jpg",
@@ -322,9 +344,9 @@ var projectsList = [{
             "Menu",
             "Bar",
             "Logotype",
-            "Glass",
-            "Glass",
-            "Glass",
+            "Prototype",
+            "Prototype",
+            "Prototype",
             "Storefront"
         ],
         "thumb": [
@@ -342,7 +364,9 @@ var projectsList = [{
         "tags": [
             "Brand Identity"
         ],
-        "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
+        "description": [
+            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+        ],
         "assets": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
@@ -374,7 +398,9 @@ var projectsList = [{
         "tags": [
             "Short Film"
         ],
-        "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
+        "description": [
+            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+        ],
         "assets": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
@@ -407,7 +433,9 @@ var projectsList = [{
             "Short Film",
             "Motion Graphics"
         ],
-        "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
+        "description": [
+            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+        ],
         "assets": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
@@ -440,7 +468,9 @@ var projectsList = [{
             "Guitarmaking",
             "Prototyping"
         ],
-        "description": "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace.",
+        "description": [
+            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+        ],
         "assets": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",

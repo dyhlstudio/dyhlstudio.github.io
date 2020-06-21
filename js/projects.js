@@ -83,22 +83,21 @@ $(document).ready(function() {
         if ($('#nav-4').hasClass('on')) {
             $('#nav-4').removeClass('on');
             $('#nav-4 a').removeClass('links');
-            $('#nav-4').css('transform', 'rotate(0deg)');
             $('#nav-1, #nav-2').addClass('d-md-block');
             $('#nav-0').removeClass('d-none');
             $('#nav-info').addClass('d-none');
             $('#nav-blank').removeClass('d-md-block');
-            if(onInfo === false) {
-                
+            if (onInfo === false) {
+
                 $('#home').addClass('d-flex').removeClass('d-none');
             }
-            if(onSlides === true) {
+            if (onSlides === true) {
                 $('a, p, li').addClass('white');
                 $('#nav-container').addClass('white-line');
                 $('footer').removeClass('d-none');
             }
             $('#project-wrapper').removeClass('d-none');
-        // open
+            // open
         } else {
             $('#nav-1, #nav-2').removeClass('d-md-block');
             $('#nav-0, #home').addClass('d-none');
@@ -108,13 +107,11 @@ $(document).ready(function() {
             $('#nav-4').addClass('on');
             $('#nav-4 a').addClass('links');
             $('#project-wrapper').addClass('d-none');
-            if(onSlides === true) {
+            if (onSlides === true) {
                 $('a, p, li').removeClass('white');
                 $('#nav-container').removeClass('white-line');
                 $('footer').addClass('d-none');
             }
-
-            $('#nav-4').css('transform', 'rotate(20deg)');
         }
     });
     // Prepare project
@@ -151,6 +148,9 @@ $(document).ready(function() {
 
         $('.view-links').click(function() {
             captions(projectsList[selectionNo], (parseInt($('#active-slideshow').attr('dataactive'), 10) + 1));
+            setTimeout(function() {
+                $('#home').removeClass('d-flex').addClass('d-none');
+            }, 1000);
             // info button
             $('#info-link').click(function() {
                 onSlides = false;
@@ -158,7 +158,6 @@ $(document).ready(function() {
                 $('html').css('overflow', 'unset');
                 $('body').addClass('unframe');
                 $('#active-info').removeClass('d-none');
-                $('#home').removeClass('d-flex').addClass('d-none');
                 $('#react-footer, #active-slideshow').addClass('d-none');
                 $('#project-wrapper').removeClass('slideshow');
                 $('a, p, li').removeClass('white');
@@ -234,21 +233,24 @@ function compileProject() {
     var slides = [];
     for (i = 0; i < projectsList[selectionNo].assets.length; i++) {
         if (i == 0) {
-            slides.push(e('img', { key: i, src: projectsList[selectionNo].assets[i], className: 'inactive active' }));
+            slides.push(e('div', { key: i, className: 'frame-img inactive active' }, e('img', { src: projectsList[selectionNo].assets[i] })));
         } else {
-            slides.push(e('img', { key: i, src: projectsList[selectionNo].assets[i], className: 'inactive' }));
+            slides.push(e('div', { key: i, className: 'frame-img inactive' }, e('img', { src: projectsList[selectionNo].assets[i] })));
         };
     }
 
     // info overview text
-    var infoText = [
+    var infoText = [];
+    for (i = 0; i < projectsList[selectionNo].description.length; i++) {
+        infoText.push(e('p', { key: "desc", id: "desc" }, projectsList[selectionNo].description[i]));
+    }
+    infoText.unshift(
         e('h2', { key: "title", id: "title" }, projectsList[selectionNo].title),
         e('p', { key: "year", id: "year" }, projectsList[selectionNo].year),
         e('p', { key: "tags", id: "tags" }, tagMaker(projectsList[selectionNo].tags)[1]),
         e('br', { key: "br1", className: "d-none d-md-block" }, ),
-        e('br', { key: "br2", className: "d-none d-md-block" }, ),
-        e('p', { key: "desc", id: "desc" }, projectsList[selectionNo].description)
-    ];
+        e('br', { key: "br2", className: "d-none d-md-block" }, )
+    );
 
     // info overview imgs
     var infoImgs = [];
@@ -318,6 +320,8 @@ function compileProject() {
                     setTimeout(function() {
                         $('#active-slideshow').children().eq(slideNo).removeClass('active');
                     }, 500);
+                    //footer
+                    $('#f-caption').text((this.state.dataactive + 2) + "/" + projectsList[selectionNo].alt.length + "  —  " + projectsList[selectionNo].alt[this.state.dataactive + 1]);
                 } else {
                     this.setState({ dataactive: 0 });
                     $('#active-slideshow').children().eq(0).css("z-index", "201").addClass('active');
@@ -325,6 +329,9 @@ function compileProject() {
                         $('#active-slideshow').children().eq(slides.length - 1).removeClass('active');
                         $('#active-slideshow').children().eq(0).css("z-index", "200");
                     }, 500);
+                    //footer
+                    $('#f-caption').text("1" + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[0]);
+
                 }
             }
 
@@ -337,12 +344,14 @@ function compileProject() {
                         $('#active-slideshow').children().eq(slideNo).removeClass('active');
                         $('#active-slideshow').children().eq(slideNo - 1).removeAttr("style");
                     }, 500);
+                    $('#f-caption').text((this.state.dataactive) + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[this.state.dataactive - 1]);
                 } else {
                     this.setState({ dataactive: slides.length - 1 });
                     $('#active-slideshow').children().eq(slides.length - 1).addClass('active');
                     setTimeout(function() {
                         $('#active-slideshow').children().eq(0).removeClass('active');
                     }, 500);
+                    $('#f-caption').text(projectsList[selectionNo].alt.length + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[projectsList[selectionNo].alt.length - 1]);
                 }
             }
 
@@ -373,8 +382,7 @@ function captions(project, slideNum) {
     ReactDOM.render(
         e('div', { id: 'footer-container', className: "container-fluid" },
             e('ul', { className: "row" },
-                e('li', { key: 'fd-title', className: "d-none d-md-block col col-sm-10" }, project.title + ": " + project.logline),
-                e('li', { key: 'fm-title', className: "d-md-none col col-sm-10" }, slideNum + "/" + project.alt.length + " — " + project.alt[slideNum - 1]),
+                e('li', { key: 'f-title', id: 'f-caption', className: "col col-10" }, slideNum + "/" + project.alt.length + " — " + project.alt[slideNum - 1]),
                 e('li', { key: 'f-link', id: 'f-link', className: "text-right col col-sm-2" },
                     e('a', { id: "info-link", className: 'text-links', role: 'button' }, "Info"),
                     e('span', { className: "link-arrow" }, )
