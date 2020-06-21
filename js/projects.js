@@ -232,17 +232,33 @@ function compileProject() {
     // slideshow assets
     var slides = [];
     for (i = 0; i < projectsList[selectionNo].assets.length; i++) {
-        if (i == 0) {
-            slides.push(e('div', { key: i, className: 'frame-img inactive active' }, e('img', { src: projectsList[selectionNo].assets[i] })));
-        } else {
-            slides.push(e('div', { key: i, className: 'frame-img inactive' }, e('img', { src: projectsList[selectionNo].assets[i] })));
-        };
+        if (projectsList[selectionNo].frame[i] === "fs") {
+            if (projectsList[selectionNo].alt[i] === "Website") {
+                if (i == 0) {
+                    slides.push(e('div', { key: i, className: 'frame-mobile inactive active' }, e('img', { className: 'fs-img', src: projectsList[selectionNo].assets[i] })));
+                } else {
+                    slides.push(e('div', { key: i, className: 'frame-mobile inactive' }, e('img', { className: 'fs-img', src: projectsList[selectionNo].assets[i] })));
+                }
+            } else {
+                if (i == 0) {
+                    slides.push(e('div', { key: i, className: 'frame inactive active' }, e('img', { className: 'fs-img', src: projectsList[selectionNo].assets[i] })));
+                } else {
+                    slides.push(e('div', { key: i, className: 'frame inactive' }, e('img', { className: 'fs-img', src: projectsList[selectionNo].assets[i] })));
+                }
+            }
+        } else if (projectsList[selectionNo].frame[i] === "sm") {
+            if (i == 0) {
+                slides.push(e('div', { key: i, className: 'frame inactive active' }, e('img', { className: 'sm-img', src: projectsList[selectionNo].assets[i] })));
+            } else {
+                slides.push(e('div', { key: i, className: 'frame inactive' }, e('img', { className: 'sm-img', src: projectsList[selectionNo].assets[i] })));
+            }
+        }
     }
 
     // info overview text
     var infoText = [];
     for (i = 0; i < projectsList[selectionNo].description.length; i++) {
-        infoText.push(e('p', { key: "desc", id: "desc" }, projectsList[selectionNo].description[i]));
+        infoText.push(e('p', { key: i, id: "desc" }, projectsList[selectionNo].description[i]));
     }
     infoText.unshift(
         e('h2', { key: "title", id: "title" }, projectsList[selectionNo].title),

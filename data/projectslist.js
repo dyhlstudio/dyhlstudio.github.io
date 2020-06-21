@@ -31,6 +31,14 @@ var projectsList = [{
             "Website",
             "Website"
         ],
+        "frame":[
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs"
+        ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -65,6 +73,14 @@ var projectsList = [{
             "Website",
             "Website"
         ],
+        "frame": [
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs"
+        ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/waffle/waffle-01.jpg"
         ]
@@ -97,6 +113,13 @@ var projectsList = [{
             "Website",
             "Website",
             "Website"
+        ],
+        "frame": [
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/opus/opus-01.jpg"
@@ -135,6 +158,14 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights"
         ],
+        "frame":[
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs"
+        ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -169,6 +200,14 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights",
             "Project Highlights"
+        ],
+        "frame":[
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
@@ -205,6 +244,14 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights"
         ],
+        "frame":[
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs"
+        ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -240,6 +287,14 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights"
         ],
+        "frame":[
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs"
+        ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -274,6 +329,14 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights",
             "Project Highlights"
+        ],
+        "frame":[
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
@@ -311,6 +374,14 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights"
         ],
+        "frame":[
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs"
+        ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -334,7 +405,7 @@ var projectsList = [{
         "assets": [
             "https://dyhlstudio.github.io/assets/draft/draft-01.jpg",
             "https://dyhlstudio.github.io/assets/draft/draft-02.jpg",
-            "https://dyhlstudio.github.io/assets/draft/draft-03.png",
+            "https://dyhlstudio.github.io/assets/draft/draft-03.jpg",
             "https://dyhlstudio.github.io/assets/draft/draft-04.jpg",
             "https://dyhlstudio.github.io/assets/draft/draft-05.jpg",
             "https://dyhlstudio.github.io/assets/draft/draft-06.jpg",
@@ -348,6 +419,15 @@ var projectsList = [{
             "Prototype",
             "Prototype",
             "Storefront"
+        ],
+        "frame": [
+            "fs",
+            "fs",
+            "fs",
+            "sm",
+            "sm",
+            "sm",
+            "sm"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/draft/draft-01.jpg"
@@ -383,6 +463,14 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights"
         ],
+        "frame":[
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs"
+        ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -416,6 +504,14 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights",
             "Project Highlights"
+        ],
+        "frame":[
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
@@ -452,6 +548,14 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights"
         ],
+        "frame":[
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs"
+        ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ]
@@ -486,6 +590,14 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights",
             "Project Highlights"
+        ],
+        "frame":[
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs",
+            "fs"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"

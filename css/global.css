@@ -268,22 +268,35 @@ nav a {
     overflow: hidden;
 }
 
-.frame-sm {
+.frame {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    overflow: hidden;
+    z-index: 200;   
+}
+.sm-img {
     position: absolute;
     top: 12.5%;
     bottom: 12.5%;
-    left: 0;
-    right: 0;
-    max-width: calc(var(--vw) * 100);
-    max-height: calc(var(--vh) * 75);
+    left: 12.5%;
+    right: 12.5%;
+    max-width: calc(var(--vw) * 66);
+    max-height: calc(var(--vh) * 66);
     text-align: center;
+    object-fit: contain;
     overflow: hidden;
     z-index: 200;
     background-color: white;
 }
 }
 
-.frame-fs {
+.fs-img {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -295,7 +308,7 @@ nav a {
     overflow: hidden;
     z-index: 200;
 }
-.fs-image img {
+.dot img {
     position: absolute;
     top: 0;
     bottom: 0;
