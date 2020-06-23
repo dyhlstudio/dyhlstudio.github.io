@@ -361,55 +361,55 @@ function compileProject() {
             };
         },
 
-        handleClick: function() {
-            // clicks limited to 1 per 500ms
-            if (tempered === true) {
-                return false; // failed click
-            }
+        // handleClick: function() {
+        //     // clicks limited to 1 per 500ms
+        //     if (tempered === true) {
+        //         return false; // failed click
+        //     }
 
-            // successful keypress
-            tempered = true;
-            setTimeout(function() {
-                tempered = false;
-            }, 500);
-            let slideNo = this.state.dataactive;
-            if (this.state.dataactive + 1 < slides.length) {
-                this.setState({ dataactive: this.state.dataactive + 1 });
-                $('#active-slideshow').children().eq(slideNo + 1).addClass('active');
-                // framing
-                if ($('#active-slideshow').children().eq(slideNo + 1).hasClass('fs-frame')) {
-                    unsetBounds = true;
-                } else {
-                    unsetBounds = false;
-                }
-                setTimeout(function() {
-                    $('#active-slideshow').children().eq(slideNo).removeClass('active');
-                }, 500);
-            } else {
-                this.setState({ dataactive: 0 });
-                $('#active-slideshow').children().eq(0).css("z-index", "201").addClass('active');
-                // framing
-                if ($('#active-slideshow').children().eq(0).hasClass('fs-frame')) {
-                    unsetBounds = true;
-                } else {
-                    unsetBounds = false;
-                }
-                setTimeout(function() {
-                    $('#active-slideshow').children().eq(slides.length - 1).removeClass('active');
-                    $('#active-slideshow').children().eq(0).css("z-index", "200").addClass('active');
-                }, 500);
-            }
+        //     // successful keypress
+        //     tempered = true;
+        //     setTimeout(function() {
+        //         tempered = false;
+        //     }, 500);
+        //     let slideNo = this.state.dataactive;
+        //     if (this.state.dataactive + 1 < slides.length) {
+        //         this.setState({ dataactive: this.state.dataactive + 1 });
+        //         $('#active-slideshow').children().eq(slideNo + 1).addClass('active');
+        //         // framing
+        //         if ($('#active-slideshow').children().eq(slideNo + 1).hasClass('fs-frame')) {
+        //             unsetBounds = true;
+        //         } else {
+        //             unsetBounds = false;
+        //         }
+        //         setTimeout(function() {
+        //             $('#active-slideshow').children().eq(slideNo).removeClass('active');
+        //         }, 500);
+        //     } else {
+        //         this.setState({ dataactive: 0 });
+        //         $('#active-slideshow').children().eq(0).css("z-index", "201").addClass('active');
+        //         // framing
+        //         if ($('#active-slideshow').children().eq(0).hasClass('fs-frame')) {
+        //             unsetBounds = true;
+        //         } else {
+        //             unsetBounds = false;
+        //         }
+        //         setTimeout(function() {
+        //             $('#active-slideshow').children().eq(slides.length - 1).removeClass('active');
+        //             $('#active-slideshow').children().eq(0).css("z-index", "200").addClass('active');
+        //         }, 500);
+        //     }
 
-            // fullscreen framing
-            if (unsetBounds) {
-                $('body').css('overflow', 'unset');
-            } else {
-                setTimeout(function() {
-                    $('body').css('overflow', 'hidden');
-                }, 500);
-            }
+        //     // fullscreen framing
+        //     if (unsetBounds) {
+        //         $('body').css('overflow', 'unset');
+        //     } else {
+        //         setTimeout(function() {
+        //             $('body').css('overflow', 'hidden');
+        //         }, 500);
+        //     }
 
-        },
+        // },
 
         handleKeyDown: function(evt) {
             // keypresses limited to 1 per 500ms
@@ -509,11 +509,8 @@ function compileProject() {
             if (evt.touches && evt.touches.length > 1) {
                 return;
             }
-            alert(evt.pointerType);
             if (tempered === false) { // successful swipe
                 evt.target.setPointerCapture(evt.pointerId);
-
-
                 initialTouchPos = getGesturePointFromEvent(evt);
             }
         },
@@ -531,10 +528,6 @@ function compileProject() {
                 if (Math.abs(dispX) >= 30) {
                     // 500ms timer on inputs
                     tempered = true;
-                    setTimeout(function() {
-                        tempered = false;
-                    }, 500);
-                    initialTouchPos.x = lastTouchPos.x // reset touch values after 30px swipe
                     if (dispX > 0) { // swipe action left (arrow right equivalent)
                         let slideNo = this.state.dataactive;
                         if (this.state.dataactive + 1 < slides.length) {
@@ -625,17 +618,17 @@ function compileProject() {
 
             finalTouchPos = getGesturePointFromEvent(evt);
             var dispX = initialTouchPos - finalTouchPos
-            if (Math.abs(dispX) == 0) {
-                // clicks limited to 1 per 500ms
-                if (tempered === true) {
-                    return false; // failed click
-                }
+            if (Math.abs(dispX) < 10) {
+                // // clicks limited to 1 per 500ms
+                // if (tempered === true) {
+                //     return false; // failed click
+                // }
 
-                // successful keypress
-                tempered = true;
-                setTimeout(function() {
-                    tempered = false;
-                }, 500);
+                // // successful keypress
+                // tempered = true;
+                // setTimeout(function() {
+                //     tempered = false;
+                // }, 500);
                 let slideNo = this.state.dataactive;
                 if (this.state.dataactive + 1 < slides.length) {
                     this.setState({ dataactive: this.state.dataactive + 1 });
@@ -672,16 +665,14 @@ function compileProject() {
                         $('body').css('overflow', 'hidden');
                     }, 500);
                 }
-
-
-
-                // Remove Event Listeners
-                evt.target.releasePointerCapture(evt.pointerId);
-
-                initialTouchPos = null;
-                lastTouchPos = null;
-                tempered = false;
             }
+
+            // Remove Event Listeners
+            evt.target.releasePointerCapture(evt.pointerId);
+
+            initialTouchPos = null;
+            lastTouchPos = null;
+            tempered = false;
         },
         render: function() {
             return [
