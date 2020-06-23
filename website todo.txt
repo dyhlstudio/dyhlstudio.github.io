@@ -1,6 +1,8 @@
 website to-dos
 
 1. implement mobile swiping
-2. fix footer updating
-3. fix framing for slideshow imgs
-4. mobile: storefront image lags behind smaller image, can still see even after swapping image
+2. fix footer updating -- GOOD!
+3. fix framing for slideshow imgs -- GOOD!
+4. mobile: storefront image lags behind smaller image, can still see even after swapping image -- GOOD!
+5. Project Overview page gets pushed down by #home -- GOOD!
+6. implement video embed -- waiting on external HDD and the end of the world

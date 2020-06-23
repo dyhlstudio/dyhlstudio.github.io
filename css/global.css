@@ -25,7 +25,7 @@ html {
 }
 
 body {
-    font-family: stratos, iA Writer Mono, Helvetica, sans-serif;
+    font-family: iA Writer Mono, stratos, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
     margin: 1.25em 1.5em;
@@ -195,7 +195,9 @@ nav a {
 .view-links {
     text-decoration: underline !important;
 }
-.links { /** not sure why its broken like this*/
+
+.links {
+    /** not sure why its broken like this*/
     background-color: #ff0;
 }
 
@@ -230,8 +232,6 @@ nav a {
     height: calc(calc(100% - 4.25em) - 1px);
 }
 
-.link-wrapper {}
-
 .project-entry:hover {
     background: #ffff00;
 }
@@ -264,7 +264,6 @@ nav a {
     right: 0;
     width: calc(var(--vw) * 100);
     height: calc(var(--vh) * 100);
-    text-align: center;
     overflow: hidden;
 }
 
@@ -276,47 +275,50 @@ nav a {
     right: 0;
     max-width: 100%;
     max-height: 100%;
-    text-align: center;
-    overflow: hidden;
-    z-index: 200;   
-}
-.sm-img {
-    position: absolute;
-    top: 12.5%;
-    bottom: 12.5%;
-    left: 12.5%;
-    right: 12.5%;
-    max-width: calc(var(--vw) * 66);
-    max-height: calc(var(--vh) * 66);
-    text-align: center;
-    object-fit: contain;
     overflow: hidden;
     z-index: 200;
     background-color: white;
 }
+
+.fs-frame {
 }
 
-.fs-img {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    max-width: 100%;
-    max-height: 100%;
-    text-align: center;
+.sm-img {
+/*    position: absolute;
+    top: 17%;
+    bottom: 17%;
+    left: 17%;
+    right: 17%;*/
+    width: calc(var(--vw) * 66);
+    height: calc(var(--vh) * 66);
+    object-fit: contain;
     overflow: hidden;
     z-index: 200;
 }
-.dot img {
-    position: absolute;
+
+.fs-img {
+/*    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+*/    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 200;
     object-fit: cover;
+}
+.fsm-img {
+/*    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;*/
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    z-index: 200;
+    object-fit: cover;
 }
 
 .inactive {
@@ -341,14 +343,13 @@ nav a {
     overflow: auto;
 }
 
-.white {
-    color: #fff !important;
-    transition: color 500ms ease;
+.highlight {
+    color: #000 !important;
+    background-color: #ff0 !important;
 }
 
-.white-line {
-    border-bottom: 1px solid white !important;
-    transition: color 500ms ease;
+.no-line {
+    border-style: none !important;
 }
 
 /* footer */
@@ -385,6 +386,10 @@ nav a {
 @media (min-width: 768px) {
     #info-imgs {
         height: calc(calc(calc(calc(calc(calc(var(--vh) * 100) - 1.5em) - 1.25em) - 1em) - 0.75em) - 1px);
+    }
+
+    body {
+        overflow: unset !important;
     }
 }
 
@@ -457,39 +462,28 @@ nav a {
         /*        overflow: auto;*/
     }
 
-    .fs-image img {
-        position: absolute;
+    .fsm-img {
+/*        position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
-        right: 0;
-        object-fit: contain;
-        width: 100%;
-        height: 100%;
+        right: 0;*/
+        width: calc(100% - 3rem);
+        height: auto;
+        overflow: hidden;
         z-index: 200;
+        object-fit: contain;
     }
 
-    .f-lg-image img {
-        object-fit: contain;
-        width: 80%;
-        height: 80%;
-        z-index: 200;
-    }
 
-    .f-sm-image img {
-        object-fit: contain;
-        width: 50%;
-        height: 50%;
-        z-index: 200;
-    }
-    .white {
+    .highlight {
         color: #000 !important;
+        background-color: #ff0 !important;
     }
 
-    .white-line {
-        border-bottom: 1px solid black !important;
+    .no-line {
+        border-style: none !important;
     }
-
 }
 
 /*// Small devices (landscape phones, less than 768px)*/
@@ -499,7 +493,7 @@ nav a {
     }
 
     h1 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     h2 {
@@ -511,32 +505,20 @@ nav a {
         height: var(--bigtextH);
     }
 
-    #active-slideshow img {
-        object-fit: contain;
-        width: 80%;
-        height: 80%;
-        z-index: 200;
-    }
-    .white {
+    .highlight {
         color: #000 !important;
+        background-color: #ff0 !important;
     }
 
-    .white-line {
-        border-bottom: 1px solid black !important;
+    .no-line {
+        border-style: none !important;
     }
 }
 
 /*// Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) and (min-width: 768px) {
     h1 {
-        font-size: 3em;
-    }
-
-    #active-slideshow img {
-        object-fit: contain;
-        width: 80%;
-        height: 80%;
-        z-index: 200;
+        font-size: 2.5em;
     }
 }
 

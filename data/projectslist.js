@@ -20,7 +20,7 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
+             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
         "alt": [
@@ -32,12 +32,12 @@ var projectsList = [{
             "Website"
         ],
         "frame":[
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs"
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
@@ -52,7 +52,8 @@ var projectsList = [{
             "design"
         ],
         "tags": [
-            "Brand Identity"
+            "Brand Identity",
+            "Website"
         ],
         "description": [
             "Waffle is a community-based mobile parking app that helps urban drivers find parking in dense city areas. The technology company based in Los Angeles focuses on streamlining time and energy costs spent in parking, while fostering a more convenient automobile experience, community, and awareness for the natural environment. A new graphic identity and website in response amplifies and channels the visions of the startup into a cutting-edge, yet approachable look."
@@ -75,11 +76,11 @@ var projectsList = [{
         ],
         "frame": [
             "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs"
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/waffle/waffle-01.jpg"
@@ -115,11 +116,11 @@ var projectsList = [{
             "Website"
         ],
         "frame": [
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs"
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/opus/opus-01.jpg"
@@ -159,12 +160,12 @@ var projectsList = [{
             "Project Highlights"
         ],
         "frame":[
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs"
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
@@ -202,12 +203,12 @@ var projectsList = [{
             "Project Highlights"
         ],
         "frame":[
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs"
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
@@ -245,12 +246,12 @@ var projectsList = [{
             "Project Highlights"
         ],
         "frame":[
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs"
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
@@ -288,12 +289,12 @@ var projectsList = [{
             "Project Highlights"
         ],
         "frame":[
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs"
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
@@ -303,7 +304,7 @@ var projectsList = [{
         "no": "008",
         "year": "2019",
         "title": "Sun Pleats",
-        "logline": "Cut-out art book presenting photographs and windows of reflections into a trip in Japan",
+        "logline": "Cut-out art book presenting photographs and windows of reflection into a trip in Japan",
         "type": [
             "design"
         ],
@@ -331,12 +332,12 @@ var projectsList = [{
             "Project Highlights"
         ],
         "frame":[
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs"
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
@@ -375,12 +376,12 @@ var projectsList = [{
             "Project Highlights"
         ],
         "frame":[
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs"
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
@@ -422,7 +423,7 @@ var projectsList = [{
         ],
         "frame": [
             "fs",
-            "fs",
+            "fsm",
             "fs",
             "sm",
             "sm",
@@ -464,12 +465,12 @@ var projectsList = [{
             "Project Highlights"
         ],
         "frame":[
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs"
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
@@ -506,12 +507,12 @@ var projectsList = [{
             "Project Highlights"
         ],
         "frame":[
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs"
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
@@ -549,12 +550,12 @@ var projectsList = [{
             "Project Highlights"
         ],
         "frame":[
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs"
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
@@ -592,12 +593,12 @@ var projectsList = [{
             "Project Highlights"
         ],
         "frame":[
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs",
-            "fs"
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
