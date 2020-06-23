@@ -269,6 +269,7 @@ function compileProject() {
     // touch inputs
     var initialTouchPos = null;
     var lastTouchPos = null;
+    var finalTouchPos = null;
 
     // slideshow assets
     var slides = [];
@@ -360,55 +361,55 @@ function compileProject() {
             };
         },
 
-        // handleClick: function() {
-        //     // clicks limited to 1 per 500ms
-        //     if (tempered === true) {
-        //         return false; // failed click
-        //     }
+        handleClick: function() {
+            // clicks limited to 1 per 500ms
+            if (tempered === true) {
+                return false; // failed click
+            }
 
-        //     // successful keypress
-        //     tempered = true;
-        //     setTimeout(function() {
-        //         tempered = false;
-        //     }, 500);
-        //     let slideNo = this.state.dataactive;
-        //     if (this.state.dataactive + 1 < slides.length) {
-        //         this.setState({ dataactive: this.state.dataactive + 1 });
-        //         $('#active-slideshow').children().eq(slideNo + 1).addClass('active');
-        //         // framing
-        //         if ($('#active-slideshow').children().eq(slideNo + 1).hasClass('fs-frame')) {
-        //             unsetBounds = true;
-        //         } else {
-        //             unsetBounds = false;
-        //         }
-        //         setTimeout(function() {
-        //             $('#active-slideshow').children().eq(slideNo).removeClass('active');
-        //         }, 500);
-        //     } else {
-        //         this.setState({ dataactive: 0 });
-        //         $('#active-slideshow').children().eq(0).css("z-index", "201").addClass('active');
-        //         // framing
-        //         if ($('#active-slideshow').children().eq(0).hasClass('fs-frame')) {
-        //             unsetBounds = true;
-        //         } else {
-        //             unsetBounds = false;
-        //         }
-        //         setTimeout(function() {
-        //             $('#active-slideshow').children().eq(slides.length - 1).removeClass('active');
-        //             $('#active-slideshow').children().eq(0).css("z-index", "200").addClass('active');
-        //         }, 500);
-        //     }
+            // successful keypress
+            tempered = true;
+            setTimeout(function() {
+                tempered = false;
+            }, 500);
+            let slideNo = this.state.dataactive;
+            if (this.state.dataactive + 1 < slides.length) {
+                this.setState({ dataactive: this.state.dataactive + 1 });
+                $('#active-slideshow').children().eq(slideNo + 1).addClass('active');
+                // framing
+                if ($('#active-slideshow').children().eq(slideNo + 1).hasClass('fs-frame')) {
+                    unsetBounds = true;
+                } else {
+                    unsetBounds = false;
+                }
+                setTimeout(function() {
+                    $('#active-slideshow').children().eq(slideNo).removeClass('active');
+                }, 500);
+            } else {
+                this.setState({ dataactive: 0 });
+                $('#active-slideshow').children().eq(0).css("z-index", "201").addClass('active');
+                // framing
+                if ($('#active-slideshow').children().eq(0).hasClass('fs-frame')) {
+                    unsetBounds = true;
+                } else {
+                    unsetBounds = false;
+                }
+                setTimeout(function() {
+                    $('#active-slideshow').children().eq(slides.length - 1).removeClass('active');
+                    $('#active-slideshow').children().eq(0).css("z-index", "200").addClass('active');
+                }, 500);
+            }
 
-        //     // fullscreen framing
-        //     if (unsetBounds) {
-        //         $('body').css('overflow', 'unset');
-        //     } else {
-        //         setTimeout(function() {
-        //             $('body').css('overflow', 'hidden');
-        //         }, 500);
-        //     }
+            // fullscreen framing
+            if (unsetBounds) {
+                $('body').css('overflow', 'unset');
+            } else {
+                setTimeout(function() {
+                    $('body').css('overflow', 'hidden');
+                }, 500);
+            }
 
-        // },
+        },
 
         handleKeyDown: function(evt) {
             // keypresses limited to 1 per 500ms
@@ -508,7 +509,7 @@ function compileProject() {
             if (evt.touches && evt.touches.length > 1) {
                 return;
             }
-            // Add the move and end listeners
+            alert(evt.pointerType)
             if (tempered === false) { // successful swipe
                 evt.target.setPointerCapture(evt.pointerId);
 
@@ -622,16 +623,69 @@ function compileProject() {
                 return;
             }
 
-            // Remove Event Listeners
-            evt.target.releasePointerCapture(evt.pointerId);
+            finalTouchPos = getGesturePointFromEvent(evt);
+            var dispX = initialTouchPos - finalTouchPos
+            if (Math.abs(dispX) < 30) {
+                // clicks limited to 1 per 500ms
+                if (tempered === true) {
+                    return false; // failed click
+                }
 
-            initialTouchPos = null;
-            lastTouchPos = null;
-            tempered = false;
+                // successful keypress
+                tempered = true;
+                setTimeout(function() {
+                    tempered = false;
+                }, 500);
+                let slideNo = this.state.dataactive;
+                if (this.state.dataactive + 1 < slides.length) {
+                    this.setState({ dataactive: this.state.dataactive + 1 });
+                    $('#active-slideshow').children().eq(slideNo + 1).addClass('active');
+                    // framing
+                    if ($('#active-slideshow').children().eq(slideNo + 1).hasClass('fs-frame')) {
+                        unsetBounds = true;
+                    } else {
+                        unsetBounds = false;
+                    }
+                    setTimeout(function() {
+                        $('#active-slideshow').children().eq(slideNo).removeClass('active');
+                    }, 500);
+                } else {
+                    this.setState({ dataactive: 0 });
+                    $('#active-slideshow').children().eq(0).css("z-index", "201").addClass('active');
+                    // framing
+                    if ($('#active-slideshow').children().eq(0).hasClass('fs-frame')) {
+                        unsetBounds = true;
+                    } else {
+                        unsetBounds = false;
+                    }
+                    setTimeout(function() {
+                        $('#active-slideshow').children().eq(slides.length - 1).removeClass('active');
+                        $('#active-slideshow').children().eq(0).css("z-index", "200").addClass('active');
+                    }, 500);
+                }
+
+                // fullscreen framing
+                if (unsetBounds) {
+                    $('body').css('overflow', 'unset');
+                } else {
+                    setTimeout(function() {
+                        $('body').css('overflow', 'hidden');
+                    }, 500);
+                }
+
+
+
+                // Remove Event Listeners
+                evt.target.releasePointerCapture(evt.pointerId);
+
+                initialTouchPos = null;
+                lastTouchPos = null;
+                tempered = false;
+            }
         },
         render: function() {
             return [
-                e('div', { key: "slideshow", id: 'active-slideshow', className: "container-fluid fs-image", tabIndex: 0, dataactive: this.state.dataactive, onKeyDown: this.handleKeyDown, onPointerDown: this.handlePStart, onPointerMove: this.handlePMove, onPointerUp: this.handlePEnd }, slides),
+                e('div', { key: "slideshow", id: 'active-slideshow', className: "container-fluid fs-image", tabIndex: 0, dataactive: this.state.dataactive, onClick: this.handleClick, onKeyDown: this.handleKeyDown, onPointerDown: this.handlePStart, onPointerMove: this.handlePMove, onPointerUp: this.handlePEnd }, slides),
                 e('div', { key: "info", id: 'active-info', className: "container-fluid d-none" },
                     e('div', { className: "row" },
                         e('div', { key: "info-text", id: "info-text", className: "col col-12 col-md-4" }, infoText),
