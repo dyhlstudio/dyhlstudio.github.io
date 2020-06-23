@@ -509,7 +509,7 @@ function compileProject() {
             if (evt.touches && evt.touches.length > 1) {
                 return;
             }
-            alert(evt.pointerType)
+            alert(evt.pointerType);
             if (tempered === false) { // successful swipe
                 evt.target.setPointerCapture(evt.pointerId);
 
@@ -625,7 +625,7 @@ function compileProject() {
 
             finalTouchPos = getGesturePointFromEvent(evt);
             var dispX = initialTouchPos - finalTouchPos
-            if (Math.abs(dispX) < 30) {
+            if (Math.abs(dispX) == 0) {
                 // clicks limited to 1 per 500ms
                 if (tempered === true) {
                     return false; // failed click

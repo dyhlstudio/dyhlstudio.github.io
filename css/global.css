@@ -265,6 +265,7 @@ nav a {
     width: calc(var(--vw) * 100);
     height: calc(var(--vh) * 100);
     overflow: hidden;
+    touch-action: none;
 }
 
 .frame {
