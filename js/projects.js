@@ -269,7 +269,6 @@ function compileProject() {
     // touch inputs
     var initialTouchPos = null;
     var lastTouchPos = null;
-    var finalTouchPos = null;
 
     // slideshow assets
     var slides = [];
@@ -506,13 +505,16 @@ function compileProject() {
 
         handlePStart: function(evt) {
             evt.preventDefault();
-            if (evt.touches && evt.touches.length > 1) {
+            if ((evt.touches && evt.touches.length > 1) || tempered) {
                 return;
             }
+
             if (tempered === false) { // successful swipe
+                // successful swipe
                 evt.target.setPointerCapture(evt.pointerId);
                 initialTouchPos = getGesturePointFromEvent(evt);
             }
+
         },
 
         handlePMove: function(evt) {
@@ -522,9 +524,9 @@ function compileProject() {
                 return;
             }
 
-            lastTouchPos = getGesturePointFromEvent(evt);
-            var dispX = initialTouchPos.x - lastTouchPos.x;
-            if (tempered === false) {
+            if (tempered === false) { // restricted to 500ms timer
+                lastTouchPos = getGesturePointFromEvent(evt);
+                dispX = initialTouchPos.x - lastTouchPos.x;
                 if (Math.abs(dispX) >= 30) {
                     // 500ms timer on inputs
                     tempered = true;
@@ -611,24 +613,20 @@ function compileProject() {
 
         handlePEnd: function(evt) {
             evt.preventDefault();
-
             if (evt.touches && evt.touches.length > 0) {
                 return;
             }
 
-            finalTouchPos = getGesturePointFromEvent(evt);
-            var dispX = initialTouchPos - finalTouchPos
-            if (Math.abs(dispX) < 10) {
-                // // clicks limited to 1 per 500ms
-                // if (tempered === true) {
-                //     return false; // failed click
-                // }
+            // Remove Event Listeners
+            evt.target.releasePointerCapture(evt.pointerId);
+            initialTouchPos = null;
+            lastTouchPos = null;
 
-                // // successful keypress
-                // tempered = true;
-                // setTimeout(function() {
-                //     tempered = false;
-                // }, 500);
+            // no drag/swipe --> click instead
+            if (tempered === false) {
+                // successful action
+                tempered = true;
+                //slideshow change
                 let slideNo = this.state.dataactive;
                 if (this.state.dataactive + 1 < slides.length) {
                     this.setState({ dataactive: this.state.dataactive + 1 });
@@ -667,16 +665,14 @@ function compileProject() {
                 }
             }
 
-            // Remove Event Listeners
-            evt.target.releasePointerCapture(evt.pointerId);
-
-            initialTouchPos = null;
-            lastTouchPos = null;
-            tempered = false;
+            setTimeout(function() {
+                tempered = false; // reset temper in 500ms
+            }, 500);
         },
+
         render: function() {
             return [
-                e('div', { key: "slideshow", id: 'active-slideshow', className: "container-fluid fs-image", tabIndex: 0, dataactive: this.state.dataactive, onClick: this.handleClick, onKeyDown: this.handleKeyDown, onPointerDown: this.handlePStart, onPointerMove: this.handlePMove, onPointerUp: this.handlePEnd }, slides),
+                e('div', { key: "slideshow", id: 'active-slideshow', className: "container-fluid fs-image", tabIndex: 0, dataactive: this.state.dataactive, onKeyDown: this.handleKeyDown, onPointerDown: this.handlePStart, onPointerMove: this.handlePMove, onPointerUp: this.handlePEnd }, slides),
                 e('div', { key: "info", id: 'active-info', className: "container-fluid d-none" },
                     e('div', { className: "row" },
                         e('div', { key: "info-text", id: "info-text", className: "col col-12 col-md-4" }, infoText),
