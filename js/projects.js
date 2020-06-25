@@ -597,17 +597,16 @@ function compileProject() {
                             $('#f-caption').text(projectsList[selectionNo].alt.length + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[projectsList[selectionNo].alt.length - 1]);
                         }
                     }
-                }
 
-                // fullscreen framing
-                if (unsetBounds) {
-                    $('body').css('overflow', 'unset');
-                } else {
-                    setTimeout(function() {
-                        $('body').css('overflow', 'hidden');
-                    }, 500);
+                    // fullscreen framing
+                    if (unsetBounds) {
+                        $('body').css('overflow', 'unset');
+                    } else {
+                        setTimeout(function() {
+                            $('body').css('overflow', 'hidden');
+                        }, 500);
+                    }
                 }
-
             }
         },
 
