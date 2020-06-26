@@ -20,7 +20,7 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
-             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
+            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
             "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
         ],
         "alt": [
@@ -144,31 +144,34 @@ var projectsList = [{
             "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-01.jpg",
+            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-02.jpg",
+            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-03.jpg",
+            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-04.jpg",
+            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-05.jpg",
+            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-06.jpg",
+            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-06.jpg"
         ],
         "alt": [
-            "Homepage",
-            "About",
-            "Recent Projects",
-            "Project Highlights",
-            "Project Highlights",
-            "Project Highlights"
+            "Psychogeographic Map",
+            "NYU IDM Spring Showcase",
+            "Thoughtworks Future Local Demo",
+            "Drawing Station",
+            "Found Objects Station",
+            "Projector Station",
+            "Diagram"
         ],
         "frame":[
             "fsm",
             "fsm",
             "fsm",
+            "sm",
+            "sm",
             "fsm",
-            "fsm",
-            "fsm"
+            "sm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-01.jpg"
         ]
     },
     {
@@ -187,31 +190,46 @@ var projectsList = [{
             "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-01.jpg",
+            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-02.jpg",
+            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-03.jpg",
+            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-04.jpg",
+            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-05.jpg",
+            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-06.png",
+            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-07.jpg",
+            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-08.jpg",
+            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-09.jpg",
+            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-10.jpg",
+            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-11.jpg"
         ],
         "alt": [
-            "Homepage",
-            "About",
-            "Recent Projects",
-            "Project Highlights",
-            "Project Highlights",
-            "Project Highlights"
+            "Diagram #1",
+            "Kit of Parts",
+            "Site Plan",
+            "Site Section",
+            "Diagram #2",
+            "Excerpt",
+            "Model Units A & B",
+            "Model Unit C",
+            "Model Unit D",
+            "Model Unit E",
+            "Model Units E & F"
         ],
         "frame":[
             "fsm",
+            "sm",
+            "fsm",
+            "fsm",
+            "sm",
+            "sm",
             "fsm",
             "fsm",
             "fsm",
             "fsm",
-            "fsm"
+            "fsm",
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-01.jpg"
         ]
     },
     {
