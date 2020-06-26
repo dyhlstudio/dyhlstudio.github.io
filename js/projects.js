@@ -245,9 +245,11 @@ function captions(project, slideNum) {
         e('div', { id: 'footer-container', className: "container-fluid" },
             e('ul', { className: "row" },
                 e('li', { key: 'f-title', className: "col col-10" },
-                    e('a', { role: 'button', id: 'f-caption' }, slideNum + "/" + project.alt.length),
+                    e('a', { role: 'button', id: 'f-caption' }, slideNum + "/" + project.alt.length + " — " + project.alt[slideNum - 1])),
                 e('li', { key: 'f-link', id: 'f-link', className: "text-right col col-sm-2" },
-                    e('a', { id: "info-link", className: 'text-links', role: 'button' }, "Info", e('span', { className: "link-arrow" }, )),
+                    e('a', { id: "info-link", className: 'text-links', role: 'button' }, "Info",
+                        e('span', { className: "link-arrow" }, )
+                    ),
                 )
             )
         ),
@@ -487,7 +489,7 @@ function compileProject() {
                         $('#active-slideshow').children().eq(slideNo).removeClass('active');
                     }, 500);
                     //footer
-                    $('#f-caption').text((this.state.dataactive + 2) + "/" + projectsList[selectionNo].assets.length);
+                    $('#f-caption').text((this.state.dataactive + 2) + "/" + projectsList[selectionNo].alt.length + "  —  " + projectsList[selectionNo].alt[this.state.dataactive + 1]);
                 } else {
                     this.setState({ dataactive: 0 });
                     looped = true;
@@ -497,7 +499,7 @@ function compileProject() {
                         $('#active-slideshow').children().eq(0).css("z-index", "200");
                     }, 500);
                     //footer
-                    $('#f-caption').text("1" + "/" + projectsList[selectionNo].assets.length);
+                    $('#f-caption').text("1" + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[0]);
 
                 }
             }
@@ -512,7 +514,7 @@ function compileProject() {
                         $('#active-slideshow').children().eq(slideNo).removeClass('active');
                         $('#active-slideshow').children().eq(slideNo - 1).removeAttr("style");
                     }, 500);
-                    $('#f-caption').text((this.state.dataactive) + "/" + projectsList[selectionNo].assets.length);
+                    $('#f-caption').text((this.state.dataactive) + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[this.state.dataactive - 1]);
                 } else {
                     this.setState({ dataactive: slides.length - 1 });
                     looped = false;
@@ -521,7 +523,7 @@ function compileProject() {
                     setTimeout(function() {
                         $('#active-slideshow').children().eq(0).removeClass('active');
                     }, 500);
-                    $('#f-caption').text(projectsList[selectionNo].assets.length + "/" + projectsList[selectionNo].assets.length);
+                    $('#f-caption').text(projectsList[selectionNo].alt.length + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[projectsList[selectionNo].alt.length - 1]);
                 }
             }
             // setUnsetBoundary();
@@ -566,7 +568,7 @@ function compileProject() {
                             $('#active-slideshow').children().eq(slideNo).removeClass('active');
                         }, 500);
                         //footer
-                        $('#f-caption').text((this.state.dataactive + 2) + "/" + projectsList[selectionNo].assets.length);
+                        $('#f-caption').text((this.state.dataactive + 2) + "/" + projectsList[selectionNo].alt.length + "  —  " + projectsList[selectionNo].alt[this.state.dataactive + 1]);
                     } else {
                         looped = true;
                         this.setState({ dataactive: 0 });
@@ -576,7 +578,7 @@ function compileProject() {
                             $('#active-slideshow').children().eq(0).css("z-index", "200");
                         }, 500);
                         //footer
-                        $('#f-caption').text("1" + "/" + projectsList[selectionNo].assets.length);
+                        $('#f-caption').text("1" + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[0]);
 
                     }
                 } else { // swipe action right (arrow left equivalent)
@@ -589,7 +591,7 @@ function compileProject() {
                             $('#active-slideshow').children().eq(slideNo).removeClass('active');
                             $('#active-slideshow').children().eq(slideNo - 1).removeAttr("style");
                         }, 500);
-                        $('#f-caption').text((this.state.dataactive) + "/" + projectsList[selectionNo].assets.length);
+                        $('#f-caption').text((this.state.dataactive) + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[this.state.dataactive - 1]);
                     } else {
                         this.setState({ dataactive: slides.length - 1 });
                         looped = false
@@ -597,7 +599,7 @@ function compileProject() {
                         setTimeout(function() {
                             $('#active-slideshow').children().eq(0).removeClass('active');
                         }, 500);
-                        $('#f-caption').text(projectsList[selectionNo].assets.length + "/" + projectsList[selectionNo].assets.length);
+                        $('#f-caption').text(projectsList[selectionNo].alt.length + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[projectsList[selectionNo].alt.length - 1]);
                     }
                 }
             }
@@ -635,7 +637,7 @@ function compileProject() {
                         $('#active-slideshow').children().eq(slideNo).removeClass('active');
                     }, 500);
                     //footer
-                    $('#f-caption').text((this.state.dataactive + 2) + "/" + projectsList[selectionNo].assets.length);
+                    $('#f-caption').text((this.state.dataactive + 2) + "/" + projectsList[selectionNo].alt.length + "  —  " + projectsList[selectionNo].alt[this.state.dataactive + 1]);
                 } else {
                     this.setState({ dataactive: 0 });
                     looped = true;
@@ -645,7 +647,7 @@ function compileProject() {
                         $('#active-slideshow').children().eq(0).css("z-index", "200").addClass('active');
                     }, 500);
                     //footer
-                    $('#f-caption').text("1" + "/" + projectsList[selectionNo].assets.length);
+                    $('#f-caption').text("1" + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[0]);
                 }
                 // setUnsetBoundary();
             }

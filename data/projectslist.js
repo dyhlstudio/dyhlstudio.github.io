@@ -216,20 +216,20 @@ var projectsList = [{
             "Model Units E & F"
         ],
         "frame":[
-            "fsm",
-            "sm",
-            "fsm",
-            "fsm",
             "sm",
             "sm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-01.jpg"
+            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-05.jpg"
         ]
     },
     {
