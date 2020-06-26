@@ -229,7 +229,7 @@ var projectsList = [{
             "sm",
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-05.jpg"
+            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-thumb.jpg"
         ]
     },
     {
