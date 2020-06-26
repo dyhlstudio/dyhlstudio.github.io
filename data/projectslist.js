@@ -331,7 +331,8 @@ var projectsList = [{
             "Photography"
         ],
         "description": [
-            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+            "Sun Pleats is an accordian-style photography book that reflects upon a trip I took through Japan and notes on different cultural points throughout the trip. The accordian pages offer a changing documentary perspective on cities, neighborhoods, streets, and particularly coffeehouses, all of which constitute a majority of places visited.",
+            "The design and construction of the book allows for different reading experiences, including both right-to-left and left-to-right, that reflect the diverse perspectives present in each individual’s experiences with place, travel, and tourism. Depending on perspective, a viewer may see a combination of visuals, texts, and lens which obscure, augment, and interact."
         ],
         "assets": [
             "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-01.jpg",
