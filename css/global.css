@@ -281,11 +281,10 @@ nav a {
     background-color: white;
 }
 
-.fs-frame {
-}
+.fs-frame {}
 
 .sm-img {
-/*    position: absolute;
+    /*    position: absolute;
     top: 17%;
     bottom: 17%;
     left: 17%;
@@ -298,19 +297,21 @@ nav a {
 }
 
 .fs-img {
-/*    position: absolute;
+    /*    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-*/    width: 100%;
+*/
+    width: 100%;
     height: 100%;
     overflow: hidden;
     z-index: 200;
     object-fit: cover;
 }
+
 .fsm-img {
-/*    position: absolute;
+    /*    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -344,12 +345,21 @@ nav a {
     overflow: auto;
 }
 
-.highlight {
+.fs-highlight {
     color: #000 !important;
     background-color: #ff0 !important;
 }
 
-.no-line {
+.fsm-highlight {
+    color: #000 !important;
+    background-color: #ff0 !important;
+}
+
+.fs-no-line {
+    border-style: none !important;
+}
+
+.fsm-no-line {
     border-style: none !important;
 }
 
@@ -464,7 +474,7 @@ nav a {
     }
 
     .fsm-img {
-/*        position: absolute;
+        /*        position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
@@ -476,15 +486,16 @@ nav a {
         object-fit: contain;
     }
 
-
-    .highlight {
+    .fsm-highlight {
         color: #000 !important;
-        background-color: #ff0 !important;
+        background-color: unset !important;
     }
 
-    .no-line {
-        border-style: none !important;
+    .fsm-no-line {
+        border-bottom: 1px solid black !important;
     }
+
+
 }
 
 /*// Small devices (landscape phones, less than 768px)*/
@@ -506,13 +517,13 @@ nav a {
         height: var(--bigtextH);
     }
 
-    .highlight {
+    .fsm-highlight {
         color: #000 !important;
-        background-color: #ff0 !important;
+        background-color: unset !important;
     }
 
-    .no-line {
-        border-style: none !important;
+    .fsm-no-line {
+        border-bottom: 1px solid black !important;
     }
 }
 

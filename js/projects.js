@@ -53,6 +53,7 @@ var selectionNo = 0;
 var briefed = false;
 var selected = 999;
 var tempered = false;
+var touched = false;
 
 
 //nav-4 variables
@@ -150,28 +151,18 @@ $(document).ready(function() {
         // Open project
 
         $('.view-links').click(function() {
+            $('body').css('overflow', 'unset');
             onHome = false;
-            // initial state for framing
-            if ($('#active-slideshow').children().eq(0).hasClass('fs-frame')) {
-                unsetBounds = true;
-            } else {
-                unsetBounds = false;
-            }
-            // fullscreen framing
-            if (unsetBounds) {
-                $('body').css('overflow', 'unset');
-            } else {
-                setTimeout(function() {
-                    $('body').css('overflow', 'hidden');
-                }, 500);
-            }
-
+            // determine boundary for setUnsetBoundary
+            // determineBoundary($('#active-slideshow > .active'));
+            // setUnsetBoundary();
             captions(projectsList[selectionNo], (parseInt($('#active-slideshow').attr('dataactive'), 10) + 1));
             setTimeout(function() {
                 $('#home').removeClass('d-flex').addClass('d-none');
             }, 1000);
             // info button
             $('#info-link').click(function() {
+                $('body').css('overflow', 'unset');
                 onSlides = false;
                 onInfo = true;
                 $('html').css('overflow', 'unset');
@@ -179,8 +170,10 @@ $(document).ready(function() {
                 $('#active-info').removeClass('d-none');
                 $('#react-footer, #active-slideshow').addClass('d-none');
                 $('#project-wrapper').removeClass('slideshow');
-                $('a, p').removeClass('highlight');
-                $('#nav-container').removeClass('no-line');
+                $('a, p').removeClass('fs-highlight');
+                $('a, p').removeClass('fsm-highlight');
+                $('#nav-container').removeClass('fs-no-line');
+                $('#nav-container').removeClass('fsm-no-line');
 
                 // overview images, aspect ratio fix upon load
                 document.documentElement.style.setProperty('--threetwo-info', $('.img-wrapper').width() * 2 / 3 + 'px');
@@ -189,8 +182,7 @@ $(document).ready(function() {
             // rendered project slide-in
             $('.return').css("transform", "translate(0)");
             $('.hide').css('transform', "translate(-100vw)");
-            $('a, p').addClass('highlight');
-            $('#nav-container').addClass('no-line');
+            captionHighlight($('#active-slideshow > .active'));
             setTimeout(function() {
                 $('#active-slideshow').focus()
             }, 1000);
@@ -255,14 +247,76 @@ function captions(project, slideNum) {
                 e('li', { key: 'f-title', className: "col col-10" },
                     e('a', { role: 'button', id: 'f-caption' }, slideNum + "/" + project.alt.length + " — " + project.alt[slideNum - 1])),
                 e('li', { key: 'f-link', id: 'f-link', className: "text-right col col-sm-2" },
-                    e('a', { id: "info-link", className: 'text-links', role: 'button' }, "Info"),
-                    e('span', { className: "link-arrow" }, )
+                    e('a', { id: "info-link", className: 'text-links', role: 'button' }, "Info", e('span', { className: "link-arrow" }, )),
                 )
             )
         ),
         document.getElementById('react-footer')
     );
 };
+
+function activateNextSlide(el, reset) {
+    if (reset) {
+        el.css("z-index", "201");
+        el.addClass('active');
+    } else {
+        el.addClass('active');
+    }
+    captionHighlight(el);
+    // determineBoundary(el);
+}
+
+function captionHighlight(el) {
+    // footer mode based on fs/not fs image
+    if (el.children().hasClass('fs-img')) {
+        if ($('a, p').hasClass('fsm-highlight')) {
+            $('a, p').removeClass('fsm-highlight');
+            $('#nav-container').removeClass('fsm-no-line');
+        }
+
+        $('a, p').addClass('fs-highlight');
+        $('#nav-container').addClass('fs-no-line');
+    }
+    if (el.children().hasClass('fsm-img')) {
+        if ($('a, p').hasClass('fs-highlight')) {
+            $('a, p').removeClass('fs-highlight');
+            $('#nav-container').removeClass('fs-no-line');
+        }
+        $('a, p').addClass('fsm-highlight');
+        $('#nav-container').addClass('fsm-no-line');
+
+    }
+    if (el.children().hasClass('sm-img')) {
+        if ($('a, p').hasClass('fs-highlight')) {
+            $('a, p').removeClass('fs-highlight');
+            $('#nav-container').removeClass('fs-no-line');
+        }
+        if ($('a, p').hasClass('fsm-highlight')) {
+            $('a, p').removeClass('fsm-highlight');
+            $('#nav-container').addClass('fsm-no-line');
+        }
+    }
+}
+
+// function determineBoundary(el) {
+//     // determine boundary for setUnsetBoundary
+//     if (el.hasClass('fs-frame')) {
+//         unsetBounds = true;
+//     } else {
+//         unsetBounds = false;
+//     }
+// }
+
+// function setUnsetBoundary() {
+//     // fullscreen framing
+//     if (unsetBounds) {
+//         $('body').css('overflow', 'unset');
+//     } else {
+//         setTimeout(function() {
+//             $('body').css('overflow', 'hidden');
+//         }, 500);
+//     }
+// }
 
 function compileProject() {
 
@@ -414,7 +468,7 @@ function compileProject() {
             // keypresses limited to 1 per 500ms
             // failed keypress
             if (tempered === true) {
-                return false;
+                return;
             }
 
             // successful keypress
@@ -422,18 +476,13 @@ function compileProject() {
             setTimeout(function() {
                 tempered = false;
             }, 500);
+            var looped = false;
             if (evt.keyCode === 39) {
                 let slideNo = this.state.dataactive;
                 if (this.state.dataactive + 1 < slides.length) {
+                    looped = false;
                     this.setState({ dataactive: this.state.dataactive + 1 });
-                    $('#active-slideshow').children().eq(slideNo + 1).addClass('active');
-
-                    //framing
-                    if ($('#active-slideshow').children().eq(slideNo + 1).hasClass('fs-frame')) {
-                        unsetBounds = true;
-                    } else {
-                        unsetBounds = false;
-                    }
+                    activateNextSlide($('#active-slideshow').children().eq(slideNo + 1), looped);
                     setTimeout(function() {
                         $('#active-slideshow').children().eq(slideNo).removeClass('active');
                     }, 500);
@@ -441,13 +490,8 @@ function compileProject() {
                     $('#f-caption').text((this.state.dataactive + 2) + "/" + projectsList[selectionNo].alt.length + "  —  " + projectsList[selectionNo].alt[this.state.dataactive + 1]);
                 } else {
                     this.setState({ dataactive: 0 });
-                    $('#active-slideshow').children().eq(0).css("z-index", "201").addClass('active');
-                    //framing
-                    if ($('#active-slideshow').children().eq(0).hasClass('fs-frame')) {
-                        unsetBounds = true;
-                    } else {
-                        unsetBounds = false;
-                    }
+                    looped = true;
+                    activateNextSlide($('#active-slideshow').children().eq(0), looped);
                     setTimeout(function() {
                         $('#active-slideshow').children().eq(slides.length - 1).removeClass('active');
                         $('#active-slideshow').children().eq(0).css("z-index", "200");
@@ -462,14 +506,8 @@ function compileProject() {
                 let slideNo = this.state.dataactive;
                 if (this.state.dataactive - 1 >= 0) {
                     this.setState({ dataactive: this.state.dataactive - 1 });
-                    $('#active-slideshow').children().eq(slideNo - 1).css("z-index", "201").addClass('active');
-
-                    //framing
-                    if ($('#active-slideshow').children().eq(slideNo - 1).hasClass('fs-frame')) {
-                        unsetBounds = true;
-                    } else {
-                        unsetBounds = false;
-                    }
+                    looped = true;
+                    activateNextSlide($('#active-slideshow').children().eq(slideNo - 1), looped);
                     setTimeout(function() {
                         $('#active-slideshow').children().eq(slideNo).removeClass('active');
                         $('#active-slideshow').children().eq(slideNo - 1).removeAttr("style");
@@ -477,44 +515,30 @@ function compileProject() {
                     $('#f-caption').text((this.state.dataactive) + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[this.state.dataactive - 1]);
                 } else {
                     this.setState({ dataactive: slides.length - 1 });
-
-                    //framing
-                    if ($('#active-slideshow').children().eq(slides.length - 1).hasClass('fs-frame')) {
-                        unsetBounds = true;
-                    } else {
-                        unsetBounds = false;
-                    }
-                    $('#active-slideshow').children().eq(slides.length - 1).addClass('active');
+                    looped = false;
+                    // fs/fsm highlight
+                    activateNextSlide($('#active-slideshow').children().eq(slides.length - 1), looped);
                     setTimeout(function() {
                         $('#active-slideshow').children().eq(0).removeClass('active');
                     }, 500);
                     $('#f-caption').text(projectsList[selectionNo].alt.length + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[projectsList[selectionNo].alt.length - 1]);
                 }
             }
-
-            // fullscreen framing
-            if (unsetBounds) {
-                $('body').css('overflow', 'unset');
-            } else {
-                setTimeout(function() {
-                    $('body').css('overflow', 'hidden');
-                }, 500);
-            }
-
+            // setUnsetBoundary();
         },
 
         handlePStart: function(evt) {
             evt.preventDefault();
-            if ((evt.touches && evt.touches.length > 1) || tempered) {
+            if (evt.touches && evt.touches.length > 1) {
                 return;
             }
 
-            if (tempered === false) { // successful swipe
-                // successful swipe
-                evt.target.setPointerCapture(evt.pointerId);
-                initialTouchPos = getGesturePointFromEvent(evt);
+            if (tempered === true) {
+                return;
             }
 
+            evt.target.setPointerCapture(evt.pointerId);
+            initialTouchPos = getGesturePointFromEvent(evt);
         },
 
         handlePMove: function(evt) {
@@ -524,90 +548,60 @@ function compileProject() {
                 return;
             }
 
-            if (tempered === false) { // restricted to 500ms timer
-                lastTouchPos = getGesturePointFromEvent(evt);
-                dispX = initialTouchPos.x - lastTouchPos.x;
-                if (Math.abs(dispX) >= 30) {
-                    // 500ms timer on inputs
-                    tempered = true;
-                    if (dispX > 0) { // swipe action left (arrow right equivalent)
-                        let slideNo = this.state.dataactive;
-                        if (this.state.dataactive + 1 < slides.length) {
-                            this.setState({ dataactive: this.state.dataactive + 1 });
-                            $('#active-slideshow').children().eq(slideNo + 1).addClass('active');
+            if (tempered === true) {
+                return;
+            }
 
-                            //framing
-                            if ($('#active-slideshow').children().eq(slideNo + 1).hasClass('fs-frame')) {
-                                unsetBounds = true;
-                            } else {
-                                unsetBounds = false;
-                            }
-                            setTimeout(function() {
-                                $('#active-slideshow').children().eq(slideNo).removeClass('active');
-                            }, 500);
-                            //footer
-                            $('#f-caption').text((this.state.dataactive + 2) + "/" + projectsList[selectionNo].alt.length + "  —  " + projectsList[selectionNo].alt[this.state.dataactive + 1]);
-                        } else {
-                            this.setState({ dataactive: 0 });
-                            $('#active-slideshow').children().eq(0).css("z-index", "201").addClass('active');
-                            //framing
-                            if ($('#active-slideshow').children().eq(0).hasClass('fs-frame')) {
-                                unsetBounds = true;
-                            } else {
-                                unsetBounds = false;
-                            }
-                            setTimeout(function() {
-                                $('#active-slideshow').children().eq(slides.length - 1).removeClass('active');
-                                $('#active-slideshow').children().eq(0).css("z-index", "200");
-                            }, 500);
-                            //footer
-                            $('#f-caption').text("1" + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[0]);
-
-                        }
-                    } else { // swipe action right (arrow left equivalent)
-                        let slideNo = this.state.dataactive;
-                        if (this.state.dataactive - 1 >= 0) {
-                            this.setState({ dataactive: this.state.dataactive - 1 });
-                            $('#active-slideshow').children().eq(slideNo - 1).css("z-index", "201").addClass('active');
-
-                            //framing
-                            if ($('#active-slideshow').children().eq(slideNo - 1).hasClass('fs-frame')) {
-                                unsetBounds = true;
-                            } else {
-                                unsetBounds = false;
-                            }
-                            setTimeout(function() {
-                                $('#active-slideshow').children().eq(slideNo).removeClass('active');
-                                $('#active-slideshow').children().eq(slideNo - 1).removeAttr("style");
-                            }, 500);
-                            $('#f-caption').text((this.state.dataactive) + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[this.state.dataactive - 1]);
-                        } else {
-                            this.setState({ dataactive: slides.length - 1 });
-
-                            //framing
-                            if ($('#active-slideshow').children().eq(slides.length - 1).hasClass('fs-frame')) {
-                                unsetBounds = true;
-                            } else {
-                                unsetBounds = false;
-                            }
-                            $('#active-slideshow').children().eq(slides.length - 1).addClass('active');
-                            setTimeout(function() {
-                                $('#active-slideshow').children().eq(0).removeClass('active');
-                            }, 500);
-                            $('#f-caption').text(projectsList[selectionNo].alt.length + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[projectsList[selectionNo].alt.length - 1]);
-                        }
-                    }
-
-                    // fullscreen framing
-                    if (unsetBounds) {
-                        $('body').css('overflow', 'unset');
-                    } else {
+            lastTouchPos = getGesturePointFromEvent(evt);
+            dispX = initialTouchPos.x - lastTouchPos.x;
+            if (Math.abs(dispX) >= 30) {
+                tempered = true; // limit inputs
+                if (dispX > 0) { // swipe action left (arrow right equivalent)
+                    let slideNo = this.state.dataactive;
+                    if (this.state.dataactive + 1 < slides.length) {
+                        looped = false;
+                        this.setState({ dataactive: this.state.dataactive + 1 });
+                        activateNextSlide($('#active-slideshow').children().eq(slideNo + 1), looped);
                         setTimeout(function() {
-                            $('body').css('overflow', 'hidden');
+                            $('#active-slideshow').children().eq(slideNo).removeClass('active');
                         }, 500);
+                        //footer
+                        $('#f-caption').text((this.state.dataactive + 2) + "/" + projectsList[selectionNo].alt.length + "  —  " + projectsList[selectionNo].alt[this.state.dataactive + 1]);
+                    } else {
+                        looped = true;
+                        this.setState({ dataactive: 0 });
+                        activateNextSlide($('#active-slideshow').children().eq(0), looped);
+                        setTimeout(function() {
+                            $('#active-slideshow').children().eq(slides.length - 1).removeClass('active');
+                            $('#active-slideshow').children().eq(0).css("z-index", "200");
+                        }, 500);
+                        //footer
+                        $('#f-caption').text("1" + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[0]);
+
+                    }
+                } else { // swipe action right (arrow left equivalent)
+                    let slideNo = this.state.dataactive;
+                    if (this.state.dataactive - 1 >= 0) {
+                        this.setState({ dataactive: this.state.dataactive - 1 });
+                        looped = true;
+                        activateNextSlide($('#active-slideshow').children().eq(slideNo - 1), looped);
+                        setTimeout(function() {
+                            $('#active-slideshow').children().eq(slideNo).removeClass('active');
+                            $('#active-slideshow').children().eq(slideNo - 1).removeAttr("style");
+                        }, 500);
+                        $('#f-caption').text((this.state.dataactive) + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[this.state.dataactive - 1]);
+                    } else {
+                        this.setState({ dataactive: slides.length - 1 });
+                        looped = false
+                        activateNextSlide($('#active-slideshow').children().eq(slides.length - 1), looped);
+                        setTimeout(function() {
+                            $('#active-slideshow').children().eq(0).removeClass('active');
+                        }, 500);
+                        $('#f-caption').text(projectsList[selectionNo].alt.length + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[projectsList[selectionNo].alt.length - 1]);
                     }
                 }
             }
+            // setUnsetBoundary();
         },
 
         handlePEnd: function(evt) {
@@ -615,58 +609,46 @@ function compileProject() {
             if (evt.touches && evt.touches.length > 0) {
                 return;
             }
-
             // Remove Event Listeners
             evt.target.releasePointerCapture(evt.pointerId);
             initialTouchPos = null;
             lastTouchPos = null;
 
-            // no drag/swipe --> click instead
-            if (tempered === false) {
-                // successful action
+            if (tempered === true) {
+                setTimeout(function() {
+                    tempered = false;
+                }, 500);
+                return;
+            } else {
                 tempered = true;
+                setTimeout(function() {
+                    tempered = false;
+                    // reset temper in 500ms
+                }, 500);
                 //slideshow change
                 let slideNo = this.state.dataactive;
                 if (this.state.dataactive + 1 < slides.length) {
                     this.setState({ dataactive: this.state.dataactive + 1 });
-                    $('#active-slideshow').children().eq(slideNo + 1).addClass('active');
-                    // framing
-                    if ($('#active-slideshow').children().eq(slideNo + 1).hasClass('fs-frame')) {
-                        unsetBounds = true;
-                    } else {
-                        unsetBounds = false;
-                    }
+                    looped = false;
+                    activateNextSlide($('#active-slideshow').children().eq(slideNo + 1), looped);
                     setTimeout(function() {
                         $('#active-slideshow').children().eq(slideNo).removeClass('active');
                     }, 500);
+                    //footer
+                    $('#f-caption').text((this.state.dataactive + 2) + "/" + projectsList[selectionNo].alt.length + "  —  " + projectsList[selectionNo].alt[this.state.dataactive + 1]);
                 } else {
                     this.setState({ dataactive: 0 });
-                    $('#active-slideshow').children().eq(0).css("z-index", "201").addClass('active');
-                    // framing
-                    if ($('#active-slideshow').children().eq(0).hasClass('fs-frame')) {
-                        unsetBounds = true;
-                    } else {
-                        unsetBounds = false;
-                    }
+                    looped = true;
+                    activateNextSlide($('#active-slideshow').children().eq(0), looped);
                     setTimeout(function() {
                         $('#active-slideshow').children().eq(slides.length - 1).removeClass('active');
                         $('#active-slideshow').children().eq(0).css("z-index", "200").addClass('active');
                     }, 500);
+                    //footer
+                    $('#f-caption').text("1" + "/" + projectsList[selectionNo].alt.length + " — " + projectsList[selectionNo].alt[0]);
                 }
-
-                // fullscreen framing
-                if (unsetBounds) {
-                    $('body').css('overflow', 'unset');
-                } else {
-                    setTimeout(function() {
-                        $('body').css('overflow', 'hidden');
-                    }, 500);
-                }
+                // setUnsetBoundary();
             }
-
-            setTimeout(function() {
-                tempered = false; // reset temper in 500ms
-            }, 500);
         },
 
         render: function() {
