@@ -334,20 +334,31 @@ var projectsList = [{
             "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-01.jpg",
+            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-02.jpg",
+            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-03.jpg",
+            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-04.jpg",
+            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-05.jpg",
+            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-06.png",
+            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-07.jpg",
+            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-08.jpg",
+            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-09.jpg",
+            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-10.jpg",
+            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-11.jpg"
         ],
         "alt": [
-            "Homepage",
-            "About",
-            "Recent Projects",
-            "Project Highlights",
-            "Project Highlights",
-            "Project Highlights"
+            "Cover",
+            "Back Cover",
+            "Pages",
+            "Pages",
+            "Pages",
+            "Pages",
+            "Pages",
+            "Pages",
+            "Close-Up",
+            "Pages",
+            "Pages",
+            "Accordian-style"
         ],
         "frame":[
             "fsm",
@@ -355,10 +366,15 @@ var projectsList = [{
             "fsm",
             "fsm",
             "fsm",
-            "fsm"
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fs"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-01.jpg"
         ]
     },
     {
