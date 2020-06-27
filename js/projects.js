@@ -66,7 +66,7 @@ var unsetBounds = false;
 $(document).ready(function() {
     // reorient image aspect-ratio
     // info-imgs 
-    document.documentElement.style.setProperty('--threetwo-info', $('.img-wrapper').width() * 2 / 3 + 'px');
+    document.documentElement.style.setProperty('--threetwo-info', $('.img-wrapper-end').width() * 2 / 3 + 'px');
     // middle thumb
     document.documentElement.style.setProperty('--bigtextH', $('#big-text').height() + 'px');
     document.documentElement.style.setProperty('--threetwo-thumb', $('.thumb-wrapper').width() * 2 / 3 + 'px');
@@ -75,7 +75,7 @@ $(document).ready(function() {
     // responsive fixes
     $(window).resize(function() {
         // info-imgs 
-        document.documentElement.style.setProperty('--threetwo-info', $('.img-wrapper').width() * 2 / 3 + 'px');
+        document.documentElement.style.setProperty('--threetwo-info', $('.img-wrapper-end').width() * 2 / 3 + 'px');
         // middle thumb
         document.documentElement.style.setProperty('--bigtextH', $('#big-text').height() + 'px');
         document.documentElement.style.setProperty('--threetwo-thumb', $('.thumb-wrapper').width() * 2 / 3 + 'px');
@@ -176,7 +176,7 @@ $(document).ready(function() {
                 $('#nav-container').removeClass('fsm-no-line');
 
                 // overview images, aspect ratio fix upon load
-                document.documentElement.style.setProperty('--threetwo-info', $('.img-wrapper').width() * 2 / 3 + 'px');
+                document.documentElement.style.setProperty('--threetwo-info', $('.img-wrapper-end').width() * 2 / 3 + 'px');
             });
             onSlides = true;
             // rendered project slide-in
@@ -270,7 +270,7 @@ function activateNextSlide(el, reset) {
 
 function captionHighlight(el) {
     // footer mode based on fs/not fs image
-    if (el.children().hasClass('fs-img')) {
+    if (el.children().hasClass('fs-img') || el.children().hasClass('fs-vid')) {
         if ($('a, p').hasClass('fsm-highlight')) {
             $('a, p').removeClass('fsm-highlight');
             $('#nav-container').removeClass('fsm-no-line');
@@ -383,17 +383,15 @@ function compileProject() {
         if (projectsList[selectionNo].frame[i] === "vid") {
             if (i == 0) {
                 slides.push(
-                    e('div', { key: i + 'video', className: 'd-flex justify-content-center align-items-center frame inactive active' },
-                        e('iframe', { src: projectsList[selectionNo].assets[i], style: "position:absolute;top:0;left:0;width:100%;height:100%;", frameborder: 0, allow: 'autoplay; fullscreen', allowfullscreen: null }, )
-                    ),
-                    e('script', { key: i + 'script', src: "https://player.vimeo.com/api/player.js" })
+                    e('div', { key: i + 'video', className: 'd-flex justify-content-center align-items-center frame v-frame inactive active' },
+                        e('iframe', { className: 'fs-vid', src: projectsList[selectionNo].assets[i], style: { width: 80+ "%", height: 80 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: null }, )
+                    )
                 )
             } else {
                 slides.push(
-                    e('div', { key: i + 'video', className: 'd-flex justify-content-center align-items-center frame inactive' },
-                        e('iframe', { src: projectsList[selectionNo].assets[i], style: "position:absolute;top:0;left:0;width:100%;height:100%;", frameborder: 0, allow: 'autoplay; fullscreen', allowfullscreen: null }, )
-                    ),
-                    e('script', { key: i + 'script', src: "https://player.vimeo.com/api/player.js" })
+                    e('div', { key: i + 'video', className: 'd-flex justify-content-center align-items-center frame v-frame inactive' },
+                        e('iframe', { className: 'fs-vid', src: projectsList[selectionNo].assets[i], style: { width: 80+ "%", height: 80 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: null }, )
+                    )
                 )
             }
         }
@@ -431,11 +429,11 @@ function compileProject() {
         if (projectsList[selectionNo].frame[i] == 'vid') {
             if (i == projectsList[selectionNo].assets.length - 1) {
                 infoImgs.push(e('div', { key: i, className: "img-wrapper-end" },
-                    e('iframe', { src: projectsList[selectionNo].assets[i], style: "position:absolute;top:0;left:0;width:100%;height:100%;", frameborder: 0, allow: 'autoplay; fullscreen', allowfullscreen }, )
+                    e('iframe', { src: projectsList[selectionNo].assets[i], style: { width: 100+ "%", height: 100 + "%" }, frameBorder: 0, allow: 'autoplay; fullscreen', allowFullScreen: null }, )
                 ));
             } else {
                 infoImgs.push(e('div', { key: i, className: "img-wrapper" },
-                    e('iframe', { src: projectsList[selectionNo].assets[i], style: "position:absolute;top:0;left:0;width:100%;height:100%;", frameborder: 0, allow: 'autoplay; fullscreen', allowfullscreen }, )
+                    e('iframe', { src: projectsList[selectionNo].assets[i], style: { width: 100+ "%", height: 100 + "%" }, frameBorder: 0, allow: 'autoplay; fullscreen', allowFullScreen: null }, )
                 ));
             }
         }

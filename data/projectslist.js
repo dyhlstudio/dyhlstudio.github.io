@@ -31,7 +31,7 @@ var projectsList = [{
             "Website",
             "Website"
         ],
-        "frame":[
+        "frame": [
             "fsm",
             "fsm",
             "fsm",
@@ -164,7 +164,7 @@ var projectsList = [{
             "Projector Station",
             "Diagram"
         ],
-        "frame":[
+        "frame": [
             "fsm",
             "fsm",
             "sm",
@@ -218,7 +218,7 @@ var projectsList = [{
             "Model Unit E",
             "Model Units E & F"
         ],
-        "frame":[
+        "frame": [
             "sm",
             "sm",
             "sm",
@@ -266,7 +266,7 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights"
         ],
-        "frame":[
+        "frame": [
             "fsm",
             "fsm",
             "fsm",
@@ -309,7 +309,7 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights"
         ],
-        "frame":[
+        "frame": [
             "fsm",
             "fsm",
             "fsm",
@@ -359,10 +359,10 @@ var projectsList = [{
             "Excerpts",
             "Excerpts",
             "Excerpts",
-            "Excerpts",            
+            "Excerpts",
             "Accordian-style"
         ],
-        "frame":[
+        "frame": [
             "fsm",
             "fsm",
             "fsm",
@@ -411,7 +411,7 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights"
         ],
-        "frame":[
+        "frame": [
             "fsm",
             "fsm",
             "fsm",
@@ -500,7 +500,7 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights"
         ],
-        "frame":[
+        "frame": [
             "fsm",
             "fsm",
             "fsm",
@@ -516,7 +516,7 @@ var projectsList = [{
         "no": "012",
         "year": "2017",
         "title": "Undergrowth",
-        "logline": "Short film about dream spaces and the feeling of dreaming",
+        "logline": "Short film about what dreaming feels like",
         "type": [
             "media"
         ],
@@ -532,7 +532,7 @@ var projectsList = [{
         "alt": [
             "Video"
         ],
-        "frame":[
+        "frame": [
             "vid",
         ],
         "thumb": [
@@ -570,7 +570,7 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights"
         ],
-        "frame":[
+        "frame": [
             "fsm",
             "fsm",
             "fsm",
@@ -584,6 +584,32 @@ var projectsList = [{
     },
     {
         "no": "014",
+        "year": "2014",
+        "title": "Endorphinia",
+        "logline": "Frag movie showcasing personal competitive gaming highlights",
+        "type": [
+            "media"
+        ],
+        "tags": [
+            "Short Film",
+        ],
+        "description": [
+            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+        ],
+        "assets": [
+            "https://player.vimeo.com/video/433215311?color=ffffff&title=0&byline=0&portrait=0"
+        ],
+        "alt": [
+            "Video",
+        ],
+        "frame": [
+            "vid",
+        ],
+        "thumb": [
+            "https://dyhlstudio.github.io/assets/endorphinia/endorphinia-thumb.jpg"
+        ]
+    } {
+        "no": "015",
         "year": "2015",
         "title": "Against the Grain",
         "logline": "Custom guitarmaking project from start to finish",
@@ -613,7 +639,7 @@ var projectsList = [{
             "Project Highlights",
             "Project Highlights"
         ],
-        "frame":[
+        "frame": [
             "fsm",
             "fsm",
             "fsm",
