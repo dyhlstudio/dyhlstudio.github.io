@@ -141,7 +141,10 @@ var projectsList = [{
             "Research"
         ],
         "description": [
-            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+            "How do we move through urban spaces? What does that movement look like? What can we learn from it and what emerges?",
+            "Psychogeocairn is an installation and participatory art piece that draws upon the psychogeographic practices of the avant-garde Situationist International of the 1960s to prompt questions about spaces and how we inhabit them. Through prompting participants with the “lost art” of drawing maps, the project makes visible the relationships and contexts of New York City’s inhabitants in both analogue and digital perspectives.",
+            "The installation, through the physical act of drawing and thinking about spaces and visuals, responds to the problem of “narrowness,” or unknowingly being stuck in routine, by revealing how our movements and inhabitation of spaces is influenced. Through this responsive act of reflection, we can learn to read and reinterpret our understandings of the urban fabric.",
+            "Psychogeocairn was featured in Future Local’s June salon event, “The Psychogeography of NYC Music, Nightlife, and Culture” at ThoughtWorks."
         ],
         "assets": [
             "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-01.jpg",
@@ -154,8 +157,8 @@ var projectsList = [{
         ],
         "alt": [
             "Psychogeographic Map",
-            "NYU IDM Spring Showcase",
-            "Thoughtworks Future Local Demo",
+            "NYU IDM 2019 Spring Showcase",
+            "Future Local Demo at Thoughtworks",
             "Drawing Station",
             "Found Objects Station",
             "Projector Station",
@@ -164,7 +167,7 @@ var projectsList = [{
         "frame":[
             "fsm",
             "fsm",
-            "fsm",
+            "sm",
             "sm",
             "sm",
             "fsm",

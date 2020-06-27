@@ -379,7 +379,27 @@ function compileProject() {
                 );
             }
         }
+
+        if (projectsList[selectionNo].frame[i] === "vid") {
+            if (i == 0) {
+                slides.push(
+                    e('div', { key: i + 'video', className: 'd-flex justify-content-center align-items-center frame inactive active' },
+                        e('iframe', { src: projectsList[selectionNo].assets[i], style: "position:absolute;top:0;left:0;width:100%;height:100%;", frameborder: 0, allow: 'autoplay; fullscreen', allowfullscreen }, )
+                    ),
+                    e('script', { key: i + 'script', src: "https://player.vimeo.com/api/player.js" })
+                )
+            } else {
+                slides.push(
+                    e('div', { key: i + 'video', className: 'd-flex justify-content-center align-items-center frame inactive' },
+                        e('iframe', { src: projectsList[selectionNo].assets[i], style: "position:absolute;top:0;left:0;width:100%;height:100%;", frameborder: 0, allow: 'autoplay; fullscreen', allowfullscreen }, )
+                    ),
+                    e('script', { key: i + 'script', src: "https://player.vimeo.com/api/player.js" })
+                )
+            }
+        }
     }
+
+    //<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/433201103?autoplay=1&color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
     // info overview text
     var infoText = [];
@@ -397,16 +417,29 @@ function compileProject() {
     // info overview imgs
     var infoImgs = [];
     for (i = 0; i < projectsList[selectionNo].assets.length; i++) {
-        if (i == projectsList[selectionNo].assets.length - 1) {
-            infoImgs.push(e('div', { key: i, className: "img-wrapper-end" },
-                e('img', { className: "list-img responsive-img", src: projectsList[selectionNo].assets[i] })
-            ));
-        } else {
-            infoImgs.push(e('div', { key: i, className: "img-wrapper" },
-                e('img', { key: i, className: "list-img responsive-img", src: projectsList[selectionNo].assets[i] })
-            ));
+        if (projectsList[selectionNo].frame[i] != 'vid') {
+            if (i == projectsList[selectionNo].assets.length - 1) {
+                infoImgs.push(e('div', { key: i, className: "img-wrapper-end" },
+                    e('img', { className: "list-img responsive-img", src: projectsList[selectionNo].assets[i] })
+                ));
+            } else {
+                infoImgs.push(e('div', { key: i, className: "img-wrapper" },
+                    e('img', { key: i, className: "list-img responsive-img", src: projectsList[selectionNo].assets[i] })
+                ));
+            }
         }
-    };
+        if (projectsList[selectionNo].frame[i] == 'vid') {
+            if (i == projectsList[selectionNo].assets.length - 1) {
+                infoImgs.push(e('div', { key: i, className: "img-wrapper-end" },
+                    e('iframe', { src: projectsList[selectionNo].assets[i], style: "position:absolute;top:0;left:0;width:100%;height:100%;", frameborder: 0, allow: 'autoplay; fullscreen', allowfullscreen }, )
+                ));
+            } else {
+                infoImgs.push(e('div', { key: i, className: "img-wrapper" },
+                    e('iframe', { src: projectsList[selectionNo].assets[i], style: "position:absolute;top:0;left:0;width:100%;height:100%;", frameborder: 0, allow: 'autoplay; fullscreen', allowfullscreen }, )
+                ));
+            }
+        }
+    }
 
     // react project class
     var Project = createReactClass({
