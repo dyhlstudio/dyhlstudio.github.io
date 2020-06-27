@@ -608,7 +608,8 @@ var projectsList = [{
         "thumb": [
             "https://dyhlstudio.github.io/assets/endorphinia/endorphinia-thumb.jpg"
         ]
-    } {
+    },
+    {
         "no": "015",
         "year": "2015",
         "title": "Against the Grain",
