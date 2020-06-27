@@ -296,7 +296,7 @@ function captionHighlight(el) {
         }
         if ($('a, p').hasClass('fsm-highlight')) {
             $('a, p').removeClass('fsm-highlight');
-            $('#nav-container').addClass('fsm-no-line');
+            $('#nav-container').removeClass('fsm-no-line');
         }
     }
 }
@@ -398,7 +398,7 @@ function compileProject() {
         }
     }
 
-    //<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/433201103?autoplay=1&color=ffffff&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
 
     // info overview text
     var infoText = [];
@@ -430,11 +430,11 @@ function compileProject() {
         if (projectsList[selectionNo].frame[i] == 'vid') {
             if (i == projectsList[selectionNo].assets.length - 1) {
                 infoImgs.push(e('div', { key: i, className: "img-wrapper-end" },
-                    e('iframe', { className: 'video', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" }, frameBorder: 0, allow: 'autoplay; fullscreen', allowFullScreen: null }, )
+                    e('iframe', { className: 'video', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: null }, )
                 ));
             } else {
                 infoImgs.push(e('div', { key: i, className: "img-wrapper" },
-                    e('iframe', { className: 'video', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" }, frameBorder: 0, allow: 'autoplay; fullscreen', allowFullScreen: null }, )
+                    e('iframe', { className: 'video', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: null }, )
                 ));
             }
         }

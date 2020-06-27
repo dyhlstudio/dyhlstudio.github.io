@@ -153,7 +153,7 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-04.jpg",
             "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-05.jpg",
             "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-06.jpg",
-            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-06.jpg"
+            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-07.jpg"
         ],
         "alt": [
             "Psychogeographic Map",
@@ -166,11 +166,11 @@ var projectsList = [{
         ],
         "frame": [
             "fsm",
-            "fsm",
             "sm",
             "sm",
             "sm",
-            "fsm",
+            "sm",
+            "sm",
             "sm"
         ],
         "thumb": [
@@ -524,7 +524,7 @@ var projectsList = [{
             "Short Film"
         ],
         "description": [
-            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+            "Undergrowth is a short film exploring experimental storytelling about dream spaces and the feeling of dreaming. As both a linear narrative film and non-linear montage, the film’s surreal and realistic visuals emphasis viscerality and unconscious emotions, drawing from works from filmmakers such as David Lynch, Wes Anderson, Maya Derin, and Yoko Ono. The janggu, a traditional Korean folk drum, highlights an importance of rhythm and sound in the portrayal of such spaces."
         ],
         "assets": [
             "https://player.vimeo.com/video/433201103?autoplay=1&color=ffffff&title=0&byline=0&portrait=0"
@@ -552,7 +552,8 @@ var projectsList = [{
             "Motion Graphics"
         ],
         "description": [
-            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+            "By Omission is a frag movie/short film commissioned for GuilteTV’s YouTube channel to consolidate highlights from his professional and competitive gaming career in the first-person shooter game Blacklight: Retribution.",
+            "The video includes more advanced editing techniques and introduced some motion graphics compared to my first movie, Endorphinia."
         ],
         "assets": [
             "https://player.vimeo.com/video/433220094?color=ffffff&title=0&byline=0&portrait=0"
@@ -571,7 +572,7 @@ var projectsList = [{
         "no": "014",
         "year": "2014",
         "title": "Endorphinia",
-        "logline": "Frag movie showcasing personal competitive gaming highlights",
+        "logline": "Frag movie showcasing my own competitive gaming highlights",
         "type": [
             "media"
         ],
@@ -579,7 +580,7 @@ var projectsList = [{
             "Short Film",
         ],
         "description": [
-            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+            "Endorphinia is the first short film I made of the competitive FPS game, Blacklight: Retribution. Informally known as frag movies, these films involve a collection of clips which are edited together through montaging techniques. The editing is mostly focused on balancing montaging techniques while keeping a general narrative intact. The film is a collection of my own recordings and footage."
         ],
         "assets": [
             "https://player.vimeo.com/video/433215311?color=ffffff&title=0&byline=0&portrait=0"
@@ -607,26 +608,25 @@ var projectsList = [{
             "Prototyping"
         ],
         "description": [
-            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+            "Against the Grain is a guitarmaking and prototyping project in collaboration with a Dallas-based luthier: Frank Teng of Falcon Tone Design. The guitar features a smaller, thinner, and lighter than average guitar body to fit smaller players and particularly for playing while standing up. Aside from a pre-fabricated neck, most of the guitar is custom-made to be more accessible to most players in weight, size, and bulk.",
+            "A process blog detailing the project from start to finish can be found here: https://atgguitars.tumblr.com/"
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/againstthegrain/againstthegrain-01.jpg",
+            "https://dyhlstudio.github.io/assets/againstthegrain/againstthegrain-02.jpg",
+            "https://dyhlstudio.github.io/assets/againstthegrain/againstthegrain-03.jpg",
+            "https://dyhlstudio.github.io/assets/againstthegrain/againstthegrain-04.jpg",
+            "https://dyhlstudio.github.io/assets/againstthegrain/againstthegrain-05.jpg"
         ],
         "alt": [
-            "Homepage",
-            "About",
-            "Recent Projects",
-            "Project Highlights",
-            "Project Highlights",
-            "Project Highlights"
+            "Guitar",
+            "Guitar",
+            "Guitar",
+            "Process Highlights #1",
+            "Process Highlights #2"
         ],
         "frame": [
-            "fsm",
+            "fs",
             "fsm",
             "fsm",
             "fsm",
@@ -634,7 +634,7 @@ var projectsList = [{
             "fsm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/againstthegrain/againstthegrain-01.jpg"
         ]
     }
 ]
