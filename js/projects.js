@@ -384,14 +384,14 @@ function compileProject() {
             if (i == 0) {
                 slides.push(
                     e('div', { key: i + 'video', className: 'd-flex justify-content-center align-items-center frame inactive active' },
-                        e('iframe', { src: projectsList[selectionNo].assets[i], style: "position:absolute;top:0;left:0;width:100%;height:100%;", frameborder: 0, allow: 'autoplay; fullscreen', allowfullscreen }, )
+                        e('iframe', { src: projectsList[selectionNo].assets[i], style: "position:absolute;top:0;left:0;width:100%;height:100%;", frameborder: 0, allow: 'autoplay; fullscreen', allowfullscreen: null }, )
                     ),
                     e('script', { key: i + 'script', src: "https://player.vimeo.com/api/player.js" })
                 )
             } else {
                 slides.push(
                     e('div', { key: i + 'video', className: 'd-flex justify-content-center align-items-center frame inactive' },
-                        e('iframe', { src: projectsList[selectionNo].assets[i], style: "position:absolute;top:0;left:0;width:100%;height:100%;", frameborder: 0, allow: 'autoplay; fullscreen', allowfullscreen }, )
+                        e('iframe', { src: projectsList[selectionNo].assets[i], style: "position:absolute;top:0;left:0;width:100%;height:100%;", frameborder: 0, allow: 'autoplay; fullscreen', allowfullscreen: null }, )
                     ),
                     e('script', { key: i + 'script', src: "https://player.vimeo.com/api/player.js" })
                 )
