@@ -92,17 +92,16 @@ $(document).ready(function() {
             $('#nav-info').addClass('d-none');
             $('#nav-blank').removeClass('d-md-block');
             if (onHome === true) {
-
                 $('#home').addClass('d-flex').removeClass('d-none');
             }
             if (onSlides === true) {
-                $('a, p').addClass('highlight');
-                $('#nav-container').addClass('no-line');
+                captionHighlight($('.active'));
                 $('footer').removeClass('d-none');
             }
             $('#project-wrapper').removeClass('d-none');
             // open
         } else {
+            $('#nav-container').removeClass('fs-no-line');
             $('#nav-1, #nav-2').removeClass('d-md-block');
             $('#nav-0, #home').addClass('d-none');
             $('#home').removeClass('d-flex');
@@ -112,8 +111,10 @@ $(document).ready(function() {
             $('#nav-4 a').addClass('links');
             $('#project-wrapper').addClass('d-none');
             if (onSlides === true) {
-                $('a, p').removeClass('highlight');
-                $('#nav-container').removeClass('no-line');
+                $('a, p').removeClass('fs-highlight');
+                $('a, p').removeClass('fsm-highlight');
+                $('#nav-container').removeClass('fs-no-line');
+                $('#nav-container').removeClass('fsm-no-line');
                 $('footer').addClass('d-none');
             }
         }
@@ -384,13 +385,13 @@ function compileProject() {
             if (i == 0) {
                 slides.push(
                     e('div', { key: i + 'video', className: 'd-flex justify-content-center align-items-center frame v-frame inactive active' },
-                        e('iframe', { className: 'fs-vid', src: projectsList[selectionNo].assets[i], style: { width: 80+ "%", height: 80 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: null }, )
+                        e('iframe', { className: 'fs-vid', src: projectsList[selectionNo].assets[i], style: { width: 80 + "%", height: 80 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: null }, )
                     )
                 )
             } else {
                 slides.push(
                     e('div', { key: i + 'video', className: 'd-flex justify-content-center align-items-center frame v-frame inactive' },
-                        e('iframe', { className: 'fs-vid', src: projectsList[selectionNo].assets[i], style: { width: 80+ "%", height: 80 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: null }, )
+                        e('iframe', { className: 'fs-vid', src: projectsList[selectionNo].assets[i], style: { width: 80 + "%", height: 80 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: null }, )
                     )
                 )
             }
@@ -429,11 +430,11 @@ function compileProject() {
         if (projectsList[selectionNo].frame[i] == 'vid') {
             if (i == projectsList[selectionNo].assets.length - 1) {
                 infoImgs.push(e('div', { key: i, className: "img-wrapper-end" },
-                    e('iframe', { src: projectsList[selectionNo].assets[i], style: { width: 100+ "%", height: 100 + "%" }, frameBorder: 0, allow: 'autoplay; fullscreen', allowFullScreen: null }, )
+                    e('iframe', { className: 'video', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" }, frameBorder: 0, allow: 'autoplay; fullscreen', allowFullScreen: null }, )
                 ));
             } else {
                 infoImgs.push(e('div', { key: i, className: "img-wrapper" },
-                    e('iframe', { src: projectsList[selectionNo].assets[i], style: { width: 100+ "%", height: 100 + "%" }, frameBorder: 0, allow: 'autoplay; fullscreen', allowFullScreen: null }, )
+                    e('iframe', { className: 'video', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" }, frameBorder: 0, allow: 'autoplay; fullscreen', allowFullScreen: null }, )
                 ));
             }
         }

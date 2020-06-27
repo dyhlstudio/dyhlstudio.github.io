@@ -555,31 +555,16 @@ var projectsList = [{
             "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://player.vimeo.com/video/433220094?color=ffffff&title=0&byline=0&portrait=0"
         ],
         "alt": [
-            "Homepage",
-            "About",
-            "Recent Projects",
-            "Project Highlights",
-            "Project Highlights",
-            "Project Highlights"
+            "Video"
         ],
         "frame": [
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm"
+            "vid"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/byomission/byomission-thumb.jpg"
         ]
     },
     {
