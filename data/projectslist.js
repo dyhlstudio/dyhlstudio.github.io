@@ -313,6 +313,7 @@ var projectsList = [{
         ],
         "frame": [
             "fsm",
+            "fs",
             "fsm",
             "fsm",
             "fsm",
