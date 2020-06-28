@@ -321,7 +321,7 @@ var projectsList = [{
             "fsm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-01.jpg"
         ]
     },
     {
@@ -396,34 +396,40 @@ var projectsList = [{
             "Architectural Design"
         ],
         "description": [
-            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+            "For NASA JPL's Cleanroom Design Challenge, teams explored new opportunities for design and architecture to enrich workflows and systems within NASA’s spaceship-building cleanrooms",
+            "Inspired by practices of street art and graffiti, Project Memo responds to the challenges of the cleanroom by taking full advantage of its virtual capabilities to make it dirty. As its name implies, Project Memo is a tool for recording work-related messages, but organized through the ability to  spray paint in both “work” and “play” modes onto one’s real surroundings mapped by the HoloLens, and attach virtual communications onto painted works that are shared between users.",
+            "In addition to an architectural design for the interactions between the virtual and real-world interfaces, a functioning HoloLens prototype was developed to demonstrate a “painting” functionality.",
+            ["A HoloLens prototype built in Unity can be accessed here: ", React.createElement('a', { className: 'text-links', src: "https://drive.google.com/drive/folders/1YAEC1GTw-S20PykYJ06YxRCWcHzCo2GC?usp=sharing" }, "link", React.createElement('span', { className: "link-arrow"},))]
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-01.jpg",
+            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-02.jpg",
+            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-03.jpg",
+            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-04.jpg",
+            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-05.jpg",
+            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-06.jpg",
+            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-07.jpg"
         ],
         "alt": [
-            "Homepage",
-            "About",
-            "Recent Projects",
-            "Project Highlights",
-            "Project Highlights",
-            "Project Highlights"
+            "Cleanroom",
+            "Close-Up",
+            "Sticky Notes Mockup",
+            "Painting Mockup",
+            "Plan Diagram",
+            "Section Diagram",
+            "Mixed-Reality Prototype"
         ],
         "frame": [
             "fsm",
             "fsm",
             "fsm",
             "fsm",
-            "fsm",
+            "sm",
+            "sm",
             "fsm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-01.jpg"
         ]
     },
     {
@@ -485,23 +491,22 @@ var projectsList = [{
             "Brand Identity"
         ],
         "description": [
-            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+            "The Architecture House is a fictional institution and museum dedicated to architectural practice and history. The project creates a custom typeface logo that recreates the characteristic mass of each non-round letter without becoming unrecognizable. A design system is then created towards a magazine and poster."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/archhouse/archhouse-01.jpg",
+            "https://dyhlstudio.github.io/assets/archhouse/archhouse-02.jpg",
+            "https://dyhlstudio.github.io/assets/archhouse/archhouse-03.jpg",
+            "https://dyhlstudio.github.io/assets/archhouse/archhouse-04.jpg",
+            "https://dyhlstudio.github.io/assets/archhouse/archhouse-05.jpg",
+            "https://dyhlstudio.github.io/assets/archhouse/archhouse-06.jpg"
         ],
         "alt": [
-            "Homepage",
-            "About",
-            "Recent Projects",
-            "Project Highlights",
-            "Project Highlights",
-            "Project Highlights"
+            "Logotype",
+            "Alternate Logotype",
+            "Magazine/Editorial Cover",
+            "Event Poster",
+            "Logo Variations"
         ],
         "frame": [
             "fsm",
@@ -512,7 +517,7 @@ var projectsList = [{
             "fsm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/archhouse/archhouse-05.jpg"
         ]
     },
     {
