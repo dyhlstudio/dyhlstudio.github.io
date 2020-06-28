@@ -467,6 +467,11 @@ nav a {
         /*        overflow: auto;*/
     }
 
+    .sm-img {
+        max-width: calc(var(--vw) * 100);
+        max-height: calc(var(--vh) * 80);
+    }
+
     .fsm-img {
         /*        position: absolute;
         top: 0;
