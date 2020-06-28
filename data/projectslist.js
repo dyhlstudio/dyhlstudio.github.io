@@ -248,34 +248,34 @@ var projectsList = [{
             "Research"
         ],
         "description": [
-            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+            "State of Tyranny, at the Storefront for Art and Architecture, unveils the methods and tools of urban design that seek to disable public agency in the name of safety. Expanding upon research conducted by Theo Deutinger for his recent publication, Handbook of Tyranny, the exhibition calls attention to the spatial effects of tyranny, ultimately aiming to identify methods of control commonly used around the world and to contextualize their embeddedness within the urban fabric of New York City.",
+            "State of Tyranny is presented as “a wall of objects” and “evidence inventories,” where the artifacts of authoritarian or repressive design themselves are extracted from their typical contexts.Each item is profiled with a name, origin, market price, and description, with diagrams to help organize the inventories of objects present to each section, highlighting the widespread accessibility and prevalence of tools of control."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/stateoftyranny/stateoftyranny-01.jpg",
+            "https://dyhlstudio.github.io/assets/stateoftyranny/stateoftyranny-02.jpg",
+            "https://dyhlstudio.github.io/assets/stateoftyranny/stateoftyranny-03.jpg",
+            "https://dyhlstudio.github.io/assets/stateoftyranny/stateoftyranny-04.jpg",
+            "https://dyhlstudio.github.io/assets/stateoftyranny/stateoftyranny-05.jpg",
+            "https://dyhlstudio.github.io/assets/stateoftyranny/stateoftyranny-06.jpg"
         ],
         "alt": [
-            "Homepage",
-            "About",
-            "Recent Projects",
-            "Project Highlights",
-            "Project Highlights",
-            "Project Highlights"
+            "Full Elevation",
+            "Exhibition Graphics",
+            "Exhibition Graphics",
+            "Exhibition Graphics",
+            "City ID Mockups"
         ],
         "frame": [
             "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm"
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/stateoftyranny/stateoftyranny-01.jpg"
         ]
     },
     {
@@ -294,20 +294,22 @@ var projectsList = [{
             "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-01.jpg",
+            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-02.jpg",
+            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-03.jpg",
+            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-04.jpg",
+            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-05.jpg",
+            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-06.jpg",
+            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-07.jpg"
         ],
         "alt": [
-            "Homepage",
-            "About",
-            "Recent Projects",
-            "Project Highlights",
-            "Project Highlights",
-            "Project Highlights"
+            "Logotype",
+            "Logotype",
+            "Facade Graphics",
+            "Facade Graphics",
+            "Facade Graphics",
+            "Exhibition",
+            "Facade Graphics"
         ],
         "frame": [
             "fsm",
@@ -360,7 +362,7 @@ var projectsList = [{
             "Excerpts",
             "Excerpts",
             "Excerpts",
-            "Accordian-style"
+            "Full Accordian"
         ],
         "frame": [
             "fsm",
@@ -609,7 +611,7 @@ var projectsList = [{
         ],
         "description": [
             "Against the Grain is a guitarmaking and prototyping project in collaboration with a Dallas-based luthier: Frank Teng of Falcon Tone Design. The guitar features a smaller, thinner, and lighter than average guitar body to fit smaller players and particularly for playing while standing up. Aside from a pre-fabricated neck, most of the guitar is custom-made to be more accessible to most players in weight, size, and bulk.",
-            "A process blog detailing the project from start to finish can be found here: https://atgguitars.tumblr.com/"
+            ["A process blog detailing the project from start to finish can be found at ", React.createElement('a', { className: "text-links", src: "https://atgguitars.tumblr.com/" }, "https://atgguitars.tumblr.com/")]
         ],
         "assets": [
             "https://dyhlstudio.github.io/assets/againstthegrain/againstthegrain-01.jpg",
@@ -629,9 +631,8 @@ var projectsList = [{
             "fs",
             "fsm",
             "fsm",
-            "fsm",
-            "fsm",
-            "fsm"
+            "sm",
+            "sm"
         ],
         "thumb": [
             "https://dyhlstudio.github.io/assets/againstthegrain/againstthegrain-01.jpg"
