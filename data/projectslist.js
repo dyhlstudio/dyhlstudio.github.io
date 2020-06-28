@@ -157,7 +157,7 @@ var projectsList = [{
         ],
         "alt": [
             "Psychogeographic Map",
-            "NYU IDM 2019 Spring Showcase",
+            "IDM 2019 Spring Showcase",
             "Future Local Demo at Thoughtworks",
             "Drawing Station",
             "Found Objects Station",
