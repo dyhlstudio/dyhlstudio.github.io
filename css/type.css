@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'iA Writer Mono';
+    src: url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.eot');
+    src: url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.woff2') format('woff2'),
+        url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.woff') format('woff'),
+        url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Happy Times at the IKOB New Game Plus Edition';
+    src: url('https://dyhlstudio.github.io/fonts/happytimes/happy-times-NG_regular_master_web.woff2') format('woff2'),
+        url('https://dyhlstudio.github.io/fonts/happytimes/happy-times-NG_regular_master_web.woff') format('woff'),
+        url('https://dyhlstudio.github.io/fonts/happytimes/happy-times-NG_regular_master_web.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Happy Times at the IKOB New Game Plus Edition Italic';
+    src: url('https://dyhlstudio.github.io/fonts/happytimes/happy-times-NG_italic_master_web.woff2') format('woff2'),
+        url('https://dyhlstudio.github.io/fonts/happytimes/happy-times-NG_italic_master_web.woff') format('woff'),
+        url('https://dyhlstudio.github.io/fonts/happytimes/happy-times-NG_italic_master_web.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Ortica Light';
+    src: url('https://dyhlstudio.github.io/fonts/ortica/Ortica-Light.woff2') format('woff2'),
+        url('https://dyhlstudio.github.io/fonts/ortica/Ortica-Light.woff') format('woff'),
+        url('https://dyhlstudio.github.io/fonts/ortica/Ortica-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Sprat Thin';
+    src: url('https://dyhlstudio.github.io/fonts/sprat/SpratThin.woff2') format('woff2'),
+        url('https://dyhlstudio.github.io/fonts/sprat/SpratThin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Fluxisch Else Bold';
+    src: url('https://dyhlstudio.github.io/fonts/fluxisch/FluxischElse-Bold.otf') format('opentype'),
+        url('https://dyhlstudio.github.io/fonts/fluxisch/FluxischElse-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Fluxisch Else Regular';
+    src: url('https://dyhlstudio.github.io/fonts/fluxisch/FluxischElse-Regular.otf') format('opentype'),
+        url('https://dyhlstudio.github.io/fonts/fluxisch/FluxischElse-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}

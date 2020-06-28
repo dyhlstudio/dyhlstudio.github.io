@@ -499,7 +499,6 @@ var projectsList = [{
             "https://dyhlstudio.github.io/assets/archhouse/archhouse-03.jpg",
             "https://dyhlstudio.github.io/assets/archhouse/archhouse-04.jpg",
             "https://dyhlstudio.github.io/assets/archhouse/archhouse-05.jpg",
-            "https://dyhlstudio.github.io/assets/archhouse/archhouse-06.jpg"
         ],
         "alt": [
             "Logotype",
@@ -509,15 +508,14 @@ var projectsList = [{
             "Logo Variations"
         ],
         "frame": [
+            "fs",
+            "fs",
+            "sm",
+            "sm",
             "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/archhouse/archhouse-05.jpg"
+            "https://dyhlstudio.github.io/assets/archhouse/archhouse-04.jpg"
         ]
     },
     {

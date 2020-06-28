@@ -1,19 +1,5 @@
 /* universal styling */
 
-
-
-@font-face {
-    font-family: 'iA Writer Mono';
-    src: url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.eot');
-    src: url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.eot?#iefix') format('embedded-opentype'),
-        url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.woff2') format('woff2'),
-        url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.woff') format('woff'),
-        url('https://dyhlstudio.github.io/fonts/iawriter/iAWriterMonoS-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-}
-
 html,
 body {
     overscroll-behavior: none;
@@ -25,7 +11,7 @@ html {
 }
 
 body {
-    font-family: iA Writer Mono, stratos, Helvetica, sans-serif;
+    font-family: Happy Times at the IKOB New Game Plus Edition Italic, iA Writer Mono, stratos, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
     margin: 1.25em 1.5em;
@@ -117,8 +103,7 @@ a:hover {
     background-color: black;
 }
 
-.video {
-}
+.video {}
 
 .list-img {
     height: auto;
@@ -286,8 +271,7 @@ nav a {
     background-color: white;
 }
 
-.fs-frame {    
-}
+.fs-frame {}
 
 .v-frame {
     background-color: black;
