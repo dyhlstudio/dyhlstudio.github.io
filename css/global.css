@@ -468,7 +468,7 @@ nav a {
     }
 
     .sm-img {
-        max-width: calc(var(--vw) * 100);
+        width: calc(var(--vw) * 100);
         max-height: calc(var(--vh) * 80);
     }
 
@@ -514,6 +514,24 @@ nav a {
 
     #middle #big-text-wrapper {
         height: var(--bigtextH);
+    }
+
+    .sm-img {
+        width: calc(var(--vw) * 100);
+        max-height: calc(var(--vh) * 80);
+    }
+
+    .fsm-img {
+        /*        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;*/
+        width: calc(100% - 3rem);
+        height: auto;
+        overflow: hidden;
+        z-index: 200;
+        object-fit: contain;
     }
 
     .fsm-highlight {
