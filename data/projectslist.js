@@ -256,8 +256,7 @@ var projectsList = [{
             "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-02.jpg",
             "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-03.jpg",
             "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-04.jpg",
-            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-05.jpg",
-            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-06.jpg"
+            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-05.jpg"
         ],
         "alt": [
             "Full Elevation",
@@ -268,7 +267,6 @@ var projectsList = [{
         ],
         "frame": [
             "fsm",
-            "sm",
             "sm",
             "sm",
             "sm",
