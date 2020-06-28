@@ -16,12 +16,12 @@ var projectsList = [{
             "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-01.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-02.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-03.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-04.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-05.jpg",
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhl.studio/assets/wdistudio/wdistudio-01.jpg",
+            "https://dyhl.studio/assets/wdistudio/wdistudio-02.jpg",
+            "https://dyhl.studio/assets/wdistudio/wdistudio-03.jpg",
+            "https://dyhl.studio/assets/wdistudio/wdistudio-04.jpg",
+            "https://dyhl.studio/assets/wdistudio/wdistudio-05.jpg",
+            "https://dyhl.studio/assets/wdistudio/wdistudio-06.jpg"
         ],
         "alt": [
             "Website",
@@ -40,7 +40,7 @@ var projectsList = [{
             "fsm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhl.studio/assets/wdistudio/wdistudio-06.jpg"
         ]
     },
     {
@@ -59,12 +59,12 @@ var projectsList = [{
             "Waffle is a community-based mobile parking app that helps urban drivers find parking in dense city areas. The technology company based in Los Angeles focuses on streamlining time and energy costs spent in parking, while fostering a more convenient automobile experience, community, and awareness for the natural environment. A new graphic identity and website in response amplifies and channels the visions of the startup into a cutting-edge, yet approachable look."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/waffle/waffle-01.jpg",
-            "https://dyhlstudio.github.io/assets/waffle/waffle-02.jpg",
-            "https://dyhlstudio.github.io/assets/waffle/waffle-03.jpg",
-            "https://dyhlstudio.github.io/assets/waffle/waffle-04.jpg",
-            "https://dyhlstudio.github.io/assets/waffle/waffle-05.jpg",
-            "https://dyhlstudio.github.io/assets/waffle/waffle-06.jpg"
+            "https://dyhl.studio/assets/waffle/waffle-01.jpg",
+            "https://dyhl.studio/assets/waffle/waffle-02.jpg",
+            "https://dyhl.studio/assets/waffle/waffle-03.jpg",
+            "https://dyhl.studio/assets/waffle/waffle-04.jpg",
+            "https://dyhl.studio/assets/waffle/waffle-05.jpg",
+            "https://dyhl.studio/assets/waffle/waffle-06.jpg"
         ],
         "alt": [
             "Logotype",
@@ -83,7 +83,7 @@ var projectsList = [{
             "fsm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/waffle/waffle-01.jpg"
+            "https://dyhl.studio/assets/waffle/waffle-01.jpg"
         ]
     },
     {
@@ -102,11 +102,11 @@ var projectsList = [{
             "In 2019, OPUS shifted from an annual festival to non-profit biennial. This concept proposed for the website design facilitates this transition in a lightweight and reflective site, with a simple structure focusing on reflection of past events and anticipation for the future."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/opus/opus-01.jpg",
-            "https://dyhlstudio.github.io/assets/opus/opus-02.jpg",
-            "https://dyhlstudio.github.io/assets/opus/opus-03.jpg",
-            "https://dyhlstudio.github.io/assets/opus/opus-04.jpg",
-            "https://dyhlstudio.github.io/assets/opus/opus-05.jpg"
+            "https://dyhl.studio/assets/opus/opus-01.jpg",
+            "https://dyhl.studio/assets/opus/opus-02.jpg",
+            "https://dyhl.studio/assets/opus/opus-03.jpg",
+            "https://dyhl.studio/assets/opus/opus-04.jpg",
+            "https://dyhl.studio/assets/opus/opus-05.jpg"
         ],
         "alt": [
             "Website",
@@ -123,7 +123,7 @@ var projectsList = [{
             "fsm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/opus/opus-01.jpg"
+            "https://dyhl.studio/assets/opus/opus-01.jpg"
         ]
     },
     {
@@ -147,13 +147,13 @@ var projectsList = [{
             "Psychogeocairn was featured in Future Local’s June salon event, “The Psychogeography of NYC Music, Nightlife, and Culture” at ThoughtWorks."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-01.jpg",
-            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-02.jpg",
-            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-03.jpg",
-            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-04.jpg",
-            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-05.jpg",
-            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-06.jpg",
-            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-07.jpg"
+            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-01.jpg",
+            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-02.jpg",
+            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-03.jpg",
+            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-04.jpg",
+            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-05.jpg",
+            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-06.jpg",
+            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-07.jpg"
         ],
         "alt": [
             "Psychogeographic Map",
@@ -174,7 +174,7 @@ var projectsList = [{
             "sm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/psychogeocairn/psychogeocairn-01.jpg"
+            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-01.jpg"
         ]
     },
     {
@@ -193,17 +193,17 @@ var projectsList = [{
             "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-01.jpg",
-            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-02.jpg",
-            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-03.jpg",
-            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-04.jpg",
-            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-05.jpg",
-            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-06.png",
-            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-07.jpg",
-            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-08.jpg",
-            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-09.jpg",
-            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-10.jpg",
-            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-11.jpg"
+            "https://dyhl.studio/assets/playgrounds/playgrounds-01.jpg",
+            "https://dyhl.studio/assets/playgrounds/playgrounds-02.jpg",
+            "https://dyhl.studio/assets/playgrounds/playgrounds-03.jpg",
+            "https://dyhl.studio/assets/playgrounds/playgrounds-04.jpg",
+            "https://dyhl.studio/assets/playgrounds/playgrounds-05.jpg",
+            "https://dyhl.studio/assets/playgrounds/playgrounds-06.png",
+            "https://dyhl.studio/assets/playgrounds/playgrounds-07.jpg",
+            "https://dyhl.studio/assets/playgrounds/playgrounds-08.jpg",
+            "https://dyhl.studio/assets/playgrounds/playgrounds-09.jpg",
+            "https://dyhl.studio/assets/playgrounds/playgrounds-10.jpg",
+            "https://dyhl.studio/assets/playgrounds/playgrounds-11.jpg"
         ],
         "alt": [
             "Diagram #1",
@@ -232,7 +232,7 @@ var projectsList = [{
             "sm",
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/playgrounds/playgrounds-thumb.jpg"
+            "https://dyhl.studio/assets/playgrounds/playgrounds-thumb.jpg"
         ]
     },
     {
@@ -252,12 +252,12 @@ var projectsList = [{
             "State of Tyranny is presented as “a wall of objects” and “evidence inventories,” where the artifacts of authoritarian or repressive design themselves are extracted from their typical contexts.Each item is profiled with a name, origin, market price, and description, with diagrams to help organize the inventories of objects present to each section, highlighting the widespread accessibility and prevalence of tools of control."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/stateoftyranny/stateoftyranny-01.jpg",
-            "https://dyhlstudio.github.io/assets/stateoftyranny/stateoftyranny-02.jpg",
-            "https://dyhlstudio.github.io/assets/stateoftyranny/stateoftyranny-03.jpg",
-            "https://dyhlstudio.github.io/assets/stateoftyranny/stateoftyranny-04.jpg",
-            "https://dyhlstudio.github.io/assets/stateoftyranny/stateoftyranny-05.jpg",
-            "https://dyhlstudio.github.io/assets/stateoftyranny/stateoftyranny-06.jpg"
+            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-01.jpg",
+            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-02.jpg",
+            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-03.jpg",
+            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-04.jpg",
+            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-05.jpg",
+            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-06.jpg"
         ],
         "alt": [
             "Full Elevation",
@@ -275,7 +275,7 @@ var projectsList = [{
             "sm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/stateoftyranny/stateoftyranny-01.jpg"
+            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-01.jpg"
         ]
     },
     {
@@ -294,13 +294,13 @@ var projectsList = [{
             "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-01.jpg",
-            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-02.jpg",
-            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-03.jpg",
-            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-04.jpg",
-            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-05.jpg",
-            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-06.jpg",
-            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-07.jpg"
+            "https://dyhl.studio/assets/aquivivegente/aquivivegente-01.jpg",
+            "https://dyhl.studio/assets/aquivivegente/aquivivegente-02.jpg",
+            "https://dyhl.studio/assets/aquivivegente/aquivivegente-03.jpg",
+            "https://dyhl.studio/assets/aquivivegente/aquivivegente-04.jpg",
+            "https://dyhl.studio/assets/aquivivegente/aquivivegente-05.jpg",
+            "https://dyhl.studio/assets/aquivivegente/aquivivegente-06.jpg",
+            "https://dyhl.studio/assets/aquivivegente/aquivivegente-07.jpg"
         ],
         "alt": [
             "Logotype",
@@ -321,7 +321,7 @@ var projectsList = [{
             "fsm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/aquivivegente/aquivivegente-01.jpg"
+            "https://dyhl.studio/assets/aquivivegente/aquivivegente-01.jpg"
         ]
     },
     {
@@ -341,16 +341,16 @@ var projectsList = [{
             "The design and construction of the book allows for different reading experiences, including both right-to-left and left-to-right, that reflect the diverse perspectives present in each individual’s experiences with place, travel, and tourism. Depending on perspective, a viewer may see a combination of visuals, texts, and lens which obscure, augment, and interact."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-01.jpg",
-            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-02.jpg",
-            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-03.jpg",
-            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-04.jpg",
-            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-05.jpg",
-            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-06.jpg",
-            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-07.jpg",
-            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-08.jpg",
-            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-09.jpg",
-            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-10.jpg",
+            "https://dyhl.studio/assets/sunpleats/sunpleats-01.jpg",
+            "https://dyhl.studio/assets/sunpleats/sunpleats-02.jpg",
+            "https://dyhl.studio/assets/sunpleats/sunpleats-03.jpg",
+            "https://dyhl.studio/assets/sunpleats/sunpleats-04.jpg",
+            "https://dyhl.studio/assets/sunpleats/sunpleats-05.jpg",
+            "https://dyhl.studio/assets/sunpleats/sunpleats-06.jpg",
+            "https://dyhl.studio/assets/sunpleats/sunpleats-07.jpg",
+            "https://dyhl.studio/assets/sunpleats/sunpleats-08.jpg",
+            "https://dyhl.studio/assets/sunpleats/sunpleats-09.jpg",
+            "https://dyhl.studio/assets/sunpleats/sunpleats-10.jpg",
         ],
         "alt": [
             "Cover",
@@ -379,7 +379,7 @@ var projectsList = [{
             "fs"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/sunpleats/sunpleats-01.jpg"
+            "https://dyhl.studio/assets/sunpleats/sunpleats-01.jpg"
         ]
     },
     {
@@ -402,13 +402,13 @@ var projectsList = [{
             ["A HoloLens prototype built in Unity can be accessed here: ", React.createElement('a', { className: 'text-links', src: "https://drive.google.com/drive/folders/1YAEC1GTw-S20PykYJ06YxRCWcHzCo2GC?usp=sharing" }, "link", React.createElement('span', { className: "link-arrow"},))]
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-01.png",
-            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-02.png",
-            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-03.jpg",
-            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-04.jpg",
-            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-05.jpg",
-            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-06.jpg",
-            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-07.jpg"
+            "https://dyhl.studio/assets/projectmemo/projectmemo-01.png",
+            "https://dyhl.studio/assets/projectmemo/projectmemo-02.png",
+            "https://dyhl.studio/assets/projectmemo/projectmemo-03.jpg",
+            "https://dyhl.studio/assets/projectmemo/projectmemo-04.jpg",
+            "https://dyhl.studio/assets/projectmemo/projectmemo-05.jpg",
+            "https://dyhl.studio/assets/projectmemo/projectmemo-06.jpg",
+            "https://dyhl.studio/assets/projectmemo/projectmemo-07.jpg"
         ],
         "alt": [
             "Cleanroom",
@@ -429,7 +429,7 @@ var projectsList = [{
             "fsm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-01.png"
+            "https://dyhl.studio/assets/projectmemo/projectmemo-01.png"
         ]
     },
     {
@@ -449,13 +449,13 @@ var projectsList = [{
             "For the Draft brand, an omnipresent blue-and-white theme and graphic linework draws from blueprints, schematics, and the creative energies associated with their use. The concoctions made at Draft reflect this spirit of playful, but also intentional experimentation. Several menus offer a variety of drinks crafted for a time of day and through common bases such as milk, tea, wine, juice, etc., while the signature Draft mixing glass offers a visual guide to common volumes."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/draft/draft-01.jpg",
-            "https://dyhlstudio.github.io/assets/draft/draft-02.jpg",
-            "https://dyhlstudio.github.io/assets/draft/draft-03.jpg",
-            "https://dyhlstudio.github.io/assets/draft/draft-04.jpg",
-            "https://dyhlstudio.github.io/assets/draft/draft-05.jpg",
-            "https://dyhlstudio.github.io/assets/draft/draft-06.jpg",
-            "https://dyhlstudio.github.io/assets/draft/draft-07.jpg"
+            "https://dyhl.studio/assets/draft/draft-01.jpg",
+            "https://dyhl.studio/assets/draft/draft-02.jpg",
+            "https://dyhl.studio/assets/draft/draft-03.jpg",
+            "https://dyhl.studio/assets/draft/draft-04.jpg",
+            "https://dyhl.studio/assets/draft/draft-05.jpg",
+            "https://dyhl.studio/assets/draft/draft-06.jpg",
+            "https://dyhl.studio/assets/draft/draft-07.jpg"
         ],
         "alt": [
             "Menu",
@@ -476,7 +476,7 @@ var projectsList = [{
             "sm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/draft/draft-01.jpg"
+            "https://dyhl.studio/assets/draft/draft-01.jpg"
         ]
     },
     {
@@ -494,11 +494,11 @@ var projectsList = [{
             "The Architecture House is a fictional institution and museum dedicated to architectural practice and history. The project creates a custom typeface logo that recreates the characteristic mass of each non-round letter without becoming unrecognizable. A design system is then created towards a magazine and poster."
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/archhouse/archhouse-01.jpg",
-            "https://dyhlstudio.github.io/assets/archhouse/archhouse-02.jpg",
-            "https://dyhlstudio.github.io/assets/archhouse/archhouse-03.jpg",
-            "https://dyhlstudio.github.io/assets/archhouse/archhouse-04.jpg",
-            "https://dyhlstudio.github.io/assets/archhouse/archhouse-05.jpg",
+            "https://dyhl.studio/assets/archhouse/archhouse-01.jpg",
+            "https://dyhl.studio/assets/archhouse/archhouse-02.jpg",
+            "https://dyhl.studio/assets/archhouse/archhouse-03.jpg",
+            "https://dyhl.studio/assets/archhouse/archhouse-04.jpg",
+            "https://dyhl.studio/assets/archhouse/archhouse-05.jpg",
         ],
         "alt": [
             "Logotype",
@@ -515,7 +515,7 @@ var projectsList = [{
             "fsm",
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/archhouse/archhouse-04.jpg"
+            "https://dyhl.studio/assets/archhouse/archhouse-04.jpg"
         ]
     },
     {
@@ -542,7 +542,7 @@ var projectsList = [{
             "vid",
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/undergrowth/undergrowth-thumb.jpg"
+            "https://dyhl.studio/assets/undergrowth/undergrowth-thumb.jpg"
         ]
     },
     {
@@ -571,7 +571,7 @@ var projectsList = [{
             "vid"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/byomission/byomission-thumb.jpg"
+            "https://dyhl.studio/assets/byomission/byomission-thumb.jpg"
         ]
     },
     {
@@ -598,7 +598,7 @@ var projectsList = [{
             "vid",
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/endorphinia/endorphinia-thumb.jpg"
+            "https://dyhl.studio/assets/endorphinia/endorphinia-thumb.jpg"
         ]
     },
     {
@@ -618,11 +618,11 @@ var projectsList = [{
             ["A process blog detailing the project from start to finish can be found at ", React.createElement('a', { className: "text-links", src: "https://atgguitars.tumblr.com/" }, "https://atgguitars.tumblr.com/")]
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/againstthegrain/againstthegrain-01.jpg",
-            "https://dyhlstudio.github.io/assets/againstthegrain/againstthegrain-02.jpg",
-            "https://dyhlstudio.github.io/assets/againstthegrain/againstthegrain-03.jpg",
-            "https://dyhlstudio.github.io/assets/againstthegrain/againstthegrain-04.jpg",
-            "https://dyhlstudio.github.io/assets/againstthegrain/againstthegrain-05.jpg"
+            "https://dyhl.studio/assets/againstthegrain/againstthegrain-01.jpg",
+            "https://dyhl.studio/assets/againstthegrain/againstthegrain-02.jpg",
+            "https://dyhl.studio/assets/againstthegrain/againstthegrain-03.jpg",
+            "https://dyhl.studio/assets/againstthegrain/againstthegrain-04.jpg",
+            "https://dyhl.studio/assets/againstthegrain/againstthegrain-05.jpg"
         ],
         "alt": [
             "Guitar",
@@ -639,7 +639,7 @@ var projectsList = [{
             "sm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/againstthegrain/againstthegrain-01.jpg"
+            "https://dyhl.studio/assets/againstthegrain/againstthegrain-01.jpg"
         ]
     }
 ]

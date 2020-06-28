@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon/icomoon.eot?ryl67p');
-  src:  url('fonts/icomoon/icomoon.eot?ryl67p#iefix') format('embedded-opentype'),
-    url('fonts/icomoon/icomoon.ttf?ryl67p') format('truetype'),
-    url('fonts/icomoon/icomoon.woff?ryl67p') format('woff'),
-    url('fonts/icomoon/icomoon.svg?ryl67p#icomoon') format('svg');
+  src:  url('https://dyhl.studio/fonts/icomoon/icomoon.eot?ryl67p');
+  src:  url('https://dyhl.studio/fonts/icomoon/icomoon.eot?ryl67p#iefix') format('embedded-opentype'),
+    url('https://dyhl.studio/fonts/icomoon/icomoon.ttf?ryl67p') format('truetype'),
+    url('https://dyhl.studio/fonts/icomoon/icomoon.woff?ryl67p') format('woff'),
+    url('https://dyhl.studio/fonts/icomoon/icomoon.svg?ryl67p#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
