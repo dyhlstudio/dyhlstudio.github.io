@@ -402,8 +402,8 @@ var projectsList = [{
             ["A HoloLens prototype built in Unity can be accessed here: ", React.createElement('a', { className: 'text-links', src: "https://drive.google.com/drive/folders/1YAEC1GTw-S20PykYJ06YxRCWcHzCo2GC?usp=sharing" }, "link", React.createElement('span', { className: "link-arrow"},))]
         ],
         "assets": [
-            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-01.jpg",
-            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-02.jpg",
+            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-01.png",
+            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-02.png",
             "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-03.jpg",
             "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-04.jpg",
             "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-05.jpg",
@@ -429,7 +429,7 @@ var projectsList = [{
             "fsm"
         ],
         "thumb": [
-            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-01.jpg"
+            "https://dyhlstudio.github.io/assets/projectmemo/projectmemo-01.png"
         ]
     },
     {
@@ -502,7 +502,7 @@ var projectsList = [{
         ],
         "alt": [
             "Logotype",
-            "Alternate Logotype",
+            "Alternate Logo",
             "Magazine/Editorial Cover",
             "Event Poster",
             "Logo Variations"

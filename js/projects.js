@@ -29,6 +29,25 @@ function typeClass(projectEntry) {
     return typeText;
 }
 
+function fontScrambler() {
+    var fonts = ["iA Writer Mono", "stratos", "brevier", "Fluxisch Else Bold", "Sprat Medium", "Ortica Light", "Happy Times at the IKOB New Game Plus Edition Italic"];
+    for (let i = fonts.length - 1; i > 0; i--) { // fisher yates shuffle
+        let j = Math.floor(Math.random() * (i + 1)); // random index from 0 to i
+        [fonts[i], fonts[j]] = [fonts[j], fonts[i]];
+    }
+
+    var fontorder = '';
+    for (i = 0; i < fonts.length; i++) {
+        if (i < fonts.length - 1) {
+            fontorder += fonts[i] + ', ';
+        } else {
+            fontorder += fonts;
+        }
+    }
+    fontorder += 'Helvetica, sans-serif'
+    $('body').css('font-family', fontorder);
+}
+
 var bottomList = projectsList.map(function(project) {
     return e('div', { key: parseInt(project.no, 10), id: project.no, className: 'link-wrapper', role: 'button' },
         e('ul', { className: 'project-entry row ' + typeClass(project.type) },
@@ -64,6 +83,7 @@ var onHome = true;
 var unsetBounds = false;
 
 $(document).ready(function() {
+    // fontScrambler();
     // reorient image aspect-ratio
     // info-imgs 
     document.documentElement.style.setProperty('--threetwo-info', $('.img-wrapper-end').width() * 2 / 3 + 'px');
