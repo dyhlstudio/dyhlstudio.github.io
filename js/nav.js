@@ -59,6 +59,7 @@ function renderTime() {
     // change per 5 seconds -- not sure why tick < 10 works but tick < 5 is too fast
     var text = ["Daniel Yunhua Li", currentdate, currenttime];
     var mobiletext = ["Daniel Yunhua Li", "Experiments in Architecture, Design, & Media", currentdate, currenttime];
+    var textflavors = text.concat(flavors);
     var mobileflavors = mobiletext.concat(flavors);
     var duration = 12; // timer value should be a multiplier of 500ms
     // 5s rotation
@@ -67,21 +68,21 @@ function renderTime() {
     } else {
     	stageD++;
         stageM++;
-    	if (stageD >= text.length) {
+    	if (stageD >= textflavors.length) {
     		stageD = 0;
     	}
         if(stageM >= mobileflavors.length) {
             stageM = 0;
         }
 
-    	navdesktop.innerHTML = text[stageD];
+    	navdesktop.innerHTML = textflavors[stageD];
         navmobile.innerHTML = mobileflavors[stageM];
         tick = 0;
     }
 
     //refresh time per second
     if(stageD == 2) {
-    	navdesktop.innerHTML = text[stageD];
+    	navdesktop.innerHTML = textflavors[stageD];
     }
 
     if(stageM == 3) {
