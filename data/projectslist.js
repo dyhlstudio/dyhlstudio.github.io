@@ -59,13 +59,13 @@ var projectsList = [{
             "Waffle is a community-based mobile parking app that helps urban drivers find parking in dense city areas. The technology company based in Los Angeles focuses on streamlining time and energy costs spent in parking, while fostering a more convenient automobile experience, community, and awareness for the natural environment. A new graphic identity and website in response amplifies and channels the visions of the startup into a cutting-edge, yet approachable look."
         ],
         "assets": [
-            "https://dyhl.studio/assets/waffle/waffle-01.jpg",
+            "https://dyhl.studio/assets/waffle/waffle-01.png",
             "https://dyhl.studio/assets/waffle/waffle-02.jpg",
             "https://dyhl.studio/assets/waffle/waffle-03.jpg",
             "https://dyhl.studio/assets/waffle/waffle-04.jpg",
             "https://dyhl.studio/assets/waffle/waffle-05.jpg",
             "https://dyhl.studio/assets/waffle/waffle-06.jpg"
-        ],
+        ],  
         "alt": [
             "Logotype",
             "Website",
@@ -83,7 +83,7 @@ var projectsList = [{
             "fsm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/waffle/waffle-01.jpg"
+            "https://dyhl.studio/assets/waffle/waffle-thumb.jpg"
         ]
     },
     {
