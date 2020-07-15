@@ -3,4 +3,5 @@ var flavors = [
 	"Please enjoy your stay here.",
 	"This site was made partly in React!",
 	"&copy; 2020 by Daniel Yunhua Li"
+	"Pardon my spoon."
 ];
