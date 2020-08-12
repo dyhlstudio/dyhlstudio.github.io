@@ -130,7 +130,7 @@ var projectsList = [{
         "no": "004",
         "year": "2019",
         "title": "Psychogeocairn",
-        "logline": "Interactive installation and thesis project exploring the visual depiction of architectural and urban spaces",
+        "logline": "Interactive installation and thesis project exploring our mental representations and depictions of urban space",
         "type": [
             "architecture",
             "media"
@@ -143,7 +143,7 @@ var projectsList = [{
         "description": [
             "How do we move through urban spaces? What does that movement look like? What can we learn from it and what emerges?",
             "Psychogeocairn is an installation and participatory art piece that draws upon the psychogeographic practices of the avant-garde Situationist International of the 1960s to prompt questions about spaces and how we inhabit them. Through prompting participants with the “lost art” of drawing maps, the project makes visible the relationships and contexts of New York City’s inhabitants in both analogue and digital perspectives.",
-            "The installation, through the physical act of drawing and thinking about spaces and visuals, responds to the problem of “narrowness,” or unknowingly being stuck in routine, by revealing how our movements and inhabitation of spaces is influenced. Through this responsive act of reflection, we can learn to read and reinterpret our understandings of the urban fabric.",
+            "The installation, through the physical act of drawing and thinking about how we remember and understand spaces, responds to the problem of “narrowness,” or unknowingly being stuck in routine, by revealing how our movements and inhabitation of spaces is influenced. Through this responsive act of reflection, we will hopefully learn to read and reinterpret more of our understandings of the urban fabric.",
             React.createElement('i', null, "Psychogeocairn was featured in Future Local’s June salon event, “The Psychogeography of NYC Music, Nightlife, and Culture” at ThoughtWorks.")
         ],
         "assets": [
