@@ -190,7 +190,9 @@ var projectsList = [{
             "Landscape Architecture"
         ],
         "description": [
-            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+            "Play Grounds is a spatial catalog for designing “playsurfaces” responsive to the found geology of the environment. Inspired by the playscapes of Isamu Noguchi, this project reinterprets the concept of playground as, quite simply, an interconnected network of surfaces. The catalog features a kit-of-parts based on a sectional logic of elevation and grade as conditions of possible human interaction.",
+            "Located in uptown New York’s Morningside Park, this project tackles the site’s distinctive verticality as a unique case for field conditions. This shift from objects to fields becomes a move away from discrete playground kits of the twentieth century to a new system for creating playful structures anywhere on Earth.",
+            React.createElement('i', null, "Play Grounds was selected for the 2018 edition of Columbia GSAPP’s Abstract publication for the Intro to Architecture studio.")
         ],
         "assets": [
             "https://dyhl.studio/assets/playgrounds/playgrounds-01.jpg",
@@ -289,7 +291,9 @@ var projectsList = [{
             "Research"
         ],
         "description": [
-            "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
+            "Aquí vive gente (”People Live Here”), presented by Storefront for Art and Architecture, hosts the inaugural public presentation of the Museum of History and Community of Puerta de Tierra (MHCPDT) by the multigenerational artist and activist collective, Brigada Puerta de Tierra (BPDT).",
+            "The exhibition compiles cultural objects and stories sourced from the neighborhood and its residents. Its identity is drawn from objects that are everyday, personal, meaningful, and historied, such as an old typeface found on the facades of the historic Edificio Infanzón building in San Juan. The logo and typeface is adapted and referenced on the facade of the gallery to further bridge the cities of Puerta de Tierra and New York City.",
+            "The exhibit highlights these cultural artifacts through a presentation of antique market-style objects, handmades, treasures, mementos, and junk."
         ],
         "assets": [
             "https://dyhl.studio/assets/aquivivegente/aquivivegente-01.jpg",
