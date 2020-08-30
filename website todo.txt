@@ -7,3 +7,4 @@ website to-dos
 /5. Project Overview page gets pushed down by #home -- GOOD!
 /6. implement video embed -- waiting on external HDD and the end of the world -- GOOD!
 7. Implement random nav
+8. Implement InfoImgs contain

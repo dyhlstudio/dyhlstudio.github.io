@@ -251,7 +251,7 @@ var projectsList = [{
         ],
         "description": [
             "State of Tyranny, at the Storefront for Art and Architecture, unveils the methods and tools of urban design that seek to disable public agency in the name of safety. Expanding upon research conducted by Theo Deutinger for his recent publication, Handbook of Tyranny, the exhibition calls attention to the spatial effects of tyranny, ultimately aiming to identify methods of control commonly used around the world and to contextualize their embeddedness within the urban fabric of New York City.",
-            "State of Tyranny is presented as “a wall of objects” and “evidence inventories,” where the artifacts of authoritarian or repressive design themselves are extracted from their typical contexts.Each item is profiled with a name, origin, market price, and description, with diagrams to help organize the inventories of objects present to each section, highlighting the widespread accessibility and prevalence of tools of control."
+            "State of Tyranny is presented as “a wall of objects” and “evidence inventories,” where the artifacts of authoritarian or repressive design themselves are extracted from their typical contexts. Each item is profiled with a name, origin, market price, and description, with diagrams to help organize the inventories of objects present to each section, highlighting the widespread accessibility and prevalence of tools of control."
         ],
         "assets": [
             "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-01.jpg",
@@ -261,14 +261,14 @@ var projectsList = [{
             "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-05.jpg"
         ],
         "alt": [
-            "Full Elevation",
+            "Elevation",
             "Exhibition Graphics",
             "Exhibition Graphics",
             "Exhibition Graphics",
             "City ID Mockups"
         ],
         "frame": [
-            "fsm",
+            "sm",
             "sm",
             "sm",
             "sm",
