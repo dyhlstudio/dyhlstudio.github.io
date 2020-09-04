@@ -401,7 +401,7 @@ var projectsList = [{
             "For NASA JPL's Cleanroom Design Challenge, teams explored new opportunities for design and architecture to enrich workflows and systems within NASA’s spaceship-building cleanrooms",
             "Inspired by practices of street art and graffiti, Project Memo responds to the challenges of the cleanroom by taking full advantage of its virtual capabilities to make it dirty. As its name implies, Project Memo is a tool for recording work-related messages, but organized through the ability to  spray paint in both “work” and “play” modes onto one’s real surroundings mapped by the HoloLens, and attach virtual communications onto painted works that are shared between users.",
             "In addition to an architectural design for the interactions between the virtual and real-world interfaces, a functioning HoloLens prototype was developed to demonstrate a “painting” functionality.",
-            ["A HoloLens prototype built in Unity can be accessed here: ", React.createElement('a', { className: 'text-links', src: "https://drive.google.com/drive/folders/1YAEC1GTw-S20PykYJ06YxRCWcHzCo2GC?usp=sharing" }, "link", React.createElement('span', { className: "link-arrow"},))]
+            ["A HoloLens prototype built in Unity can be accessed here: ", React.createElement('a', { className: 'text-links', href: "https://drive.google.com/drive/folders/1YAEC1GTw-S20PykYJ06YxRCWcHzCo2GC?usp=sharing" }, "link", React.createElement('span', { className: "link-arrow"},))]
         ],
         "assets": [
             "https://dyhl.studio/assets/projectmemo/projectmemo-01.png",
@@ -617,7 +617,7 @@ var projectsList = [{
         ],
         "description": [
             "Against the Grain is a guitarmaking and prototyping project in collaboration with a Dallas-based luthier: Frank Teng of Falcon Tone Design. The guitar features a smaller, thinner, and lighter than average guitar body to fit smaller players and particularly for playing while standing up. Aside from a pre-fabricated neck, most of the guitar is custom-made to be more accessible to most players in weight, size, and bulk.",
-            ["A process blog detailing the project from start to finish can be found at ", React.createElement('a', { className: "text-links", src: "https://atgguitars.tumblr.com/" }, "https://atgguitars.tumblr.com/")]
+            ["A process blog detailing the project from start to finish can be found at ", React.createElement('a', { className: "text-links", href: "https://atgguitars.tumblr.com/" }, "https://atgguitars.tumblr.com/")]
         ],
         "assets": [
             "https://dyhl.studio/assets/againstthegrain/againstthegrain-01.jpg",
