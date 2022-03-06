@@ -69,7 +69,7 @@ var projectsList = [{
             "sm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/skyfarms/skyfarms-01.jpg"
+            "https://dyhl.studio/assets/skyfarms/skyfarms-01.png"
         ]
     },
     {
