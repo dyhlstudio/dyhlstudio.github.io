@@ -284,8 +284,8 @@ nav a {
     bottom: 17%;
     left: 17%;
     right: 17%;*/
-    width: calc(var(--vw) * 66);
-    height: calc(var(--vh) * 66);
+    width: calc(var(--vw) * 75);
+    height: calc(var(--vh) * 75);
     object-fit: contain;
     overflow: hidden;
     z-index: 200;
