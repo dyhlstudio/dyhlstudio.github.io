@@ -3,6 +3,116 @@ var bio = {
 }
 var projectsList = [{
         "no": "001",
+        "year": "2021",
+        "title": "The New Sky Farms",
+        "logline": "An agricultural park to feed New York City's Inwood neighborhood",
+        "type": [
+            "architecture"
+        ],
+        "tags": [
+            "Architecture"
+        ],
+        "description": [
+            "The New Sky Farms is an urban intervention that situates extensive agricultural centers into Manhattan's most underserved and disaster-prone neighborhoods. As food deserts, sea level rise and gentrification threaten Inwood's communities, these sky farms reposition the neighborhood as a critical node within New York's food landscape through large-scale production and distribution and grassroots community and mutual aid efforts.",
+            "Farming occurs on plinths raised above future floodplains. 1:4 constructions of a tectonic system resulted in three types of casted pieces which can create various soil beds, apertures, channels, and light wells. The plinth coexists with towers that house distribution facilities, community kitchens and pantries, greenhouses, and composting areas."
+        ],
+        "assets": [
+            "https://dyhl.studio/assets/skyfarms/skyfarms-01.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-02.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-03.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-04.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-05.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-06.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-07.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-08.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-09.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-10.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-11.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-12.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-13.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-14.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-15.jpg"
+        ],
+        "alt": [
+            "Section",
+            "Plan",
+            "Daytime Occupation",
+            "Nightlife",
+            "Typology Studies",
+            "Supermarket Typology",
+            "Bodega Typology",
+            "Accessibility of Fresh Produce in Inwood",
+            "1:4 Construction Model — Soil/Water Bays",
+            "1:4 Construction Model — Bays/Apertures",
+            "1:4 Construction Model — Channels",
+            "1:4 Construction Model — Apertures",
+            "Scale Model",
+            "Scale Model",
+            "Scale Model — Dinner Party Gone Wrong"
+        ],
+        "frame": [
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+        ],
+        "thumb": [
+            "https://dyhl.studio/assets/wdistudio/wdistudio-06.jpg"
+        ]
+    },
+    {
+        "no": "002",
+        "year": "2020",
+        "title": "Waffle Parking",
+        "logline": "Branding and website design for a Los Angeles-based technology startup",
+        "type": [
+            "design"
+        ],
+        "tags": [
+            "Brand Identity",
+            "Website"
+        ],
+        "description": [
+            "Waffle is a community-based mobile parking app that helps urban drivers find parking in dense city areas. The technology company based in Los Angeles focuses on streamlining time and energy costs spent in parking, while fostering a more convenient automobile experience, community, and awareness for the natural environment. A new graphic identity and website in response amplifies and channels the visions of the startup into a cutting-edge, yet approachable look."
+        ],
+        "assets": [
+            "https://dyhl.studio/assets/waffle/waffle-01.png",
+            "https://dyhl.studio/assets/waffle/waffle-02.jpg",
+            "https://dyhl.studio/assets/waffle/waffle-03.jpg",
+            "https://dyhl.studio/assets/waffle/waffle-04.jpg",
+            "https://dyhl.studio/assets/waffle/waffle-05.jpg",
+            "https://dyhl.studio/assets/waffle/waffle-06.jpg"
+        ],  
+        "alt": [
+            "Logotype",
+            "Website",
+            "Website",
+            "Website",
+            "Website",
+            "Website"
+        ],
+        "frame": [
+            "fs",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm"
+        ],
+        "thumb": [
+            "https://dyhl.studio/assets/waffle/waffle-thumb.jpg"
+        ]
+    },
+    {
+        "no": "001",
         "year": "2020",
         "title": "Wild Dogs International",
         "logline": "Website for a creative studio in Brooklyn creating site-specific experiences and events",
@@ -186,7 +296,7 @@ var projectsList = [{
             "architecture"
         ],
         "tags": [
-            "Architectural Design",
+            "Architecture",
             "Landscape Architecture"
         ],
         "description": [
@@ -395,7 +505,7 @@ var projectsList = [{
         ],
         "tags": [
             "MR Prototype",
-            "Architectural Design"
+            "Architecture"
         ],
         "description": [
             "For NASA JPL's Cleanroom Design Challenge, teams explored new opportunities for design and architecture to enrich workflows and systems within NASA’s spaceship-building cleanrooms",
