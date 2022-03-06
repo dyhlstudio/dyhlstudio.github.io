@@ -103,11 +103,11 @@ var projectsList = [{
             "Video"
         ],
         "frame": [
+            "sm",
+            "sm",
             "fsm",
             "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
+            "sm",
             "vid"
         ],
         "thumb": [
