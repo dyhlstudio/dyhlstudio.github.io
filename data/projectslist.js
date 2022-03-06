@@ -17,14 +17,14 @@ var projectsList = [{
             "Farming occurs on plinths raised above future floodplains. 1:4 constructions of a tectonic system resulted in three types of casted pieces which can create various soil beds, apertures, channels, and light wells. The plinth coexists with towers that house distribution facilities, community kitchens and pantries, greenhouses, and composting areas."
         ],
         "assets": [
-            "https://dyhl.studio/assets/skyfarms/skyfarms-01.jpg",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-02.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-01.png",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-02.png",
             "https://dyhl.studio/assets/skyfarms/skyfarms-03.jpg",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-04.jpg",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-05.jpg",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-06.jpg",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-07.jpg",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-08.jpg",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-04.png",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-05.png",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-06.png",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-07.png",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-08.png",
             "https://dyhl.studio/assets/skyfarms/skyfarms-09.jpg",
             "https://dyhl.studio/assets/skyfarms/skyfarms-10.jpg",
             "https://dyhl.studio/assets/skyfarms/skyfarms-11.jpg",
@@ -72,32 +72,31 @@ var projectsList = [{
         "no": "002",
         "year": "2021",
         "title": "Studying Muqarnas at Alhambra",
-        "logline": "Drawings, models, and web archives studying Islamic vernacular architecture",
+        "logline": "Drawings, models, and interactive archives on Islamic vernacular architecture",
         "type": [
-            "design"
+            "architecture"
         ],
         "tags": [
-            "Brand Identity",
-            "Website"
+            "Architecture"
         ],
         "description": [
-            "Waffle is a community-based mobile parking app that helps urban drivers find parking in dense city areas. The technology company based in Los Angeles focuses on streamlining time and energy costs spent in parking, while fostering a more convenient automobile experience, community, and awareness for the natural environment. A new graphic identity and website in response amplifies and channels the visions of the startup into a cutting-edge, yet approachable look."
+            "Muqarnas are ornamental vaults found across the world in Islamic vernacular architecture. Resembling honeycombs or stalactites, these fractal-like structures use mathematical principles in design and construction in order to connote the beauty and grandness of a universe created by God."
         ],
         "assets": [
-            "https://dyhl.studio/assets/waffle/waffle-01.png",
-            "https://dyhl.studio/assets/waffle/waffle-02.jpg",
-            "https://dyhl.studio/assets/waffle/waffle-03.jpg",
-            "https://dyhl.studio/assets/waffle/waffle-04.jpg",
-            "https://dyhl.studio/assets/waffle/waffle-05.jpg",
-            "https://dyhl.studio/assets/waffle/waffle-06.jpg"
+            "https://dyhl.studio/assets/muqarnas/muqarnas-01.png",
+            "https://dyhl.studio/assets/muqarnas/muqarnas-02.jpg",
+            "https://dyhl.studio/assets/muqarnas/muqarnas-03.jpg",
+            "https://dyhl.studio/assets/muqarnas/muqarnas-04.jpg",
+            "https://dyhl.studio/assets/muqarnas/muqarnas-05.jpg",
+            "https://player.vimeo.com/video/675274936?color=ffffff&title=0&byline=0&portrait=0",
         ],  
         "alt": [
-            "Logotype",
-            "Website",
-            "Website",
-            "Website",
-            "Website",
-            "Website"
+            "Exploded Axonometric",
+            "Section Portrait of Alhambra's Historical Occupants",
+            "Lightbox Model",
+            "Lightbox Model",
+            "Lightbox Model",
+            "Video"
         ],
         "frame": [
             "fs",
@@ -108,7 +107,7 @@ var projectsList = [{
             "fsm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/waffle/waffle-thumb.jpg"
+            "https://dyhl.studio/assets/muqarnas/muqarnas-03.jpg"
         ]
     },
     {
