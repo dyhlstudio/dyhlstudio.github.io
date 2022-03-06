@@ -51,18 +51,22 @@ var projectsList = [{
             "Scale Model — Dinner Party Gone Wrong"
         ],
         "frame": [
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
             "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm"
         ],
         "thumb": [
             "https://dyhl.studio/assets/skyfarms/skyfarms-01.jpg"
@@ -99,12 +103,12 @@ var projectsList = [{
             "Video"
         ],
         "frame": [
-            "fs",
             "fsm",
             "fsm",
             "fsm",
             "fsm",
-            "fsm"
+            "fsm",
+            "vid"
         ],
         "thumb": [
             "https://dyhl.studio/assets/muqarnas/muqarnas-03.jpg"
