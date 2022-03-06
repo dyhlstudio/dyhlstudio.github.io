@@ -65,14 +65,14 @@ var projectsList = [{
             "fsm",
         ],
         "thumb": [
-            "https://dyhl.studio/assets/wdistudio/wdistudio-06.jpg"
+            "https://dyhl.studio/assets/skyfarms/skyfarms-01.jpg"
         ]
     },
     {
         "no": "002",
-        "year": "2020",
-        "title": "Waffle Parking",
-        "logline": "Branding and website design for a Los Angeles-based technology startup",
+        "year": "2021",
+        "title": "Studying Muqarnas at Alhambra",
+        "logline": "Drawings, models, and web archives studying Islamic vernacular architecture",
         "type": [
             "design"
         ],
