@@ -51,12 +51,12 @@ var projectsList = [{
             "Scale Model — Dinner Party Gone Wrong"
         ],
         "frame": [
-            "sm",
-            "sm",
-            "sm",
-            "sm",
-            "sm",
             "fsm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
             "sm",
             "sm",
             "sm",
