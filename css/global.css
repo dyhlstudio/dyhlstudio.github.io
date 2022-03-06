@@ -208,6 +208,7 @@ nav a {
 #archive-categories {
     border-bottom: 1px solid black;
     margin-bottom: 1em;
+    padding-right: 16px;
 
 }
 

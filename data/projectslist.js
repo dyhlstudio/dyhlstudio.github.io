@@ -299,8 +299,7 @@ var projectsList = [{
             "architecture"
         ],
         "tags": [
-            "Architecture",
-            "Landscape Architecture"
+            "Architecture"
         ],
         "description": [
             "Play Grounds is a spatial catalog for designing “playsurfaces” responsive to the found geology of the environment. Inspired by the playscapes of Isamu Noguchi, this project reinterprets the concept of playground as, quite simply, an interconnected network of surfaces. The catalog features a kit-of-parts based on a sectional logic of elevation and grade as conditions of possible human interaction.",
@@ -507,7 +506,7 @@ var projectsList = [{
             "media"
         ],
         "tags": [
-            "MR Prototype",
+            "Mixed-Reality Prototype",
             "Architecture"
         ],
         "description": [
@@ -557,7 +556,7 @@ var projectsList = [{
         ],
         "tags": [
             "Brand Identity",
-            "Prototyping"
+            "Fabrication"
         ],
         "description": [
             "Draft is a brand concept for an experimental drinks bar focused on redefining what we consider drinks and how we consume them. Operating somewhere between a café, teahouse and bar, Draft's mixologies seek to bridge these spaces that are often separate together by creating \"drafts\" that do not belong solely to a café, juice bar, tavern, etc. In doing so, Draft also operates as a unique environment for social and cultural traffic.",
