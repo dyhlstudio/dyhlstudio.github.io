@@ -61,7 +61,7 @@ function renderTime() {
     var mobiletext = ["Daniel Yunhua Li", "Experiments in Architecture, Design, & Media", currentdate, currenttime];
     var textflavors = text.concat(flavors);
     var mobileflavors = mobiletext.concat(flavors);
-    var duration = 12; // timer value should be a multiplier of 500ms
+    var duration = 8; // timer value should be a multiplier of 500ms
     // 5s rotation
     if (tick < duration) { // time to switch
         tick++;
