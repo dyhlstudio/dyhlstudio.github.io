@@ -55,3 +55,15 @@
     font-style: normal;
     font-display: block;
 }
+
+@font-face {
+    font-family: 'Gulax Regular';
+    src: url('https://dyhl.studio/fonts/gulax/Gulax-Regular.eot');
+    src: url('https://dyhl.studio/fonts/gulax/Gulax-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://dyhl.studio/fonts/gulax/Gulax-Regular.woff2') format('woff2'),
+        url('https://dyhl.studio/fonts/gulax/Gulax-Regular.woff') format('woff'),
+        url('https://dyhl.studio/fonts/gulax/Gulax-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}

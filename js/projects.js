@@ -30,7 +30,7 @@ function typeClass(projectEntry) {
 }
 
 function fontScrambler() {
-    var fonts = ["iA Writer Mono", "stratos", "brevier", "Fluxisch Else Bold", "Sprat Medium", "Ortica Light", "Happy Times at the IKOB New Game Plus Edition Italic"];
+    var fonts = ["Gulax Regular", "iA Writer Mono", "stratos", "brevier", "Fluxisch Else Bold", "Sprat Medium", "Ortica Light", "Happy Times at the IKOB New Game Plus Edition Italic", "Happy Times at the IKOB New Game Plus Edition"];
     for (let i = fonts.length - 1; i > 0; i--) { // fisher yates shuffle
         let j = Math.floor(Math.random() * (i + 1)); // random index from 0 to i
         [fonts[i], fonts[j]] = [fonts[j], fonts[i]];
