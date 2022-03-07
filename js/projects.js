@@ -83,7 +83,7 @@ var onHome = true;
 var unsetBounds = false;
 
 $(document).ready(function() {
-     fontScrambler();
+    fontScrambler();
     // reorient image aspect-ratio
     // info-imgs 
     document.documentElement.style.setProperty('--threetwo-info', $('.img-wrapper-end').width() * 2 / 3 + 'px');
