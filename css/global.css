@@ -88,15 +88,15 @@ a:hover {
 }
 
 .img-wrapper {
-    height: var(--threetwo-info);
+    /*max-height: var(--threetwo-info);*/
     width: 100%;
     overflow: hidden;
     margin-bottom: 1rem;
-    background-color: black;
+    background-color: white;
 }
 
 .img-wrapper-end {
-    height: var(--threetwo-info);
+    /*max-height: var(--threetwo-info);*/
     width: 100%;
     overflow: hidden;
     margin-bottom: 1.25rem;
