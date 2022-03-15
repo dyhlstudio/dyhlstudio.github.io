@@ -51,6 +51,22 @@ a:hover {
 
 /* general css */
 
+.mostly-customized-scrollbar {
+  display: block;
+  width: 10em;
+  overflow: auto;
+  height: 2em;
+}
+
+.mostly-customized-scrollbar::-webkit-scrollbar {
+  height: 8px;
+  background-color: #fff; /* or add it to the track */
+}
+
+.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
 .hide {
     transition: transform 1s ease;
     transform: translate(0);
@@ -553,9 +569,12 @@ nav a {
 }
 
 /*// Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) and (min-width: 992px) {
+@media (max-width: 1599.98px) and (min-width: 992px) {
     ...
 }
 
-/*// Extra large devices (large desktops)
-// No media query since the extra-large breakpoint has no upper bound on its width*/
+/*// Extra large devices (large desktops)*/
+@media (min-width: 1600px) {
+
+}
+/*// No media query since the extra-large breakpoint has no upper bound on its width*/
