@@ -66,23 +66,23 @@ function renderTime() {
     if (tick < duration) { // time to switch
         tick++;
     } else {
-    	stageD++;
+        stageD++;
         stageM++;
-    	if (stageD >= textflavors.length) {
-    		stageD = 0;
-    	}
+        if (stageD >= textflavors.length) {
+            stageD = 0;
+        }
         if(stageM >= mobileflavors.length) {
             stageM = 0;
         }
 
-    	navdesktop.innerHTML = textflavors[stageD];
+        navdesktop.innerHTML = textflavors[stageD];
         navmobile.innerHTML = mobileflavors[stageM];
         tick = 0;
     }
 
     //refresh time per second
     if(stageD == 2) {
-    	navdesktop.innerHTML = textflavors[stageD];
+        navdesktop.innerHTML = textflavors[stageD];
     }
 
     if(stageM == 3) {
@@ -90,13 +90,16 @@ function renderTime() {
     }
 
     if(tick == 0) {
-    	$(navdesktop).fadeIn(500);
+        $(navdesktop).fadeIn(500);
         $(navmobile).fadeIn(500);
     } else if (tick == duration - 1) {
-    	$(navdesktop).fadeOut(500);
+        $(navdesktop).fadeOut(500);
         $(navmobile).fadeOut(500);
     }
 
-
 }
 renderTime();
+
+
+
+  
