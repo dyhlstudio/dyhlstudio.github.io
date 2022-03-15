@@ -3,7 +3,6 @@ var stageM = 0;
 var tick = 0;
 var navdesktop = document.getElementById("desktop-nav");
 var navmobile = document.getElementById("mobile-nav");
-var flavors = flavorsjs;
 
 function renderTime() {
 

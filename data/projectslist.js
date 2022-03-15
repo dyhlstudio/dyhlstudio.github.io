@@ -172,7 +172,7 @@ var projectsList = [{
 
         ],
         "thumb": [
-            "https://dyhl.studio/assets/soupshop/soupshop-01.png"
+            "https://dyhl.studio/assets/soupshop/soupshop-01.jpg"
         ]
     },
     {
