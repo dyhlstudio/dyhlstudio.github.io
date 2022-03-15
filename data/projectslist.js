@@ -116,6 +116,67 @@ var projectsList = [{
     },
     {
         "no": "003",
+        "year": "2021",
+        "title": "Soup Shop NY",
+        "logline": "Soup pop-up bringing together restaurants across Brooklyn and Queens during COVID-19",
+        "type": [
+            "design"
+        ],
+        "tags": [  
+            "Website",
+            "Branding",
+            "Social Media"
+        ],
+        "description": [
+            "Soup Shop is a pop-up created to stimulate business for restaurants, nourish the community, and support mutual aid in the Brooklyn and Queens community during COVID-19. Each week, a different restaurant prepares a selection of soups and starch pairings that are made available for pickup at local wine stores.",
+            "The e-commerce website was created for Wild Dogs in collaboration with designer Benno Russell. The website and Instagram page feature weekly menus, special events, and chef spotlights from participating restaurants, which dive into the art and media that inspire their culinary work. Additionally, custom flyers and packaging for the weekly soup kits also brings food for thought to the dinner table."
+        ],
+        "assets": [
+            "https://dyhl.studio/assets/soupshop/soupshop-01.jpg",
+            "https://dyhl.studio/assets/soupshop/soupshop-02.jpg",
+            "https://dyhl.studio/assets/soupshop/soupshop-03.jpg",
+            "https://dyhl.studio/assets/soupshop/soupshop-04.jpg",
+            "https://dyhl.studio/assets/soupshop/soupshop-05.jpg",
+            "https://dyhl.studio/assets/soupshop/soupshop-06.jpg",
+            "https://dyhl.studio/assets/soupshop/soupshop-07.jpg",
+            "https://dyhl.studio/assets/soupshop/soupshop-08.jpg",
+            "https://dyhl.studio/assets/soupshop/soupshop-09.jpg",
+            "https://dyhl.studio/assets/soupshop/soupshop-10.jpg",
+            "https://dyhl.studio/assets/soupshop/soupshop-11.jpg"
+        ],
+        "alt": [
+            "Website",
+            "Website",
+            "Website",
+            "Website",
+            "Website",
+            "Instagram Stories",
+            "Soup Pickup Kit",
+            "Early Website Concepts",
+            "Early Website Concepts",
+            "Early Website Concepts",
+            "Early Website Concepts"
+        ],
+        "frame": [
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "sm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+
+        ],
+        "thumb": [
+            "https://dyhl.studio/assets/soupshop/soupshop-01.png"
+        ]
+    },
+    {
+        "no": "003",
         "year": "2020",
         "title": "Wild Dogs International",
         "logline": "Website for a creative studio in Brooklyn creating site-specific experiences and events",
