@@ -58,9 +58,11 @@ a:hover {
   height: 2em;
 }
 
-.mostly-customized-scrollbar::-webkit-scrollbar {
-  height: 8px;
-  background-color: #fff; /* or add it to the track */
+.invisible-scrollbar {
+  scrollbar-width: none;
+}
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
 .mostly-customized-scrollbar::-webkit-scrollbar-thumb {
