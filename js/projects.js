@@ -38,13 +38,10 @@ function fontScrambler() {
 
     var fontorder = '';
     for (i = 0; i < fonts.length; i++) {
-        if (i < fonts.length - 1) {
-            fontorder += fonts[i] + ', ';
-        } else {
-            fontorder += fonts;
-        }
+        fontorder += fonts[i] + ', ';
     }
-    fontorder += 'Helvetica, sans-serif'
+
+    fontorder += ' Helvetica, sans-serif'
     $('body').css('font-family', fontorder);
 }
 
