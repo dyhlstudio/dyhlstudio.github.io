@@ -786,7 +786,7 @@ var projectsList = [{
         ],
         "tags": [
             "Guitarmaking",
-            "Prototyping"
+            "Fabrication"
         ],
         "description": [
             "Against the Grain is a guitarmaking and prototyping project in collaboration with a Dallas-based luthier: Frank Teng of Falcon Tone Design. The guitar features a smaller, thinner, and lighter than average guitar body to fit smaller players and particularly for playing while standing up. Aside from a pre-fabricated neck, most of the guitar is custom-made to be more accessible to most players in weight, size, and bulk.",
