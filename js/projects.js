@@ -708,7 +708,7 @@ function compileProject() {
                 e('div', { key: "info", id: 'active-info', className: "container-fluid d-none" },
                     e('div', { className: "row" },
                         e('div', { key: "info-text", id: "info-text", className: "col col-12 col-md-4" }, infoText),
-                        e('div', { key: "info-imgs", id: "info-imgs", className: "col col-12 col-md-8" }, infoImgs)
+                        e('div', { key: "info-imgs", id: "info-imgs", className: "col col-12 col-md-8 invisible-scrollbar8 }, infoImgs)
                     )
                 )
             ];
