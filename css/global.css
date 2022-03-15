@@ -558,12 +558,19 @@ nav a {
 }
 
 /*// Large devices (desktops, less than 1200px)*/
-@media (max-width: 1599.98px) and (min-width: 992px) {
+@media (max-width: 1199.98px) and (min-width: 992px) {
     ...
 }
 
+@media (max-width: 1599.98px) and (min-width: 1200px) {
+    html {
+        font-size: 14px;
+    }
+}
 /*// Extra large devices (large desktops)*/
 @media (min-width: 1600px) {
-
+    html {
+        font-size: 16px;
+    }
 }
 /*// No media query since the extra-large breakpoint has no upper bound on its width*/
