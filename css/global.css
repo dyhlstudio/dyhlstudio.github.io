@@ -51,13 +51,6 @@ a:hover {
 
 /* general css */
 
-.mostly-customized-scrollbar {
-  display: block;
-  width: 10em;
-  overflow: auto;
-  height: 2em;
-}
-
 .invisible-scrollbar {
   scrollbar-width: none;
 }
