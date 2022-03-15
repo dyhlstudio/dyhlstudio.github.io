@@ -508,7 +508,7 @@ var projectsList = [{
             "design"
         ],
         "tags": [
-            "Book",
+            "Bookmaking",
             "Photography"
         ],
         "description": [
