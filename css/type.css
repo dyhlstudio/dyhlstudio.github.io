@@ -49,6 +49,15 @@
 }
 
 @font-face {
+    font-family: 'Sprat Extended Light';
+    src: url('https://dyhl.studio/fonts/sprat/SpratExtnLight.woff2') format('woff2'),
+        url('https://dyhl.studio/fonts/sprat/SpratExtnLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
     font-family: 'Fluxisch Else Bold';
     src: url('https://dyhl.studio/fonts/fluxisch/FluxischElse-Bold.woff') format('woff');
     font-weight: normal;
