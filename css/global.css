@@ -562,13 +562,13 @@ nav a {
     ...
 }
 
-@media (max-width: 1599.98px) and (min-width: 1200px) {
+@media (orientation: landscape) and (max-width: 1599.98px) and (min-width: 1200px) {
     html {
         font-size: 14px;
     }
 }
 /*// Extra large devices (large desktops)*/
-@media (min-width: 1600px) {
+@media (orientation: landscape) and (min-width: 1600px) {
     html {
         font-size: 16px;
     }
