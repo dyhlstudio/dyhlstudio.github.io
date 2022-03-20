@@ -592,7 +592,7 @@ var projectsList = [{
             "Painting Mockup",
             "Plan Diagram",
             "Section Diagram",
-            "Mixed-Reality Prototype"
+            "Prototype in Unity"
         ],
         "frame": [
             "fsm",
