@@ -151,6 +151,10 @@ nav a {
     text-align: right;
 }
 
+#nav-info {
+    overflow: scroll;
+}
+
 /* main CSS */
 
 
