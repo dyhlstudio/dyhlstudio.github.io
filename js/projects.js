@@ -107,7 +107,7 @@ $(document).ready(function() {
             $('#nav-1, #nav-2').addClass('d-md-block');
             $('#nav-0').removeClass('d-none');
             $('#nav-info').addClass('d-none');
-            $('#nav-blank').removeClass('d-md-block');
+            $('#nav-blank').removeClass('d-sm-block');
             if (onHome === true) {
                 $('#home').addClass('d-flex').removeClass('d-none');
             }
@@ -123,7 +123,7 @@ $(document).ready(function() {
             $('#nav-0, #home').addClass('d-none');
             $('#home').removeClass('d-flex');
             $('#nav-info').removeClass('d-none');
-            $('#nav-blank').addClass('d-md-block');
+            $('#nav-blank').addClass('d-sm-block');
             $('#nav-4').addClass('on');
             $('#nav-4 a').addClass('links');
             $('#project-wrapper').addClass('d-none');

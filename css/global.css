@@ -153,6 +153,7 @@ nav a {
 
 #nav-info {
     overflow: scroll;
+    max-height: 100%;
 }
 
 /* main CSS */
