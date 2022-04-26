@@ -2,10 +2,10 @@ var bio = {
     "oneline": "Daniel Yunhua Li is a New York-based designer and technologist creating experiments in Architecture, Graphic & Web Design, and Interactive Media."
 }
 var projectsList = [{
-        "no": "000"
+        "no": "000",
         "year": "0000",
         "title": "What Is and Isn't Architecture?",
-        "logline": "Manifesto on what is and isn't architecture and a portfolio of decidedly-not-architecture"
+        "logline": "Manifesto on what is and isn't architecture and a portfolio of decidedly-not-architecture",
         "type": [
             "architecture", "design", "media"
         ],
