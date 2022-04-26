@@ -13,6 +13,7 @@ var projectsList = [{
             "not-Architecture, not-Graphic Design, not-Interactive Media"
         ],
         "description": [
+            "Roughly one semester into architecture school, I began to ask myself more and more what is and isn't architecture. Many people seem to have particular ideas of what architecture is, and I often find myself a bit annoyed or even dissatisfied with their definitions which are more often than not, somewhat restrictive. This semester has become about critiquing and challenging that notion, and poking fun at the narrow behaviors and traditions that architects have."
         ],
         "assets": [
             "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-01.png",
