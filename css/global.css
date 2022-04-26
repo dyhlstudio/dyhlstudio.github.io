@@ -110,7 +110,9 @@ a:hover {
     background-color: black;
 }
 
-.video {}
+.video {
+    min-height: var(--threetwo-info);
+}
 
 .list-img {
     height: auto;
