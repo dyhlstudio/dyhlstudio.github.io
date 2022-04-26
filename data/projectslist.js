@@ -38,7 +38,8 @@ var projectsList = [{
         "thumb": [
             "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-00.png",
         ]
-
+    },
+    {
         "no": "001",
         "year": "2021",
         "title": "The New Sky Farms",
