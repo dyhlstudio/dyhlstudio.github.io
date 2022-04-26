@@ -3,46 +3,7 @@ var bio = {
 }
 var projectsList = [
     {
-        "no": "019",
-        "year": "9999",
-        "title": "What Is and Isn't Architecture?",
-        "logline": "Manifesto on what is and isn't architecture and a portfolio of decidedly-not-architecture",
-        "type": [
-            "architecture", "design", "media"
-        ],
-        "tags": [
-            "not-Architecture"
-        ],
-        "description": [
-            "Roughly one semester into architecture school, I began to ask myself more and more what is and isn't architecture. Many people seem to have particular ideas of what architecture is, and I often find myself a bit annoyed or even dissatisfied with their definitions which are more often than not, somewhat restrictive. This semester has become about critiquing and challenging that notion, and poking fun at the narrow behaviors and traditions that architects have."
-        ],
-        "assets": [
-            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-01.png",
-            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-02.png",
-            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-03.png",
-            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-04.png",
-            "https://indd.adobe.com/view/a941a380-1d64-4108-aaab-f20dec0ffca9",
-        ],
-        "alt": [
-            "Super-Architectural Manifesto on What Is and Isn't Architecture",
-            "How to Make Croissants in 3 Days...Architecturally, that is (Part 1)",
-            "How to Make Croissants in 3 Days...Architecturally, that is (Part 2)",
-            "Dinner Party Manifesto, for Architects' Eyes Only",
-            "The Architect's Guide to Entering Homes (Interactive PDF)"
-        ],
-        "frame": [
-            "sm",
-            "sm",
-            "sm",
-            "sm",
-            "vid"
-        ],
-        "thumb": [
-            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-00.png",
-        ]
-    },
-    {
-        "no": "002",
+        "no": "001",
         "year": "2021",
         "title": "The New Sky Farms",
         "logline": "An agricultural park to feed New York City's Inwood neighborhood",
@@ -855,6 +816,45 @@ var projectsList = [
         ],
         "thumb": [
             "https://dyhl.studio/assets/againstthegrain/againstthegrain-01.jpg"
+        ]
+    },
+    {
+        "no": "019",
+        "year": "9999",
+        "title": "What Is and Isn't Architecture?",
+        "logline": "Manifesto on what is and isn't architecture and a portfolio of decidedly-not-architecture",
+        "type": [
+            "architecture", "design", "media"
+        ],
+        "tags": [
+            "not-Architecture"
+        ],
+        "description": [
+            "Roughly one semester into architecture school, I began to ask myself more and more what is and isn't architecture. Many people seem to have particular ideas of what architecture is, and I often find myself a bit annoyed or even dissatisfied with their definitions which are more often than not, somewhat restrictive. This semester has become about critiquing and challenging that notion, and poking fun at the narrow behaviors and traditions that architects have."
+        ],
+        "assets": [
+            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-01.png",
+            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-02.png",
+            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-03.png",
+            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-04.png",
+            "https://indd.adobe.com/view/a941a380-1d64-4108-aaab-f20dec0ffca9",
+        ],
+        "alt": [
+            "Super-Architectural Manifesto on What Is and Isn't Architecture",
+            "How to Make Croissants in 3 Days...Architecturally, that is (Part 1)",
+            "How to Make Croissants in 3 Days...Architecturally, that is (Part 2)",
+            "Dinner Party Manifesto, for Architects' Eyes Only",
+            "The Architect's Guide to Entering Homes (Interactive PDF)"
+        ],
+        "frame": [
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "vid"
+        ],
+        "thumb": [
+            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-00.png",
         ]
     }
 ]
