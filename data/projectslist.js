@@ -3,8 +3,8 @@ var bio = {
 }
 var projectsList = [
     {
-        "no": "000",
-        "year": "0000",
+        "no": "999",
+        "year": "9999",
         "title": "What Is and Isn't Architecture?",
         "logline": "Manifesto on what is and isn't architecture and a portfolio of decidedly-not-architecture",
         "type": [
@@ -42,7 +42,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "001",
+        "no": "002",
         "year": "2021",
         "title": "The New Sky Farms",
         "logline": "An agricultural park to feed New York City's Inwood neighborhood",
