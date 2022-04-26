@@ -2,6 +2,43 @@ var bio = {
     "oneline": "Daniel Yunhua Li is a New York-based designer and technologist creating experiments in Architecture, Graphic & Web Design, and Interactive Media."
 }
 var projectsList = [{
+        "no": "000"
+        "year": "0000",
+        "title": "What Is and Isn't Architecture?",
+        "logline": "Manifesto on what is and isn't architecture and a portfolio of decidedly-not-architecture"
+        "type": [
+            "architecture", "design", "media"
+        ],
+        "tags": [
+            "not-Architecture, not-Graphic Design, not-Interactive Media"
+        ],
+        "description": [
+        ],
+        "assets": [
+            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-01.png",
+            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-02.png",
+            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-03.png",
+            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-04.png",
+            "https://indd.adobe.com/view/a941a380-1d64-4108-aaab-f20dec0ffca9",
+        ],
+        "alt": [
+            "Super-Architectural Manifesto on What Is and Isn't Architecture",
+            "How to Make Croissants in 3 Days...Architecturally, that is (Part 1)",
+            "How to Make Croissants in 3 Days...Architecturally, that is (Part 2)",
+            "Dinner Party Manifesto, for Architects' Eyes Only"
+            "The Architect's Guide to Entering Homes (Interactive PDF)"
+        ],
+        "frame": [
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "vid"
+        ],
+        "thumb": [
+            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-00.png",
+        ]
+
         "no": "001",
         "year": "2021",
         "title": "The New Sky Farms",
@@ -609,6 +646,45 @@ var projectsList = [{
     },
     {
         "no": "013",
+        "year": "2018",
+        "title": "The Architecture House",
+        "logline": "Branding for a fictional museum dedicated to architectural study and history",
+        "type": [
+            "design"
+        ],
+        "tags": [
+            "Brand Identity"
+        ],
+        "description": [
+            "The Architecture House is a fictional institution and museum dedicated to architectural practice and history. The project creates a custom typeface logo that recreates the characteristic mass of each non-round letter without becoming unrecognizable. A design system is then created towards a magazine and poster."
+        ],
+        "assets": [
+            "https://dyhl.studio/assets/archhouse/archhouse-01.jpg",
+            "https://dyhl.studio/assets/archhouse/archhouse-02.jpg",
+            "https://dyhl.studio/assets/archhouse/archhouse-03.jpg",
+            "https://dyhl.studio/assets/archhouse/archhouse-04.jpg",
+            "https://dyhl.studio/assets/archhouse/archhouse-05.jpg",
+        ],
+        "alt": [
+            "Logotype",
+            "Alternate Logo",
+            "Magazine/Editorial Cover",
+            "Event Poster",
+            "Logo Variations"
+        ],
+        "frame": [
+            "fs",
+            "fs",
+            "sm",
+            "sm",
+            "fsm",
+        ],
+        "thumb": [
+            "https://dyhl.studio/assets/archhouse/archhouse-04.jpg"
+        ]
+    },
+    {
+        "no": "014",
         "year": "2017",
         "title": "Draft",
         "logline": "Branding for an experimental cocktail bar concept fusing together coffee, tea, cocktails, and more",
@@ -652,45 +728,6 @@ var projectsList = [{
         ],
         "thumb": [
             "https://dyhl.studio/assets/draft/draft-01.jpg"
-        ]
-    },
-    {
-        "no": "014",
-        "year": "2018",
-        "title": "The Architecture House",
-        "logline": "Branding for a fictional museum dedicated to architectural study and history",
-        "type": [
-            "design"
-        ],
-        "tags": [
-            "Brand Identity"
-        ],
-        "description": [
-            "The Architecture House is a fictional institution and museum dedicated to architectural practice and history. The project creates a custom typeface logo that recreates the characteristic mass of each non-round letter without becoming unrecognizable. A design system is then created towards a magazine and poster."
-        ],
-        "assets": [
-            "https://dyhl.studio/assets/archhouse/archhouse-01.jpg",
-            "https://dyhl.studio/assets/archhouse/archhouse-02.jpg",
-            "https://dyhl.studio/assets/archhouse/archhouse-03.jpg",
-            "https://dyhl.studio/assets/archhouse/archhouse-04.jpg",
-            "https://dyhl.studio/assets/archhouse/archhouse-05.jpg",
-        ],
-        "alt": [
-            "Logotype",
-            "Alternate Logo",
-            "Magazine/Editorial Cover",
-            "Event Poster",
-            "Logo Variations"
-        ],
-        "frame": [
-            "fs",
-            "fs",
-            "sm",
-            "sm",
-            "fsm",
-        ],
-        "thumb": [
-            "https://dyhl.studio/assets/archhouse/archhouse-04.jpg"
         ]
     },
     {
