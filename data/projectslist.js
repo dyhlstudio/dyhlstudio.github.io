@@ -113,7 +113,7 @@ var projectsList = [
             "sm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/metischool/metischool-01.jpg"
+            "https://dyhl.studio/assets/metischool/metischool-01.png"
         ]
     },
     {
