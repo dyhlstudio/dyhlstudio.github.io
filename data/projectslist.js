@@ -6,7 +6,7 @@ var projectsList = [
         "no": "001",
         "year": "2022",
         "title": "Strata School",
-        "logline": "A post-carbon public school for teaching social and ecological agency.",
+        "logline": "A post-carbon public school for teaching social and ecological agency",
         "type": [
             "architecture"
         ],
