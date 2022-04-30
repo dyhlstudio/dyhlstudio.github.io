@@ -405,10 +405,6 @@ nav a {
     #info-imgs {
         height: calc(calc(calc(calc(calc(calc(var(--vh) * 100) - 1.5em) - 1.25em) - 1em) - 0.75em) - 1px);
     }
-
-    body {
-        overflow: unset !important;
-    }
 }
 
 /*// Large devices (desktops, 992px and up)*/
