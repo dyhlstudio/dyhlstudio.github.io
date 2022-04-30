@@ -4,6 +4,120 @@ var bio = {
 var projectsList = [
     {
         "no": "001",
+        "year": "2022",
+        "title": "Strata School",
+        "logline": "A post-carbon public school for teaching social and ecological agency.",
+        "type": [
+            "architecture"
+        ],
+        "tags": [
+            "Architecture"
+        ],
+        "description": [
+            "An “anthropocene education” seeks to develop ecological agency and stewardship in response to an ever-increasing disparity between human influence and our ability to comprehend it.",
+            "Strata School is a K-8 public school that teaches students how to live justly in the Anthropocene through academic study, play and work. Students become involved in the school’s operations and “home economics” with the guidance of faculty, staff, and PTA volunteers, in which they learn about their own agency as individuals and members of a community.",
+            "The school encourages these pedagogical goals through an interconnected matrix of block-like “classrooms.” Following phases of construction, parts of the school are incrementally built and occupiable at different stages, which systematically utilize the local materials found on site. Built using site-derived earthen material, classrooms across the school provide children with oblique terrains and landscapes that accommodate the plastic needs of children to fidget, hide, explode, and introspect. Classrooms flow into one another horizontally to promote a mixing of different age ranges. At the same time, the mass and interiority of the lower levels dissipate into more open, porous spaces at the upper levels to accommodate programmatic needs from enclosed, safe retreats to open playscapes.",
+            "Through the school's social ecologies and the care of the environments that encompass these ecologies, children develop a more robust sense of agency about themselves and their surroundings."
+        ],
+        "assets": [
+            "https://dyhl.studio/assets/strataschool/strataschool-01.png",
+            "https://dyhl.studio/assets/strataschool/strataschool-02.jpg",
+            "https://dyhl.studio/assets/strataschool/strataschool-03.png",
+            "https://dyhl.studio/assets/strataschool/strataschool-04.png",
+            "https://dyhl.studio/assets/strataschool/strataschool-05.png",
+            "https://dyhl.studio/assets/strataschool/strataschool-06.png",
+            "https://dyhl.studio/assets/strataschool/strataschool-07.png",
+            "https://dyhl.studio/assets/strataschool/strataschool-08.jpg",
+            "https://dyhl.studio/assets/strataschool/strataschool-09.jpg",
+            "https://dyhl.studio/assets/strataschool/strataschool-10.jpg",
+            "https://dyhl.studio/assets/strataschool/strataschool-11.gif",
+            "https://dyhl.studio/assets/strataschool/strataschool-12.jpg",
+            "https://dyhl.studio/assets/strataschool/strataschool-13.jpg",
+            "https://dyhl.studio/assets/strataschool/strataschool-14.jpg",
+            "https://dyhl.studio/assets/strataschool/strataschool-15.jpg"
+        ],
+        "alt": [
+            "Enlarged Classrooms Section",
+            "Enlarged Classroom Plan",
+            "Ground Floor Plan",
+            "E/W Section",
+            "Construction Detail Section",
+            "Program & Terrain Diagram",
+            "Site Analysis",
+            "Collage",
+            "Collage",
+            "Collage",
+            "Time-Based Construction + Material Sourcing",
+            "Site Model",
+            "Diorama Model",
+            "Spatial Prototyping Models",
+            "Preliminary Massing Models"
+        ],
+        "frame": [
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm"
+        ],
+        "thumb": [
+            "https://dyhl.studio/assets/strataschool/strataschool-08.jpg"
+        ]
+    },
+        {
+        "no": "002",
+        "year": "2022",
+        "title": "METI Handmade School Precedent Study",
+        "logline": "Enclosure, lighting, assemblies and material flows analysis of Anna Heringer's METI School",
+        "type": [
+            "architecture"
+        ],
+        "tags": [
+            "Architecture"
+        ],
+        "description": [
+            "In preparation for the CORE II project “Strata School,” this study investigates the relationships between container and curriculum in the METI Handmade School created by Anna Heringer and Eike Roswag in Rudrapur, Bangladesh.",
+            "The drawings and models illustrate the project's three core pedagogical features through program, circulation, and relationship to the outside: a permeable bamboo second floor space, semi-open earthen classrooms, and heavily-enclosed cavernous retreats created from cob.",
+            "Additional analysis of the materials used and found near the project and its site discuss the flow of materials sourced locally and the relationship to global trade networks. Finally, the project is further complicated through the lens of a chosen child's artifact, the exercise ball. How does the exercise ball change the understanding and reading of the project?"
+        ],
+        "assets": [
+            "https://dyhl.studio/assets/metischool/metischool-01.png",
+            "https://dyhl.studio/assets/metischool/metischool-02.png",
+            "https://dyhl.studio/assets/metischool/metischool-03.png",
+            "https://dyhl.studio/assets/metischool/metischool-04.png",
+            "https://dyhl.studio/assets/metischool/metischool-05.jpg",
+        ],
+        "alt": [
+            "Section",
+            "Two-Floors Plan",
+            "Materials Investigation",
+            "Child's Artifact",
+            "Ground Floor Classroom Model"
+        ],
+        "frame": [
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm"
+        ],
+        "thumb": [
+            "https://dyhl.studio/assets/metischool/metischool-01.jpg"
+        ]
+    },
+    {
+        "no": "003",
         "year": "2021",
         "title": "The New Sky Farms",
         "logline": "An agricultural park to feed New York City's Inwood neighborhood",
@@ -74,7 +188,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "002",
+        "no": "004",
         "year": "2021",
         "title": "Studying Muqarnas at Alhambra",
         "logline": "Drawings, models, and interactive archives on Islamic vernacular architecture",
@@ -116,7 +230,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "003",
+        "no": "005",
         "year": "2021",
         "title": "Soup Shop NY",
         "logline": "Soup pop-up bringing together restaurants across Brooklyn and Queens during COVID-19",
@@ -177,7 +291,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "004",
+        "no": "006",
         "year": "2020",
         "title": "Wild Dogs International",
         "logline": "Website for a creative studio in Brooklyn creating site-specific experiences and events",
@@ -219,7 +333,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "005",
+        "no": "007",
         "year": "2020",
         "title": "Waffle Parking",
         "logline": "Branding and website design for a Los Angeles-based technology startup",
@@ -262,7 +376,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "006",
+        "no": "008",
         "year": "2019",
         "title": "OPUS Merriweather",
         "logline": "Website concepts for a pioneering arts and music biennial hosted at the Merriweather Post Pavilion in Columbia, MD",
@@ -302,7 +416,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "007",
+        "no": "009",
         "year": "2019",
         "title": "Psychogeocairn",
         "logline": "Interactive installation and thesis project exploring our mental representations and depictions of urban space",
@@ -353,7 +467,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "008",
+        "no": "010",
         "year": "2018",
         "title": "Play Grounds",
         "logline": "Architectural catalog for public playscapes derived from geographic forms",
@@ -412,7 +526,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "009",
+        "no": "011",
         "year": "2019",
         "title": "State of Tyranny",
         "logline": "Exhibition exploring the architecture of control and power at Storefront for Art and Architecture in New York",
@@ -453,7 +567,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "010",
+        "no": "012",
         "year": "2019",
         "title": "Aquí vive gente",
         "logline": "Inaugural presentation and exhibition of the Museum of History and Community of Puerta de Tierra at Storefront for Art and Architecture",
@@ -501,7 +615,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "011",
+        "no": "013",
         "year": "2019",
         "title": "Sun Pleats",
         "logline": "Cut-out art book presenting photographs and windows of reflection into a trip in Japan",
@@ -559,7 +673,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "012",
+        "no": "014",
         "year": "2018",
         "title": "Project Memo",
         "logline": "Mixed-reality application for deploying holographic sticky-notes prototyped in collaboration with NASA Jet Propulsion Laboratory",
@@ -609,7 +723,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "013",
+        "no": "015",
         "year": "2018",
         "title": "The Architecture House",
         "logline": "Branding for a fictional museum dedicated to architectural study and history",
@@ -648,7 +762,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "014",
+        "no": "016",
         "year": "2017",
         "title": "Draft",
         "logline": "Branding for an experimental cocktail bar concept fusing together coffee, tea, cocktails, and more",
@@ -695,7 +809,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "015",
+        "no": "017",
         "year": "2017",
         "title": "Undergrowth",
         "logline": "Short film about what dreaming feels like",
@@ -722,7 +836,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "016",
+        "no": "018",
         "year": "2014",
         "title": "By Omission",
         "logline": "Frag movie showcasing competitive gaming highlights for GuilteTV",
@@ -751,7 +865,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "017",
+        "no": "019",
         "year": "2014",
         "title": "Endorphinia",
         "logline": "Frag movie showcasing my own competitive gaming highlights",
@@ -778,7 +892,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "018",
+        "no": "020",
         "year": "2015",
         "title": "Against the Grain",
         "logline": "Custom guitarmaking project from start to finish",
@@ -819,8 +933,8 @@ var projectsList = [
         ]
     },
     {
-        "no": "019",
-        "year": "9999",
+        "no": "021",
+        "year": "2022",
         "title": "What Is and Isn't Architecture?",
         "logline": "Manifesto on what is and isn't architecture and a portfolio of decidedly-not-architecture",
         "type": [
@@ -830,6 +944,7 @@ var projectsList = [
             "not-Architecture"
         ],
         "description": [
+            "Created as part of GSAPP's ADR II Visual Studies Sequence.",
             "Roughly one semester into architecture school, I began to ask myself more and more what is and isn't architecture. Many people seem to have particular ideas of what architecture is, and I often find myself a bit annoyed or even dissatisfied with their definitions which are more often than not, somewhat restrictive. This semester has become about critiquing and challenging that notion, and poking fun at the narrow behaviors and traditions that architects have."
         ],
         "assets": [
