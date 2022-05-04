@@ -934,7 +934,7 @@ var projectsList = [
     {
         "no": "021",
         "year": "2022",
-        "title": "What Is and Isn't Architecture?",
+        "title": "WHAT IS AND ISN'T ARCHITECTURE?",
         "logline": "Manifesto on what is and isn't architecture and a portfolio of decidedly-not-architecture",
         "type": [
             "architecture", "design", "media"
