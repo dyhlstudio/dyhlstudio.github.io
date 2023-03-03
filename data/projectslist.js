@@ -686,7 +686,7 @@ var projectsList = [
         ],
         "description": [
             "For NASA JPL's Cleanroom Design Challenge, teams explored new opportunities for design and architecture to enrich workflows and systems within NASA’s spaceship-building cleanrooms",
-            "Inspired by practices of street art and graffiti, Project Memo responds to the challenges of the cleanroom by taking full advantage of its virtual capabilities to make it dirty. As its name implies, Project Memo is a tool for recording work-related messages, but organized through the ability to  spray paint in both “work” and “play” modes onto one’s real surroundings mapped by the HoloLens, and attach virtual communications onto painted works that are shared between users.",
+            "Inspired by practices of street art and graffiti, Project Memo responds to the challenges of the cleanroom by taking full advantage of the virtual opportunities to make it “dirty.” As its name implies, Project Memo is a tool for recording work-related messages, but organized through markmaking in both “work” and “play” modes onto one’s real surroundings mapped by the HoloLens, and attach virtual communications onto painted works that are shared between users.",
             "In addition to an architectural design for the interactions between the virtual and real-world interfaces, a functioning HoloLens prototype was developed to demonstrate a “painting” functionality.",
             ["A HoloLens prototype built in Unity can be accessed here: ", React.createElement('a', { className: 'text-links', href: "https://drive.google.com/drive/folders/1YAEC1GTw-S20PykYJ06YxRCWcHzCo2GC?usp=sharing" }, "link", React.createElement('span', { className: "link-arrow"},))]
         ],
