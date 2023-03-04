@@ -5,6 +5,79 @@ var projectsList = [
     {
         "no": "001",
         "year": "2022",
+        "title": "The Corridor Concert",
+        "logline": "High-density co-living in the Bronx for social and environmental well-being",
+        "type": [
+            "architecture"
+        ],
+        "tags": [
+            "Architecture"
+        ],
+        "description": [
+            "The Corridor Concert studies how the circulatory core can expand beyond a functional space to foster communal gathering and environmental wellness. Through regulating air and water, a system of flexible wet walls in the central core unite the project at three scales: landscape, building, and units.",
+            "Located on a narrow triangular site surrounded by highways and industrial sites, the landscape scale creates a space of environmental refuge. A planted berm connects the street to the ground level, absorbs flooding runoff, and softens the landscape to create a more livable zone. Tree planting will help to filter toxic particulate matter, and wetland restoration near the waterfront serves to counteract future sea-level rise.",
+            "The building scale emphasizes social cohesion by bringing together private residents and the broader public. Operable enclosures and wet walls regulate the movement of air and water for a public bathhouse program that integrates the building with the landscape.",
+            "At the unit scale, an oversized corridor connects the private dwellings through shared common spaces for work and play. Three different systems of enclosures (solid walls, sliding glass doors, and polycarbonate sliding doors) create different amounts of openness to air, light, water, and publicness."
+        ],
+        "assets": [
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-01.jpg",
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-02.jpg",
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-03.png",
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-04.png",
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-05.png",
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-06.png",
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-07.png",
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-08.png",
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-09.jpg",
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-10.png",
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-11.png",
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-12.png",
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-13.jpg",
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-14.jpg",
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-15.gif",
+        ],
+        "alt": [
+            "Interior Rendering",
+            "Collective Site Analysis",
+            "City-scale Wind Map",
+            "Borough-scale Emissions Map",
+            "Site-scale Sound Map",
+            "Section",
+            "Ground-level Site Plan",
+            "Third-floor Unit Plan",
+            "Bathhouse Model",
+            "Axonometric",
+            "Thesis",
+            "Taiwanese Modernist Housing Research",
+            "Studio Muoto Precedent Study — Program",
+            "Studio Muoto Precedent Study — Speculative Flooding",
+            "Studio Muoto Precedent Study — Shifting Contexts"
+        ],
+        "frame": [
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm"
+
+        ],
+        "thumb": [
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-01"
+        ]
+    },
+    {
+        "no": "002",
+        "year": "2022",
         "title": "Strata School",
         "logline": "A post-carbon public school for teaching social and ecological agency",
         "type": [
@@ -75,7 +148,7 @@ var projectsList = [
         ]
     },
         {
-        "no": "002",
+        "no": "003",
         "year": "2022",
         "title": "METI Handmade School Precedent Study",
         "logline": "Enclosure, lighting, assemblies and material flows analysis of Anna Heringer's METI School",
@@ -83,7 +156,8 @@ var projectsList = [
             "architecture"
         ],
         "tags": [
-            "Architecture"
+            "Architecture",
+            "Research"
         ],
         "description": [
             "In preparation for the CORE II project “Strata School,” this study investigates the relationships between container and curriculum in the METI Handmade School created by Anna Heringer and Eike Roswag in Rudrapur, Bangladesh.",
@@ -116,7 +190,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "003",
+        "no": "004",
         "year": "2021",
         "title": "The New Sky Farms",
         "logline": "An agricultural park to feed New York City's Inwood neighborhood",
@@ -165,7 +239,7 @@ var projectsList = [
             "Scale Model — Dinner Party Gone Wrong"
         ],
         "frame": [
-            "fsm",
+            "sm",
             "sm",
             "sm",
             "sm",
@@ -187,7 +261,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "004",
+        "no": "005",
         "year": "2021",
         "title": "Studying Muqarnas at Alhambra",
         "logline": "Drawings, models, and interactive archives on Islamic vernacular architecture",
@@ -229,7 +303,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "005",
+        "no": "006",
         "year": "2021",
         "title": "Soup Shop NY",
         "logline": "Soup pop-up bringing together restaurants across Brooklyn and Queens during COVID-19",
@@ -290,7 +364,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "006",
+        "no": "007",
         "year": "2020",
         "title": "Wild Dogs International",
         "logline": "Website for a creative studio in Brooklyn creating site-specific experiences and events",
@@ -332,7 +406,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "007",
+        "no": "008",
         "year": "2020",
         "title": "Waffle Parking",
         "logline": "Branding and website design for a Los Angeles-based technology startup",
@@ -375,7 +449,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "008",
+        "no": "009",
         "year": "2019",
         "title": "OPUS Merriweather",
         "logline": "Website concepts for a pioneering arts and music biennial hosted at the Merriweather Post Pavilion in Columbia, MD",
@@ -415,7 +489,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "009",
+        "no": "010",
         "year": "2019",
         "title": "Psychogeocairn",
         "logline": "Interactive installation and thesis project exploring our mental representations and depictions of urban space",
@@ -466,7 +540,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "010",
+        "no": "011",
         "year": "2018",
         "title": "Play Grounds",
         "logline": "Architectural catalog for public playscapes derived from geographic forms",
@@ -525,7 +599,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "011",
+        "no": "012",
         "year": "2019",
         "title": "State of Tyranny",
         "logline": "Exhibition exploring the architecture of control and power at Storefront for Art and Architecture in New York",
@@ -538,7 +612,7 @@ var projectsList = [
         ],
         "description": [
             "State of Tyranny, at the Storefront for Art and Architecture, unveils the methods and tools of urban design that seek to disable public agency in the name of safety. Expanding upon research conducted by Theo Deutinger for his recent publication, Handbook of Tyranny, the exhibition calls attention to the spatial effects of tyranny, ultimately aiming to identify methods of control commonly used around the world and to contextualize their embeddedness within the urban fabric of New York City.",
-            "State of Tyranny is presented as “a wall of objects” and “evidence inventories,” where the artifacts of authoritarian or repressive design themselves are extracted from their typical contexts. Each item is profiled with a name, origin, market price, and description, with diagrams to help organize the inventories of objects present to each section, highlighting the widespread accessibility and prevalence of tools of control."
+            "State of Tyranny is presented as “a wall of objects” and “evidence inventories,” where the artifacts of authoritarian or repressive design themselves are extracted from their typical contexts. Each item is profiled with a name, origin, market price, and description, with diagrams to help organize the inventories of objects present to each section, highlighting the widespread accessibility and prevalence of tools of control."
         ],
         "assets": [
             "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-01.jpg",
@@ -566,7 +640,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "012",
+        "no": "013",
         "year": "2019",
         "title": "Aquí vive gente",
         "logline": "Inaugural presentation and exhibition of the Museum of History and Community of Puerta de Tierra at Storefront for Art and Architecture",
@@ -614,7 +688,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "013",
+        "no": "014",
         "year": "2019",
         "title": "Sun Pleats",
         "logline": "Cut-out art book presenting photographs and windows of reflection into a trip in Japan",
@@ -672,7 +746,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "014",
+        "no": "015",
         "year": "2018",
         "title": "Project Memo",
         "logline": "Mixed-reality application for deploying holographic sticky-notes prototyped in collaboration with NASA Jet Propulsion Laboratory",
@@ -722,7 +796,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "015",
+        "no": "016",
         "year": "2018",
         "title": "The Architecture House",
         "logline": "Branding for a fictional museum dedicated to architectural study and history",
@@ -761,7 +835,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "016",
+        "no": "017",
         "year": "2017",
         "title": "Draft",
         "logline": "Branding for an experimental cocktail bar concept fusing together coffee, tea, cocktails, and more",
@@ -808,7 +882,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "017",
+        "no": "018",
         "year": "2017",
         "title": "Undergrowth",
         "logline": "Short film about what dreaming feels like",
@@ -835,7 +909,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "018",
+        "no": "019",
         "year": "2014",
         "title": "By Omission",
         "logline": "Frag movie showcasing competitive gaming highlights for GuilteTV",
@@ -864,7 +938,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "019",
+        "no": "020",
         "year": "2014",
         "title": "Endorphinia",
         "logline": "Frag movie showcasing my own competitive gaming highlights",
@@ -891,7 +965,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "020",
+        "no": "021",
         "year": "2015",
         "title": "Against the Grain",
         "logline": "Custom guitarmaking project from start to finish",
@@ -932,7 +1006,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "021",
+        "no": "022",
         "year": "2022",
         "title": "WHAT IS AND ISN'T ARCHITECTURE?",
         "logline": "Manifesto on what is and isn't architecture and a portfolio of decidedly-not-architecture",
