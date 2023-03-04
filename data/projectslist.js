@@ -456,7 +456,8 @@ var projectsList = [
             "design"
         ],
         "tags": [
-            "Website"
+            "Website",
+            "Strategy"
         ],
         "description": [
             "OPUS Merriweather is an arts and music biennial hosted in Columbia, MD. The festival brings together artists, musicians, and technologists from around the world to the Merriweather Post Pavilion venue for a gathering of pioneering and groundbreaking art and sound in the forests of Symphony Woods. Throughout the night, visitors experience artworks and performances about new realities, perspectives, and wonder.",
