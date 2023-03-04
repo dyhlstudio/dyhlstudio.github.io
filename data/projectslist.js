@@ -34,7 +34,7 @@ var projectsList = [
             "https://dyhl.studio/assets/corridorconcert/corridorconcert-12.png",
             "https://dyhl.studio/assets/corridorconcert/corridorconcert-13.jpg",
             "https://dyhl.studio/assets/corridorconcert/corridorconcert-14.jpg",
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-15.gif",
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-15.gif"
         ],
         "alt": [
             "Interior Rendering",
@@ -69,7 +69,6 @@ var projectsList = [
             "sm",
             "sm",
             "sm"
-
         ],
         "thumb": [
             "https://dyhl.studio/assets/corridorconcert/corridorconcert-01.jpg"
