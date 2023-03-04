@@ -72,7 +72,7 @@ var projectsList = [
 
         ],
         "thumb": [
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-01"
+            "https://dyhl.studio/assets/corridorconcert/corridorconcert-01.jpg"
         ]
     },
     {
