@@ -707,7 +707,9 @@ function compileProject() {
                 e('div', { key: "slideshow", id: 'active-slideshow', className: "container-fluid fs-image", tabIndex: 0, dataactive: this.state.dataactive, onKeyDown: this.handleKeyDown, onPointerDown: this.handlePStart, onPointerMove: this.handlePMove, onPointerUp: this.handlePEnd }, slides),
                 e('div', { key: "info", id: 'active-info', className: "container-fluid d-none" },
                     e('div', { className: "row" },
-                        e('div', { key: "info-text", id: "info-text", className: "col col-12 col-md-4" }, infoText),
+                        e('div', { key: "info-text", id: "info-text", className: "col col-12 col-md-4 invisible-scrollbar" },
+                            e('div', {key: "text-wrapper", id: "text-wrapper" }, infoText)
+                        ),
                         e('div', { key: "info-imgs", id: "info-imgs", className: "col col-12 col-md-8 invisible-scrollbar" }, infoImgs)
                     )
                 )

@@ -94,6 +94,11 @@ a:hover {
     overflow: hidden;
 }
 
+#text-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
 .img-wrapper {
     /*max-height: var(--threetwo-info);*/
     width: 100%;
@@ -107,7 +112,7 @@ a:hover {
     width: 100%;
     overflow: hidden;
     margin-bottom: 1.25rem;
-    background-color: black;
+    background-color: white;
 }
 
 .video {
