@@ -39,7 +39,7 @@ var projectsList = [
         ],
         "alt": [
             "Mapping Exponential Pollution of the Esopus Creek to its Constituents by 850 Route 28 LLC.",
-            "Mapping Traces of Carbon & Ways of Life From 13,000 Years Ago to Now",
+            "Mapping Geological Traces of Carbon & Ways of Life From 13,000 Years Ago to Now",
             "This Former Mine Will Be Returned to Esopus Collage",
             "The Ledger of Trade & Conflicts Between Esopus & Colonizers",
             "Map Proposal for a New Bus Route",
