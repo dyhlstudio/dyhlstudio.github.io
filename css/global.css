@@ -407,7 +407,7 @@ nav a {
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    #info-imgs {
+    #info-imgs, #info-text {
         height: calc(calc(calc(calc(calc(calc(var(--vh) * 100) - 1.5em) - 1.25em) - 1em) - 0.75em) - 1px);
     }
 }
@@ -476,7 +476,7 @@ nav a {
         height: 30%;
     }
 
-    #info-imgs {
+    #info-imgs, #info-text {
         height: 100%;
         /*        overflow: auto;*/
     }
