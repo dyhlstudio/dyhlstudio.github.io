@@ -251,7 +251,7 @@ function projectBrief() {
 };
 
 function projectUnbrief() {
-    $('#thumb').attr('src', 'data:,');
+    $('#thumb').attr('src', 'assets/whitethumb.png');
     $('#big-text')
         .text('Daniel Yunhua Li is a New York-based designer and technologist creating experiments in ')
         .append('<a id="architecture" class="text-links" role="button">Architecture</a>, <a id="design" class="text-links" role="button">Graphic & Web Design</a>, and <a id="media" class="text-links" role="button">Interactive Media</a>.');
