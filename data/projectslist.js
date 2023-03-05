@@ -4,6 +4,75 @@ var bio = {
 var projectsList = [
     {
         "no": "001",
+        "year": "2023",
+        "title": "Together...With a Delay",
+        "logline": "Design Research & Strategies for Establishing the Rural Commons Around the Ashokan Reservoir",
+        "type": [
+            "architecture"
+        ],
+        "tags": [
+            "Architecture",
+            "Research",
+            "Advanced Studios"
+        ],
+        "description": [
+            "In 1907, New York City began construction of the Ashokan Reservoir. Determined to be among the city's largest bodies of water, it holds 123 billion gallons of water within 255 square miles and serves 40% of New York City's population with potable water. The cost, however, is the appropriation & intentional flooding of fertile Catskill valley land which housed 12 towns, 504 homes, 35 stores, 10 churches, 10 schools, 9 blacksmiths, 7 sawmills, a gristmill, 2000 people, & finally 3000 graves to be dug up by the towns' own residents. Mirroring a similar reappropriation of land of the Esopus Munsee tribes of the Lenni Lenape peoples by Dutch & English settlers in the 1600s, this act of dispossession left scars throughout the region that have yet to heal to this day.",
+            "In fact, to circumvent the building of a $6 billion water filtration plant mandated by the US Government, the city established a dedicated police agency, the NYCDEP, to ensure cleanliness & purity of the water. For the rural towns that border the massive body of water, increased rent prices, economic distress, & further displacement of the current residents who are descendants of those dispossessed in 1907 as the city continues to buy land to ensure its strategic claim to clean water.",
+            "On February 17, 2023, our studio gathered at the Olive Free Library in West Shokan (a hamlet of Olive, NY) with several residents of the Town of Olive to learn first-hand of its history. In talking to them, we discovered complicated histories of loss, resistance, survival & commoning strategies that connect the reservoir community to each other.",
+            "This project at once explores strategies to sustain the “commons” from urban design strategies to small architectural interventions centered around a proposed bus route that provides accessibility & mobility. But here unlike in more urban manifestations, the commons is not built through public parks, community buildings, & centralized forums of gathering. This preliminary research establishes the rural commons through embracing the patchwork & decentralized networks of connection that are found in communities like Olive, in which one third of the population is over the age of 60, nearly everyone is often working, & multiple cars are needed for basic day-to-day life. It also embraces moments of non-urban gathering, such as the converging of dispersed townsfolk throughout the day, in their individual cars, to the house in West Shokan where a husband and wife sell duck eggs at an unmanned stand along the road. Because while the couple must go to work, moments of connection like this are evidence of built trust & social capital in the community that allow for the community to reap the long-term benefits of the duck egg stand.",
+            "Novel drawing techniques in the abstract research mappings & collages that reveal the narratives of the region try to identify the histories surrouding the Ashokan Reservoir & ask “what exactly are the commons?” Precise site analysis expose opportunities for the rudimentary beginnings of critical “toolkits,” such as establishing the bus route & bus stop as a reliable, accessible mode of getting around & extensions of the house which allow for secondary streams of income & bolster the dispersed, car-driven economy. This research, in its early phases, seeks to establish a form for the rural commons that is decentralized, dispersed, & thus delayed."
+        ],
+        "assets": [
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-01.png",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-02.png",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-03.jpg",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-04.jpg",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-05.png",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-06.png",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-07.png",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-08.png",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-09.png",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-10.png",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-11.png",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-12.png",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-13.png"
+        ],
+        "alt": [
+            "Mapping of 850 Route 28 LLC's Exponential Pollution of the Esopus Creek to its Constituents.",
+            "Mapping Traces of Carbon & Ways of Life From 13,000 Years Ago to Now",
+            "This Former Mine Will Be Returned to Esopus Collage",
+            "The Ledger of Trade & Conflicts Between Esopus & Colonizers",
+            "Map Proposal for a New Bus Route",
+            "Land Ownership & Public Accessibility Map of West Shokan",
+            "Olive Free Library Section",
+            "27 Lang Road Section",
+            "Toolkit #1 — Bus Route",
+            "Toolkit #2 — Bus Stop",
+            "Toolkit #3 — Olive Free Library",
+            "Toolkit #4 — Accessory Dwelling Unit",
+            "Toolkit #5 — Barn Toolkit"
+        ],
+        "frame": [
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm"
+        ],
+        "thumb": [
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-02.png"
+        ]
+    },
+    {
+        "no": "002",
         "year": "2022",
         "title": "The Corridor Concert",
         "logline": "High-density co-living in the Bronx for social and environmental well-being",
@@ -11,7 +80,8 @@ var projectsList = [
             "architecture"
         ],
         "tags": [
-            "Architecture"
+            "Architecture",
+            "CORE Studios"
         ],
         "description": [
             "The Corridor Concert studies how the circulatory core can expand beyond a functional space to foster communal gathering and environmental wellness. Through regulating air and water, a system of flexible wet walls in the central core unite the project at three scales: landscape, building, and units.",
@@ -75,7 +145,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "002",
+        "no": "003",
         "year": "2022",
         "title": "Strata School",
         "logline": "A post-carbon public school for teaching social and ecological agency",
@@ -83,7 +153,8 @@ var projectsList = [
             "architecture"
         ],
         "tags": [
-            "Architecture"
+            "Architecture",
+            "CORE Studios"
         ],
         "description": [
             "Strata School is a K-8 public school that teaches students how to live justly in the Anthropocene through academic study, play and work. Students become involved in the school’s operations and “home economics” with the guidance of faculty, staff, and PTA volunteers, in which they learn about their own agency as individuals and members of a community.",
@@ -147,7 +218,7 @@ var projectsList = [
         ]
     },
         {
-        "no": "003",
+        "no": "004",
         "year": "2022",
         "title": "METI Handmade School Precedent Study",
         "logline": "Enclosure, lighting, assemblies and material flows analysis of Anna Heringer's METI School",
@@ -156,7 +227,8 @@ var projectsList = [
         ],
         "tags": [
             "Architecture",
-            "Research"
+            "Research",
+            "CORE Studios"
         ],
         "description": [
             "In preparation for the CORE II project “Strata School,” this study investigates the relationships between container and curriculum in the METI Handmade School created by Anna Heringer and Eike Roswag in Rudrapur, Bangladesh.",
@@ -189,7 +261,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "004",
+        "no": "005",
         "year": "2021",
         "title": "The New Sky Farms",
         "logline": "An agricultural park to feed New York City's Inwood neighborhood",
@@ -197,7 +269,8 @@ var projectsList = [
             "architecture"
         ],
         "tags": [
-            "Architecture"
+            "Architecture",
+            "CORE Studios"
         ],
         "description": [
             "The New Sky Farms is an urban intervention that situates extensive agricultural centers into Manhattan's most underserved and disaster-prone neighborhoods. As food deserts, sea level rise and gentrification threaten Inwood's communities, these sky farms reposition the neighborhood as a critical node within New York's food landscape through large-scale production and distribution and grassroots community and mutual aid efforts.",
@@ -260,7 +333,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "005",
+        "no": "006",
         "year": "2021",
         "title": "Studying Muqarnas at Alhambra",
         "logline": "Drawings, models, and interactive archives on Islamic vernacular architecture",
@@ -302,7 +375,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "006",
+        "no": "007",
         "year": "2021",
         "title": "Soup Shop NY",
         "logline": "Soup pop-up bringing together restaurants across Brooklyn and Queens during COVID-19",
@@ -363,7 +436,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "007",
+        "no": "008",
         "year": "2020",
         "title": "Wild Dogs International",
         "logline": "Website for a creative studio in Brooklyn creating site-specific experiences and events",
@@ -405,7 +478,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "008",
+        "no": "009",
         "year": "2020",
         "title": "Waffle Parking",
         "logline": "Branding and website design for a Los Angeles-based technology startup",
@@ -448,7 +521,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "009",
+        "no": "010",
         "year": "2019",
         "title": "OPUS Merriweather",
         "logline": "Website concepts for a pioneering arts and music biennial hosted at the Merriweather Post Pavilion in Columbia, MD",
@@ -489,7 +562,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "010",
+        "no": "011",
         "year": "2019",
         "title": "Psychogeocairn",
         "logline": "Interactive installation and thesis project exploring our mental representations and depictions of urban space",
@@ -540,7 +613,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "011",
+        "no": "012",
         "year": "2018",
         "title": "Play Grounds",
         "logline": "Architectural catalog for public playscapes derived from geographic forms",
@@ -599,7 +672,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "012",
+        "no": "013",
         "year": "2019",
         "title": "State of Tyranny",
         "logline": "Exhibition exploring the architecture of control and power at Storefront for Art and Architecture in New York",
@@ -640,7 +713,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "013",
+        "no": "014",
         "year": "2019",
         "title": "Aquí vive gente",
         "logline": "Inaugural presentation and exhibition of the Museum of History and Community of Puerta de Tierra at Storefront for Art and Architecture",
@@ -688,7 +761,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "014",
+        "no": "015",
         "year": "2019",
         "title": "Sun Pleats",
         "logline": "Cut-out art book presenting photographs and windows of reflection into a trip in Japan",
@@ -746,7 +819,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "015",
+        "no": "016",
         "year": "2018",
         "title": "Project Memo",
         "logline": "Mixed-reality application for deploying holographic sticky-notes prototyped in collaboration with NASA Jet Propulsion Laboratory",
@@ -796,7 +869,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "016",
+        "no": "017",
         "year": "2018",
         "title": "The Architecture House",
         "logline": "Branding for a fictional museum dedicated to architectural study and history",
@@ -835,7 +908,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "017",
+        "no": "018",
         "year": "2017",
         "title": "Draft",
         "logline": "Branding for an experimental cocktail bar concept fusing together coffee, tea, cocktails, and more",
@@ -882,7 +955,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "018",
+        "no": "019",
         "year": "2017",
         "title": "Undergrowth",
         "logline": "Short film about what dreaming feels like",
@@ -909,7 +982,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "019",
+        "no": "020",
         "year": "2014",
         "title": "By Omission",
         "logline": "Frag movie showcasing competitive gaming highlights for GuilteTV",
@@ -938,7 +1011,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "020",
+        "no": "021",
         "year": "2014",
         "title": "Endorphinia",
         "logline": "Frag movie showcasing my own competitive gaming highlights",
@@ -965,7 +1038,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "021",
+        "no": "022",
         "year": "2015",
         "title": "Against the Grain",
         "logline": "Custom guitarmaking project from start to finish",
@@ -1006,7 +1079,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "022",
+        "no": "023",
         "year": "2022",
         "title": "WHAT IS AND ISN'T ARCHITECTURE?",
         "logline": "Manifesto on what is and isn't architecture and a portfolio of decidedly-not-architecture",
