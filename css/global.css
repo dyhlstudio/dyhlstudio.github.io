@@ -353,7 +353,7 @@ nav a {
     overflow: auto;
 }
 
-#info-imgs {
+#info-imgs, #info-text {
     overflow: auto;
 }
 
