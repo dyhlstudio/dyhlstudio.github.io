@@ -179,7 +179,7 @@ $(document).ready(function() {
                 $('#home').removeClass('d-flex').addClass('d-none');
             }, 1000);
             // info button
-            $('#info-link').on('vclick', (function() {
+            $('#info-link').on('vclick', function() {
                 $('body').css('overflow', 'unset');
                 onSlides = false;
                 onInfo = true;
@@ -233,7 +233,7 @@ $(document).ready(function() {
 
     //clear filter on user selecting non-filtered entry
 
-    $('.project-entry').on('vclick', (function() {
+    $('.project-entry').on('vclick', function() {
         if (!($(this).hasClass('filtered'))) {
             $('.project-entry.filtered').removeClass('filtered');
         }
