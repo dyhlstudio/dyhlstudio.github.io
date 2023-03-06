@@ -1,5 +1,8 @@
 /* universal styling */
 
+* {
+    cursor: pointer;
+}
 html,
 body {
     overscroll-behavior: none;
