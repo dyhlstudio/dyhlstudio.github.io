@@ -99,7 +99,7 @@ $(document).ready(function() {
         document.documentElement.style.setProperty('--sixteennine-thumb', $('.thumb-wrapper').width() * 9 / 16 + 'px');
     });
 
-    $('#nav-4').vclick(function() {
+    $('#nav-4').on('vclick', function() {
         // close
         if ($('#nav-4').hasClass('on')) {
             $('#nav-4').removeClass('on');
@@ -138,7 +138,7 @@ $(document).ready(function() {
     });
     // Prepare project
 
-    $('.link-wrapper').vclick(function() {
+    $('.link-wrapper').on('vclick', function() {
         selectionNo = parseInt($(this).attr("id"), 10) - 1;
 
         // toggle project brief
@@ -168,7 +168,7 @@ $(document).ready(function() {
 
         // Open project
 
-        $('.view-links').vclick(function() {
+        $('.view-links').on('vclick', (function() {
             $('body').css('overflow', 'unset');
             onHome = false;
             // determine boundary for setUnsetBoundary
@@ -179,7 +179,7 @@ $(document).ready(function() {
                 $('#home').removeClass('d-flex').addClass('d-none');
             }, 1000);
             // info button
-            $('#info-link').vclick(function() {
+            $('#info-link').on('vclick', (function() {
                 $('body').css('overflow', 'unset');
                 onSlides = false;
                 onInfo = true;
@@ -209,7 +209,7 @@ $(document).ready(function() {
 
     // filtering projects list
 
-    $('#big-text').vclick('.text-links', function() {
+    $('#big-text').on('vclick', '.text-links', function() {
 
         if ($(this).hasClass('filtered')) {
 
@@ -233,7 +233,7 @@ $(document).ready(function() {
 
     //clear filter on user selecting non-filtered entry
 
-    $('.project-entry').vclick(function() {
+    $('.project-entry').on('vclick', (function() {
         if (!($(this).hasClass('filtered'))) {
             $('.project-entry.filtered').removeClass('filtered');
         }
