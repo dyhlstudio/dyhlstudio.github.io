@@ -168,7 +168,7 @@ $(document).ready(function() {
 
         // Open project
 
-        $('.view-links').on('vclick', (function() {
+        $('.view-links').on('vclick', function() {
             $('body').css('overflow', 'unset');
             onHome = false;
             // determine boundary for setUnsetBoundary
