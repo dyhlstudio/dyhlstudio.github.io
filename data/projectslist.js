@@ -38,7 +38,7 @@ var projectsList = [
             "https://dyhl.studio/assets/ruralcommons/ruralcommons-13.png"
         ],
         "alt": [
-            "Mapping Exponential Pollution of the Esopus Creek to its Constituents by 850 Route 28 LLC.",
+            "Mapping Exponential Pollution of the Esopus Creek to its Constituents by 850 Route 28 LLC",
             "Mapping Geological Traces of Carbon & Ways of Life From 13,000 Years Ago to Now",
             "This Former Mine Will Be Returned to Esopus",
             "The Ledger of Trade & Conflicts Between Esopus & Colonizers",
