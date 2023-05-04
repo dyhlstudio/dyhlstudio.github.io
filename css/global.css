@@ -135,6 +135,7 @@ a:hover {
 
 header {
     z-index: 2000;
+    position: relative;
 }
 
 ul {
