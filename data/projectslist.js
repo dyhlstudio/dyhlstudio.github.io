@@ -5,8 +5,8 @@ var projectsList = [
     {
         "no": "001",
         "year": "2023",
-        "title": "Together...With a Delay",
-        "logline": "Design Research & Strategies for Establishing the Rural Commons Around the Ashokan Reservoir",
+        "title": "Bus Stop Commons",
+        "logline": "Reestablishing the economic & social commons within the Ashokan Reservoir",
         "type": [
             "architecture"
         ],
@@ -35,7 +35,6 @@ var projectsList = [
             "https://dyhl.studio/assets/ruralcommons/ruralcommons-10.png",
             "https://dyhl.studio/assets/ruralcommons/ruralcommons-11.png",
             "https://dyhl.studio/assets/ruralcommons/ruralcommons-12.png",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-13.png"
         ],
         "alt": [
             "Mapping Exponential Pollution of the Esopus Creek to its Constituents by 850 Route 28 LLC",
@@ -46,14 +45,12 @@ var projectsList = [
             "Land Ownership & Public Accessibility Map of West Shokan",
             "Olive Free Library Section",
             "27 Lang Road Section",
-            "Toolkit #1 — Bus Route",
-            "Toolkit #2 — Bus Stop",
-            "Toolkit #3 — Olive Free Library",
-            "Toolkit #4 — Accessory Dwelling Unit",
-            "Toolkit #5 — Barn Toolkit"
+            "Toolkit Strategies for Economic Revitalization",
+            "Bus Stop Tectonic Axonometric",
+            "Bus Stop Plan",
+            "Bus Stop Section Perspective"
         ],
         "frame": [
-            "sm",
             "sm",
             "sm",
             "sm",
