@@ -1,5 +1,9 @@
 /* universal styling */
 
+.ui-loading .ui-loader, .ui-loader {
+    display: none;
+}
+
 html,
 body {
     overscroll-behavior: none;
