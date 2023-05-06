@@ -99,6 +99,9 @@ $(document).ready(function() {
         document.documentElement.style.setProperty('--sixteennine-thumb', $('.thumb-wrapper').width() * 9 / 16 + 'px');
     });
 
+    // hides loading message caused by jquery mobile
+    $.mobile.loading().hide();
+
     // When clicking/tapping anchors inside of parent .ui-checkbox element(s)
     $('#nav-0, #nav-1, #nav-2').bind("tap click", function(event, data){
         event.stopPropagation();
