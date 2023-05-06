@@ -99,6 +99,14 @@ $(document).ready(function() {
         document.documentElement.style.setProperty('--sixteennine-thumb', $('.thumb-wrapper').width() * 9 / 16 + 'px');
     });
 
+    // When clicking/tapping anchors inside of parent .ui-checkbox element(s)
+    $('#nav-0, #nav-1, #nav-2').bind("tap click", function(event, data){
+        event.stopPropagation();
+
+        // Call jQuery Mobile's changePage function to send user off to the anchor's href destination
+        $.mobile.changePage($(this).attr('href'));
+    });
+
     $('#nav-4').on('vclick', function() {
         // close
         if ($('#nav-4').hasClass('on')) {
