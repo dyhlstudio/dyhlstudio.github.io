@@ -103,7 +103,7 @@ $(document).ready(function() {
     $.mobile.loading().hide();
 
     // When clicking/tapping anchors inside of parent .ui-checkbox element(s)
-    $('#nav-0, #nav-1, #nav-2').bind("tap click", function(event, data){
+    $('#nav-0, #nav-1, #nav-2, #experiments').bind("tap click", function(event, data){
         event.stopPropagation();
 
         // Call jQuery Mobile's changePage function to send user off to the anchor's href destination
