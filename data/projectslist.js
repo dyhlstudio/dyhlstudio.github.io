@@ -87,7 +87,7 @@ var projectsList = [
             "sm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-02.png"
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-15.jpg"
         ]
     },
         {
