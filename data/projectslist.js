@@ -985,7 +985,7 @@ var projectsList = [
             "media"
         ],
         "tags": [
-            "Mixed-Reality Prototype",
+            "AR Prototype",
             "Architecture"
         ],
         "description": [
