@@ -1,5 +1,5 @@
 var bio = {
-    "oneline": "Daniel Yunhua Li is a New York-based designer and technologist creating experiments in Architecture, Graphic & Web Design, and Interactive Media."
+    "oneline": "Yuna Li is a New York-based designer and technologist creating experiments in Architecture, Graphic & Web Design, and Interactive Media."
 }
 var projectsList = [
     {
@@ -35,6 +35,14 @@ var projectsList = [
             "https://dyhl.studio/assets/ruralcommons/ruralcommons-10.png",
             "https://dyhl.studio/assets/ruralcommons/ruralcommons-11.png",
             "https://dyhl.studio/assets/ruralcommons/ruralcommons-12.png",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-13.jpg",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-14.jpg",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-15.jpg",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-16.jpg",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-17.jpg",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-18.jpg",
+            "https://dyhl.studio/assets/ruralcommons/ruralcommons-19.jpg"
+
         ],
         "alt": [
             "Mapping Exponential Pollution of the Esopus Creek to its Constituents by 850 Route 28 LLC",
@@ -48,9 +56,23 @@ var projectsList = [
             "Toolkit Strategies for Economic Revitalization",
             "Bus Stop Tectonic Axonometric",
             "Bus Stop Plan",
-            "Bus Stop Section Perspective"
+            "Bus Stop Section Perspective",
+            "Research Booklet",
+            "GSAPP EOYS Exhibition",
+            "Tectonic Model",
+            "Tectonic Model",
+            "Tectonic Model",
+            "Tectonic Model",
+            "Tectonic Model"
         ],
         "frame": [
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
             "sm",
             "sm",
             "sm",
@@ -68,8 +90,144 @@ var projectsList = [
             "https://dyhl.studio/assets/ruralcommons/ruralcommons-02.png"
         ]
     },
-    {
+        {
         "no": "002",
+        "year": "2023",
+        "title": "GSAPP Worm",
+        "logline": "Inflatable charging station pavilion from concept to installation to disassembly",
+        "type": [
+            "architecture"
+        ],
+        "tags": [
+            "Architecture",
+            "Installation"
+        ],
+        "description": [
+            "GSAPP Worm is one of three inflatable charging stations created through The Outside In Project seminar course, led by Galia Solomonoff and Laurie Hawkinson. The project and course focus on developing a pavilion design from initial ideation and design through to installation. The inflatable pavilion is a charging station and gathering space for students, faculty, graduates, and the Columbia University community. The chargers are powered by photovoltaic panels designed to support phones, small devices, and timed LED lights within the inflatable itself. The pipe-like open design accounts fosters meandering through the space, with crevices and sheltered moments for sitting, lying down, socializing, or napping. 180gr/m² polyester fabric inflated through blowers encouraged an exploration of gaseous geometries: round tubes and ribs in place of hard corners and edges. Early concepts demonstrate a progressive learning of the inflatable logic, which is carried through to design, structure, electrical installation, and maintenance.",
+            "PV and electrical integration were of particular importance to the heart of the project. While fabrication and structural considerations were handled largely by external vendors and consultants, integration of the PV system presented many more opportunities for systems thinking, design for assembly and disassembly, and design development. The WORM's photovoltaic and LED system was disassembled in 15 minutes, compared to 1-hour for other inflatables, despite also being the only of the three inflatables to support a more complex dual battery-system. In considering construction ecology and economy of how to most efficiently and reliably install the PV system, PV-specific construction documents were prepared that could also act as cheat sheets or user guides for wiring and installing the electrical system for a variety of situations such as charging or testing the batteries, wiring order for assembly, and wiring order for disassembly in order to allow more effective coordination between different builders.",
+            "From our experiences with Case One, our team was able to refine the scope of work and methodology with Case Two. This case tackled the issue of youth disconnection and social isolation within segregated communities such as the Patterson Houses. Though home to more permanent communities, public housing projects like the Patterson Houses are informally understood as areas which suffer from extremely low quality-of-life, economic and social opportunity, and high records of crime and policing. Our focus became on youth disconnection as a barometer for community prosperity, as education often serves as an opportunity for socio-economic mobility, while the lack of educational opportunities can actually hinder independence, earnings, and health and well-being in the long term. A combination of city-wide bivariate cloropleth maps connected by narrative \"one-liners\" weaved together these myriad factors and consequences of youth disconnection including race, educational attainment, poverty, arrests, and shootings in the final video presented to the court. Lastly, we created supplementary aerial footage and imagery that helped visualize basic, yet critical information about the case at hand.",
+            "The project team included Brennan Heyward, Samuel Bager, Vishal Benjamin Panicker, Nicholas Richards, Kelly He, Yuna Li, Marina Guimaraes. Collaborators included Zina Berrada (Columbia GSAPP, M.Arch '23), Natalia Serra and Quim Rabassa (àreacúbica), Hubert Chang (Silman Architects), Ray Panchari (Homerun Solar), Yonah Elorza (GSAPP Makerspace + Shop), Joshua Morrison (Columbia GSAPP Operations), Galia Solomonoff (Solomonoff Architects), Laurie Hawkinson (Smith-Miller + Hawkinson Architects), and Nick Knight (Nick Knight Photography).   "
+        ],
+        "assets": [
+            "https://dyhl.studio/assets/worm/worm-01.jpg",
+            "https://dyhl.studio/assets/worm/worm-02.jpg",
+            "https://dyhl.studio/assets/worm/worm-03.png",
+            "https://dyhl.studio/assets/worm/worm-04.png",
+            "https://dyhl.studio/assets/worm/worm-05.png",
+            "https://dyhl.studio/assets/worm/worm-06.png",
+            "https://dyhl.studio/assets/worm/worm-07.png",
+            "https://dyhl.studio/assets/worm/worm-08.png",
+            "https://dyhl.studio/assets/worm/worm-09.png",
+            "https://dyhl.studio/assets/worm/worm-10.jpg",
+            "https://dyhl.studio/assets/worm/worm-11.jpg",
+            "https://dyhl.studio/assets/worm/worm-12.jpg",
+            "https://dyhl.studio/assets/worm/worm-13.jpg",
+            "https://dyhl.studio/assets/worm/worm-14.jpg",
+            "https://dyhl.studio/assets/worm/worm-15.jpg",
+            "https://dyhl.studio/assets/worm/worm-16.jpg",
+
+
+        ],
+        "alt": [
+            "GSAPP Worm Opening Party",
+            "Concept Rendering (credits: Samuel Bager, Brennan Heyward)",
+            "Site Plan (credits: Nicholas Richards)",
+            "East Elevation (credits: Nicholas Richards)",
+            "North-South Section (credits: Vishal Benjamin Panicker)",
+            "Floor Plan (credits: Samuel Bager, Brennan Heyward)",
+            "Ballast Plan (credits: Samuel Bager, Brennan Heyward)",
+            "PV System Wiring Axonometric with Pocket/LED Details (credits: Kelly He)",
+            "PV Diagram with Instructions for On-Site Installation",
+            "PV System On-Site Assembly",
+            "Day and Night Concept Renders (credits: Samuel Bager, Brennan Heyward)",
+            "Day and Night Installation Photos (credits: Nick Knight)",
+            "Concept Sketches (credits: Kelly He)",
+            "Opening Party",
+            "Opening Party",
+            "Article in The Architect's Newspaper"
+        ],
+        "frame": [
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+        ],
+        "thumb": [
+            "https://dyhl.studio/assets/worm/worm-01.jpg"
+        ]
+    },
+    {
+        "no": "003",
+        "year": "2023",
+        "title": "Mapping Legal Aid",
+        "logline": "Video-based GIS storytelling for criminal defense mitigation",
+        "type": [
+            "architecture",
+            "design",
+            "media"
+        ],
+        "tags": [
+            "Architecture",
+            "Research",
+            "Video",
+            "Advocacy"
+        ],
+        "description": [
+            "This project was conducted as a joint collaboration between Columbia GSAPP's Center for Spatial Research and 501(c)(3) nonprofit, The Legal Aid Society to incorporate GIS cartography into The Legal Aid Society's video advocacy work. The CSR team of architecture, urban design, and computational design students (led by Laura Kurgan) conducted research on the history of mass incarceration in the US and the strategies through which it manifests within urban centers such as New York City. Through two case studies given to us by The Legal Aid Society, our team came up with strategies to visually and thematically represent lack of access to opportunities and racial/economic disparities in order to humanize clients and to advocate for leniency in court proceedings and sentences through video scripting, animation, and direction.",
+            "Case One dealt with the issue of unstable housing within New York City's temporary shelter system. The geospatial research explored how the frequent need to relocate homes, change schools, and uproot one's life can pose serious challenges to adolescent development, social integration, and mental and physical health, especially for low-income and BIPOC communities. However, beyond simply understanding that wide swaths of these populations suffer from these issues, our approach to these geonarratives required us to pinpoint novel perspectives for visualizing this information. In order to map the \"chaos\" of unstable housing, we focused on a striking aspect of the case: that many shelters often lack adequate access to basic utilities such as broadband internet, which in turn can prevent them from being able to attend school, do homework, or access critical resources such as scholarships, especially during the COVID-19 pandemic. Through exploring this throughline of internet access, we integrated this quantitative GIS data analysis with interviews conducted by the legal team to create a more relatable, human-centered narrative.",
+            "From our experiences with Case One, our team was able to refine the scope of work and methodology with Case Two. This case tackled the issue of youth disconnection and social isolation within segregated communities such as the Patterson Houses. Though home to more permanent communities, public housing projects like the Patterson Houses are informally understood as areas which suffer from extremely low quality-of-life, economic and social opportunity, and high records of crime and policing. Our focus became on youth disconnection as a barometer for community prosperity, as education often serves as an opportunity for socio-economic mobility, while the lack of educational opportunities can actually hinder independence, earnings, and health and well-being in the long term. A combination of city-wide bivariate cloropleth maps connected by narrative \"one-liners\" weaved together these myriad factors and consequences of youth disconnection including race, educational attainment, poverty, arrests, and shootings in the final video presented to the court. Lastly, we created supplementary aerial footage and imagery that helped visualize basic, yet critical information about the case at hand.",
+            ["A more in-depth reflection on the project on the Center for Spatial Research database:", React.createElement('a', { className: "text-links", href: "https://centerforspatialresearch.github.io/conflict_urbanism_sp2023/2023/04/30/LiLinGrunewaldWineburg.html" }, "Geonarratives for Video Mitigation")],
+            "Collaborators: Laura Kurgan, John Max Grunewald III, Caroline Wineburg, Zoe Lin, Nicole Mull, David Simpson, Dean Jamieson, Daniel Blanco"
+        ],
+        "assets": [
+            "https://dyhl.studio/assets/geonarratives/geonarratives-01.png",
+            "https://dyhl.studio/assets/geonarratives/geonarratives-02.png",
+            "https://dyhl.studio/assets/geonarratives/geonarratives-03.png",
+            "https://dyhl.studio/assets/geonarratives/geonarratives-04.png",
+            "https://dyhl.studio/assets/geonarratives/geonarratives-05.png",
+            "https://dyhl.studio/assets/geonarratives/geonarratives-06.png",
+            "https://dyhl.studio/assets/geonarratives/geonarratives-07.png",
+            "https://player.vimeo.com/video/824206959?h=0d60770cb8&autoplay=1&title=0&byline=0&portrait=0"
+
+        ],
+        "alt": [
+            "Case One — Bivariate Chloropleth of Access to Internet and Median Household Income",
+            "Case Two — Youth Disconnection Basemap",
+            "Case Two — Bivariate Chloropleth of Youth Disconnection and BIPOC Populations",
+            "Case Two — Bivariate Chloropleth of Youth Disconnection and Education",
+            "Case Two — Bivariate Chloropleth of Youth Disconnection and Poverty",
+            "Case Two — Bivariate Chloropleth of Youth Disconnection and Youth Arrests",
+            "Case Two — Bivariate Chloropleth of Youth Disconnection and Shootings",
+            "Video"
+        ],
+        "frame": [
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "vid"
+        ],
+        "thumb": [
+            "https://dyhl.studio/assets/geonarratives/geonarratives-04.png"
+        ]
+    },
+    {
+        "no": "004",
         "year": "2022",
         "title": "The Corridor Concert",
         "logline": "High-density co-living in the Bronx for social and environmental well-being",
@@ -142,7 +300,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "003",
+        "no": "005",
         "year": "2022",
         "title": "Strata School",
         "logline": "A post-carbon public school for teaching social and ecological agency",
@@ -335,10 +493,12 @@ var projectsList = [
         "title": "Studying Muqarnas at Alhambra",
         "logline": "Drawings, models, and interactive archives on Islamic vernacular architecture",
         "type": [
-            "architecture"
+            "architecture",
+            "design"
         ],
         "tags": [
-            "Architecture"
+            "Architecture",
+            "Motion Graphics"
         ],
         "description": [
             "Muqarnas are ornamental vaults found across the world in Islamic vernacular architecture. Resembling honeycombs or stalactites, these fractal-like structures use mathematical principles in design and construction in order to connote the beauty and grandness of a universe created by God."
@@ -960,7 +1120,7 @@ var projectsList = [
             "media"
         ],
         "tags": [
-            "Short Film"
+            "Video"
         ],
         "description": [
             "Undergrowth is a short film exploring experimental storytelling about dream spaces and the feeling of dreaming. As both a linear narrative film and non-linear montage, the film’s surreal and realistic visuals emphasis viscerality and unconscious emotions, drawing from works from filmmakers such as David Lynch, Wes Anderson, Maya Derin, and Yoko Ono. The janggu, a traditional Korean folk drum, highlights an importance of rhythm and sound in the portrayal of such spaces."
@@ -987,7 +1147,7 @@ var projectsList = [
             "media"
         ],
         "tags": [
-            "Short Film",
+            "Video",
             "Motion Graphics"
         ],
         "description": [
@@ -1016,7 +1176,7 @@ var projectsList = [
             "media"
         ],
         "tags": [
-            "Short Film",
+            "Video",
         ],
         "description": [
             "Endorphinia is the first short film I made of the competitive FPS game, Blacklight: Retribution. Informally known as frag movies, these films involve a collection of clips which are edited together through montaging techniques. The editing is mostly focused on balancing montaging techniques while keeping a general narrative intact. The film is a collection of my own recordings and footage."
