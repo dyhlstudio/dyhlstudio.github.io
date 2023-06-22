@@ -979,7 +979,7 @@ var projectsList = [
         "no": "018",
         "year": "2018",
         "title": "Project Memo",
-        "logline": "Mixed-reality application for deploying holographic sticky-notes prototyped in collaboration with NASA Jet Propulsion Laboratory",
+        "logline": "Augmented reality application for deploying holographic sticky-notes prototyped in collaboration with NASA Jet Propulsion Laboratory",
         "type": [
             "architecture",
             "media"
