@@ -435,7 +435,7 @@ var projectsList = [
             "https://dyhl.studio/assets/skyfarms/skyfarms-01.png",
             "https://dyhl.studio/assets/skyfarms/skyfarms-02.png",
             "https://dyhl.studio/assets/skyfarms/skyfarms-03.jpg",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-04.png",
+            "https://dyhl.studio/assets/skyfarms/skyfarms-04.jpg",
             "https://dyhl.studio/assets/skyfarms/skyfarms-05.png",
             "https://dyhl.studio/assets/skyfarms/skyfarms-06.png",
             "https://dyhl.studio/assets/skyfarms/skyfarms-07.png",
@@ -995,17 +995,15 @@ var projectsList = [
             ["A HoloLens prototype built in Unity can be accessed here: ", React.createElement('a', { className: 'text-links', href: "https://drive.google.com/drive/folders/1YAEC1GTw-S20PykYJ06YxRCWcHzCo2GC?usp=sharing" }, "link", React.createElement('span', { className: "link-arrow"},))]
         ],
         "assets": [
-            "https://dyhl.studio/assets/projectmemo/projectmemo-01.png",
-            "https://dyhl.studio/assets/projectmemo/projectmemo-02.png",
+            "https://dyhl.studio/assets/projectmemo/projectmemo-01.jpg",
+            "https://dyhl.studio/assets/projectmemo/projectmemo-02.jpg",
             "https://dyhl.studio/assets/projectmemo/projectmemo-03.jpg",
             "https://dyhl.studio/assets/projectmemo/projectmemo-04.jpg",
             "https://dyhl.studio/assets/projectmemo/projectmemo-05.jpg",
             "https://dyhl.studio/assets/projectmemo/projectmemo-06.jpg",
-            "https://dyhl.studio/assets/projectmemo/projectmemo-07.jpg"
         ],
         "alt": [
-            "Cleanroom",
-            "Close-Up",
+            "Cleanroom Render",
             "Sticky Notes Mockup",
             "Painting Mockup",
             "Plan Diagram",
@@ -1013,13 +1011,13 @@ var projectsList = [
             "Prototype in Unity"
         ],
         "frame": [
-            "fsm",
-            "fsm",
-            "fsm",
-            "fsm",
             "sm",
             "sm",
-            "fsm"
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm"
         ],
         "thumb": [
             "https://dyhl.studio/assets/projectmemo/projectmemo-01.png"
