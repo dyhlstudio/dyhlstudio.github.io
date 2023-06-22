@@ -541,7 +541,7 @@ var projectsList = [
         ],
         "tags": [  
             "Website",
-            "Branding",
+            "Identity",
             "Social Media"
         ],
         "description": [
@@ -643,7 +643,7 @@ var projectsList = [
             "design"
         ],
         "tags": [
-            "Brand Identity",
+            "Identity",
             "Website"
         ],
         "description": [
@@ -1034,7 +1034,7 @@ var projectsList = [
             "design"
         ],
         "tags": [
-            "Brand Identity"
+            "Identity"
         ],
         "description": [
             "The Architecture House is a fictional institution and museum dedicated to architectural practice and history. The project creates a custom typeface logo that recreates the characteristic mass of each non-round letter without becoming unrecognizable. A design system is then created towards a magazine and poster."
@@ -1073,7 +1073,7 @@ var projectsList = [
             "design"
         ],
         "tags": [
-            "Brand Identity",
+            "Identity",
             "Fabrication"
         ],
         "description": [
