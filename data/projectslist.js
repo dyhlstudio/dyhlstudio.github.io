@@ -188,7 +188,7 @@ var projectsList = [
             "This project was conducted as a joint collaboration between Columbia GSAPP's Center for Spatial Research and 501(c)(3) nonprofit, The Legal Aid Society to incorporate GIS cartography into The Legal Aid Society's video advocacy work. The CSR team of architecture, urban design, and computational design students (led by Laura Kurgan) conducted research on the history of mass incarceration in the US and the strategies through which it manifests within urban centers such as New York City. Through two case studies given to us by The Legal Aid Society, our team came up with strategies to visually and thematically represent lack of access to opportunities and racial/economic disparities in order to humanize clients and to advocate for leniency in court proceedings and sentences through video scripting, animation, and direction.",
             "Case One dealt with the issue of unstable housing within New York City's temporary shelter system. The geospatial research explored how the frequent need to relocate homes, change schools, and uproot one's life can pose serious challenges to adolescent development, social integration, and mental and physical health, especially for low-income and BIPOC communities. However, beyond simply understanding that wide swaths of these populations suffer from these issues, our approach to these geonarratives required us to pinpoint novel perspectives for visualizing this information. In order to map the \"chaos\" of unstable housing, we focused on a striking aspect of the case: that many shelters often lack adequate access to basic utilities such as broadband internet, which in turn can prevent them from being able to attend school, do homework, or access critical resources such as scholarships, especially during the COVID-19 pandemic. Through exploring this throughline of internet access, we integrated this quantitative GIS data analysis with interviews conducted by the legal team to create a more relatable, human-centered narrative.",
             "From our experiences with Case One, our team was able to refine the scope of work and methodology with Case Two. This case tackled the issue of youth disconnection and social isolation within segregated communities such as the Patterson Houses. Though home to more permanent communities, public housing projects like the Patterson Houses are informally understood as areas which suffer from extremely low quality-of-life, economic and social opportunity, and high records of crime and policing. Our focus became on youth disconnection as a barometer for community prosperity, as education often serves as an opportunity for socio-economic mobility, while the lack of educational opportunities can actually hinder independence, earnings, and health and well-being in the long term. A combination of city-wide bivariate cloropleth maps connected by narrative \"one-liners\" weaved together these myriad factors and consequences of youth disconnection including race, educational attainment, poverty, arrests, and shootings in the final video presented to the court. Lastly, we created supplementary aerial footage and imagery that helped visualize basic, yet critical information about the case at hand.",
-            ["A more in-depth reflection on the project on the Center for Spatial Research database:", React.createElement('a', { className: "text-links", href: "https://centerforspatialresearch.github.io/conflict_urbanism_sp2023/2023/04/30/LiLinGrunewaldWineburg.html" }, "Geonarratives for Video Mitigation")],
+            ["A more in-depth reflection on the project on the Center for Spatial Research database: ", React.createElement('a', { className: "text-links", href: "https://centerforspatialresearch.github.io/conflict_urbanism_sp2023/2023/04/30/LiLinGrunewaldWineburg.html" }, "Geonarratives for Video Mitigation")],
             "Collaborators: Laura Kurgan, John Max Grunewald III, Caroline Wineburg, Zoe Lin, Nicole Mull, David Simpson, Dean Jamieson, Daniel Blanco"
         ],
         "assets": [
@@ -199,7 +199,8 @@ var projectsList = [
             "https://dyhl.studio/assets/geonarratives/geonarratives-05.png",
             "https://dyhl.studio/assets/geonarratives/geonarratives-06.png",
             "https://dyhl.studio/assets/geonarratives/geonarratives-07.png",
-            "https://player.vimeo.com/video/824206959?h=0d60770cb8&autoplay=1&title=0&byline=0&portrait=0"
+            "https://player.vimeo.com/video/824206959?h=0d60770cb8&autoplay=1&title=0&byline=0&portrait=0",
+            "https://dyhl.studio/assets/geonarratives/geonarratives-09.png"
 
         ],
         "alt": [
@@ -210,7 +211,8 @@ var projectsList = [
             "Case Two — Bivariate Chloropleth of Youth Disconnection and Poverty",
             "Case Two — Bivariate Chloropleth of Youth Disconnection and Youth Arrests",
             "Case Two — Bivariate Chloropleth of Youth Disconnection and Shootings",
-            "Video"
+            "Video",
+            "The New York Times Article"
         ],
         "frame": [
             "sm",
@@ -220,7 +222,8 @@ var projectsList = [
             "sm",
             "sm",
             "sm",
-            "vid"
+            "vid",
+            "sm"
         ],
         "thumb": [
             "https://dyhl.studio/assets/geonarratives/geonarratives-04.png"
