@@ -429,16 +429,19 @@ function compileProject() {
             if (i == 0) {
                 slides.push(
                     e('div', { key: i, className: 'd-flex justify-content-center align-items-center frame inactive active' },
-                        e('model-viewer', { className: 'threed', src: projectsList[selectionNo].assets[i], shadowIntensity: "1", autoRotate: null, cameraControls: null })
+                        e('model-viewer', { className: 'threed', src: projectsList[selectionNo].assets[i] })
                     )
                 );
             } else {
                 slides.push(
                     e('div', { key: i, className: 'd-flex justify-content-center align-items-center frame inactive' },
-                        e('model-viewer', { className: 'threed', src: projectsList[selectionNo].assets[i], shadowIntensity: "1", autoRotate: null, cameraControls: null })
+                        e('model-viewer', { className: 'threed', src: projectsList[selectionNo].assets[i] })
                     )
                 );
             }
+            $('.threed').attr('shadow-intensity', '1');
+            $('.threed').attr('camera-controls', '');
+            $('.threed').attr('auto-rotate', '');
         }
     }
 
