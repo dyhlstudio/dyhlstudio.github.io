@@ -428,14 +428,14 @@ function compileProject() {
         if (projectsList[selectionNo].frame[i] === "3d") {
             if (i == 0) {
                 slides.push(
-                    e('div', { key: i, className: 'd-flex justify-content-center align-items-center frame inactive active' },
+                    e('div', { key: i, className: 'three-d-frame d-flex justify-content-center align-items-center frame inactive active' },
                         e('iframe', { className: 'three-d-container', src: projectsList[selectionNo].assets[i] })
                     )
                 );
 
             } else {
                 slides.push(
-                    e('div', { key: i, className: 'd-flex justify-content-center align-items-center frame inactive' },
+                    e('div', { key: i, className: 'three-d-frame d-flex justify-content-center align-items-center frame inactive' },
                         e('iframe', { className: 'three-d-container', src: projectsList[selectionNo].assets[i] })
                     )
                 );
