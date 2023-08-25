@@ -429,13 +429,13 @@ function compileProject() {
             if (i == 0) {
                 slides.push(
                     e('div', { key: i, className: 'd-flex justify-content-center align-items-center frame inactive active' },
-                        e('model-viewer', { className: '3d', src: projectsList[selectionNo].assets[i] })
+                        e('model-viewer', { className: '3d', src: projectsList[selectionNo].assets[i], shadow-intensity: "1", auto-rotate: null, camera-controls: null })
                     )
                 );
             } else {
                 slides.push(
                     e('div', { key: i, className: 'd-flex justify-content-center align-items-center frame inactive' },
-                        e('model-viewer', { className: '3d', src: projectsList[selectionNo].assets[i] })
+                        e('model-viewer', { className: '3d', src: projectsList[selectionNo].assets[i], shadow-intensity: "1", auto-rotate: null, camera-controls: null })
                     )
                 );
             }
