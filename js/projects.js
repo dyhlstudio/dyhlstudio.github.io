@@ -432,23 +432,19 @@ function compileProject() {
                         e('model-viewer', { className: 'threed', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" } })
                     )
                 );
-                document.querySelector("model-viewer").setAttribute("shadow-intensity", "1");
-                document.querySelector("model-viewer").setAttribute("camera-controls", "");
-                document.querySelector("model-viewer").setAttribute("auto-rotate", "");
-                document.querySelector("model-viewer").setAttribute("touch-action", "pan-y");
-                console.log('did this work?');
+
             } else {
                 slides.push(
                     e('div', { key: i, className: 'd-flex justify-content-center align-items-center frame inactive' },
                         e('model-viewer', { className: 'threed', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" } })
                     )
                 );
-                document.querySelector("model-viewer").setAttribute("shadow-intensity", "1");
-                document.querySelector("model-viewer").setAttribute("camera-controls", "");
-                document.querySelector("model-viewer").setAttribute("auto-rotate", "");
-                document.querySelector("model-viewer").setAttribute("touch-action", "pan-y");
-                console.log('did this work?');
             }
+            document.querySelector("model-viewer").setAttribute("shadow-intensity", "1");
+            document.querySelector("model-viewer").setAttribute("camera-controls", "");
+            document.querySelector("model-viewer").setAttribute("auto-rotate", "");
+            document.querySelector("model-viewer").setAttribute("touch-action", "pan-y");
+            console.log('did this work?');
 
         }
     }
