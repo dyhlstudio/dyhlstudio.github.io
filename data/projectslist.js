@@ -42,6 +42,7 @@ var projectsList = [
             "Monsoon Stories Collective Drawing (credits: ANU Students)",
             "Scroll",
             "Full Exhibition Scroll (credits: Sonal Beri)",
+            "Grains Exercise (credits: Marberd Bernard)",
             "Collages (credits: ANU Students)",
             "Clay Models (credits: ANU Students)",
             "Clay Workshop",
@@ -66,8 +67,9 @@ var projectsList = [
             "sm",
             "sm",
             "sm",
+            "sm",
             "3d",
-            "vid",
+            "vid"
         ],
         "thumb": [
             "https://dyhl.studio/assets/monsoonstories/monsoonstories-01.jpg"
