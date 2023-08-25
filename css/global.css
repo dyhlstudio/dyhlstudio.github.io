@@ -341,17 +341,16 @@ nav a {
 
 /* 3D model iframe */
 
-.three-d-container {
+.three-d-container, .three-d-container:focus {
     border-width: 0 !important;
-}
-
-/*.three-d-container, .three-d-container:focus {
     outline: none;
-}*/
+}
 
 #iframe-container {
     margin:0 !important;
 }
+
+/*parent to child hierarchy: frame > container > three-d*/
 
 .three-d-frame, .three-d-container, .three-d, .three-d:host {
     width: 100%;
