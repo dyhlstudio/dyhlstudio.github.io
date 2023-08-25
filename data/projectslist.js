@@ -32,6 +32,7 @@ var projectsList = [
             "https://dyhl.studio/assets/monsoonstories/monsoonstories-10.jpg",
             "https://dyhl.studio/assets/monsoonstories/monsoonstories-11.jpg",
             "https://dyhl.studio/assets/monsoonstories/monsoonstories-12.jpg",
+            "https://dyhl.studio/assets/monsoonstories/monsoonstories-13.glb",
             "https://player.vimeo.com/video/857755294?h=8c0f1e2873&autoplay=1&title=0&byline=0&portrait=0",
 
         ],
@@ -48,6 +49,7 @@ var projectsList = [
             "Exhibition Installation",
             "Exhibition Intro Banner",
             "GSAPP & ANU Teams",
+            "Photogrammetry Scan — Adalaj Stepwell",
             "Video: From Urban to Peri-Urban"
         ],
         "frame": [
@@ -63,6 +65,7 @@ var projectsList = [
             "sm",
             "sm",
             "sm",
+            "3d",
             "vid",
         ],
         "thumb": [

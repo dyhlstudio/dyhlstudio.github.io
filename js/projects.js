@@ -424,6 +424,22 @@ function compileProject() {
                 )
             }
         }
+
+        if (projectsList[selectionNo].frame[i] === "3d") {
+            if (i == 0) {
+                slides.push(
+                    e('div', { key: i, className: 'd-flex justify-content-center align-items-center frame inactive active' },
+                        e('model-viewer', { className: '3d', src: projectsList[selectionNo].assets[i] })
+                    )
+                );
+            } else {
+                slides.push(
+                    e('div', { key: i, className: 'd-flex justify-content-center align-items-center frame inactive' },
+                        e('model-viewer', { className: '3d', src: projectsList[selectionNo].assets[i] })
+                    )
+                );
+            }
+        }
     }
 
 
