@@ -32,7 +32,8 @@ var projectsList = [
             "https://dyhl.studio/assets/monsoonstories/monsoonstories-10.jpg",
             "https://dyhl.studio/assets/monsoonstories/monsoonstories-11.jpg",
             "https://dyhl.studio/assets/monsoonstories/monsoonstories-12.jpg",
-            "https://dyhl.studio/assets/monsoonstories/monsoonstories-13.glb",
+            "https://dyhl.studio/assets/monsoonstories/monsoonstories-13.jpg",
+            "https://dyhl.studio/assets/monsoonstories/monsoonstories-14.glb",
             "https://player.vimeo.com/video/857755294?h=8c0f1e2873&autoplay=1&title=0&byline=0&portrait=0",
 
         ],
