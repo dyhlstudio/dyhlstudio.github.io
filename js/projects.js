@@ -436,6 +436,7 @@ function compileProject() {
                 $('model-viewer').attr('camera-controls', '');
                 $('model-viewer').attr('auto-rotate', '');
                 $('model-viewer').attr('touch-action', 'pan-y');
+                console.log('did this work?');
             } else {
                 slides.push(
                     e('div', { key: i, className: 'd-flex justify-content-center align-items-center frame inactive' },
@@ -446,6 +447,7 @@ function compileProject() {
                 $('model-viewer').attr('camera-controls', '');
                 $('model-viewer').attr('auto-rotate', '');
                 $('model-viewer').attr('touch-action', 'pan-y');
+                console.log('did this work?');
             }
 
         }
