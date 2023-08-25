@@ -299,7 +299,6 @@ nav a {
 .v-frame {
     background-color: black;
 }
-
 .sm-img {
     /*    position: absolute;
     top: 17%;
@@ -338,6 +337,11 @@ nav a {
     overflow: hidden;
     z-index: 200;
     object-fit: cover;
+}
+
+.threed {
+    width: calc(var(--vw) * 75);
+    height: calc(var(--vh) * 75);
 }
 
 .inactive {
