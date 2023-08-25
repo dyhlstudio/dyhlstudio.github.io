@@ -345,13 +345,13 @@ nav a {
 }
 
 .inactive {
-    /*    visibility: hidden;*/
-    opacity: 0;
+    visibility: hidden;
+    /*opacity: 0;*/
 }
 
 .active {
-    /*    visibility: visible;*/
-    opacity: 1;
+    visibility: visible;
+    /*opacity: 1;*/
     -webkit-transition: opacity 500ms ease;
     -moz-transition: opacity 500ms ease;
     -o-transition: opacity 500ms ease;
