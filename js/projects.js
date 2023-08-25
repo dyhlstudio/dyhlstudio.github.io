@@ -429,14 +429,18 @@ function compileProject() {
             if (i == 0) {
                 slides.push(
                     e('div', { key: i, className: 'three-d-frame d-flex justify-content-center align-items-center frame inactive active' },
-                        e('iframe', { className: 'three-d-container', src: projectsList[selectionNo].assets[i] })
+                        e('iframe', { className: 'three-d-container', src: projectsList[selectionNo].assets[i] }),
+                        e('button', { className: 'three-d-controls-left',}),
+                        e('button', { className: 'three-d-controls-right'})
                     )
                 );
 
             } else {
                 slides.push(
                     e('div', { key: i, className: 'three-d-frame d-flex justify-content-center align-items-center frame inactive' },
-                        e('iframe', { className: 'three-d-container', src: projectsList[selectionNo].assets[i] })
+                        e('iframe', { className: 'three-d-container', src: projectsList[selectionNo].assets[i] }),
+                        e('button', { className: 'three-d-controls-left',}),
+                        e('button', { className: 'three-d-controls-right'})
                     )
                 );
             }
