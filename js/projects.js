@@ -429,18 +429,14 @@ function compileProject() {
             if (i == 0) {
                 slides.push(
                     e('div', { key: i, className: 'd-flex justify-content-center align-items-center frame inactive active' },
-                        e('iframe', { className: 'three-d-container', src: 'about:blank' },
-                            e('model-viewer', { className: 'threed', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" } })
-                        )
+                        e('iframe', { className: 'three-d-container', src: projectsList[selectionNo].assets[i] })
                     )
                 );
 
             } else {
                 slides.push(
                     e('div', { key: i, className: 'd-flex justify-content-center align-items-center frame inactive' },
-                        e('iframe', { className: 'three-d-container', src: 'about:blank' },
-                            e('model-viewer', { className: 'threed', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" } })
-                        )
+                        e('iframe', { className: 'three-d-container', src: projectsList[selectionNo].assets[i] })
                     )
                 );
             }
