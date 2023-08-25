@@ -34,7 +34,7 @@ var projectsList = [
             "https://dyhl.studio/assets/monsoonstories/monsoonstories-12.jpg",
             "https://dyhl.studio/assets/monsoonstories/monsoonstories-13.jpg",
             "https://dyhl.studio/assets/monsoonstories/monsoonstories-14.glb",
-            "https://player.vimeo.com/video/857755294?color=ffffff&title=0&byline=0&portrait=0"
+            "https://player.vimeo.com/video/857755294?h=8c0f1e2873&color=ffffff&title=0&byline=0&portrait=0"
         ],
         "alt": [
             "Stepwells Collage (credits: Marberd Bernard)",
@@ -271,7 +271,7 @@ var projectsList = [
             "https://dyhl.studio/assets/geonarratives/geonarratives-05.png",
             "https://dyhl.studio/assets/geonarratives/geonarratives-06.png",
             "https://dyhl.studio/assets/geonarratives/geonarratives-07.png",
-            "https://player.vimeo.com/video/824206959?color=ffffff&title=0&byline=0&portrait=0",
+            "https://player.vimeo.com/video/824206959?h=0d60770cb8&color=ffffff&title=0&byline=0&portrait=0",
             "https://dyhl.studio/assets/geonarratives/geonarratives-09.png"
 
 
