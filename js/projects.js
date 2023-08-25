@@ -443,7 +443,7 @@ function compileProject() {
             document.querySelector("model-viewer").setAttribute("shadow-intensity", "1");
             document.querySelector("model-viewer").setAttribute("camera-controls", "");
             document.querySelector("model-viewer").setAttribute("auto-rotate", "");
-            document.querySelector("model-viewer").setAttribute("touch-action", "pan-y");
+            //document.querySelector("model-viewer").setAttribute("touch-action", "pan-y");
             console.log('did this work?');
 
         }
