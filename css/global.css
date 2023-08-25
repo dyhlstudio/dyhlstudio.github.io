@@ -339,7 +339,21 @@ nav a {
     object-fit: cover;
 }
 
-.threed, .threed:host {
+/* 3D model iframe */
+
+.three-d-container {
+    border-width: 0 !important;
+}
+
+/*.three-d-container, .three-d-container:focus {
+    outline: none;
+}*/
+
+#iframe-container {
+    margin:0 !important;
+}
+
+.three-d, .three-d:host {
     width: 100%;
     height: 100%;
 }
