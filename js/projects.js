@@ -442,6 +442,7 @@ function compileProject() {
             $('.threed').attr('shadow-intensity', '1');
             $('.threed').attr('camera-controls', '');
             $('.threed').attr('auto-rotate', '');
+            $('.threed').attr('touch-action', 'pan-y');
         }
     }
 
