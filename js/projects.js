@@ -413,13 +413,13 @@ function compileProject() {
             if (i == 0) {
                 slides.push(
                     e('div', { key: i + 'video', className: 'd-flex justify-content-center align-items-center frame v-frame inactive active' },
-                        e('iframe', { className: 'fs-vid', src: projectsList[selectionNo].assets[i], style: { width: 80 + "%", height: 80 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: null }, )
+                        e('iframe', { className: 'fs-vid', src: projectsList[selectionNo].assets[i], style: { width: 80 + "%", height: 80 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: '' })
                     )
                 )
             } else {
                 slides.push(
                     e('div', { key: i + 'video', className: 'd-flex justify-content-center align-items-center frame v-frame inactive' },
-                        e('iframe', { className: 'fs-vid', src: projectsList[selectionNo].assets[i], style: { width: 80 + "%", height: 80 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: null }, )
+                        e('iframe', { className: 'fs-vid', src: projectsList[selectionNo].assets[i], style: { width: 80 + "%", height: 80 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: '' })
                     )
                 )
             }
