@@ -317,7 +317,7 @@ function captionHighlight(el) {
         $('#nav-container').addClass('fsm-no-line');
 
     }
-    if (el.children().hasClass('sm-img')) {
+    if (el.children().hasClass('sm-img') || el.children().hasClass('three-d-container')) {
         if ($('a, p').hasClass('fs-highlight')) {
             $('a, p').removeClass('fs-highlight');
             $('#nav-container').removeClass('fs-no-line');
@@ -328,6 +328,7 @@ function captionHighlight(el) {
         }
     }
 }
+
 
 // function determineBoundary(el) {
 //     // determine boundary for setUnsetBoundary
@@ -429,8 +430,8 @@ function compileProject() {
             if (i == 0) {
                 slides.push(
                     e('div', { key: i, className: 'three-d-frame d-flex justify-content-center align-items-center frame inactive active' },
-                        e('iframe', { className: 'three-d-container', src: projectsList[selectionNo].assets[i] }),
                         e('button', { className: 'three-d-controls-left',}),
+                        e('iframe', { className: 'three-d-container', src: projectsList[selectionNo].assets[i] }),
                         e('button', { className: 'three-d-controls-right'})
                     )
                 );
@@ -438,15 +439,14 @@ function compileProject() {
             } else {
                 slides.push(
                     e('div', { key: i, className: 'three-d-frame d-flex justify-content-center align-items-center frame inactive' },
-                        e('iframe', { className: 'three-d-container', src: projectsList[selectionNo].assets[i] }),
                         e('button', { className: 'three-d-controls-left',}),
+                        e('iframe', { className: 'three-d-container', src: projectsList[selectionNo].assets[i] }),
                         e('button', { className: 'three-d-controls-right'})
                     )
                 );
             }
         }
     }
-
 
 
     // info overview text
