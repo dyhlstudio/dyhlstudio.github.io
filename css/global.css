@@ -123,6 +123,10 @@ a:hover {
     min-height: var(--threetwo-info);
 }
 
+.three-d-info {
+    min-height: var(--threetwo-info);
+}
+
 .list-img {
     height: auto;
     width: 100%;

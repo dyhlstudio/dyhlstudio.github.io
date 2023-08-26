@@ -461,7 +461,7 @@ function compileProject() {
     // info overview imgs
     var infoImgs = [];
     for (i = 0; i < projectsList[selectionNo].assets.length; i++) {
-        if (projectsList[selectionNo].frame[i] != 'vid') {
+        if (projectsList[selectionNo].frame[i] != 'vid' || projectsList[selectionNo].frame[i] != '3d') {
             if (i == projectsList[selectionNo].assets.length - 1) {
                 infoImgs.push(e('div', { key: i, className: "img-wrapper-end" },
                     e('img', { className: "list-img responsive-img", src: projectsList[selectionNo].assets[i] })
@@ -475,11 +475,22 @@ function compileProject() {
         if (projectsList[selectionNo].frame[i] == 'vid') {
             if (i == projectsList[selectionNo].assets.length - 1) {
                 infoImgs.push(e('div', { key: i, className: "img-wrapper-end" },
-                    e('iframe', { className: 'video', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: null }, )
+                    e('iframe', { className: 'video', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: null })
                 ));
             } else {
                 infoImgs.push(e('div', { key: i, className: "img-wrapper" },
-                    e('iframe', { className: 'video', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: null }, )
+                    e('iframe', { className: 'video', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" }, frameBorder: 0, allow: 'fullscreen', allowFullScreen: null })
+                ));
+            }
+        }
+        if (projectsList[selectionNo].frame[i] == '3d') {
+            if (i == projectsList[selectionNo].assets.length - 1) {
+                infoImgs.push(e('div', { key: i, className: "img-wrapper-end" },
+                    e('iframe', { className: 'three-d-info', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" } })
+                ));
+            } else {
+                infoImgs.push(e('div', { key: i, className: "img-wrapper" },
+                    e('iframe', { className: 'three-d-info', src: projectsList[selectionNo].assets[i], style: { width: 100 + "%", height: 100 + "%" } })
                 ));
             }
         }
