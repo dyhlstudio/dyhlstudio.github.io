@@ -173,7 +173,15 @@ nav a {
 }
 
 #arrows {
-    margin-top:;
+    position: absolute;
+}
+
+#back-arrow {
+    align-content: flex-start;
+}
+
+#forward-arrow {
+    align-content: flex-end;
 }
 
 .dot {
