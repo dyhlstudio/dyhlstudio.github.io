@@ -172,8 +172,17 @@ nav a {
     max-height: 100vh - 1.25em;
 }
 
-#arrows {
-    position: absolute;
+.left-arrows, .right-arrows {
+    position: fixed;
+    top: 50vh;
+}
+
+.left-arrows {
+    left: 1.5em;
+}
+
+.right-arrows {
+    right: 1.5em;
 }
 
 #back-arrow {
