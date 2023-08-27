@@ -172,6 +172,10 @@ nav a {
     max-height: 100vh - 1.25em;
 }
 
+#arrows {
+    margin-top:;
+}
+
 .dot {
     height: 25px;
     width: 25px;
@@ -179,6 +183,7 @@ nav a {
     border-radius: 50%;
     display: inline-block;
     border: 1px solid black;
+
 }
 
 .dot:hover {
