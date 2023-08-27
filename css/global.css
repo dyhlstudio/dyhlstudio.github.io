@@ -172,6 +172,19 @@ nav a {
     max-height: 100vh - 1.25em;
 }
 
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.dot:hover {
+    background-color: #ff0;
+}
+
 /* main CSS */
 
 
