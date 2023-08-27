@@ -30,7 +30,7 @@ function typeClass(projectEntry) {
 }
 
 function fontScrambler() {
-    var fonts = ["Gulax Regular", "iA Writer Mono", "stratos", "Fluxisch Else Bold", "Ortica Light", "freight-display-pro"];
+    var fonts = ["iA Writer Mono", "stratos", "Fluxisch Else Bold", "Ortica Light", "freight-display-pro"];
     for (let i = fonts.length - 1; i > 0; i--) { // fisher yates shuffle
         let j = Math.floor(Math.random() * (i + 1)); // random index from 0 to i
         [fonts[i], fonts[j]] = [fonts[j], fonts[i]];
