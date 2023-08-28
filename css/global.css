@@ -172,7 +172,7 @@ nav a {
     max-height: 100vh - 1.25em;
 }
 
-.left-arrows, .right-arrows {
+.arrows {
     position: fixed;
     top: 50vh;
 }
