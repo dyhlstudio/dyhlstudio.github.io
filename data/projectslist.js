@@ -85,7 +85,7 @@ var projectsList = [
         "tags": [
             "Architecture",
             "Research",
-            "Advanced Studios"
+            "Academic"
         ],
         "description": [
             "In 1907, New York City began constructing the Ashokan Reservoir. Determined to be among the city's largest bodies of water, the 255-square mile reservoir holds 123 billion gallons of water and serves potable water to 40% of the city's population. The cost, however, is the disposession of 12 towns, 504 homes, 35 stores, 10 churches, 10 schools, 9 blacksmiths, 7 sawmills, a gristmill, 2000 people, & 3000 graves from fertile Catskill valley lands. Mirroring a similar reappropriation of Esopus Munsee tribes' land by Dutch & English settlers in the 1600s, this act of dispossession left scars throughout the region that have yet to heal.",
@@ -172,7 +172,8 @@ var projectsList = [
         ],
         "tags": [
             "Architecture",
-            "Installation"
+            "Installation",
+            "Academic"
         ],
         "description": [
             "GSAPP Worm is one of three inflatable charging stations created through The Outside In Project seminar course, led by Galia Solomonoff and Laurie Hawkinson. The project and course focus on developing a pavilion design from initial ideation and design through to installation. The inflatable pavilion is a charging station and gathering space for students, faculty, graduates, and the Columbia University community. The chargers are powered by photovoltaic panels designed to support phones, small devices, and timed LED lights within the inflatable itself. The pipe-like open design accounts fosters meandering through the space, with crevices and sheltered moments for sitting, lying down, socializing, or napping. 180gr/m² polyester fabric inflated through blowers encouraged an exploration of gaseous geometries: round tubes and ribs in place of hard corners and edges. Early concepts demonstrate a progressive learning of the inflatable logic, which is carried through to design, structure, electrical installation, and maintenance.",
@@ -253,7 +254,8 @@ var projectsList = [
             "Architecture",
             "Research",
             "Video",
-            "Advocacy"
+            "Advocacy",
+            "Academic"
         ],
         "description": [
             "This project was conducted as a joint collaboration between Columbia GSAPP's Center for Spatial Research and 501(c)(3) nonprofit, The Legal Aid Society to incorporate GIS cartography into The Legal Aid Society's video advocacy work. The CSR team of architecture, urban design, and computational design students (led by Laura Kurgan) conducted research on the history of mass incarceration in the US and the strategies through which it manifests within urban centers such as New York City. Through two case studies given to us by The Legal Aid Society, our team came up with strategies to visually and thematically represent lack of access to opportunities and racial/economic disparities in order to humanize clients and to advocate for leniency in court proceedings and sentences through video scripting, animation, and direction.",
@@ -311,7 +313,7 @@ var projectsList = [
         ],
         "tags": [
             "Architecture",
-            "CORE Studios"
+            "Academic"
         ],
         "description": [
             "The Corridor Concert studies how the circulatory core can expand beyond a functional space to foster communal gathering and environmental wellness. Through regulating air and water, a system of flexible wet walls in the central core unite the project at three scales: landscape, building, and units.",
@@ -384,7 +386,7 @@ var projectsList = [
         ],
         "tags": [
             "Architecture",
-            "CORE Studios"
+            "Academic"
         ],
         "description": [
             "Strata School is a K-8 public school that teaches students how to live justly in the Anthropocene through academic study, play and work. Students become involved in the school’s operations and “home economics” with the guidance of faculty, staff, and PTA volunteers, in which they learn about their own agency as individuals and members of a community.",
@@ -458,7 +460,7 @@ var projectsList = [
         "tags": [
             "Architecture",
             "Research",
-            "CORE Studios"
+            "Academic"
         ],
         "description": [
             "In preparation for the CORE II project “Strata School,” this study investigates the relationships between container and curriculum in the METI Handmade School created by Anna Heringer and Eike Roswag in Rudrapur, Bangladesh.",
@@ -500,7 +502,7 @@ var projectsList = [
         ],
         "tags": [
             "Architecture",
-            "CORE Studios"
+            "Academic"
         ],
         "description": [
             "The New Sky Farms is an urban intervention that situates extensive agricultural centers into Manhattan's most underserved and disaster-prone neighborhoods. As food deserts, sea level rise and gentrification threaten Inwood's communities, these sky farms reposition the neighborhood as a critical node within New York's food landscape through large-scale production and distribution and grassroots community and mutual aid efforts.",
@@ -573,7 +575,8 @@ var projectsList = [
         ],
         "tags": [
             "Architecture",
-            "Motion Graphics"
+            "Motion Graphics",
+            "Academic"
         ],
         "description": [
             "Muqarnas are ornamental vaults found across the world in Islamic vernacular architecture. Resembling honeycombs or stalactites, these fractal-like structures use mathematical principles in design and construction in order to connote the beauty and grandness of a universe created by God."
@@ -805,7 +808,8 @@ var projectsList = [
         "tags": [
             "Installation",
             "Architecture",
-            "Research"
+            "Research",
+            "Academic"
         ],
         "description": [
             "How do we move through urban spaces? What does that movement look like? What can we learn from it and what emerges?",
@@ -853,7 +857,8 @@ var projectsList = [
             "architecture"
         ],
         "tags": [
-            "Architecture"
+            "Architecture",
+            "Academic"
         ],
         "description": [
             "Play Grounds is a spatial catalog for designing “playsurfaces” responsive to the found geology of the environment. Inspired by the playscapes of Isamu Noguchi, this project reinterprets the concept of playground as, quite simply, an interconnected network of surfaces. The catalog features a kit-of-parts based on a sectional logic of elevation and grade as conditions of possible human interaction.",
@@ -1002,7 +1007,8 @@ var projectsList = [
         ],
         "tags": [
             "Bookmaking",
-            "Photography"
+            "Photography",
+            "Academic"
         ],
         "description": [
             "Sun Pleats is an accordian-style photography book that reflects upon a trip I took through Japan and notes on different cultural points throughout the trip. The accordian pages offer a changing documentary perspective on cities, neighborhoods, streets, and particularly coffeehouses, all of which constitute a majority of places visited.",
@@ -1061,7 +1067,8 @@ var projectsList = [
         ],
         "tags": [
             "AR Prototype",
-            "Architecture"
+            "Architecture",
+            "Academic"
         ],
         "description": [
             "For NASA JPL's Cleanroom Design Challenge, teams explored new opportunities for design and architecture to enrich workflows and systems within NASA’s spaceship-building cleanrooms",
@@ -1107,7 +1114,8 @@ var projectsList = [
             "design"
         ],
         "tags": [
-            "Identity"
+            "Identity",
+            "Academic"
         ],
         "description": [
             "The Architecture House is a fictional institution and museum dedicated to architectural practice and history. The project creates a custom typeface logo that recreates the characteristic mass of each non-round letter without becoming unrecognizable. A design system is then created towards a magazine and poster."
@@ -1147,7 +1155,8 @@ var projectsList = [
         ],
         "tags": [
             "Identity",
-            "Fabrication"
+            "Fabrication",
+            "Academic"
         ],
         "description": [
             "Draft is a brand concept for an experimental drinks bar focused on redefining what we consider drinks and how we consume them. Operating somewhere between a café, teahouse and bar, Draft's mixologies seek to bridge these spaces that are often separate together by creating \"drafts\" that do not belong solely to a café, juice bar, tavern, etc. In doing so, Draft also operates as a unique environment for social and cultural traffic.",
@@ -1193,7 +1202,8 @@ var projectsList = [
             "media"
         ],
         "tags": [
-            "Video"
+            "Video",
+            "Academic"
         ],
         "description": [
             "Undergrowth is a short film exploring experimental storytelling about dream spaces and the feeling of dreaming. As both a linear narrative film and non-linear montage, the film’s surreal and realistic visuals emphasis viscerality and unconscious emotions, drawing from works from filmmakers such as David Lynch, Wes Anderson, Maya Derin, and Yoko Ono. The janggu, a traditional Korean folk drum, highlights an importance of rhythm and sound in the portrayal of such spaces."
@@ -1249,7 +1259,7 @@ var projectsList = [
             "media"
         ],
         "tags": [
-            "Video",
+            "Video"
         ],
         "description": [
             "Endorphinia is the first short film I made of the competitive FPS game, Blacklight: Retribution. Informally known as frag movies, these films involve a collection of clips which are edited together through montaging techniques. The editing is mostly focused on balancing montaging techniques while keeping a general narrative intact. The film is a collection of my own recordings and footage."
@@ -1317,7 +1327,8 @@ var projectsList = [
             "architecture", "design", "media"
         ],
         "tags": [
-            "not-Architecture"
+            "not-Architecture",
+            "Academic"
         ],
         "description": [
             "Created as part of GSAPP's ADR II Visual Studies Sequence.",
