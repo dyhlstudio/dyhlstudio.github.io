@@ -139,7 +139,7 @@ var projectsList = [
             "architecture"
         ],
         "tags": [
-            "Architecture",
+            "Architecture Design",
             "Research",
             "Academic"
         ],
@@ -227,8 +227,8 @@ var projectsList = [
             "architecture"
         ],
         "tags": [
-            "Architecture",
             "Installation",
+            "Architecture Design",
             "Academic"
         ],
         "description": [
@@ -368,8 +368,7 @@ var projectsList = [
             "architecture"
         ],
         "tags": [
-            "Architecture",
-            "Design",
+            "Architecture Design",
             "Academic"
         ],
         "description": [
@@ -442,7 +441,7 @@ var projectsList = [
             "architecture"
         ],
         "tags": [
-            "Architecture",
+            "Architecture Design",
             "Academic"
         ],
         "description": [
@@ -558,7 +557,7 @@ var projectsList = [
             "architecture"
         ],
         "tags": [
-            "Architecture",
+            "Architecture Design",
             "Academic"
         ],
         "description": [
@@ -631,7 +630,7 @@ var projectsList = [
             "design"
         ],
         "tags": [
-            "Architecture",
+            "Architecture Design",
             "Motion Graphics",
             "Academic"
         ],
