@@ -11,8 +11,8 @@ var projectsList = [
             "architecture"
         ],
         "tags": [
-            "Architecture",
             "Fabrication",
+            "Architecture",
             "Writing",
             "Academic"
         ],
@@ -66,10 +66,11 @@ var projectsList = [
             "architecture"
         ],
         "tags": [
-            "Architecture",
             "Research",
             "Exhibition",
-            "Teaching"
+            "Teaching",
+            "Architecture",
+            "Academic"
         ],
         "description": [
             "text to insert",
@@ -306,8 +307,8 @@ var projectsList = [
             "media"
         ],
         "tags": [
-            "Architecture",
             "Research",
+            "Architecture",
             "Video",
             "Advocacy",
             "Academic"
@@ -368,6 +369,7 @@ var projectsList = [
         ],
         "tags": [
             "Architecture",
+            "Design",
             "Academic"
         ],
         "description": [
