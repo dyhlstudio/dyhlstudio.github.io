@@ -186,6 +186,9 @@ $(document).ready(function() {
             // determineBoundary($('#active-slideshow > .active'));
             // setUnsetBoundary();
             captions(projectsList[selectionNo], (parseInt($('#active-slideshow').attr('dataactive'), 10) + 1));
+
+            // show buttons
+            $('.arrows').show(1000);
             setTimeout(function() {
                 $('#home').removeClass('d-flex').addClass('d-none');
             }, 1000);
