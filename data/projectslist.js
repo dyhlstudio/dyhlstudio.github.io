@@ -6,7 +6,7 @@ var projectsList = [
         "no": "001",
         "year": "2023",
         "title": "MAKE",
-        "logline": "Making First, Asking Questions Later",
+        "logline": "Making First and Asking Questions (Drawing) Later",
         "type": [
             "architecture"
         ],
