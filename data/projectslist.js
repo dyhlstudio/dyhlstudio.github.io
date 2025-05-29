@@ -21,15 +21,15 @@ var projectsList = [
             "As part of the process, the objects each contain a piece of writing that touches upon the materials used, the process of fabrication, or the emotional experience of making and expressing my creativity." 
         ],
         "assets": [
-            "https://dyhl.studio/assets/make/make-01.jpg",
-            "https://dyhl.studio/assets/make/make-02.jpg",
-            "https://dyhl.studio/assets/make/make-03.jpg",
-            "https://dyhl.studio/assets/make/make-04.jpg",
-            "https://dyhl.studio/assets/make/make-05.jpg",
-            "https://dyhl.studio/assets/make/make-06.jpg",
-            "https://dyhl.studio/assets/make/make-07.jpg",
-            "https://dyhl.studio/assets/make/make-08.jpg",
-            "https://dyhl.studio/assets/make/make-09.jpg"
+            "https://yunas.place/assets/make/make-01.jpg",
+            "https://yunas.place/assets/make/make-02.jpg",
+            "https://yunas.place/assets/make/make-03.jpg",
+            "https://yunas.place/assets/make/make-04.jpg",
+            "https://yunas.place/assets/make/make-05.jpg",
+            "https://yunas.place/assets/make/make-06.jpg",
+            "https://yunas.place/assets/make/make-07.jpg",
+            "https://yunas.place/assets/make/make-08.jpg",
+            "https://yunas.place/assets/make/make-09.jpg"
         ],
         "alt": [
             "Plastic I",
@@ -54,7 +54,7 @@ var projectsList = [
             "sm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/make/make-00.jpg"
+            "https://yunas.place/assets/make/make-00.jpg"
         ]
     },
         {
@@ -76,20 +76,20 @@ var projectsList = [
             "text to insert",
         ],
         "assets": [
-            "https://dyhl.studio/assets/monsoonstories/monsoonstories-01.jpg",
-            "https://dyhl.studio/assets/monsoonstories/monsoonstories-02.jpg",
-            "https://dyhl.studio/assets/monsoonstories/monsoonstories-03.jpg",
-            "https://dyhl.studio/assets/monsoonstories/monsoonstories-04.jpg",
-            "https://dyhl.studio/assets/monsoonstories/monsoonstories-05.jpg",
-            "https://dyhl.studio/assets/monsoonstories/monsoonstories-06.jpg",
-            "https://dyhl.studio/assets/monsoonstories/monsoonstories-07.jpg",
-            "https://dyhl.studio/assets/monsoonstories/monsoonstories-08.jpg",
-            "https://dyhl.studio/assets/monsoonstories/monsoonstories-09.jpg",
-            "https://dyhl.studio/assets/monsoonstories/monsoonstories-10.jpg",
-            "https://dyhl.studio/assets/monsoonstories/monsoonstories-11.jpg",
-            "https://dyhl.studio/assets/monsoonstories/monsoonstories-12.jpg",
-            "https://dyhl.studio/assets/monsoonstories/monsoonstories-13.jpg",
-            "https://dyhl.studio/data/monsoonstories-14.html",
+            "https://yunas.place/assets/monsoonstories/monsoonstories-01.jpg",
+            "https://yunas.place/assets/monsoonstories/monsoonstories-02.jpg",
+            "https://yunas.place/assets/monsoonstories/monsoonstories-03.jpg",
+            "https://yunas.place/assets/monsoonstories/monsoonstories-04.jpg",
+            "https://yunas.place/assets/monsoonstories/monsoonstories-05.jpg",
+            "https://yunas.place/assets/monsoonstories/monsoonstories-06.jpg",
+            "https://yunas.place/assets/monsoonstories/monsoonstories-07.jpg",
+            "https://yunas.place/assets/monsoonstories/monsoonstories-08.jpg",
+            "https://yunas.place/assets/monsoonstories/monsoonstories-09.jpg",
+            "https://yunas.place/assets/monsoonstories/monsoonstories-10.jpg",
+            "https://yunas.place/assets/monsoonstories/monsoonstories-11.jpg",
+            "https://yunas.place/assets/monsoonstories/monsoonstories-12.jpg",
+            "https://yunas.place/assets/monsoonstories/monsoonstories-13.jpg",
+            "https://yunas.place/data/monsoonstories-14.html",
             "https://player.vimeo.com/video/857755294?h=8c0f1e2873&color=ffffff&title=0&byline=0&portrait=0"
         ],
         "alt": [
@@ -127,7 +127,7 @@ var projectsList = [
             "vid"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/monsoonstories/monsoonstories-01.jpg"
+            "https://yunas.place/assets/monsoonstories/monsoonstories-01.jpg"
         ]
     },
     {
@@ -151,25 +151,25 @@ var projectsList = [
             "Abstract mappings & collages that reveal the historical narratives surrouding the Ashokan Reservoir & ask “what exactly are the commons?” Precise site analysis expose opportunities for the rudimentary beginnings of critical “toolkits,” such as establishing the bus route & bus stop as a reliable, accessible mode of getting around & extensions of the house which allow for secondary streams of income & bolster the dispersed, car-driven economy. This research, in its early phases, seeks to establish a form for the rural commons that is decentralized, dispersed, & thus delayed."
         ],
         "assets": [
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-01.png",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-02.png",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-03.jpg",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-04.jpg",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-05.png",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-06.png",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-07.png",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-08.png",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-09.png",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-10.png",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-11.png",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-12.png",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-13.jpg",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-14.jpg",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-15.jpg",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-16.jpg",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-17.jpg",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-18.jpg",
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-19.jpg"
+            "https://yunas.place/assets/ruralcommons/ruralcommons-01.png",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-02.png",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-03.jpg",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-04.jpg",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-05.png",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-06.png",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-07.png",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-08.png",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-09.png",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-10.png",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-11.png",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-12.png",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-13.jpg",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-14.jpg",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-15.jpg",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-16.jpg",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-17.jpg",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-18.jpg",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-19.jpg"
 
         ],
         "alt": [
@@ -215,7 +215,7 @@ var projectsList = [
             "sm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/ruralcommons/ruralcommons-15.jpg"
+            "https://yunas.place/assets/ruralcommons/ruralcommons-15.jpg"
         ]
     },
         {
@@ -237,22 +237,22 @@ var projectsList = [
             "The project team included Brennan Heyward, Samuel Bager, Vishal Benjamin Panicker, Nicholas Richards, Kelly He, Yuna Li, Marina Guimaraes. Collaborators included Zina Berrada (Columbia GSAPP, M.Arch '23), Natalia Serra and Quim Rabassa (àreacúbica), Hubert Chang (Silman Architects), Ray Panchari (Homerun Solar), Yonah Elorza (GSAPP Makerspace + Shop), Joshua Morrison (Columbia GSAPP Operations), Galia Solomonoff (Solomonoff Architects), Laurie Hawkinson (Smith-Miller + Hawkinson Architects), and Nick Knight (Nick Knight Photography)."
         ],
         "assets": [
-            "https://dyhl.studio/assets/worm/worm-01.jpg",
-            "https://dyhl.studio/assets/worm/worm-02.jpg",
-            "https://dyhl.studio/assets/worm/worm-03.png",
-            "https://dyhl.studio/assets/worm/worm-04.png",
-            "https://dyhl.studio/assets/worm/worm-05.png",
-            "https://dyhl.studio/assets/worm/worm-06.png",
-            "https://dyhl.studio/assets/worm/worm-07.png",
-            "https://dyhl.studio/assets/worm/worm-08.png",
-            "https://dyhl.studio/assets/worm/worm-09.png",
-            "https://dyhl.studio/assets/worm/worm-10.jpg",
-            "https://dyhl.studio/assets/worm/worm-11.jpg",
-            "https://dyhl.studio/assets/worm/worm-12.jpg",
-            "https://dyhl.studio/assets/worm/worm-13.jpg",
-            "https://dyhl.studio/assets/worm/worm-14.jpg",
-            "https://dyhl.studio/assets/worm/worm-15.jpg",
-            "https://dyhl.studio/assets/worm/worm-16.jpg",
+            "https://yunas.place/assets/worm/worm-01.jpg",
+            "https://yunas.place/assets/worm/worm-02.jpg",
+            "https://yunas.place/assets/worm/worm-03.png",
+            "https://yunas.place/assets/worm/worm-04.png",
+            "https://yunas.place/assets/worm/worm-05.png",
+            "https://yunas.place/assets/worm/worm-06.png",
+            "https://yunas.place/assets/worm/worm-07.png",
+            "https://yunas.place/assets/worm/worm-08.png",
+            "https://yunas.place/assets/worm/worm-09.png",
+            "https://yunas.place/assets/worm/worm-10.jpg",
+            "https://yunas.place/assets/worm/worm-11.jpg",
+            "https://yunas.place/assets/worm/worm-12.jpg",
+            "https://yunas.place/assets/worm/worm-13.jpg",
+            "https://yunas.place/assets/worm/worm-14.jpg",
+            "https://yunas.place/assets/worm/worm-15.jpg",
+            "https://yunas.place/assets/worm/worm-16.jpg",
 
 
         ],
@@ -293,7 +293,7 @@ var projectsList = [
             "sm",
         ],
         "thumb": [
-            "https://dyhl.studio/assets/worm/worm-01.jpg"
+            "https://yunas.place/assets/worm/worm-01.jpg"
         ]
     },
     {
@@ -321,15 +321,15 @@ var projectsList = [
             "Collaborators: Laura Kurgan, John Max Grunewald III, Caroline Wineburg, Zoe Lin, Nicole Mull, David Simpson, Dean Jamieson, Daniel Blanco"
         ],
         "assets": [
-            "https://dyhl.studio/assets/geonarratives/geonarratives-01.png",
-            "https://dyhl.studio/assets/geonarratives/geonarratives-02.png",
-            "https://dyhl.studio/assets/geonarratives/geonarratives-03.png",
-            "https://dyhl.studio/assets/geonarratives/geonarratives-04.png",
-            "https://dyhl.studio/assets/geonarratives/geonarratives-05.png",
-            "https://dyhl.studio/assets/geonarratives/geonarratives-06.png",
-            "https://dyhl.studio/assets/geonarratives/geonarratives-07.png",
+            "https://yunas.place/assets/geonarratives/geonarratives-01.png",
+            "https://yunas.place/assets/geonarratives/geonarratives-02.png",
+            "https://yunas.place/assets/geonarratives/geonarratives-03.png",
+            "https://yunas.place/assets/geonarratives/geonarratives-04.png",
+            "https://yunas.place/assets/geonarratives/geonarratives-05.png",
+            "https://yunas.place/assets/geonarratives/geonarratives-06.png",
+            "https://yunas.place/assets/geonarratives/geonarratives-07.png",
             "https://player.vimeo.com/video/824206959?h=0d60770cb8&color=ffffff&title=0&byline=0&portrait=0",
-            "https://dyhl.studio/assets/geonarratives/geonarratives-09.png"
+            "https://yunas.place/assets/geonarratives/geonarratives-09.png"
 
 
         ],
@@ -356,7 +356,7 @@ var projectsList = [
             "sm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/geonarratives/geonarratives-04.png"
+            "https://yunas.place/assets/geonarratives/geonarratives-04.png"
         ]
     },
     {
@@ -378,21 +378,21 @@ var projectsList = [
             "At the unit scale, an oversized corridor connects the private dwellings through shared common spaces for work and play. Three different systems of enclosures (solid walls, sliding glass doors, and polycarbonate sliding doors) create different amounts of openness to air, light, water, and publicness."
         ],
         "assets": [
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-01.jpg",
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-02.jpg",
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-03.png",
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-04.png",
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-05.png",
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-06.png",
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-07.png",
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-08.png",
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-09.jpg",
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-10.png",
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-11.png",
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-12.png",
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-13.jpg",
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-14.jpg",
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-15.gif"
+            "https://yunas.place/assets/corridorconcert/corridorconcert-01.jpg",
+            "https://yunas.place/assets/corridorconcert/corridorconcert-02.jpg",
+            "https://yunas.place/assets/corridorconcert/corridorconcert-03.png",
+            "https://yunas.place/assets/corridorconcert/corridorconcert-04.png",
+            "https://yunas.place/assets/corridorconcert/corridorconcert-05.png",
+            "https://yunas.place/assets/corridorconcert/corridorconcert-06.png",
+            "https://yunas.place/assets/corridorconcert/corridorconcert-07.png",
+            "https://yunas.place/assets/corridorconcert/corridorconcert-08.png",
+            "https://yunas.place/assets/corridorconcert/corridorconcert-09.jpg",
+            "https://yunas.place/assets/corridorconcert/corridorconcert-10.png",
+            "https://yunas.place/assets/corridorconcert/corridorconcert-11.png",
+            "https://yunas.place/assets/corridorconcert/corridorconcert-12.png",
+            "https://yunas.place/assets/corridorconcert/corridorconcert-13.jpg",
+            "https://yunas.place/assets/corridorconcert/corridorconcert-14.jpg",
+            "https://yunas.place/assets/corridorconcert/corridorconcert-15.gif"
         ],
         "alt": [
             "Interior Rendering",
@@ -429,7 +429,7 @@ var projectsList = [
             "sm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/corridorconcert/corridorconcert-01.jpg"
+            "https://yunas.place/assets/corridorconcert/corridorconcert-01.jpg"
         ]
     },
     {
@@ -450,21 +450,21 @@ var projectsList = [
             "Through the school's environments, social ecologies and its upkeep, children develop a more robust sense of agency about themselves and their surroundings."
         ],
         "assets": [
-            "https://dyhl.studio/assets/strataschool/strataschool-01.png",
-            "https://dyhl.studio/assets/strataschool/strataschool-02.jpg",
-            "https://dyhl.studio/assets/strataschool/strataschool-03.png",
-            "https://dyhl.studio/assets/strataschool/strataschool-04.png",
-            "https://dyhl.studio/assets/strataschool/strataschool-05.png",
-            "https://dyhl.studio/assets/strataschool/strataschool-06.png",
-            "https://dyhl.studio/assets/strataschool/strataschool-07.png",
-            "https://dyhl.studio/assets/strataschool/strataschool-08.jpg",
-            "https://dyhl.studio/assets/strataschool/strataschool-09.jpg",
-            "https://dyhl.studio/assets/strataschool/strataschool-10.jpg",
-            "https://dyhl.studio/assets/strataschool/strataschool-11.gif",
-            "https://dyhl.studio/assets/strataschool/strataschool-12.jpg",
-            "https://dyhl.studio/assets/strataschool/strataschool-13.jpg",
-            "https://dyhl.studio/assets/strataschool/strataschool-14.jpg",
-            "https://dyhl.studio/assets/strataschool/strataschool-15.jpg"
+            "https://yunas.place/assets/strataschool/strataschool-01.png",
+            "https://yunas.place/assets/strataschool/strataschool-02.jpg",
+            "https://yunas.place/assets/strataschool/strataschool-03.png",
+            "https://yunas.place/assets/strataschool/strataschool-04.png",
+            "https://yunas.place/assets/strataschool/strataschool-05.png",
+            "https://yunas.place/assets/strataschool/strataschool-06.png",
+            "https://yunas.place/assets/strataschool/strataschool-07.png",
+            "https://yunas.place/assets/strataschool/strataschool-08.jpg",
+            "https://yunas.place/assets/strataschool/strataschool-09.jpg",
+            "https://yunas.place/assets/strataschool/strataschool-10.jpg",
+            "https://yunas.place/assets/strataschool/strataschool-11.gif",
+            "https://yunas.place/assets/strataschool/strataschool-12.jpg",
+            "https://yunas.place/assets/strataschool/strataschool-13.jpg",
+            "https://yunas.place/assets/strataschool/strataschool-14.jpg",
+            "https://yunas.place/assets/strataschool/strataschool-15.jpg"
         ],
         "alt": [
             "Enlarged Classrooms Section",
@@ -502,7 +502,7 @@ var projectsList = [
             "sm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/strataschool/strataschool-08.jpg"
+            "https://yunas.place/assets/strataschool/strataschool-08.jpg"
         ]
     },
         {
@@ -524,11 +524,11 @@ var projectsList = [
             "Additional analysis of the materials used and found near the project and its site discuss the flow of materials sourced locally and the relationship to global trade networks. Finally, the project is further complicated through the lens of a chosen child's artifact, the exercise ball. How does the exercise ball change the understanding and reading of the project?"
         ],
         "assets": [
-            "https://dyhl.studio/assets/metischool/metischool-01.png",
-            "https://dyhl.studio/assets/metischool/metischool-02.png",
-            "https://dyhl.studio/assets/metischool/metischool-03.png",
-            "https://dyhl.studio/assets/metischool/metischool-04.png",
-            "https://dyhl.studio/assets/metischool/metischool-05.jpg",
+            "https://yunas.place/assets/metischool/metischool-01.png",
+            "https://yunas.place/assets/metischool/metischool-02.png",
+            "https://yunas.place/assets/metischool/metischool-03.png",
+            "https://yunas.place/assets/metischool/metischool-04.png",
+            "https://yunas.place/assets/metischool/metischool-05.jpg",
         ],
         "alt": [
             "Section",
@@ -545,7 +545,7 @@ var projectsList = [
             "sm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/metischool/metischool-01.png"
+            "https://yunas.place/assets/metischool/metischool-01.png"
         ]
     },
     {
@@ -565,21 +565,21 @@ var projectsList = [
             "Farming occurs on plinths raised above future floodplains. 1:4 constructions of a tectonic system resulted in three types of casted pieces which can create various soil beds, apertures, channels, and light wells. The plinth coexists with towers that house distribution facilities, community kitchens and pantries, greenhouses, and composting areas."
         ],
         "assets": [
-            "https://dyhl.studio/assets/skyfarms/skyfarms-01.png",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-02.png",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-03.jpg",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-04.jpg",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-05.png",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-06.png",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-07.png",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-08.png",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-09.jpg",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-10.jpg",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-11.jpg",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-12.jpg",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-13.jpg",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-14.jpg",
-            "https://dyhl.studio/assets/skyfarms/skyfarms-15.jpg"
+            "https://yunas.place/assets/skyfarms/skyfarms-01.png",
+            "https://yunas.place/assets/skyfarms/skyfarms-02.png",
+            "https://yunas.place/assets/skyfarms/skyfarms-03.jpg",
+            "https://yunas.place/assets/skyfarms/skyfarms-04.jpg",
+            "https://yunas.place/assets/skyfarms/skyfarms-05.png",
+            "https://yunas.place/assets/skyfarms/skyfarms-06.png",
+            "https://yunas.place/assets/skyfarms/skyfarms-07.png",
+            "https://yunas.place/assets/skyfarms/skyfarms-08.png",
+            "https://yunas.place/assets/skyfarms/skyfarms-09.jpg",
+            "https://yunas.place/assets/skyfarms/skyfarms-10.jpg",
+            "https://yunas.place/assets/skyfarms/skyfarms-11.jpg",
+            "https://yunas.place/assets/skyfarms/skyfarms-12.jpg",
+            "https://yunas.place/assets/skyfarms/skyfarms-13.jpg",
+            "https://yunas.place/assets/skyfarms/skyfarms-14.jpg",
+            "https://yunas.place/assets/skyfarms/skyfarms-15.jpg"
         ],
         "alt": [
             "Section",
@@ -617,7 +617,7 @@ var projectsList = [
             "sm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/skyfarms/skyfarms-01.png"
+            "https://yunas.place/assets/skyfarms/skyfarms-01.png"
         ]
     },
     {
@@ -638,11 +638,11 @@ var projectsList = [
             "Muqarnas are ornamental vaults found across the world in Islamic vernacular architecture. Resembling honeycombs or stalactites, these fractal-like structures use mathematical principles in design and construction in order to connote the beauty and grandness of a universe created by God."
         ],
         "assets": [
-            "https://dyhl.studio/assets/muqarnas/muqarnas-01.png",
-            "https://dyhl.studio/assets/muqarnas/muqarnas-02.jpg",
-            "https://dyhl.studio/assets/muqarnas/muqarnas-03.jpg",
-            "https://dyhl.studio/assets/muqarnas/muqarnas-04.jpg",
-            "https://dyhl.studio/assets/muqarnas/muqarnas-05.jpg",
+            "https://yunas.place/assets/muqarnas/muqarnas-01.png",
+            "https://yunas.place/assets/muqarnas/muqarnas-02.jpg",
+            "https://yunas.place/assets/muqarnas/muqarnas-03.jpg",
+            "https://yunas.place/assets/muqarnas/muqarnas-04.jpg",
+            "https://yunas.place/assets/muqarnas/muqarnas-05.jpg",
             "https://player.vimeo.com/video/675274936?color=ffffff&title=0&byline=0&portrait=0",
         ],  
         "alt": [
@@ -662,7 +662,7 @@ var projectsList = [
             "vid"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/muqarnas/muqarnas-03.jpg"
+            "https://yunas.place/assets/muqarnas/muqarnas-03.jpg"
         ]
     },
     {
@@ -683,17 +683,17 @@ var projectsList = [
             "The e-commerce website was created for Wild Dogs in collaboration with designer Benno Russell. The website and Instagram page feature weekly menus, special events, and chef spotlights from participating restaurants, which dive into the art and media that inspire their culinary work. Additionally, custom flyers and packaging for the weekly soup kits also brings food for thought to the dinner table."
         ],
         "assets": [
-            "https://dyhl.studio/assets/soupshop/soupshop-01.jpg",
-            "https://dyhl.studio/assets/soupshop/soupshop-02.jpg",
-            "https://dyhl.studio/assets/soupshop/soupshop-03.jpg",
-            "https://dyhl.studio/assets/soupshop/soupshop-04.jpg",
-            "https://dyhl.studio/assets/soupshop/soupshop-05.jpg",
-            "https://dyhl.studio/assets/soupshop/soupshop-06.jpg",
-            "https://dyhl.studio/assets/soupshop/soupshop-07.jpg",
-            "https://dyhl.studio/assets/soupshop/soupshop-08.jpg",
-            "https://dyhl.studio/assets/soupshop/soupshop-09.jpg",
-            "https://dyhl.studio/assets/soupshop/soupshop-10.jpg",
-            "https://dyhl.studio/assets/soupshop/soupshop-11.jpg"
+            "https://yunas.place/assets/soupshop/soupshop-01.jpg",
+            "https://yunas.place/assets/soupshop/soupshop-02.jpg",
+            "https://yunas.place/assets/soupshop/soupshop-03.jpg",
+            "https://yunas.place/assets/soupshop/soupshop-04.jpg",
+            "https://yunas.place/assets/soupshop/soupshop-05.jpg",
+            "https://yunas.place/assets/soupshop/soupshop-06.jpg",
+            "https://yunas.place/assets/soupshop/soupshop-07.jpg",
+            "https://yunas.place/assets/soupshop/soupshop-08.jpg",
+            "https://yunas.place/assets/soupshop/soupshop-09.jpg",
+            "https://yunas.place/assets/soupshop/soupshop-10.jpg",
+            "https://yunas.place/assets/soupshop/soupshop-11.jpg"
         ],
         "alt": [
             "Website",
@@ -723,7 +723,7 @@ var projectsList = [
 
         ],
         "thumb": [
-            "https://dyhl.studio/assets/soupshop/soupshop-01.jpg"
+            "https://yunas.place/assets/soupshop/soupshop-01.jpg"
         ]
     },
     {
@@ -741,12 +741,12 @@ var projectsList = [
             "Wild Dogs International is a New York-based creative studio that works with clients to develop and realize site-specific projects, installations, and events. Projects range from curating festivals and interventions to exhibition and set design for events in arts and culture. In response, a new website was created highlighting the balance between visual spectacle and artistic exploration in WDI’s works into a more stylish and subtle webspace."
         ],
         "assets": [
-            "https://dyhl.studio/assets/wdistudio/wdistudio-01.jpg",
-            "https://dyhl.studio/assets/wdistudio/wdistudio-02.jpg",
-            "https://dyhl.studio/assets/wdistudio/wdistudio-03.jpg",
-            "https://dyhl.studio/assets/wdistudio/wdistudio-04.jpg",
-            "https://dyhl.studio/assets/wdistudio/wdistudio-05.jpg",
-            "https://dyhl.studio/assets/wdistudio/wdistudio-06.jpg"
+            "https://yunas.place/assets/wdistudio/wdistudio-01.jpg",
+            "https://yunas.place/assets/wdistudio/wdistudio-02.jpg",
+            "https://yunas.place/assets/wdistudio/wdistudio-03.jpg",
+            "https://yunas.place/assets/wdistudio/wdistudio-04.jpg",
+            "https://yunas.place/assets/wdistudio/wdistudio-05.jpg",
+            "https://yunas.place/assets/wdistudio/wdistudio-06.jpg"
         ],
         "alt": [
             "Website",
@@ -765,7 +765,7 @@ var projectsList = [
             "fsm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/wdistudio/wdistudio-06.jpg"
+            "https://yunas.place/assets/wdistudio/wdistudio-06.jpg"
         ]
     },
     {
@@ -784,12 +784,12 @@ var projectsList = [
             "Waffle is a community-based mobile parking app that helps urban drivers find parking in dense city areas. The technology company based in Los Angeles focuses on streamlining time and energy costs spent in parking, while fostering a more convenient automobile experience, community, and awareness for the natural environment. A new graphic identity and website in response amplifies and channels the visions of the startup into a cutting-edge, yet approachable look."
         ],
         "assets": [
-            "https://dyhl.studio/assets/waffle/waffle-01.png",
-            "https://dyhl.studio/assets/waffle/waffle-02.jpg",
-            "https://dyhl.studio/assets/waffle/waffle-03.jpg",
-            "https://dyhl.studio/assets/waffle/waffle-04.jpg",
-            "https://dyhl.studio/assets/waffle/waffle-05.jpg",
-            "https://dyhl.studio/assets/waffle/waffle-06.jpg"
+            "https://yunas.place/assets/waffle/waffle-01.png",
+            "https://yunas.place/assets/waffle/waffle-02.jpg",
+            "https://yunas.place/assets/waffle/waffle-03.jpg",
+            "https://yunas.place/assets/waffle/waffle-04.jpg",
+            "https://yunas.place/assets/waffle/waffle-05.jpg",
+            "https://yunas.place/assets/waffle/waffle-06.jpg"
         ],  
         "alt": [
             "Logotype",
@@ -808,7 +808,7 @@ var projectsList = [
             "fsm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/waffle/waffle-thumb.jpg"
+            "https://yunas.place/assets/waffle/waffle-thumb.jpg"
         ]
     },
     {
@@ -828,11 +828,11 @@ var projectsList = [
             "In 2019, OPUS shifted from an annual festival to non-profit biennial. This concept proposed for the website design facilitates this transition in a lightweight and reflective site, with a simple structure focusing on reflection of past events and anticipation for the future."
         ],
         "assets": [
-            "https://dyhl.studio/assets/opus/opus-01.jpg",
-            "https://dyhl.studio/assets/opus/opus-02.jpg",
-            "https://dyhl.studio/assets/opus/opus-03.jpg",
-            "https://dyhl.studio/assets/opus/opus-04.jpg",
-            "https://dyhl.studio/assets/opus/opus-05.jpg"
+            "https://yunas.place/assets/opus/opus-01.jpg",
+            "https://yunas.place/assets/opus/opus-02.jpg",
+            "https://yunas.place/assets/opus/opus-03.jpg",
+            "https://yunas.place/assets/opus/opus-04.jpg",
+            "https://yunas.place/assets/opus/opus-05.jpg"
         ],
         "alt": [
             "Website",
@@ -849,7 +849,7 @@ var projectsList = [
             "fsm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/opus/opus-01.jpg"
+            "https://yunas.place/assets/opus/opus-01.jpg"
         ]
     },
     {
@@ -874,13 +874,13 @@ var projectsList = [
             React.createElement('i', null, "Psychogeocairn was featured in Future Local’s June salon event, “The Psychogeography of NYC Music, Nightlife, and Culture” at ThoughtWorks.")
         ],
         "assets": [
-            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-01.jpg",
-            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-02.jpg",
-            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-03.jpg",
-            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-04.jpg",
-            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-05.jpg",
-            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-06.jpg",
-            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-07.jpg"
+            "https://yunas.place/assets/psychogeocairn/psychogeocairn-01.jpg",
+            "https://yunas.place/assets/psychogeocairn/psychogeocairn-02.jpg",
+            "https://yunas.place/assets/psychogeocairn/psychogeocairn-03.jpg",
+            "https://yunas.place/assets/psychogeocairn/psychogeocairn-04.jpg",
+            "https://yunas.place/assets/psychogeocairn/psychogeocairn-05.jpg",
+            "https://yunas.place/assets/psychogeocairn/psychogeocairn-06.jpg",
+            "https://yunas.place/assets/psychogeocairn/psychogeocairn-07.jpg"
         ],
         "alt": [
             "Psychogeographic Map",
@@ -901,7 +901,7 @@ var projectsList = [
             "sm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/psychogeocairn/psychogeocairn-01.jpg"
+            "https://yunas.place/assets/psychogeocairn/psychogeocairn-01.jpg"
         ]
     },
     {
@@ -922,17 +922,17 @@ var projectsList = [
             React.createElement('i', null, "Play Grounds was selected for the 2018 edition of Columbia GSAPP’s Abstract publication for the Intro to Architecture studio.")
         ],
         "assets": [
-            "https://dyhl.studio/assets/playgrounds/playgrounds-01.jpg",
-            "https://dyhl.studio/assets/playgrounds/playgrounds-02.jpg",
-            "https://dyhl.studio/assets/playgrounds/playgrounds-03.jpg",
-            "https://dyhl.studio/assets/playgrounds/playgrounds-04.jpg",
-            "https://dyhl.studio/assets/playgrounds/playgrounds-05.jpg",
-            "https://dyhl.studio/assets/playgrounds/playgrounds-06.png",
-            "https://dyhl.studio/assets/playgrounds/playgrounds-07.jpg",
-            "https://dyhl.studio/assets/playgrounds/playgrounds-08.jpg",
-            "https://dyhl.studio/assets/playgrounds/playgrounds-09.jpg",
-            "https://dyhl.studio/assets/playgrounds/playgrounds-10.jpg",
-            "https://dyhl.studio/assets/playgrounds/playgrounds-11.jpg"
+            "https://yunas.place/assets/playgrounds/playgrounds-01.jpg",
+            "https://yunas.place/assets/playgrounds/playgrounds-02.jpg",
+            "https://yunas.place/assets/playgrounds/playgrounds-03.jpg",
+            "https://yunas.place/assets/playgrounds/playgrounds-04.jpg",
+            "https://yunas.place/assets/playgrounds/playgrounds-05.jpg",
+            "https://yunas.place/assets/playgrounds/playgrounds-06.png",
+            "https://yunas.place/assets/playgrounds/playgrounds-07.jpg",
+            "https://yunas.place/assets/playgrounds/playgrounds-08.jpg",
+            "https://yunas.place/assets/playgrounds/playgrounds-09.jpg",
+            "https://yunas.place/assets/playgrounds/playgrounds-10.jpg",
+            "https://yunas.place/assets/playgrounds/playgrounds-11.jpg"
         ],
         "alt": [
             "Diagram #1",
@@ -961,7 +961,7 @@ var projectsList = [
             "sm",
         ],
         "thumb": [
-            "https://dyhl.studio/assets/playgrounds/playgrounds-thumb.jpg"
+            "https://yunas.place/assets/playgrounds/playgrounds-thumb.jpg"
         ]
     },
     {
@@ -981,11 +981,11 @@ var projectsList = [
             "State of Tyranny is presented as “a wall of objects” and “evidence inventories,” where the artifacts of authoritarian or repressive design themselves are extracted from their typical contexts. Each item is profiled with a name, origin, market price, and description, with diagrams to help organize the inventories of objects present to each section, highlighting the widespread accessibility and prevalence of tools of control."
         ],
         "assets": [
-            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-01.jpg",
-            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-02.jpg",
-            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-03.jpg",
-            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-04.jpg",
-            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-05.jpg"
+            "https://yunas.place/assets/stateoftyranny/stateoftyranny-01.jpg",
+            "https://yunas.place/assets/stateoftyranny/stateoftyranny-02.jpg",
+            "https://yunas.place/assets/stateoftyranny/stateoftyranny-03.jpg",
+            "https://yunas.place/assets/stateoftyranny/stateoftyranny-04.jpg",
+            "https://yunas.place/assets/stateoftyranny/stateoftyranny-05.jpg"
         ],
         "alt": [
             "Elevation",
@@ -1002,7 +1002,7 @@ var projectsList = [
             "sm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/stateoftyranny/stateoftyranny-01.jpg"
+            "https://yunas.place/assets/stateoftyranny/stateoftyranny-01.jpg"
         ]
     },
     {
@@ -1023,13 +1023,13 @@ var projectsList = [
             "The exhibit highlights these cultural artifacts through a presentation of antique market-style objects, handmades, treasures, mementos, and junk."
         ],
         "assets": [
-            "https://dyhl.studio/assets/aquivivegente/aquivivegente-01.jpg",
-            "https://dyhl.studio/assets/aquivivegente/aquivivegente-02.jpg",
-            "https://dyhl.studio/assets/aquivivegente/aquivivegente-03.jpg",
-            "https://dyhl.studio/assets/aquivivegente/aquivivegente-04.jpg",
-            "https://dyhl.studio/assets/aquivivegente/aquivivegente-05.jpg",
-            "https://dyhl.studio/assets/aquivivegente/aquivivegente-06.jpg",
-            "https://dyhl.studio/assets/aquivivegente/aquivivegente-07.jpg"
+            "https://yunas.place/assets/aquivivegente/aquivivegente-01.jpg",
+            "https://yunas.place/assets/aquivivegente/aquivivegente-02.jpg",
+            "https://yunas.place/assets/aquivivegente/aquivivegente-03.jpg",
+            "https://yunas.place/assets/aquivivegente/aquivivegente-04.jpg",
+            "https://yunas.place/assets/aquivivegente/aquivivegente-05.jpg",
+            "https://yunas.place/assets/aquivivegente/aquivivegente-06.jpg",
+            "https://yunas.place/assets/aquivivegente/aquivivegente-07.jpg"
         ],
         "alt": [
             "Logotype",
@@ -1050,7 +1050,7 @@ var projectsList = [
             "fsm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/aquivivegente/aquivivegente-01.jpg"
+            "https://yunas.place/assets/aquivivegente/aquivivegente-01.jpg"
         ]
     },
     {
@@ -1071,16 +1071,16 @@ var projectsList = [
             "The design and construction of the book allows for different reading experiences, including both right-to-left and left-to-right, that reflect the diverse perspectives present in each individual’s experiences with place, travel, and tourism. Depending on perspective, a viewer may see a combination of visuals, texts, and lens which obscure, augment, and interact."
         ],
         "assets": [
-            "https://dyhl.studio/assets/sunpleats/sunpleats-01.jpg",
-            "https://dyhl.studio/assets/sunpleats/sunpleats-02.jpg",
-            "https://dyhl.studio/assets/sunpleats/sunpleats-03.jpg",
-            "https://dyhl.studio/assets/sunpleats/sunpleats-04.jpg",
-            "https://dyhl.studio/assets/sunpleats/sunpleats-05.jpg",
-            "https://dyhl.studio/assets/sunpleats/sunpleats-06.jpg",
-            "https://dyhl.studio/assets/sunpleats/sunpleats-07.jpg",
-            "https://dyhl.studio/assets/sunpleats/sunpleats-08.jpg",
-            "https://dyhl.studio/assets/sunpleats/sunpleats-09.jpg",
-            "https://dyhl.studio/assets/sunpleats/sunpleats-10.jpg",
+            "https://yunas.place/assets/sunpleats/sunpleats-01.jpg",
+            "https://yunas.place/assets/sunpleats/sunpleats-02.jpg",
+            "https://yunas.place/assets/sunpleats/sunpleats-03.jpg",
+            "https://yunas.place/assets/sunpleats/sunpleats-04.jpg",
+            "https://yunas.place/assets/sunpleats/sunpleats-05.jpg",
+            "https://yunas.place/assets/sunpleats/sunpleats-06.jpg",
+            "https://yunas.place/assets/sunpleats/sunpleats-07.jpg",
+            "https://yunas.place/assets/sunpleats/sunpleats-08.jpg",
+            "https://yunas.place/assets/sunpleats/sunpleats-09.jpg",
+            "https://yunas.place/assets/sunpleats/sunpleats-10.jpg",
         ],
         "alt": [
             "Cover",
@@ -1109,7 +1109,7 @@ var projectsList = [
             "fs"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/sunpleats/sunpleats-01.jpg"
+            "https://yunas.place/assets/sunpleats/sunpleats-01.jpg"
         ]
     },
     {
@@ -1133,12 +1133,12 @@ var projectsList = [
             ["A HoloLens prototype built in Unity can be accessed here: ", React.createElement('a', { className: 'text-links', href: "https://drive.google.com/drive/folders/1YAEC1GTw-S20PykYJ06YxRCWcHzCo2GC?usp=sharing" }, "link", React.createElement('span', { className: "link-arrow"},))]
         ],
         "assets": [
-            "https://dyhl.studio/assets/projectmemo/projectmemo-01.jpg",
-            "https://dyhl.studio/assets/projectmemo/projectmemo-02.jpg",
-            "https://dyhl.studio/assets/projectmemo/projectmemo-03.jpg",
-            "https://dyhl.studio/assets/projectmemo/projectmemo-04.jpg",
-            "https://dyhl.studio/assets/projectmemo/projectmemo-05.jpg",
-            "https://dyhl.studio/assets/projectmemo/projectmemo-06.jpg",
+            "https://yunas.place/assets/projectmemo/projectmemo-01.jpg",
+            "https://yunas.place/assets/projectmemo/projectmemo-02.jpg",
+            "https://yunas.place/assets/projectmemo/projectmemo-03.jpg",
+            "https://yunas.place/assets/projectmemo/projectmemo-04.jpg",
+            "https://yunas.place/assets/projectmemo/projectmemo-05.jpg",
+            "https://yunas.place/assets/projectmemo/projectmemo-06.jpg",
         ],
         "alt": [
             "Cleanroom Render",
@@ -1158,7 +1158,7 @@ var projectsList = [
             "sm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/projectmemo/projectmemo-01.png"
+            "https://yunas.place/assets/projectmemo/projectmemo-01.png"
         ]
     },
     {
@@ -1177,11 +1177,11 @@ var projectsList = [
             "The Architecture House is a fictional institution and museum dedicated to architectural practice and history. The project creates a custom typeface logo that recreates the characteristic mass of each non-round letter without becoming unrecognizable. A design system is then created towards a magazine and poster."
         ],
         "assets": [
-            "https://dyhl.studio/assets/archhouse/archhouse-01.jpg",
-            "https://dyhl.studio/assets/archhouse/archhouse-02.jpg",
-            "https://dyhl.studio/assets/archhouse/archhouse-03.jpg",
-            "https://dyhl.studio/assets/archhouse/archhouse-04.jpg",
-            "https://dyhl.studio/assets/archhouse/archhouse-05.jpg",
+            "https://yunas.place/assets/archhouse/archhouse-01.jpg",
+            "https://yunas.place/assets/archhouse/archhouse-02.jpg",
+            "https://yunas.place/assets/archhouse/archhouse-03.jpg",
+            "https://yunas.place/assets/archhouse/archhouse-04.jpg",
+            "https://yunas.place/assets/archhouse/archhouse-05.jpg",
         ],
         "alt": [
             "Logotype",
@@ -1198,7 +1198,7 @@ var projectsList = [
             "fsm",
         ],
         "thumb": [
-            "https://dyhl.studio/assets/archhouse/archhouse-04.jpg"
+            "https://yunas.place/assets/archhouse/archhouse-04.jpg"
         ]
     },
     {
@@ -1219,13 +1219,13 @@ var projectsList = [
             "For the Draft brand, an omnipresent blue-and-white theme and graphic linework draws from blueprints, schematics, and the creative energies associated with their use. The concoctions made at Draft reflect this spirit of playful, but also intentional experimentation. Several menus offer a variety of drinks crafted for a time of day and through common bases such as milk, tea, wine, juice, etc., while the signature Draft mixing glass offers a visual guide to common volumes."
         ],
         "assets": [
-            "https://dyhl.studio/assets/draft/draft-01.jpg",
-            "https://dyhl.studio/assets/draft/draft-02.jpg",
-            "https://dyhl.studio/assets/draft/draft-03.jpg",
-            "https://dyhl.studio/assets/draft/draft-04.jpg",
-            "https://dyhl.studio/assets/draft/draft-05.jpg",
-            "https://dyhl.studio/assets/draft/draft-06.jpg",
-            "https://dyhl.studio/assets/draft/draft-07.jpg"
+            "https://yunas.place/assets/draft/draft-01.jpg",
+            "https://yunas.place/assets/draft/draft-02.jpg",
+            "https://yunas.place/assets/draft/draft-03.jpg",
+            "https://yunas.place/assets/draft/draft-04.jpg",
+            "https://yunas.place/assets/draft/draft-05.jpg",
+            "https://yunas.place/assets/draft/draft-06.jpg",
+            "https://yunas.place/assets/draft/draft-07.jpg"
         ],
         "alt": [
             "Menu",
@@ -1246,7 +1246,7 @@ var projectsList = [
             "sm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/draft/draft-01.jpg"
+            "https://yunas.place/assets/draft/draft-01.jpg"
         ]
     },
     {
@@ -1274,7 +1274,7 @@ var projectsList = [
             "vid",
         ],
         "thumb": [
-            "https://dyhl.studio/assets/undergrowth/undergrowth-thumb.jpg"
+            "https://yunas.place/assets/undergrowth/undergrowth-thumb.jpg"
         ]
     },
     {
@@ -1303,7 +1303,7 @@ var projectsList = [
             "vid"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/byomission/byomission-thumb.jpg"
+            "https://yunas.place/assets/byomission/byomission-thumb.jpg"
         ]
     },
     {
@@ -1330,7 +1330,7 @@ var projectsList = [
             "vid",
         ],
         "thumb": [
-            "https://dyhl.studio/assets/endorphinia/endorphinia-thumb.jpg"
+            "https://yunas.place/assets/endorphinia/endorphinia-thumb.jpg"
         ]
     },
     {
@@ -1350,11 +1350,11 @@ var projectsList = [
             ["A process blog detailing the project from start to finish can be found at ", React.createElement('a', { className: "text-links", href: "https://atgguitars.tumblr.com/" }, "https://atgguitars.tumblr.com/")]
         ],
         "assets": [
-            "https://dyhl.studio/assets/againstthegrain/againstthegrain-01.jpg",
-            "https://dyhl.studio/assets/againstthegrain/againstthegrain-02.jpg",
-            "https://dyhl.studio/assets/againstthegrain/againstthegrain-03.jpg",
-            "https://dyhl.studio/assets/againstthegrain/againstthegrain-04.jpg",
-            "https://dyhl.studio/assets/againstthegrain/againstthegrain-05.jpg"
+            "https://yunas.place/assets/againstthegrain/againstthegrain-01.jpg",
+            "https://yunas.place/assets/againstthegrain/againstthegrain-02.jpg",
+            "https://yunas.place/assets/againstthegrain/againstthegrain-03.jpg",
+            "https://yunas.place/assets/againstthegrain/againstthegrain-04.jpg",
+            "https://yunas.place/assets/againstthegrain/againstthegrain-05.jpg"
         ],
         "alt": [
             "Guitar",
@@ -1371,7 +1371,7 @@ var projectsList = [
             "sm"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/againstthegrain/againstthegrain-01.jpg"
+            "https://yunas.place/assets/againstthegrain/againstthegrain-01.jpg"
         ]
     },
     {
@@ -1391,10 +1391,10 @@ var projectsList = [
             "Roughly one semester into architecture school, I began to ask myself more and more what is and isn't architecture. Many people seem to have particular ideas of what architecture is, and I often find myself a bit annoyed or even dissatisfied with their definitions which are more often than not, somewhat restrictive. This semester has become about critiquing and challenging that notion, and poking fun at the narrow behaviors and traditions that architects have."
         ],
         "assets": [
-            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-01.png",
-            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-02.png",
-            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-03.png",
-            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-04.png",
+            "https://yunas.place/assets/whatisarchitecture/whatisarchitecture-01.png",
+            "https://yunas.place/assets/whatisarchitecture/whatisarchitecture-02.png",
+            "https://yunas.place/assets/whatisarchitecture/whatisarchitecture-03.png",
+            "https://yunas.place/assets/whatisarchitecture/whatisarchitecture-04.png",
             "https://indd.adobe.com/view/a941a380-1d64-4108-aaab-f20dec0ffca9",
         ],
         "alt": [
@@ -1412,7 +1412,7 @@ var projectsList = [
             "vid"
         ],
         "thumb": [
-            "https://dyhl.studio/assets/whatisarchitecture/whatisarchitecture-00.png",
+            "https://yunas.place/assets/whatisarchitecture/whatisarchitecture-00.png",
         ]
     }
 ]
