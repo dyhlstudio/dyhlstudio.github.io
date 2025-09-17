@@ -42,7 +42,7 @@ var projectsList = [
             "Picnic on the Platform"
         ],
         "frame": [
-            "fsm",
+            "sm",
             "fsm",
             "sm",
             "sm",
