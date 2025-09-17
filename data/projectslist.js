@@ -4,6 +4,186 @@ var bio = {
 var projectsList = [
         {
         "no": "001",
+        "year": "2025",
+        "title": "Urban Rest: From the Inside Out",
+        "logline": "Reimagining Disabled Futures Through Large-Scale Modelmaking for Chicago Architecture Biennial 2025",
+        "type": [
+            "architecture"
+        ],
+        "tags": [
+            "Architecture Design",
+            "Fabrication",
+            "Research",
+        ],
+        "description": [
+            "For the 2025 Chicago Architecture Biennial, SHIFT, I led the design and fabrication of a 30 cu. ft. model depicting a reimagination of the New York Marriot Marquis hotel, realized by Portman Architects in 1985, as a sanctuary for rest and leisure at the scale and density of urban Times Square. Stories and interventions center disabled, queer, and diverse bodies through densely-colorful, abundant worlds offering, expression, rest, and leisure that break from capitalist typologies and the monolithic modernism of the \"the world's most profitable hotel without a casino.\"",
+            'Central to the concept of the hotel is the "inverted ziggurat" by David Serlin imagining a new commons with ramps, instead of steps, that provides a gentle, but interwoven ascent from the subway level to the street with stops along the way. From the subway, a circular atria ritualizes the transition into a space which foregrounds a slower, more pleasureable mode of life. Inspired by Constant\'s New Babylon, the vaulted platforms imagine a vertical world of intersecting levels open to diverse bodies. In the former glass-domed lounge, a winter garden allows for lush, overgrown vegetation, that celebrates \"abundance\" in place of the baseline that disabled groups are all too familiar with. Tubes transport persons between spaces and levels. Floating terraces take over the immense 37-floor lobby, offering new platforms for life to occur. Some hotel rooms remain, some remixed, sampled, and some are totally reimagined: into bathing spaces that exalt differences in bodies, spaces for joyous movement, sexual liberation, tranquility, affirmation, softness, rest, comfort, privacy, and communion. Transparent dichromatics soften, without obscuring, the atmospheres and apertures which envelope the sanctuaries within this new urban commons.',
+            "The project was realized alongside the team of Architensions, David Gissen, and Ignacio G. Galán, capturing vignettes of disabled potentials at scales of 1:30, 1:50, 1:70, and 1:100 with Urban Rest. Models sit at varied heights, which challenge the typical eye-level of the white wall exhibition gallery. Models are platformed through varied prosthetics: CMU blocks, dimensional lumber, and other inventions. Visitors to the exhibition move between models, confronting and being confronted by the models from different angles.",
+            "My responsibilities included the majority of the design, fabrication (with occasional support from collaborators: Lauren Jian, Lajja Mehta, Angie Mendoza, and Sherry Aine Te) and fully managing the creative production of the model through organizing collaborators, building relationships with external fabricators, makerspaces, and managing the budget all within a 6-week timeline from concept to completion."
+        ],
+        "assets": [
+            "https://yunas.place/assets/urbanrest/urbanrest-01.jpg",
+            "https://yunas.place/assets/urbanrest/urbanrest-02.jpg",
+            "https://yunas.place/assets/urbanrest/urbanrest-03.jpg",
+            "https://yunas.place/assets/urbanrest/urbanrest-04.jpg",
+            "https://yunas.place/assets/urbanrest/urbanrest-05.jpg",
+            "https://yunas.place/assets/urbanrest/urbanrest-06.jpg",
+            "https://yunas.place/assets/urbanrest/urbanrest-07.jpg",
+            "https://yunas.place/assets/urbanrest/urbanrest-08.jpg"
+        ],
+        "alt": [
+            "Section",
+            "Interior",
+            "I. Base Process",
+            "II. Structure Process",
+            "III. Intervention Process",
+            "IV. Finishing Process",
+            "Moments and Entourage",
+            "Picnic on the Platform"
+        ],
+        "frame": [
+            "fsm",
+            "fsm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "fs"
+        ],
+        "thumb": [
+            "https://yunas.place/assets/urbanrest/urbanrest-00.jpg"
+        ]
+    },
+        {
+        "no": "002",
+        "year": "2025",
+        "title": "Flatbush Grillage",
+        "logline": "Developing and Building Modular Furniture Toolkits for Flatbush Residents on the Streets of Flatbush",
+        "type": [
+            "architecture"
+        ],
+        "tags": [
+            "Fabrication",
+            "Architecture",
+            "Advocacy",
+        ],
+        "description": [
+            "Flatbush Grillage is a collaborative community intiative developed by Architecture + Advocacy and Flatbush Mixtape for the Architectural League of New York's 2024 Independent Grant. The intiative utilizes the GridBeam design system to envision modular furniture toolkits designed to be built and adapted fluidly by the Flatbush community. The project places the tools and means of design into the hands of the community, and thus the agency to shape the built environment according to their needs. Leveraging the existing Flatbush Tool Library, these furniture toolkits can be distributed and manipulated with ease of access through visual assembly guides printed, digitized, and translated in Spanish and English.",
+            "The project additionally involves recurring activation events, titled \"Grillages in the Village\", in which members of Flatbush Mixtape, Architecture + Advocacy, Q Gardens, and the NYC community at large, gather to fabricate toolkits, eat, grill, celebrate, and test the furniture designs together. Three successful events are recorded in the summer of 2025, with future events to occur as an ongoing project between A+A and Flatbush Mixtape.",
+            "A future phase of the project, currently slated for Spring 2026, is the transformation of the basement of a historic house in Brooklyn into a community makerspace and evolution of the Flatbush Tool Library. The makerspace would house the current Tool Library, while offering workspaces, tools, and systems for accessing making resources as part of a project to bolster networks of economic solidarity in the community."
+        ],
+        "assets": [
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-01.jpg",
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-02.jpg",
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-03.jpg",
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-04.jpg",
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-05.jpg",
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-06.png",
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-07.png",
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-08.png",
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-09.png",
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-10.png",
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-11.png",
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-12.png",
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-13.png",
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-14.jpg",
+
+        ],
+        "alt": [
+            "Fabricating and Testing with the Community",
+            "Drilling Jig",
+            "Tri-joint Detail",
+            "Testing Small Chair",
+            "Print Matter",
+            "Small and Large Toolkits",
+            "Small Table (Toolkit A)",
+            "Small Chair (Toolkit A)",
+            "Small Shelf (Toolkit A)",
+            "Large Table (Toolkit B)",
+            "Large Chair (Toolkit B)",
+            "Large Shelf (Toolkit B)",
+            "Storage Shed for Q Gardens (Custom)",
+            "Hardware Kits"
+        ],
+        "frame": [
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "fsm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm"
+        ],
+        "thumb": [
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-00.jpg"
+        ]
+    },
+        {
+        "no": "003",
+        "year": "2025",
+        "title": "Accessing Esteem: Juniper House",
+        "logline": "A transitional mental health center for adolescent males with problematic sexual behavior and social challenges.",
+        "type": [
+            "architecture"
+        ],
+        "tags": [
+            "Architecture Design",
+            "Research"
+        ],
+        "description": [
+            "Accessing Esteem: Juniper House envisions a adaptive reuse transitional mental health care center in the abandoned P.S. 64 public school in New York City's East Village. The project is centered on the relational healing of adolescent males who have been touched by the criminal justice system for problematic sexual behavior and social development challenges. Juniper House, which takes over two thirds of the C.B.J. Snyder-designed \"H-Plan\" school buildings, provides varying levels of sanctuary that modulate needs for privacy, security, esteem, regularity, autonomy, and interdependence for the residents of the house. The western wing of the building is transformed into a public urban corridor, titled the Liberatory Dignity Bloc. Platforming the voices of individuals who face stigmatization around mental health, incarceration, and trauma, the LDB is a space to empower voices for social equity. Arts, meditation, and public programming become the space where individuals at Juniper House and people outside the house meet, engage, and learn about one another in the midst of creative work and humanistic expression.",
+            "Unique to this project is the development of a design methodology informed by three months of intensive research into psychological case studies, interviews with forensic psychologists, and books in order to design for a highly-specialized user. Six keywords highlight the common needs faced by these individuals. These keywords, distilled from intensive research, inform the emotional and architectural logic through which the project is realized. More than presenting a finished proposal, Accessing Esteem offers a way to think about materializing and cataloguing privacy, security, esteem, regularity, autonomy, and interdependence."
+        ],
+        "assets": [
+            "https://yunas.place/assets/accessingesteem/accessingesteem-01.jpg",
+            "https://yunas.place/assets/accessingesteem/accessingesteem-02.jpg",
+            "https://yunas.place/assets/accessingesteem/accessingesteem-03.jpg",
+            "https://yunas.place/assets/accessingesteem/accessingesteem-04.jpg",
+            "https://yunas.place/assets/accessingesteem/accessingesteem-05.jpg",
+            "https://yunas.place/assets/accessingesteem/accessingesteem-06.jpg",
+            "https://yunas.place/assets/accessingesteem/accessingesteem-07.jpg",
+            "https://yunas.place/assets/accessingesteem/accessingesteem-08.jpg",
+            "https://yunas.place/assets/accessingesteem/accessingesteem-09.jpg",
+            "https://yunas.place/assets/accessingesteem/accessingesteem-10.jpg"
+        ],
+        "alt": [
+            "Mapping Boundaries: Socio-spatial",
+            "Research Literature",
+            "Keywords: Translating Emotional Needs into Spatial Needs (Privacy and Esteem)",
+            "Keywords: Translating Emotional Needs into Spatial Needs (Security and Regularity)",
+            "Keywords: Translating Emotional Needs into Spatial Needs (Autonomy and interdependence)",
+            "Concept Sketch for Spatial Diagrams",
+            "Translating Privacy into Daylighting Needs",
+            "Privacy and Daylighting Adjacencies to Massing Studies",
+            "Programmatic Adjacencies",
+            "Garden-level (2F) Enlarged Floor Plan"
+        ],
+        "frame": [
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "fsm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "fsm"
+        ],
+        "thumb": [
+            "https://yunas.place/assets/accessingesteem/accessingesteem-00.jpg"
+        ]
+    },
+        {
+        "no": "004",
         "year": "2023",
         "title": "MAKE",
         "logline": "Making First and Asking Questions (Drawing) Later",
