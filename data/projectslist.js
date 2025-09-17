@@ -238,7 +238,7 @@ var projectsList = [
         ]
     },
         {
-        "no": "002",
+        "no": "005",
         "year": "2023",
         "title": "Monsoon Stories",
         "logline": "Storytelling on Peri-Urban Water Management in Gujarat, India",
@@ -311,7 +311,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "003",
+        "no": "006",
         "year": "2023",
         "title": "Bus Stop Commons",
         "logline": "Reestablishing the economic & social commons within the Ashokan Reservoir",
@@ -399,7 +399,7 @@ var projectsList = [
         ]
     },
         {
-        "no": "004",
+        "no": "007",
         "year": "2023",
         "title": "GSAPP Worm",
         "logline": "Inflatable charging station pavilion from concept to installation to disassembly",
@@ -477,7 +477,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "005",
+        "no": "008",
         "year": "2023",
         "title": "Mapping Legal Aid",
         "logline": "Video-based GIS storytelling for criminal defense mitigation",
@@ -540,7 +540,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "006",
+        "no": "009",
         "year": "2022",
         "title": "The Corridor Concert",
         "logline": "High-density co-living in the Bronx for social and environmental well-being",
@@ -613,7 +613,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "007",
+        "no": "010",
         "year": "2022",
         "title": "Strata School",
         "logline": "A post-carbon public school for teaching social and ecological agency",
@@ -686,7 +686,7 @@ var projectsList = [
         ]
     },
         {
-        "no": "008",
+        "no": "011",
         "year": "2022",
         "title": "METI Handmade School Precedent Study",
         "logline": "Enclosure, lighting, assemblies and material flows analysis of Anna Heringer's METI School",
@@ -729,7 +729,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "009",
+        "no": "012",
         "year": "2021",
         "title": "The New Sky Farms",
         "logline": "An agricultural park to feed New York City's Inwood neighborhood",
@@ -801,7 +801,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "010",
+        "no": "013",
         "year": "2021",
         "title": "Studying Muqarnas at Alhambra",
         "logline": "Drawings, models, and interactive archives on Islamic vernacular architecture",
@@ -846,7 +846,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "011",
+        "no": "014",
         "year": "2021",
         "title": "Soup Shop NY",
         "logline": "Soup pop-up bringing together restaurants across Brooklyn and Queens during COVID-19",
@@ -907,7 +907,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "012",
+        "no": "015",
         "year": "2020",
         "title": "Wild Dogs International",
         "logline": "Website for a creative studio in Brooklyn creating site-specific experiences and events",
@@ -949,7 +949,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "013",
+        "no": "016",
         "year": "2020",
         "title": "Waffle Parking",
         "logline": "Branding and website design for a Los Angeles-based technology startup",
@@ -992,7 +992,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "014",
+        "no": "017",
         "year": "2019",
         "title": "OPUS Merriweather",
         "logline": "Website concepts for a pioneering arts and music biennial hosted at the Merriweather Post Pavilion in Columbia, MD",
@@ -1033,7 +1033,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "015",
+        "no": "018",
         "year": "2019",
         "title": "Psychogeocairn",
         "logline": "Interactive installation and thesis project exploring our mental representations and depictions of urban space",
@@ -1085,7 +1085,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "016",
+        "no": "019",
         "year": "2018",
         "title": "Play Grounds",
         "logline": "Architectural catalog for public playscapes derived from geographic forms",
@@ -1145,7 +1145,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "017",
+        "no": "020",
         "year": "2019",
         "title": "State of Tyranny",
         "logline": "Exhibition exploring the architecture of control and power at Storefront for Art and Architecture in New York",
@@ -1186,7 +1186,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "018",
+        "no": "021",
         "year": "2019",
         "title": "Aquí vive gente",
         "logline": "Inaugural presentation and exhibition of the Museum of History and Community of Puerta de Tierra at Storefront for Art and Architecture",
@@ -1234,7 +1234,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "019",
+        "no": "022",
         "year": "2019",
         "title": "Sun Pleats",
         "logline": "Cut-out art book presenting photographs and windows of reflection into a trip in Japan",
@@ -1293,7 +1293,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "020",
+        "no": "023",
         "year": "2018",
         "title": "Project Memo",
         "logline": "Augmented reality application for deploying holographic sticky-notes prototyped in collaboration with NASA Jet Propulsion Laboratory",
@@ -1342,7 +1342,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "021",
+        "no": "024",
         "year": "2018",
         "title": "The Architecture House",
         "logline": "Branding for a fictional museum dedicated to architectural study and history",
@@ -1382,7 +1382,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "022",
+        "no": "025",
         "year": "2017",
         "title": "Draft",
         "logline": "Branding for an experimental cocktail bar concept fusing together coffee, tea, cocktails, and more",
@@ -1430,7 +1430,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "023",
+        "no": "026",
         "year": "2017",
         "title": "Undergrowth",
         "logline": "Short film about what dreaming feels like",
@@ -1458,7 +1458,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "024",
+        "no": "027",
         "year": "2014",
         "title": "By Omission",
         "logline": "Frag movie showcasing competitive gaming highlights for GuilteTV",
@@ -1487,7 +1487,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "025",
+        "no": "028",
         "year": "2014",
         "title": "Endorphinia",
         "logline": "Frag movie showcasing my own competitive gaming highlights",
@@ -1514,7 +1514,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "026",
+        "no": "029",
         "year": "2015",
         "title": "Against the Grain",
         "logline": "Custom guitarmaking project from start to finish",
@@ -1555,7 +1555,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "027",
+        "no": "030",
         "year": "2022",
         "title": "WHAT IS AND ISN'T ARCHITECTURE?",
         "logline": "Manifesto on what is and isn't architecture and a portfolio of decidedly-not-architecture",
