@@ -44,7 +44,7 @@ var projectsList = [
             "IV. Finishing Process",
             "Moments and Entourage",
             "Sanctuary in Times Square (photo by Omer Gorashi)",
-            "Heterotopias"
+            "Heterotopias",
             "Picnic on the Platform"
         ],
         "frame": [
