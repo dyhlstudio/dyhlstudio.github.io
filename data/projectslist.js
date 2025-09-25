@@ -29,27 +29,36 @@ var projectsList = [
             "https://yunas.place/assets/urbanrest/urbanrest-05.jpg",
             "https://yunas.place/assets/urbanrest/urbanrest-06.jpg",
             "https://yunas.place/assets/urbanrest/urbanrest-07.jpg",
-            "https://yunas.place/assets/urbanrest/urbanrest-08.jpg"
+            "https://yunas.place/assets/urbanrest/urbanrest-08.jpg",
+            "https://yunas.place/assets/urbanrest/urbanrest-09.jpg",
+            "https://yunas.place/assets/urbanrest/urbanrest-10.jpg",
+            "https://yunas.place/assets/urbanrest/urbanrest-11.jpg"
         ],
         "alt": [
-            "Section",
-            "Interior",
+            "Exhibition (photo by Omer Gorashi)",
+            "Urban Rest — Front (photo by Omer Gorashi)",
+            "Urban Rest — Back (photo by Omer Gorashi)",
             "I. Base Process",
             "II. Structure Process",
             "III. Intervention Process",
             "IV. Finishing Process",
             "Moments and Entourage",
+            "Sanctuary in Times Square (photo by Omer Gorashi)",
+            "Heterotopias"
             "Picnic on the Platform"
         ],
         "frame": [
-            "sm",
+            "fsm",
+            "fsm",
             "fsm",
             "sm",
             "sm",
             "sm",
             "sm",
             "sm",
-            "fs"
+            "sm",
+            "sm",
+            "sm"
         ],
         "thumb": [
             "https://yunas.place/assets/urbanrest/urbanrest-00.jpg"
@@ -59,7 +68,7 @@ var projectsList = [
         "no": "002",
         "year": "2025",
         "title": "Flatbush Grillage",
-        "logline": "Developing and Building Modular Furniture Toolkits for Flatbush Residents on the Streets of Flatbush",
+        "logline": "Developing and Building Modular Furniture Toolkits and Economic Solidarity in Flatbush",
         "type": [
             "architecture"
         ],
@@ -112,7 +121,7 @@ var projectsList = [
             "sm",
             "sm",
             "sm",
-            "fsm",
+            "sm",
             "sm",
             "sm",
             "sm",
@@ -167,10 +176,140 @@ var projectsList = [
             "Garden-level (2F) Enlarged Floor Plan"
         ],
         "frame": [
+            "sm",
             "fsm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm"
+        ],
+        "thumb": [
+            "https://yunas.place/assets/accessingesteem/accessingesteem-00.jpg"
+        ]
+    },
+        {
+        "no": "004",
+        "year": "2024",
+        "title": "A+A Networks of Care Workshop",
+        "logline": "A Timber Bench Designed by Students for Greene Garden in Brooklyn.",
+        "type": [
+            "architecture"
+        ],
+        "tags": [
+            "Architecture",
+            "Fabrication",
+            "Advocacy"
+        ],
+        "description": [
+            "For the Greene Garden Bench project, Architecture + Advocacy hosted its second New York design-build workshop with a cohort of students from The Octavia Project titled Networks of Care. In 6 weeks, the students engaged in design and install of the bench, site analysis and mapping, and interviews with Greene Garden to develop relationships and understand needs. Architecture + Advocacy and The Octavia Project co-designed a curriculum which included working at and getting exposed to FXCollaborative's practice, site visits to Pratt's Architecture program, formfinding and creative expression through modelmaking, critical cartography, and translating design ideas into tectonic forms.",
+            "The bench was designed according to the desires and needs gathered in conversation with Greene Garden, including the desire for (1) an eyecatching statement piece that (2) hosted vegetation and greenery and (3) allowed for flexible seating arrangements forward and backwards to accommodate events like the Wednesday Open Mic Nights.",
+            "The Networks of Care theme was developed around interweaving self and community care to promote equity and solidarity. The framework informed the design of the project and encouraged students to consider the infrastructures, systems, and spaces they belong to. Towards the theme of Networks of Care, I managed the creation of the first issue of A+A's Zine, on Networks of Care, as a way to reinforce the ideas presented in the workshop. The Zine gathers resources pertinent to students, parents, and community members and was designed to supplement the pedagogy of the workshop and the community build event. More info can be found on the Zine project page."
+        ],
+        "assets": [
+            "https://yunas.place/assets/greenegarden/greenegarden-01.jpg",
+            "https://yunas.place/assets/greenegarden/greenegarden-02.jpg",
+            "https://yunas.place/assets/greenegarden/greenegarden-03.jpg",
+            "https://yunas.place/assets/greenegarden/greenegarden-04.jpg",
+            "https://yunas.place/assets/greenegarden/greenegarden-05.jpg",
+            "https://yunas.place/assets/greenegarden/greenegarden-06.jpg",
+            "https://yunas.place/assets/greenegarden/greenegarden-07.jpg",
+            "https://yunas.place/assets/greenegarden/greenegarden-08.jpg",
+            "https://yunas.place/assets/greenegarden/greenegarden-09.jpg",
+            "https://yunas.place/assets/greenegarden/greenegarden-10.jpg",
+            "https://yunas.place/assets/greenegarden/greenegarden-11.jpg"
+        ],
+        "alt": [
+            "Community Build Day for Greene Garden's Bench",
+            "Workshop: Week 1",
+            "Workshop: Week 1 Model Exercise",
+            "Workshop: Week 2 Networks of Care Counter-Mapping",
+            "Workshop: Week 3 Site Visit",
+            "Workshop: Week 3 Clay Model Formfinding",
+            "Workshop: Week 5 Tectonic Model",
+            "Workshop: Week 5 Tectonic Model",
+            "Workshop: Week 6 Fabrication with A+A, The Octavia Project, and Greene Garden",
+            "Bench Detail",
+            "Painting Together"
+        ],
+        "frame": [
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
             "fsm",
-            "fsm",
-            "fsm",
+            "fs",
+            "sm"
+        ],
+        "thumb": [
+            "https://yunas.place/assets/greenegarden/greenegarden-00.jpg"
+        ]
+    },
+            {
+        "no": "005",
+        "year": "2024",
+        "title": "A+A Zine: Issue 1",
+        "logline": "RISO-printed Zine Teaching Design Basics for Grade 6-12 Students, Parents, and Friends.",
+        "type": [
+            "graphic design"
+        ],
+        "tags": [
+            "Bookmaking",
+            "Writing",
+            "Research"
+            "Advocacy"
+        ],
+        "description": [
+            "Issue 1 of the A+A Zine is a prototype for an ongoing publication that brings together design educators and professionals to create print resources for students, parents, and communtiy members. Centered on the DIY ethos of zines as accessible printed matter, the Zine connects communities through its content, distribution strategy, and production process.",
+            "The zine contains exercises and content for developing and reinforcing design fundamentals, such as learning how to draw orthographic plans, sections, collaging, and maps. Articles detailing where to find interesting architecture and how to study them, how to understand the history of cast iron buildings, and other such topics were developed by Columbia GSAPP graduates and students in historic preservation, architecture, and urban planning to convey complex topics in simple language.",
+            "Volunteers took charge of designing and writing sections of the zine, experimenting with the possibilities inherent in the zine format, the RISO printing process, and graphic design. As part of the process, I developed a relationship with the New York-based print co-op, Robert Blackburn Printmaking Workshop, to provide the A+A GSAPP volunteers with introductions into RISO printing, as per the DIY culture of zines and organic community building. RISO was chosen for its ability to print vibrant colors at high volume. Through the zinemaking process, architecture students had the opportunity to tap into graphic design, publication writing, and printmaking, empowering them with new tools and methods for change as per the mission of A+A.",
+            "Lastly, the distribution vision of the Zine begins with its release at the Greene Garden Community Build Party, in which the partners (A+A, Greene Garden, The Octavia Project), the students and parents, strangers, community members, and friends (from DLR Group, GSAPP, Barnard College, etc.) receive zines to take with them. We imagine the zines can be passed down from a parent to their friend for their child, shared between students, thrown away, misplaced, left in community lending libraries, on the subway, or whereever else, and thus the network of the A+A community grows organically."
+        ],
+        "assets": [
+            "https://yunas.place/assets/zine/zine-01.jpg",
+            "https://yunas.place/assets/zine/zine-02.jpg",
+            "https://yunas.place/assets/zine/zine-03.jpg",
+            "https://yunas.place/assets/zine/zine-04.jpg",
+            "https://yunas.place/assets/zine/zine-05.jpg",
+            "https://yunas.place/assets/zine/zine-06.jpg",
+            "https://yunas.place/assets/zine/zine-07.jpg",
+            "https://yunas.place/assets/zine/zine-08.jpg",
+            "https://yunas.place/assets/zine/zine-09.jpg",
+            "https://yunas.place/assets/zine/zine-10.jpg",
+            "https://yunas.place/assets/zine/zine-11.jpg",
+            "https://yunas.place/assets/zine/zine-12.jpg",
+            "https://yunas.place/assets/zine/zine-13.jpg"
+        ],
+        "alt": [
+            "A+A Zine: Issue 1 Spreads",
+            "Five Spots for Free, Accessible Architecture in New York City and How to Study Them Spread",
+            "Networks of Care Spread",
+            "Marly's Mapping Workshop Spread",
+            "How to Draw Orthographically Exercise",
+            "Zine in Action at Greene Garden Community Build Day",
+            "Zine in Action at Greene Garden Community Build Day",
+            "Printed Matter: Flyers, Calls for Submission, Zines",
+            "Zine Print Production",
+            "RISO Printing in Progress",
+            "Assembly Contact Sheet",
+            "Diagram for Organic Distribution and Community Building Strategy",
+            "Zines Bringing People Together"
+        ],
+        "frame": [
+            "fs",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
+            "sm",
             "fsm",
             "sm",
             "sm",
@@ -179,11 +318,11 @@ var projectsList = [
             "fsm"
         ],
         "thumb": [
-            "https://yunas.place/assets/accessingesteem/accessingesteem-00.jpg"
+            "https://yunas.place/assets/zine/zine-00.jpg"
         ]
     },
         {
-        "no": "004",
+        "no": "006",
         "year": "2023",
         "title": "MAKE",
         "logline": "Making First and Asking Questions (Drawing) Later",
@@ -238,7 +377,7 @@ var projectsList = [
         ]
     },
         {
-        "no": "005",
+        "no": "007",
         "year": "2023",
         "title": "Monsoon Stories",
         "logline": "Storytelling on Peri-Urban Water Management in Gujarat, India",
@@ -311,7 +450,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "006",
+        "no": "008",
         "year": "2023",
         "title": "Bus Stop Commons",
         "logline": "Reestablishing the economic & social commons within the Ashokan Reservoir",
@@ -333,13 +472,13 @@ var projectsList = [
         "assets": [
             "https://yunas.place/assets/ruralcommons/ruralcommons-01.png",
             "https://yunas.place/assets/ruralcommons/ruralcommons-02.png",
-            "https://yunas.place/assets/ruralcommons/ruralcommons-03.jpg",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-03.png",
             "https://yunas.place/assets/ruralcommons/ruralcommons-04.jpg",
-            "https://yunas.place/assets/ruralcommons/ruralcommons-05.png",
-            "https://yunas.place/assets/ruralcommons/ruralcommons-06.png",
-            "https://yunas.place/assets/ruralcommons/ruralcommons-07.png",
-            "https://yunas.place/assets/ruralcommons/ruralcommons-08.png",
-            "https://yunas.place/assets/ruralcommons/ruralcommons-09.png",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-05.jpg",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-06.jpg",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-07.jpg",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-08.jpg",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-09.jpg",
             "https://yunas.place/assets/ruralcommons/ruralcommons-10.png",
             "https://yunas.place/assets/ruralcommons/ruralcommons-11.png",
             "https://yunas.place/assets/ruralcommons/ruralcommons-12.png",
@@ -349,29 +488,33 @@ var projectsList = [
             "https://yunas.place/assets/ruralcommons/ruralcommons-16.jpg",
             "https://yunas.place/assets/ruralcommons/ruralcommons-17.jpg",
             "https://yunas.place/assets/ruralcommons/ruralcommons-18.jpg",
-            "https://yunas.place/assets/ruralcommons/ruralcommons-19.jpg"
+            "https://yunas.place/assets/ruralcommons/ruralcommons-19.jpg",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-20.jpg",
+            "https://yunas.place/assets/ruralcommons/ruralcommons-21.jpg"
 
         ],
         "alt": [
+            "Toolkit Strategies for Economic Revitalization",
             "Mapping Exponential Pollution of the Esopus Creek to its Constituents by 850 Route 28 LLC",
             "Mapping Geological Traces of Carbon & Ways of Life From 13,000 Years Ago to Now",
-            "This Former Mine Will Be Returned to Esopus",
             "The Ledger of Trade & Conflicts Between Esopus & Colonizers",
-            "Map Proposal for a New Bus Route",
-            "Land Ownership & Public Accessibility Map of West Shokan",
-            "Olive Free Library Section",
+            "This Former Mine Will Be Returned to Esopus",
+            "Transcalar Maps: Land Ownership and Access Map of West Shokan, Ashokran Reservoir Site Map, and Proposal for a New Bus Route",
+            "Ethnographic Research, Community Needs",
             "27 Lang Road Section",
-            "Toolkit Strategies for Economic Revitalization",
+            "Olive Free Library Section",
             "Bus Stop Tectonic Axonometric",
             "Bus Stop Plan",
             "Bus Stop Section Perspective",
+            "Tectonic Model",
+            "Tectonic Model",
+            "Tectonic Model",
+            "Tectonic Model",
+            "Tectonic Model",
             "Research Booklet",
-            "GSAPP EOYS Exhibition",
-            "Tectonic Model",
-            "Tectonic Model",
-            "Tectonic Model",
-            "Tectonic Model",
-            "Tectonic Model"
+            "Research Booklet",
+            "GSAPP End-Of-Year-Show Exhibition",
+            "Exterior Render"
         ],
         "frame": [
             "sm",
@@ -395,11 +538,11 @@ var projectsList = [
             "sm"
         ],
         "thumb": [
-            "https://yunas.place/assets/ruralcommons/ruralcommons-15.jpg"
+            "https://yunas.place/assets/ruralcommons/ruralcommons-13.jpg"
         ]
     },
         {
-        "no": "007",
+        "no": "009",
         "year": "2023",
         "title": "GSAPP Worm",
         "logline": "Inflatable charging station pavilion from concept to installation to disassembly",
@@ -477,7 +620,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "008",
+        "no": "010",
         "year": "2023",
         "title": "Mapping Legal Aid",
         "logline": "Video-based GIS storytelling for criminal defense mitigation",
@@ -540,7 +683,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "009",
+        "no": "011",
         "year": "2022",
         "title": "The Corridor Concert",
         "logline": "High-density co-living in the Bronx for social and environmental well-being",
@@ -613,7 +756,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "010",
+        "no": "012",
         "year": "2022",
         "title": "Strata School",
         "logline": "A post-carbon public school for teaching social and ecological agency",
@@ -686,7 +829,7 @@ var projectsList = [
         ]
     },
         {
-        "no": "011",
+        "no": "013",
         "year": "2022",
         "title": "METI Handmade School Precedent Study",
         "logline": "Enclosure, lighting, assemblies and material flows analysis of Anna Heringer's METI School",
@@ -729,7 +872,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "012",
+        "no": "014",
         "year": "2021",
         "title": "The New Sky Farms",
         "logline": "An agricultural park to feed New York City's Inwood neighborhood",
@@ -801,7 +944,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "013",
+        "no": "015",
         "year": "2021",
         "title": "Studying Muqarnas at Alhambra",
         "logline": "Drawings, models, and interactive archives on Islamic vernacular architecture",
@@ -846,7 +989,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "014",
+        "no": "016",
         "year": "2021",
         "title": "Soup Shop NY",
         "logline": "Soup pop-up bringing together restaurants across Brooklyn and Queens during COVID-19",
@@ -907,7 +1050,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "015",
+        "no": "017",
         "year": "2020",
         "title": "Wild Dogs International",
         "logline": "Website for a creative studio in Brooklyn creating site-specific experiences and events",
@@ -949,7 +1092,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "016",
+        "no": "018",
         "year": "2020",
         "title": "Waffle Parking",
         "logline": "Branding and website design for a Los Angeles-based technology startup",
@@ -992,7 +1135,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "017",
+        "no": "019",
         "year": "2019",
         "title": "OPUS Merriweather",
         "logline": "Website concepts for a pioneering arts and music biennial hosted at the Merriweather Post Pavilion in Columbia, MD",
@@ -1033,7 +1176,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "018",
+        "no": "020",
         "year": "2019",
         "title": "Psychogeocairn",
         "logline": "Interactive installation and thesis project exploring our mental representations and depictions of urban space",
@@ -1085,7 +1228,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "019",
+        "no": "021",
         "year": "2018",
         "title": "Play Grounds",
         "logline": "Architectural catalog for public playscapes derived from geographic forms",
@@ -1145,7 +1288,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "020",
+        "no": "022",
         "year": "2019",
         "title": "State of Tyranny",
         "logline": "Exhibition exploring the architecture of control and power at Storefront for Art and Architecture in New York",
@@ -1186,7 +1329,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "021",
+        "no": "023",
         "year": "2019",
         "title": "Aquí vive gente",
         "logline": "Inaugural presentation and exhibition of the Museum of History and Community of Puerta de Tierra at Storefront for Art and Architecture",
@@ -1234,7 +1377,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "022",
+        "no": "024",
         "year": "2019",
         "title": "Sun Pleats",
         "logline": "Cut-out art book presenting photographs and windows of reflection into a trip in Japan",
@@ -1293,7 +1436,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "023",
+        "no": "025",
         "year": "2018",
         "title": "Project Memo",
         "logline": "Augmented reality application for deploying holographic sticky-notes prototyped in collaboration with NASA Jet Propulsion Laboratory",
@@ -1342,7 +1485,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "024",
+        "no": "026",
         "year": "2018",
         "title": "The Architecture House",
         "logline": "Branding for a fictional museum dedicated to architectural study and history",
@@ -1382,7 +1525,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "025",
+        "no": "027",
         "year": "2017",
         "title": "Draft",
         "logline": "Branding for an experimental cocktail bar concept fusing together coffee, tea, cocktails, and more",
@@ -1430,7 +1573,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "026",
+        "no": "028",
         "year": "2017",
         "title": "Undergrowth",
         "logline": "Short film about what dreaming feels like",
@@ -1458,7 +1601,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "027",
+        "no": "029",
         "year": "2014",
         "title": "By Omission",
         "logline": "Frag movie showcasing competitive gaming highlights for GuilteTV",
@@ -1487,7 +1630,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "028",
+        "no": "030",
         "year": "2014",
         "title": "Endorphinia",
         "logline": "Frag movie showcasing my own competitive gaming highlights",
@@ -1514,7 +1657,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "029",
+        "no": "031",
         "year": "2015",
         "title": "Against the Grain",
         "logline": "Custom guitarmaking project from start to finish",
@@ -1555,7 +1698,7 @@ var projectsList = [
         ]
     },
     {
-        "no": "030",
+        "no": "032",
         "year": "2022",
         "title": "WHAT IS AND ISN'T ARCHITECTURE?",
         "logline": "Manifesto on what is and isn't architecture and a portfolio of decidedly-not-architecture",
