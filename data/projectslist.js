@@ -96,8 +96,7 @@ var projectsList = [
             "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-11.png",
             "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-12.png",
             "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-13.png",
-            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-14.jpg",
-
+            "https://yunas.place/assets/flatbushgrillage/flatbushgrillage-14.jpg"
         ],
         "alt": [
             "Fabricating and Testing with the Community",
@@ -517,6 +516,8 @@ var projectsList = [
             "Exterior Render"
         ],
         "frame": [
+            "sm",
+            "sm",
             "sm",
             "sm",
             "sm",
