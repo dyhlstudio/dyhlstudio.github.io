@@ -263,7 +263,7 @@ var projectsList = [
         "tags": [
             "Bookmaking",
             "Writing",
-            "Research"
+            "Research",
             "Advocacy"
         ],
         "description": [
