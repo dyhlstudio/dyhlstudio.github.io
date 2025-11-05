@@ -35,7 +35,7 @@ var projectsList = [
             "https://yunas.place/assets/urbanrest/urbanrest-11.jpg"
         ],
         "alt": [
-            "Exhibition (photo by Omer Gorashi)",
+            "Exhibition (photo courtesy of Architensions)",
             "Urban Rest — Front (photo by Omer Gorashi)",
             "Urban Rest — Back (photo by Omer Gorashi)",
             "I. Base Process",
